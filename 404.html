@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found - KashCal</title>
+    <meta name="robots" content="noindex">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
+    <link rel="apple-touch-icon" href="/icon-192.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"></noscript>
+    <style>
+        :root {
+            --bg: #F5F0E8;
+            --bg-alt: #E8E1D5;
+            --bg-dark: #1A1814;
+            --text: #1A1814;
+            --text-secondary: #5C554A;
+            --text-muted: #857F74;
+            --border: #D4CCC2;
+            --accent: #1B6B5F;
+            --accent-hover: #145A50;
+            --accent-warm: #935A32;
+            --accent-light: #3DA99A;
+            --accent-warm-light: #D4956A;
+            --text-light: #FAF8F4;
+            --text-muted-light: #948E83;
+            --shadow: 0 2px 20px rgba(26, 24, 20, 0.10);
+            --shadow-hover: 0 8px 36px rgba(26, 24, 20, 0.16);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: var(--bg);
+            color: var(--text);
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 440px;
+        }
+
+        .error-code {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 6rem;
+            font-weight: 700;
+            color: var(--accent);
+            line-height: 1;
+            margin-bottom: 1rem;
+        }
+
+        h1 {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+        }
+
+        p {
+            color: var(--text-muted);
+            margin-bottom: 2rem;
+            line-height: 1.6;
+            font-size: 0.95rem;
+        }
+
+        .home-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            background: var(--accent);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 500;
+            font-size: 0.9rem;
+            transition: background 0.2s, transform 0.2s;
+        }
+
+        .home-link:hover {
+            background: var(--accent-hover);
+            transform: translateY(-1px);
+        }
+
+        .home-link svg {
+            width: 16px;
+            height: 16px;
+        }
+
+        a:focus-visible {
+            outline: 2px solid var(--accent);
+            outline-offset: 3px;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .home-link { transition: none; }
+            .home-link:hover { transform: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="error-code">404</div>
+        <h1>Page not found</h1>
+        <p>This page doesn't exist. It may have been moved or removed.</p>
+        <a href="/" class="home-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+            </svg>
+            Back to KashCal
+        </a>
+    </div>
+</body>
+</html>

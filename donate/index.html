@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support KashCal</title>
+    <meta name="description" content="KashCal is built for you, not for ads or data collection. Support free, private calendar sync on Android.">
+    <meta name="author" content="OneKash Labs">
+    <meta name="theme-color" content="#F5F0E8">
+
+    <link rel="canonical" href="https://kashcal.onekash.org/donate/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kashcal.onekash.org/donate/">
+    <meta property="og:title" content="Support KashCal">
+    <meta property="og:description" content="KashCal is built for you, not for ads or data collection. Support free, private calendar sync on Android.">
+    <meta property="og:image" content="https://kashcal.onekash.org/icon-192.png">
+    <meta property="og:image:width" content="192">
+    <meta property="og:image:height" content="192">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Support KashCal">
+    <meta name="twitter:description" content="KashCal is built for you, not for ads or data collection. Support free, private calendar sync on Android.">
+    <meta name="twitter:image" content="https://kashcal.onekash.org/icon-192.png">
+
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
+    <link rel="apple-touch-icon" href="/icon-192.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"></noscript>
+    <style>
+        :root {
+            --bg: #F5F0E8;
+            --bg-alt: #E8E1D5;
+            --bg-dark: #1A1814;
+            --text: #1A1814;
+            --text-secondary: #5C554A;
+            --text-muted: #857F74;
+            --border: #D4CCC2;
+            --accent: #1B6B5F;
+            --accent-hover: #145A50;
+            --accent-warm: #935A32;
+            --accent-light: #3DA99A;
+            --accent-warm-light: #D4956A;
+            --text-light: #FAF8F4;
+            --text-muted-light: #948E83;
+            --shadow: 0 2px 20px rgba(26, 24, 20, 0.10);
+            --shadow-hover: 0 8px 36px rgba(26, 24, 20, 0.16);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            overflow-x: hidden;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent), var(--accent-warm));
+            z-index: 200;
+        }
+
+        body::after {
+            content: '';
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            opacity: 0.03;
+            pointer-events: none;
+            z-index: 1000;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+            background-repeat: repeat;
+            background-size: 256px 256px;
+        }
+
+        /* --- Nav (matches main site) --- */
+        nav {
+            position: fixed;
+            top: 3px; left: 0; right: 0;
+            padding: 1rem 2rem;
+            background: rgba(245, 240, 232, 0.92);
+            -webkit-backdrop-filter: blur(16px);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border);
+            z-index: 100;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 1.5rem;
+            color: var(--text);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .logo-icon { width: 32px; height: 32px; border-radius: 8px; }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-link {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .nav-link:hover { color: var(--text); }
+
+        .menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--text);
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 0.5rem;
+        }
+
+        .mobile-menu {
+            display: none;
+            position: fixed;
+            top: 63px; left: 0; right: 0;
+            background: rgba(245, 240, 232, 0.98);
+            -webkit-backdrop-filter: blur(16px);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border);
+            padding: 1rem;
+            z-index: 99;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        .mobile-menu.open { display: flex; }
+
+        .mobile-menu a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            padding: 0.75rem 1rem;
+            border-radius: 8px;
+            transition: all 0.2s;
+        }
+
+        .mobile-menu a:hover {
+            color: var(--text);
+            background: var(--bg-alt);
+        }
+
+        /* --- Page --- */
+        .page {
+            flex: 1;
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 10rem 2rem 5rem;
+            text-align: center;
+        }
+
+        .page h1 {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 1.25rem;
+        }
+
+        .page-subtitle {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            line-height: 1.5;
+            margin-bottom: 3rem;
+        }
+
+        /* --- Donate options --- */
+        .options {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            margin-bottom: 2.5rem;
+        }
+
+        .option {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 2rem 1.5rem 1.75rem;
+            background: var(--brand-light);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            text-decoration: none;
+            color: var(--text);
+            box-shadow: var(--shadow);
+            transition: border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+        }
+
+        .option:hover {
+            box-shadow: var(--shadow-hover);
+            transform: translateY(-4px);
+        }
+
+        .option--github { --brand: #ea4aaa; --brand-light: rgba(234, 74, 170, 0.1); }
+        .option--kofi { --brand: #29abe0; --brand-light: rgba(41, 171, 224, 0.1); }
+        .option--stripe { --brand: #635bff; --brand-light: rgba(99, 91, 255, 0.1); }
+
+        .option:hover { border-color: var(--brand); }
+
+        .option-icon {
+            width: 52px;
+            height: 52px;
+            border-radius: 12px;
+            background: var(--brand-light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.25s;
+        }
+
+        .option-icon svg {
+            width: 24px;
+            height: 24px;
+            color: var(--brand);
+            transition: color 0.25s;
+        }
+
+        .option:hover .option-icon {
+            background: var(--brand);
+        }
+
+        .option:hover .option-icon svg {
+            color: white;
+        }
+
+        .option-name {
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        .option-desc {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            line-height: 1.4;
+        }
+
+        /* --- Footer (matches main site) --- */
+        footer {
+            padding: 3rem 2rem;
+            background: linear-gradient(180deg, #201C17 0%, var(--bg-dark) 100%);
+            text-align: center;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: var(--text-muted-light);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+
+        .footer-links a:hover { color: var(--text-light); }
+
+        .footer-links a[href^="http"]::after {
+            content: " \2197";
+            font-size: 0.7em;
+            opacity: 0.7;
+        }
+
+        .footer-note {
+            color: var(--text-muted-light);
+            font-size: 0.85rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-brand {
+            color: var(--text-muted-light);
+            font-size: 0.8rem;
+        }
+
+        .footer-brand a {
+            color: var(--text-light);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .footer-brand a:hover { color: var(--accent-light); }
+
+        /* --- Staggered entrance --- */
+        .page > * {
+            opacity: 0;
+            transform: translateY(18px);
+            animation: fadeUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+        .page > *:nth-child(1) { animation-delay: 0.1s; }
+        .page > *:nth-child(2) { animation-delay: 0.2s; }
+        .page > *:nth-child(3) { animation-delay: 0.3s; }
+        .page > *:nth-child(4) { animation-delay: 0.4s; }
+        .page > *:nth-child(5) { animation-delay: 0.5s; }
+
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(18px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* --- A11y --- */
+        a:focus-visible,
+        button:focus-visible {
+            outline: 2px solid var(--accent);
+            outline-offset: 3px;
+        }
+
+        /* --- Responsive --- */
+        @media (max-width: 768px) {
+            nav { padding: 1rem 1.5rem; }
+            .nav-links { display: none; }
+            .menu-btn { display: block; }
+
+            .page {
+                padding: 7rem 1.5rem 3rem;
+            }
+
+            .page h1 {
+                font-size: 2rem;
+            }
+
+            .options {
+                grid-template-columns: 1fr;
+                max-width: 320px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .option {
+                flex-direction: row;
+                padding: 1.25rem;
+                gap: 1rem;
+                text-align: left;
+            }
+
+            .option-icon {
+                width: 40px;
+                height: 40px;
+                flex-shrink: 0;
+            }
+        }
+
+        /* --- Reduced motion --- */
+        @media (prefers-reduced-motion: reduce) {
+            html { scroll-behavior: auto; }
+            *, *::before, *::after { transition: none !important; animation: none !important; }
+            .page > * { opacity: 1; transform: none; }
+            body::after { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/" class="logo">
+            <img src="/favicon.png" alt="KashCal" class="logo-icon">
+            KashCal
+        </a>
+        <div class="nav-links">
+            <a href="/" class="nav-link">Home</a>
+            <a href="/privacy/" class="nav-link">Privacy</a>
+            <a href="https://github.com/KashCal/KashCal" class="nav-link">Source</a>
+            <a href="/donate/" class="nav-link">Donate</a>
+        </div>
+        <button class="menu-btn" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+    </nav>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="/">Home</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="https://github.com/KashCal/KashCal">Source</a>
+        <a href="/donate/">Donate</a>
+    </div>
+
+    <main class="page">
+        <h1>A calendar for you, not your data.</h1>
+        <p class="page-subtitle">Your support helps KashCal stay free, private, and open source — for everyone.</p>
+
+        <div class="options">
+            <a href="https://github.com/sponsors/one-kash" class="option option--github">
+                <div class="option-icon">
+                    <svg viewBox="0 0 16 16" fill="currentColor"><path d="M4.25 2.5c-1.336 0-2.75 1.164-2.75 3 0 2.15 1.58 4.144 3.365 5.682A20.6 20.6 0 0 0 8 13.393a20.6 20.6 0 0 0 3.135-2.211C12.92 9.644 14.5 7.65 14.5 5.5c0-1.836-1.414-3-2.75-3-1.373 0-2.609.986-3.029 2.456a.75.75 0 0 1-1.442 0C6.859 3.486 5.623 2.5 4.25 2.5ZM8 14.25l-.345.666-.002-.001-.006-.003-.018-.01a7 7 0 0 1-.31-.17 22 22 0 0 1-3.434-2.414C2.045 10.731 0 8.35 0 5.5 0 2.836 2.086 1 4.25 1 5.797 1 7.153 1.802 8 3.02 8.847 1.802 10.203 1 11.75 1 13.914 1 16 2.836 16 5.5c0 2.85-2.045 5.231-3.885 6.818a22 22 0 0 1-3.744 2.584l-.018.01-.006.003h-.002L8 14.25Zm0 0 .345.666a.75.75 0 0 1-.69 0z"/></svg>
+                </div>
+                <div class="option-name">GitHub Sponsors</div>
+                <div class="option-desc">Monthly or one-time</div>
+            </a>
+
+            <a href="https://ko-fi.com/kashcal" class="option option--kofi">
+                <div class="option-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8Z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+                </div>
+                <div class="option-name">Ko-fi</div>
+                <div class="option-desc">Buy a coffee</div>
+            </a>
+
+            <a href="https://buy.stripe.com/7sY14n8zG9k31K19aMcIE00" class="option option--stripe">
+                <div class="option-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+                </div>
+                <div class="option-name">Stripe</div>
+                <div class="option-desc">Donate directly</div>
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="/">Home</a>
+            <a href="/privacy/">Privacy</a>
+            <a href="https://github.com/KashCal/KashCal/issues">Share Feedback</a>
+        </div>
+        <p class="footer-note">
+            &copy; <span id="year"></span> KashCal
+        </p>
+        <p class="footer-brand">
+            Built with love in Austin by <a href="https://onekash.org">OneKash Labs</a>
+        </p>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        const menuBtn = document.querySelector('.menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            const isOpen = mobileMenu.classList.toggle('open');
+            menuBtn.setAttribute('aria-expanded', isOpen);
+            menuBtn.textContent = isOpen ? '\u2715' : '\u2630';
+        });
+        mobileMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('open');
+                menuBtn.setAttribute('aria-expanded', 'false');
+                menuBtn.textContent = '\u2630';
+            });
+        });
+    </script>
+</body>
+</html>

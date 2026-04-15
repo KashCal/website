@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - KashCal</title>
+    <meta name="description" content="KashCal Privacy Policy. We do not collect any data. Your calendar stays on your device.">
+    <meta name="author" content="OneKash Labs">
+    <meta name="theme-color" content="#F5F0E8">
+
+    <link rel="canonical" href="https://kashcal.onekash.org/privacy/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kashcal.onekash.org/privacy/">
+    <meta property="og:title" content="Privacy Policy - KashCal">
+    <meta property="og:description" content="KashCal Privacy Policy. We do not collect any data.">
+    <meta property="og:image" content="https://kashcal.onekash.org/icon-192.png">
+    <meta property="og:image:width" content="192">
+    <meta property="og:image:height" content="192">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Privacy Policy - KashCal">
+    <meta name="twitter:description" content="KashCal Privacy Policy. We do not collect any data.">
+    <meta name="twitter:image" content="https://kashcal.onekash.org/icon-192.png">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "KashCal",
+                "item": "https://kashcal.onekash.org/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Privacy Policy",
+                "item": "https://kashcal.onekash.org/privacy/"
+            }
+        ]
+    }
+    </script>
+
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
+    <link rel="apple-touch-icon" href="/icon-192.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"></noscript>
+    <style>
+        :root {
+            --bg: #F5F0E8;
+            --bg-alt: #E8E1D5;
+            --bg-dark: #1A1814;
+            --text: #1A1814;
+            --text-secondary: #5C554A;
+            --text-muted: #857F74;
+            --border: #D4CCC2;
+            --accent: #1B6B5F;
+            --accent-hover: #145A50;
+            --accent-warm: #935A32;
+            --accent-light: #3DA99A;
+            --accent-warm-light: #D4956A;
+            --text-light: #FAF8F4;
+            --text-muted-light: #948E83;
+            --shadow: 0 2px 20px rgba(26, 24, 20, 0.10);
+            --shadow-hover: 0 8px 36px rgba(26, 24, 20, 0.16);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent), var(--accent-warm));
+            z-index: 200;
+        }
+
+        body::after {
+            content: '';
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            opacity: 0.03;
+            pointer-events: none;
+            z-index: 1000;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+            background-repeat: repeat;
+            background-size: 256px 256px;
+        }
+
+        /* --- Nav (matches main site) --- */
+        nav {
+            position: fixed;
+            top: 3px; left: 0; right: 0;
+            padding: 1rem 2rem;
+            background: rgba(245, 240, 232, 0.92);
+            -webkit-backdrop-filter: blur(16px);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border);
+            z-index: 100;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 1.5rem;
+            color: var(--text);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .logo-icon { width: 32px; height: 32px; border-radius: 8px; }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-link {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .nav-link:hover { color: var(--text); }
+
+        .menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--text);
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 0.5rem;
+        }
+
+        .mobile-menu {
+            display: none;
+            position: fixed;
+            top: 63px; left: 0; right: 0;
+            background: rgba(245, 240, 232, 0.98);
+            -webkit-backdrop-filter: blur(16px);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border);
+            padding: 1rem;
+            z-index: 99;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        .mobile-menu.open { display: flex; }
+
+        .mobile-menu a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            padding: 0.75rem 1rem;
+            border-radius: 8px;
+            transition: all 0.2s;
+        }
+
+        .mobile-menu a:hover {
+            color: var(--text);
+            background: var(--bg-alt);
+        }
+
+        /* --- Content --- */
+        main {
+            flex: 1;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 8rem 2rem 4rem;
+        }
+
+        h1 {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .effective-date {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            margin-top: 2.5rem;
+        }
+
+        h2 {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 1.35rem;
+            font-weight: 600;
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            padding-left: 1rem;
+            margin-bottom: 0.75rem;
+            color: var(--text);
+            border-left: 3px solid var(--accent);
+            border-top: 1px solid var(--border);
+        }
+
+        h2:first-of-type {
+            border-top: none;
+            padding-top: 0;
+            margin-top: 2.5rem;
+        }
+
+        p {
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+        }
+
+        strong {
+            color: var(--text);
+            font-weight: 600;
+        }
+
+        ul {
+            color: var(--text-secondary);
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        li { margin-bottom: 0.5rem; }
+
+        main a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        main a:hover {
+            color: var(--accent-hover);
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        /* --- Footer (matches main site) --- */
+        footer {
+            padding: 3rem 2rem;
+            background: linear-gradient(180deg, #201C17 0%, var(--bg-dark) 100%);
+            text-align: center;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: var(--text-muted-light);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+
+        .footer-links a:hover { color: var(--text-light); }
+
+        .footer-links a[href^="http"]::after {
+            content: " \2197";
+            font-size: 0.7em;
+            opacity: 0.7;
+        }
+
+        .footer-note {
+            color: var(--text-muted-light);
+            font-size: 0.85rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-brand {
+            color: var(--text-muted-light);
+            font-size: 0.8rem;
+        }
+
+        .footer-brand a {
+            color: var(--text-light);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .footer-brand a:hover { color: var(--accent-light); }
+
+        /* --- A11y --- */
+        a:focus-visible,
+        button:focus-visible {
+            outline: 2px solid var(--accent);
+            outline-offset: 3px;
+        }
+
+        /* --- Responsive --- */
+        @media (max-width: 768px) {
+            nav { padding: 1rem 1.5rem; }
+            .nav-links { display: none; }
+            .menu-btn { display: block; }
+
+            main {
+                padding: 6rem 1.5rem 3rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+        }
+
+        /* --- Reduced motion --- */
+        @media (prefers-reduced-motion: reduce) {
+            html { scroll-behavior: auto; }
+            *, *::before, *::after { transition: none !important; }
+            body::after { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/" class="logo">
+            <img src="/favicon.png" alt="KashCal" class="logo-icon">
+            KashCal
+        </a>
+        <div class="nav-links">
+            <a href="/" class="nav-link">Home</a>
+            <a href="/privacy/" class="nav-link">Privacy</a>
+            <a href="https://github.com/KashCal/KashCal" class="nav-link">Source</a>
+            <a href="/donate/" class="nav-link">Donate</a>
+        </div>
+        <button class="menu-btn" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+    </nav>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="/">Home</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="https://github.com/KashCal/KashCal">Source</a>
+        <a href="/donate/">Donate</a>
+    </div>
+
+    <main>
+        <h1>Privacy Policy</h1>
+
+        <h2>Overview</h2>
+        <p>KashCal is a calendar app that stores your data locally on your device. We do not operate servers that collect your data. We do not use analytics, advertising, or tracking of any kind.</p>
+
+        <h2>Data Collection and Storage</h2>
+        <p><strong>We do not collect any data.</strong> All information you enter into KashCal is stored locally on your device.</p>
+        <p>Locally stored data includes:</p>
+        <ul>
+            <li>Calendar events and reminders</li>
+            <li>App preferences and settings</li>
+            <li>Sync account credentials (encrypted)</li>
+            <li>Sync logs for troubleshooting</li>
+        </ul>
+
+        <h2>Calendar Sync</h2>
+        <p>If you enable CalDAV sync (iCloud, Nextcloud, or other providers), your calendar data is transmitted directly between your device and the server you configure. This data is sent over encrypted HTTPS connections. KashCal does not intermediate or access this data.</p>
+        <p>Your use of third-party sync services is governed by their privacy policies.</p>
+
+        <h2>ICS Subscriptions</h2>
+        <p>When you subscribe to external calendar feeds, KashCal fetches data directly from the URLs you provide. No data passes through our servers.</p>
+
+        <h2>Contact Birthdays</h2>
+        <p>With your permission, KashCal can read birthday dates from your contacts to display on your calendar. This data is processed entirely on your device and is never transmitted.</p>
+
+        <h2>Permissions</h2>
+        <ul>
+            <li><strong>Internet:</strong> Required for calendar sync and ICS feeds</li>
+            <li><strong>Notifications:</strong> Required for event reminders</li>
+            <li><strong>Exact Alarms:</strong> Required for precise reminder scheduling</li>
+            <li><strong>Contacts (optional):</strong> Required only if you enable contact birthdays</li>
+        </ul>
+
+        <h2>Data Security</h2>
+        <p>Account credentials are encrypted using AES-256-GCM via Android Keystore. All network connections use HTTPS. Credentials are excluded from device backups.</p>
+
+        <h2>Data Sharing</h2>
+        <p>We do not share your data with anyone. We have no data to share because we do not collect it.</p>
+
+        <h2>Data Deletion</h2>
+        <p>You can delete your data at any time by:</p>
+        <ul>
+            <li>Deleting individual events</li>
+            <li>Removing sync accounts</li>
+            <li>Uninstalling the app</li>
+        </ul>
+
+        <h2>Children's Privacy</h2>
+        <p>KashCal is not directed at children under 13 and does not knowingly collect data from children.</p>
+
+        <h2>Changes</h2>
+        <p>Updates to this policy will be noted in app release notes. Continued use of the app constitutes acceptance of changes.</p>
+
+        <h2>Contact</h2>
+        <p>Questions or concerns: <a href="https://github.com/KashCal/KashCal/issues">GitHub Issues</a></p>
+
+        <p class="effective-date">Effective January 6, 2026</p>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="/">Home</a>
+            <a href="/privacy/">Privacy</a>
+            <a href="https://github.com/KashCal/KashCal/issues">Share Feedback</a>
+        </div>
+        <p class="footer-note">
+            &copy; <span id="year"></span> KashCal
+        </p>
+        <p class="footer-brand">
+            Built with love in Austin by <a href="https://onekash.org">OneKash Labs</a>
+        </p>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        const menuBtn = document.querySelector('.menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            const isOpen = mobileMenu.classList.toggle('open');
+            menuBtn.setAttribute('aria-expanded', isOpen);
+            menuBtn.textContent = isOpen ? '\u2715' : '\u2630';
+        });
+        mobileMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('open');
+                menuBtn.setAttribute('aria-expanded', 'false');
+                menuBtn.textContent = '\u2630';
+            });
+        });
+    </script>
+</body>
+</html>
