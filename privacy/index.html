@@ -106,7 +106,7 @@
             background-size: 256px 256px;
         }
 
-        /* --- Nav (matches main site) --- */
+        /* --- Nav --- */
         nav {
             position: fixed;
             top: 3px; left: 0; right: 0;
@@ -133,11 +133,7 @@
 
         .logo-icon { width: 32px; height: 32px; border-radius: 8px; }
 
-        .nav-links {
-            display: flex;
-            gap: 2rem;
-            align-items: center;
-        }
+        .nav-links { display: flex; gap: 2rem; align-items: center; }
 
         .nav-link {
             color: var(--text-muted);
@@ -188,13 +184,57 @@
             background: var(--bg-alt);
         }
 
-        /* --- Content --- */
-        main {
+        /* --- Layout --- */
+        .policy-layout {
             flex: 1;
-            max-width: 700px;
+            display: grid;
+            grid-template-columns: 220px minmax(0, 720px);
+            gap: 3rem;
+            max-width: 1040px;
             margin: 0 auto;
-            padding: 8rem 2rem 4rem;
+            padding: 7rem 2rem 4rem;
+            width: 100%;
         }
+
+        /* --- Sidebar TOC --- */
+        .toc {
+            position: sticky;
+            top: 6rem;
+            align-self: start;
+            max-height: calc(100vh - 8rem);
+            overflow-y: auto;
+            padding-right: 1rem;
+        }
+
+        .toc-title {
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--text-muted);
+            margin-bottom: 0.75rem;
+        }
+
+        .toc ol { list-style: none; margin: 0; padding: 0; }
+        .toc li { margin-bottom: 0; }
+
+        .toc a {
+            display: block;
+            padding: 0.3rem 0.75rem;
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.8rem;
+            font-weight: 500;
+            border-left: 2px solid transparent;
+            transition: all 0.2s;
+            line-height: 1.4;
+        }
+
+        .toc a:hover { color: var(--text); border-left-color: var(--border); }
+        .toc a.active { color: var(--accent); border-left-color: var(--accent); font-weight: 600; }
+
+        /* --- Content --- */
+        .policy-content { min-width: 0; }
 
         h1 {
             font-family: 'Lora', Georgia, 'Times New Roman', serif;
@@ -203,62 +243,157 @@
             margin-bottom: 0.5rem;
         }
 
-        .effective-date {
+        .policy-meta {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
             color: var(--text-muted);
             font-size: 0.85rem;
-            margin-top: 2.5rem;
+            margin-bottom: 2.5rem;
+        }
+
+        /* --- At a Glance --- */
+        .glance-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0.75rem;
+            margin-bottom: 2.5rem;
+        }
+
+        .glance-card {
+            background: rgba(255, 255, 255, 0.5);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .glance-card h3 {
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: var(--accent);
+            margin-bottom: 0.2rem;
+        }
+
+        .glance-card p {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin: 0;
+            line-height: 1.4;
+        }
+
+        /* --- Sections --- */
+        .policy-section {
+            margin-bottom: 2rem;
+            scroll-margin-top: 6rem;
         }
 
         h2 {
             font-family: 'Lora', Georgia, 'Times New Roman', serif;
-            font-size: 1.35rem;
+            font-size: 1.25rem;
             font-weight: 600;
-            margin-top: 3rem;
-            padding-top: 1.5rem;
-            padding-left: 1rem;
             margin-bottom: 0.75rem;
             color: var(--text);
+            padding-left: 1rem;
             border-left: 3px solid var(--accent);
-            border-top: 1px solid var(--border);
-        }
-
-        h2:first-of-type {
-            border-top: none;
-            padding-top: 0;
-            margin-top: 2.5rem;
         }
 
         p {
             color: var(--text-secondary);
             margin-bottom: 1rem;
+            font-size: 0.95rem;
         }
 
-        strong {
-            color: var(--text);
-            font-weight: 600;
-        }
+        strong { color: var(--text); font-weight: 600; }
 
         ul {
             color: var(--text-secondary);
             margin-left: 1.5rem;
             margin-bottom: 1rem;
+            font-size: 0.95rem;
         }
 
         li { margin-bottom: 0.5rem; }
 
-        main a {
+        .policy-content a {
             color: var(--accent);
             text-decoration: none;
             transition: color 0.2s;
         }
 
-        main a:hover {
+        .policy-content a:hover {
             color: var(--accent-hover);
             text-decoration: underline;
             text-underline-offset: 3px;
         }
 
-        /* --- Footer (matches main site) --- */
+        /* --- Callout --- */
+        .callout {
+            background: rgba(27, 107, 95, 0.06);
+            border: 1px solid rgba(27, 107, 95, 0.15);
+            border-radius: 10px;
+            padding: 1rem 1.25rem;
+            margin-bottom: 1.25rem;
+            font-size: 0.9rem;
+        }
+
+        .callout p { margin: 0; }
+        .callout strong { color: var(--accent); }
+
+        /* --- Table --- */
+        .data-table-wrap {
+            overflow-x: auto;
+            margin-bottom: 1.25rem;
+            border-radius: 10px;
+            border: 1px solid var(--border);
+        }
+
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.85rem;
+        }
+
+        .data-table thead { background: var(--bg-alt); }
+
+        .data-table th {
+            text-align: left;
+            padding: 0.65rem 1rem;
+            font-weight: 600;
+            color: var(--text);
+            font-size: 0.78rem;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .data-table td {
+            padding: 0.6rem 1rem;
+            color: var(--text-secondary);
+            border-bottom: 1px solid rgba(212, 204, 194, 0.5);
+        }
+
+        .data-table tr:last-child td { border-bottom: none; }
+
+        .badge {
+            display: inline-block;
+            padding: 0.1rem 0.45rem;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: 600;
+        }
+
+        .badge-green { background: rgba(27, 107, 95, 0.1); color: var(--accent); }
+        .badge-warm { background: rgba(147, 90, 50, 0.1); color: var(--accent-warm); }
+
+        /* --- Divider --- */
+        .section-divider {
+            border: none;
+            border-top: 1px solid var(--border);
+            margin: 0 0 2rem;
+        }
+
+        /* --- Footer --- */
         footer {
             padding: 3rem 2rem;
             background: linear-gradient(180deg, #201C17 0%, var(--bg-dark) 100%);
@@ -294,10 +429,7 @@
             margin-bottom: 0.5rem;
         }
 
-        .footer-brand {
-            color: var(--text-muted-light);
-            font-size: 0.8rem;
-        }
+        .footer-brand { color: var(--text-muted-light); font-size: 0.8rem; }
 
         .footer-brand a {
             color: var(--text-light);
@@ -308,28 +440,46 @@
         .footer-brand a:hover { color: var(--accent-light); }
 
         /* --- A11y --- */
-        a:focus-visible,
-        button:focus-visible {
+        a:focus-visible, button:focus-visible {
             outline: 2px solid var(--accent);
             outline-offset: 3px;
         }
 
+        /* --- Print --- */
+        @media print {
+            body::before, body::after, nav, .mobile-menu, .toc, footer { display: none; }
+            .policy-layout { grid-template-columns: 1fr; padding: 1rem; }
+        }
+
         /* --- Responsive --- */
+        @media (max-width: 900px) {
+            .policy-layout {
+                grid-template-columns: 1fr;
+                padding: 6.5rem 1.5rem 3rem;
+            }
+            .toc {
+                position: relative;
+                top: 0;
+                max-height: none;
+                padding: 1rem 1.25rem;
+                background: rgba(255, 255, 255, 0.4);
+                border: 1px solid var(--border);
+                border-radius: 12px;
+                margin-bottom: 0.5rem;
+            }
+            .toc ol { display: grid; grid-template-columns: 1fr 1fr; }
+            .toc a { border-left: none; padding: 0.25rem 0.5rem; }
+        }
+
         @media (max-width: 768px) {
             nav { padding: 1rem 1.5rem; }
             .nav-links { display: none; }
             .menu-btn { display: block; }
-
-            main {
-                padding: 6rem 1.5rem 3rem;
-            }
-
-            h1 {
-                font-size: 2rem;
-            }
+            h1 { font-size: 2rem; }
+            .glance-grid { grid-template-columns: 1fr; }
+            .toc ol { grid-template-columns: 1fr; }
         }
 
-        /* --- Reduced motion --- */
         @media (prefers-reduced-motion: reduce) {
             html { scroll-behavior: auto; }
             *, *::before, *::after { transition: none !important; }
@@ -359,65 +509,219 @@
         <a href="/donate/">Donate</a>
     </div>
 
-    <main>
-        <h1>Privacy Policy</h1>
+    <div class="policy-layout">
+        <aside class="toc" aria-label="Table of Contents">
+            <div class="toc-title">Contents</div>
+            <ol>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#data-collection">Data Collection</a></li>
+                <li><a href="#data-stored">Data Stored on Device</a></li>
+                <li><a href="#calendar-sync">Calendar Sync</a></li>
+                <li><a href="#permissions">Permissions</a></li>
+                <li><a href="#security">Security</a></li>
+                <li><a href="#retention">Retention &amp; Deletion</a></li>
+                <li><a href="#children">Children's Privacy</a></li>
+                <li><a href="#changes">Changes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ol>
+        </aside>
 
-        <h2>Overview</h2>
-        <p>KashCal is a calendar app that stores your data locally on your device. We do not operate servers that collect your data. We do not use analytics, advertising, or tracking of any kind.</p>
+        <div class="policy-content">
+            <h1>Privacy Policy</h1>
+            <div class="policy-meta">
+                <span>Effective April 21, 2026</span>
+            </div>
 
-        <h2>Data Collection and Storage</h2>
-        <p><strong>We do not collect any data.</strong> All information you enter into KashCal is stored locally on your device.</p>
-        <p>Locally stored data includes:</p>
-        <ul>
-            <li>Calendar events and reminders</li>
-            <li>App preferences and settings</li>
-            <li>Sync account credentials (encrypted)</li>
-            <li>Sync logs for troubleshooting</li>
-        </ul>
+            <!-- At a Glance -->
+            <div class="glance-grid">
+                <div class="glance-card">
+                    <h3>Zero Collection</h3>
+                    <p>No telemetry, analytics, ads, or tracking of any kind.</p>
+                </div>
+                <div class="glance-card">
+                    <h3>Encrypted Credentials</h3>
+                    <p>AES-256-GCM via Android Keystore hardware security.</p>
+                </div>
+                <div class="glance-card">
+                    <h3>Open Source</h3>
+                    <p>Full source available for independent security audit.</p>
+                </div>
+            </div>
 
-        <h2>Calendar Sync</h2>
-        <p>If you enable CalDAV sync (iCloud, Nextcloud, or other providers), your calendar data is transmitted directly between your device and the server you configure. This data is sent over encrypted HTTPS connections. KashCal does not intermediate or access this data.</p>
-        <p>Your use of third-party sync services is governed by their privacy policies.</p>
+            <!-- 1. Overview -->
+            <section class="policy-section" id="overview">
+                <h2>Overview</h2>
+                <p>This Privacy Policy describes how OneKash Labs ("we," "us," or "our") handles information in connection with the KashCal mobile application ("the App"). KashCal stores all data locally on your device. Nothing is sent to us.</p>
+                <p>This policy applies to all versions of KashCal distributed via F-Droid, GitHub Releases, or direct APK download.</p>
+            </section>
 
-        <h2>ICS Subscriptions</h2>
-        <p>When you subscribe to external calendar feeds, KashCal fetches data directly from the URLs you provide. No data passes through our servers.</p>
+            <hr class="section-divider">
 
-        <h2>Contact Birthdays</h2>
-        <p>With your permission, KashCal can read birthday dates from your contacts to display on your calendar. This data is processed entirely on your device and is never transmitted.</p>
+            <!-- 2. Data Collection -->
+            <section class="policy-section" id="data-collection">
+                <h2>Data Collection</h2>
+                <div class="callout">
+                    <p><strong>We do not collect any personal data.</strong> KashCal does not transmit telemetry, analytics, crash reports, usage statistics, or any other information to OneKash Labs or any third party. The App contains no third-party SDKs, advertising, or tracking code.</p>
+                </div>
+                <p>There are no user accounts, no registration, and no server-side infrastructure that processes user information. We have no mechanism to access, retrieve, or view your data.</p>
+            </section>
 
-        <h2>Permissions</h2>
-        <ul>
-            <li><strong>Internet:</strong> Required for calendar sync and ICS feeds</li>
-            <li><strong>Notifications:</strong> Required for event reminders</li>
-            <li><strong>Exact Alarms:</strong> Required for precise reminder scheduling</li>
-            <li><strong>Contacts (optional):</strong> Required only if you enable contact birthdays</li>
-        </ul>
+            <hr class="section-divider">
 
-        <h2>Data Security</h2>
-        <p>Account credentials are encrypted using AES-256-GCM via Android Keystore. All network connections use HTTPS. Credentials are excluded from device backups.</p>
+            <!-- 3. Data Stored on Device -->
+            <section class="policy-section" id="data-stored">
+                <h2>Data Stored on Device</h2>
+                <p>The following data may exist locally on your device when using KashCal:</p>
+                <div class="data-table-wrap">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Data</th>
+                                <th>Encryption</th>
+                                <th>In Backups</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Calendar events and reminders</td>
+                                <td>Device encryption</td>
+                                <td>Yes</td>
+                            </tr>
+                            <tr>
+                                <td>App preferences and settings</td>
+                                <td>Device encryption</td>
+                                <td>Yes</td>
+                            </tr>
+                            <tr>
+                                <td>Sync account credentials</td>
+                                <td><span class="badge badge-green">AES-256-GCM</span></td>
+                                <td>No</td>
+                            </tr>
+                            <tr>
+                                <td>Sync logs</td>
+                                <td>Device encryption</td>
+                                <td>No</td>
+                            </tr>
+                            <tr>
+                                <td>Contact birthday cache</td>
+                                <td>Device encryption</td>
+                                <td>No</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
 
-        <h2>Data Sharing</h2>
-        <p>We do not share your data with anyone. We have no data to share because we do not collect it.</p>
+            <hr class="section-divider">
 
-        <h2>Data Deletion</h2>
-        <p>You can delete your data at any time by:</p>
-        <ul>
-            <li>Deleting individual events</li>
-            <li>Removing sync accounts</li>
-            <li>Uninstalling the app</li>
-        </ul>
+            <!-- 4. Calendar Sync -->
+            <section class="policy-section" id="calendar-sync">
+                <h2>Calendar Sync</h2>
+                <p><strong>CalDAV Sync.</strong> When you configure a CalDAV account (iCloud, Nextcloud, etc.), calendar data flows directly between your device and the server you configure over encrypted HTTPS. KashCal does not proxy or intermediate this data.</p>
+                <p><strong>ICS Subscriptions.</strong> External calendar feeds are fetched directly from the URLs you provide. No data passes through our infrastructure.</p>
+                <p><strong>Contact Birthdays.</strong> With your permission, KashCal reads birthday dates from your contacts. This is processed entirely on-device and never transmitted.</p>
+                <p>Third-party sync services you connect are governed by their own privacy policies. Review those policies before configuring sync.</p>
+            </section>
 
-        <h2>Children's Privacy</h2>
-        <p>KashCal is not directed at children under 13 and does not knowingly collect data from children.</p>
+            <hr class="section-divider">
 
-        <h2>Changes</h2>
-        <p>Updates to this policy will be noted in app release notes. Continued use of the app constitutes acceptance of changes.</p>
+            <!-- 5. Permissions -->
+            <section class="policy-section" id="permissions">
+                <h2>Permissions</h2>
+                <div class="data-table-wrap">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Permission</th>
+                                <th>Required</th>
+                                <th>Purpose</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Internet</td>
+                                <td><span class="badge badge-green">Yes</span></td>
+                                <td>CalDAV sync and ICS feed retrieval</td>
+                            </tr>
+                            <tr>
+                                <td>Notifications</td>
+                                <td><span class="badge badge-green">Yes</span></td>
+                                <td>Event reminders</td>
+                            </tr>
+                            <tr>
+                                <td>Exact Alarms</td>
+                                <td><span class="badge badge-green">Yes</span></td>
+                                <td>Precise reminder scheduling</td>
+                            </tr>
+                            <tr>
+                                <td>Contacts</td>
+                                <td><span class="badge badge-warm">Optional</span></td>
+                                <td>Display contact birthdays</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p>No permission is used to collect, transmit, or share personal data.</p>
+            </section>
 
-        <h2>Contact</h2>
-        <p>Questions or concerns: <a href="https://github.com/KashCal/KashCal/issues">GitHub Issues</a></p>
+            <hr class="section-divider">
 
-        <p class="effective-date">Effective January 6, 2026</p>
-    </main>
+            <!-- 6. Security -->
+            <section class="policy-section" id="security">
+                <h2>Security</h2>
+                <ul>
+                    <li><strong>Credential encryption:</strong> AES-256-GCM via Android Keystore, with hardware-backed key storage where available.</li>
+                    <li><strong>Transport security:</strong> All network connections use TLS/HTTPS. Plaintext HTTP is not permitted.</li>
+                    <li><strong>Backup exclusion:</strong> Credentials and sync logs are excluded from Android backup.</li>
+                    <li><strong>No remote access:</strong> We cannot retrieve, view, or modify information on your device.</li>
+                </ul>
+                <p>As an open-source project, our security implementation is available for independent audit via our <a href="https://github.com/KashCal/KashCal">public repository</a>.</p>
+            </section>
+
+            <hr class="section-divider">
+
+            <!-- 7. Retention & Deletion -->
+            <section class="policy-section" id="retention">
+                <h2>Retention &amp; Deletion</h2>
+                <p>All data is stored locally, so you have full control over retention. You can delete your data at any time by:</p>
+                <ul>
+                    <li>Deleting individual events or calendars within the App</li>
+                    <li>Removing sync accounts from App settings</li>
+                    <li>Clearing App data via Android system settings</li>
+                    <li>Uninstalling the App</li>
+                </ul>
+                <p>Sync logs are subject to automatic rotation. Because we do not store your data on our servers, there is no residual data on our end after uninstallation.</p>
+            </section>
+
+            <hr class="section-divider">
+
+            <!-- 8. Children's Privacy -->
+            <section class="policy-section" id="children">
+                <h2>Children's Privacy</h2>
+                <p>KashCal is not directed at children under the age of 13. We do not collect personal data from any user, including children.</p>
+            </section>
+
+            <hr class="section-divider">
+
+            <!-- 9. Changes -->
+            <section class="policy-section" id="changes">
+                <h2>Changes to This Policy</h2>
+                <p>We may update this policy to reflect changes in the App or applicable regulations. Material changes will be noted in the App's release notes. Continued use of the App constitutes acceptance of changes.</p>
+            </section>
+
+            <hr class="section-divider">
+
+            <!-- 10. Contact -->
+            <section class="policy-section" id="contact">
+                <h2>Contact</h2>
+                <p>Questions or concerns about this policy:</p>
+                <ul>
+                    <li>Email: <a href="mailto:privacy@onekash.org">privacy@onekash.org</a></li>
+                    <li>GitHub: <a href="https://github.com/KashCal/KashCal/issues">KashCal Issues</a></li>
+                </ul>
+            </section>
+        </div>
+    </div>
 
     <footer>
         <div class="footer-links">
@@ -441,15 +745,29 @@
         menuBtn.addEventListener('click', () => {
             const isOpen = mobileMenu.classList.toggle('open');
             menuBtn.setAttribute('aria-expanded', isOpen);
-            menuBtn.textContent = isOpen ? '\u2715' : '\u2630';
+            menuBtn.textContent = isOpen ? '✕' : '☰';
         });
         mobileMenu.querySelectorAll('a').forEach(link => {
             link.addEventListener('click', () => {
                 mobileMenu.classList.remove('open');
                 menuBtn.setAttribute('aria-expanded', 'false');
-                menuBtn.textContent = '\u2630';
+                menuBtn.textContent = '☰';
             });
         });
+
+        // Active TOC highlight on scroll
+        const tocLinks = document.querySelectorAll('.toc a');
+        const sections = document.querySelectorAll('.policy-section');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    tocLinks.forEach(l => l.classList.remove('active'));
+                    const active = document.querySelector('.toc a[href="#' + entry.target.id + '"]');
+                    if (active) active.classList.add('active');
+                }
+            });
+        }, { rootMargin: '-20% 0px -70% 0px' });
+        sections.forEach(s => observer.observe(s));
     </script>
 </body>
 </html>
