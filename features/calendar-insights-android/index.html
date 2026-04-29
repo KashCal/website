@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar Insights for Android - KashCal</title>
+    <meta name="description" content="See where your time goes. KashCal looks at the past as well as the future. Time insights on-device, free, no work account, no subscription.">
+    <meta name="author" content="OneKash Labs">
+    <meta name="theme-color" content="#F5F0E8">
+
+    <link rel="canonical" href="https://kashcal.onekash.org/features/calendar-insights-android/">
+
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://kashcal.onekash.org/features/calendar-insights-android/">
+    <meta property="og:title" content="Calendar Insights for Android - KashCal">
+    <meta property="og:description" content="See where your time goes. Time insights on-device, free, no work account, no subscription.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/KashCal/KashCal/main/fastlane/metadata/android/en-US/images/phoneScreenshots/Insights.png">
+    <meta property="og:image:width" content="1080">
+    <meta property="og:image:height" content="2127">
+    <meta property="og:image:alt" content="KashCal Insights showing weekly hours booked, calendar breakdown, day-of-week bar chart, and next free block">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="KashCal">
+    <meta property="article:published_time" content="2026-04-29T00:00:00Z">
+    <meta property="article:modified_time" content="2026-04-29T00:00:00Z">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Calendar Insights for Android - KashCal">
+    <meta name="twitter:description" content="See where your time goes. Time insights on-device, free, no work account, no subscription.">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/KashCal/KashCal/main/fastlane/metadata/android/en-US/images/phoneScreenshots/Insights.png">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "KashCal",
+                "item": "https://kashcal.onekash.org/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Features",
+                "item": "https://kashcal.onekash.org/features/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Calendar Insights for Android",
+                "item": "https://kashcal.onekash.org/features/calendar-insights-android/"
+            }
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://kashcal.onekash.org/features/calendar-insights-android/#webpage",
+        "url": "https://kashcal.onekash.org/features/calendar-insights-android/",
+        "name": "Calendar Insights for Android - KashCal",
+        "description": "See where your time goes. KashCal looks at the past as well as the future. Time insights on-device, free, no work account, no subscription.",
+        "inLanguage": "en",
+        "datePublished": "2026-04-29",
+        "dateModified": "2026-04-29",
+        "isPartOf": {
+            "@type": "WebSite",
+            "url": "https://kashcal.onekash.org/",
+            "name": "KashCal"
+        },
+        "about": {
+            "@id": "https://kashcal.onekash.org/#kashcal-app"
+        }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What does KashCal show me about my time?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Which day of the week eats the most of your calendar, the longest run of back-to-back commitments, how many meeting-free days you have, how much of your weekend is already booked, how early your earliest and how late your latest, which calendar is taking up the most of your time, and when your next long stretch of open time is."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is my calendar data sent anywhere?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. Everything in Insights is computed on your phone. No KashCal server, no cloud analytics, no account. Your calendar never leaves your device for this feature."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Do I need a work account?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. KashCal Insights works with any calendar you have switched on in the app: your personal Google account, iCloud, Nextcloud, your phone's local calendar, or an ICS feed. There is no paid tier and no Workspace requirement."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I see insights for only my personal calendar, or only work?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Insights only looks at calendars you have made visible in the navigation drawer. Turn off your work calendar and Insights shows your personal time. Turn off personal and you get the work view. Leave everything on for the full picture."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
+    <link rel="apple-touch-icon" href="/icon-192.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"></noscript>
+    <style>
+        :root {
+            --bg: #F5F0E8;
+            --bg-alt: #E8E1D5;
+            --bg-dark: #1A1814;
+            --text: #1A1814;
+            --text-secondary: #5C554A;
+            --text-muted: #857F74;
+            --border: #D4CCC2;
+            --accent: #1B6B5F;
+            --accent-hover: #145A50;
+            --accent-warm: #935A32;
+            --accent-light: #3DA99A;
+            --text-light: #FAF8F4;
+            --text-muted-light: #948E83;
+            --shadow: 0 2px 20px rgba(26, 24, 20, 0.10);
+            --shadow-hover: 0 8px 36px rgba(26, 24, 20, 0.16);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent), var(--accent-warm));
+            z-index: 200;
+        }
+
+        body::after {
+            content: '';
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            opacity: 0.03;
+            pointer-events: none;
+            z-index: 1000;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+            background-repeat: repeat;
+            background-size: 256px 256px;
+        }
+
+        nav {
+            position: fixed;
+            top: 3px; left: 0; right: 0;
+            padding: 1rem 2rem;
+            background: rgba(245, 240, 232, 0.92);
+            -webkit-backdrop-filter: blur(16px);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border);
+            z-index: 100;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 1.5rem;
+            color: var(--text);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .logo-icon { width: 32px; height: 32px; border-radius: 8px; }
+
+        .nav-links { display: flex; gap: 2rem; align-items: center; }
+
+        .nav-link {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .nav-link:hover { color: var(--text); }
+
+        .menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--text);
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 0.5rem;
+        }
+
+        .mobile-menu {
+            display: none;
+            position: fixed;
+            top: 63px; left: 0; right: 0;
+            background: rgba(245, 240, 232, 0.98);
+            -webkit-backdrop-filter: blur(16px);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border);
+            padding: 1rem;
+            z-index: 99;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        .mobile-menu.open { display: flex; }
+
+        .mobile-menu a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            padding: 0.75rem 1rem;
+            border-radius: 8px;
+            transition: all 0.2s;
+        }
+
+        .mobile-menu a:hover {
+            color: var(--text);
+            background: var(--bg-alt);
+        }
+
+        .page {
+            flex: 1;
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 7rem 1.75rem 4rem;
+            width: 100%;
+        }
+
+        .crumbs {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-bottom: 1.25rem;
+        }
+
+        .crumbs a {
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .crumbs a:hover { color: var(--accent); }
+
+        .crumbs span { margin: 0 0.4rem; }
+
+        .tag {
+            display: inline-block;
+            font-size: 0.72rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--accent-warm);
+            font-weight: 700;
+            margin-bottom: 0.85rem;
+        }
+
+        h1 {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 2.6rem;
+            font-weight: 700;
+            line-height: 1.1;
+            margin-bottom: 0.85rem;
+        }
+
+        .lede {
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            margin-bottom: 1.25rem;
+            max-width: 620px;
+        }
+
+        .sub-lede {
+            font-size: 1rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            max-width: 620px;
+        }
+
+        .screenshot-wrap {
+            margin: 2rem 0 2.5rem;
+            text-align: center;
+        }
+
+        .screenshot-wrap img {
+            max-width: 280px;
+            width: 100%;
+            height: auto;
+            border-radius: 18px;
+            border: 1px solid var(--border);
+            box-shadow: 0 14px 40px rgba(45, 42, 38, 0.12), 0 4px 14px rgba(45, 42, 38, 0.05);
+        }
+
+        h2 {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 1.45rem;
+            font-weight: 600;
+            margin: 2.5rem 0 0.85rem;
+            color: var(--text);
+            padding-left: 0.85rem;
+            border-left: 3px solid var(--accent);
+        }
+
+        p {
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+            font-size: 1rem;
+        }
+
+        strong { color: var(--text); font-weight: 600; }
+
+        .page a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .page a:hover {
+            color: var(--accent-hover);
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        .cards-grid {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            column-gap: 1.25rem;
+            row-gap: 0.85rem;
+            margin: 1.25rem 0 1.5rem;
+            font-size: 0.98rem;
+        }
+
+        .cards-grid dt {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-weight: 600;
+            color: var(--text);
+            white-space: nowrap;
+        }
+
+        .cards-grid dd {
+            color: var(--text-secondary);
+            margin: 0;
+        }
+
+        @media (max-width: 560px) {
+            .cards-grid {
+                grid-template-columns: 1fr;
+                row-gap: 0.25rem;
+            }
+            .cards-grid dd {
+                margin-bottom: 0.65rem;
+            }
+        }
+
+        .callout {
+            background: rgba(27, 107, 95, 0.05);
+            border: 1px solid rgba(27, 107, 95, 0.15);
+            border-radius: 10px;
+            padding: 1rem 1.25rem;
+            margin: 1rem 0 1.5rem;
+            font-size: 0.95rem;
+        }
+
+        .callout p { margin: 0; color: var(--text-secondary); }
+        .callout strong { color: var(--accent); }
+
+        .close {
+            margin: 2.5rem 0 1rem;
+            padding: 1.5rem 1.75rem;
+            background: rgba(147, 90, 50, 0.05);
+            border: 1px solid rgba(147, 90, 50, 0.15);
+            border-radius: 14px;
+        }
+
+        .close p {
+            margin: 0;
+            font-size: 0.98rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        .download {
+            margin: 2rem 0 1rem;
+            padding: 1.5rem 1.5rem 1.75rem;
+            background: var(--bg-alt);
+            border-radius: 14px;
+        }
+
+        .download h3 {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.85rem;
+            color: var(--text);
+        }
+
+        .download-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.65rem;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .download-badges a { transition: transform 0.25s ease; }
+        .download-badges a:hover { transform: scale(1.04) translateY(-2px); }
+
+        .download-badges img {
+            height: 48px;
+            max-width: 140px;
+            object-fit: contain;
+        }
+
+        .download-apk {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 0.75rem;
+            margin-bottom: 0;
+        }
+
+        footer {
+            padding: 3rem 2rem;
+            background: linear-gradient(180deg, #201C17 0%, var(--bg-dark) 100%);
+            text-align: center;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: var(--text-muted-light);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+
+        .footer-links a:hover { color: var(--text-light); }
+
+        .footer-links a[href^="http"]::after {
+            content: " \2197";
+            font-size: 0.7em;
+            opacity: 0.7;
+        }
+
+        .footer-note {
+            color: var(--text-muted-light);
+            font-size: 0.85rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-brand { color: var(--text-muted-light); font-size: 0.8rem; }
+
+        .footer-brand a {
+            color: var(--text-light);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .footer-brand a:hover { color: var(--accent-light); }
+
+        a:focus-visible, button:focus-visible {
+            outline: 2px solid var(--accent);
+            outline-offset: 3px;
+        }
+
+        @media (max-width: 768px) {
+            nav { padding: 1rem 1.5rem; }
+            .nav-links { display: none; }
+            .menu-btn { display: block; }
+            .page { padding: 6.5rem 1.25rem 3rem; }
+            h1 { font-size: 2.1rem; }
+            .lede { font-size: 1.05rem; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            html { scroll-behavior: auto; }
+            *, *::before, *::after { transition: none !important; }
+            body::after { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/" class="logo">
+            <img src="/favicon.png" alt="KashCal" class="logo-icon">
+            KashCal
+        </a>
+        <div class="nav-links">
+            <a href="https://f-droid.org/en/packages/org.onekash.kashcal/" class="nav-link">Get KashCal</a>
+            <a href="/privacy/" class="nav-link">Privacy</a>
+            <a href="https://github.com/KashCal/KashCal" class="nav-link">Source</a>
+            <a href="/donate/" class="nav-link">Donate</a>
+        </div>
+        <button class="menu-btn" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+    </nav>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="https://f-droid.org/en/packages/org.onekash.kashcal/">Get KashCal</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="https://github.com/KashCal/KashCal">Source</a>
+        <a href="/donate/">Donate</a>
+    </div>
+
+    <main class="page">
+        <p class="crumbs">
+            <a href="/">Home</a><span>&rsaquo;</span>Features<span>&rsaquo;</span>Insights
+        </p>
+
+        <span class="tag">A look back, for once</span>
+        <h1>See where your time goes</h1>
+        <p class="lede">Most calendars show you the future. KashCal also shows you the past.</p>
+        <p class="sub-lede">You already know your Tuesdays are bad. KashCal will tell you how bad, and which days are giving you a break, and where your next long stretch of open time is hiding. Without a tracker. Without logging anything. Your calendar is already the log.</p>
+
+        <div class="screenshot-wrap">
+            <img src="https://raw.githubusercontent.com/KashCal/KashCal/main/fastlane/metadata/android/en-US/images/phoneScreenshots/Insights.png"
+                 alt="KashCal Insights screen showing 29 hours 15 minutes booked this week, split across two iCloud calendars and a local calendar, with a day-of-week bar chart and a next-free-block callout"
+                 loading="lazy"
+                 width="1080" height="2127">
+        </div>
+
+        <h2>Aim it at whatever you want</h2>
+        <p>Insights only looks at the calendars you have switched on. Turn off your work calendar in the nav drawer and you get a window on your personal time. Turn off personal and you see the work view. Leave everything on for the honest picture. Same feature, whichever question you're asking.</p>
+
+        <h2>What you'll see</h2>
+        <dl class="cards-grid">
+            <dt>Weekend load</dt>
+            <dd>How much of your Saturday and Sunday is already spoken for.</dd>
+            <dt>Early and late</dt>
+            <dd>How early the earliest thing starts, how late the latest runs.</dd>
+            <dt>Calendar mix</dt>
+            <dd>Which calendar is eating the most hours, stacked so you can see the split at a glance.</dd>
+            <dt>Busiest day</dt>
+            <dd>Which weekday takes the biggest bite out of your schedule.</dd>
+            <dt>Back-to-back</dt>
+            <dd>Your longest run with no gap between commitments.</dd>
+            <dt>Meeting-free days</dt>
+            <dd>Days with nothing on the calendar. Good for planning rest, or work, or neither.</dd>
+            <dt>Next free block</dt>
+            <dd>The next long stretch of open time. Not a statistic — a place to put something, or nothing.</dd>
+        </dl>
+
+        <div class="callout">
+            <p><strong>Week, last week, or this month.</strong> Pick the period at the top. See how this week is going, how last week went, or zoom out to the month so far.</p>
+        </div>
+
+        <h2>Your calendar, your data, your phone</h2>
+        <p>The math runs on your device. There's no KashCal server, no cloud analytics, no account to create, no work email required. Motion, Reclaim, and Clockwise do a fancier version of this — they charge for it and they process your schedule on their servers. Insights is the free, on-device take: fewer bells, nothing sent anywhere.</p>
+
+        <h2>Every calendar you have switched on</h2>
+        <p>Personal Google, iCloud, Nextcloud, Fastmail, your phone's local calendar, an ICS feed of your kid's school year, whatever else is in your drawer. If it's switched on in KashCal, it counts. If it's off, it doesn't. You're the filter.</p>
+
+        <div class="close">
+            <p>A calendar that remembers what you did, not just what's coming, turns out to be more useful than you'd guess.</p>
+        </div>
+
+        <div class="download">
+            <h3>Try it</h3>
+            <div class="download-badges">
+                <a href="https://f-droid.org/en/packages/org.onekash.kashcal/" aria-label="Get it on F-Droid">
+                    <img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on F-Droid">
+                </a>
+                <a href="https://apt.izzysoft.de/fdroid/index/apk/org.onekash.kashcal" aria-label="Get it on IzzyOnDroid">
+                    <img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" alt="Get it on IzzyOnDroid">
+                </a>
+                <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/%7B%22id%22:%22org.onekash.kashcal%22,%22url%22:%22https://github.com/KashCal/KashCal%22,%22author%22:%22KashCal%22,%22name%22:%22KashCal%22,%22additionalSettings%22:%22%7B%5C%22about%5C%22:%5C%22All%20your%20calendars%20in%20one%20private%20app%5C%22,%5C%22appAuthor%5C%22:%5C%22KashCal%5C%22%7D%22%7D" aria-label="Get it with Obtainium">
+                    <img src="https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/graphics/badge_obtainium.png" alt="Get it with Obtainium">
+                </a>
+            </div>
+            <p class="download-apk">or <a href="https://github.com/KashCal/KashCal/releases/latest">download the APK</a> directly</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="/">Home</a>
+            <a href="/privacy/">Privacy</a>
+            <a href="https://github.com/KashCal/KashCal/issues">Share Feedback</a>
+        </div>
+        <p class="footer-note">
+            &copy; <span id="year"></span> KashCal
+        </p>
+        <p class="footer-brand">
+            Built with love in Austin by <a href="https://onekash.org">OneKash Labs</a>
+        </p>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        const menuBtn = document.querySelector('.menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            const isOpen = mobileMenu.classList.toggle('open');
+            menuBtn.setAttribute('aria-expanded', isOpen);
+            menuBtn.textContent = isOpen ? '✕' : '☰';
+        });
+        mobileMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('open');
+                menuBtn.setAttribute('aria-expanded', 'false');
+                menuBtn.textContent = '☰';
+            });
+        });
+    </script>
+</body>
+</html>
