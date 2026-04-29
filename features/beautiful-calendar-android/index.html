@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Calendar for Android - KashCal</title>
+    <meta name="description" content="A modern, minimalist-leaning Android calendar with Material You theming, six views, a 92-color wheel, and no ads. Free and open source.">
+    <meta name="author" content="OneKash Labs">
+    <meta name="theme-color" content="#F5F0E8">
+
+    <link rel="canonical" href="https://kashcal.onekash.org/features/beautiful-calendar-android/">
+
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://kashcal.onekash.org/features/beautiful-calendar-android/">
+    <meta property="og:title" content="Beautiful Calendar for Android - KashCal">
+    <meta property="og:description" content="Modern, Material You, six views, a 92-color wheel. Free and open source.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/KashCal/KashCal/main/fastlane/metadata/android/en-US/images/phoneScreenshots/Navigation-to-different-month-year.png">
+    <meta property="og:site_name" content="KashCal">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Beautiful Calendar for Android - KashCal">
+    <meta name="twitter:description" content="Modern, Material You, six views, a 92-color wheel. Free and open source.">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/KashCal/KashCal/main/fastlane/metadata/android/en-US/images/phoneScreenshots/Navigation-to-different-month-year.png">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "KashCal",
+                "item": "https://kashcal.onekash.org/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Features",
+                "item": "https://kashcal.onekash.org/features/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Beautiful Calendar for Android",
+                "item": "https://kashcal.onekash.org/features/beautiful-calendar-android/"
+            }
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Does KashCal support Material You?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. On Android 12 and newer, KashCal picks up colors from your wallpaper using Material You dynamic color. Widgets match. Light and dark follow your system setting."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How many colors can I use for events?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Twelve curated colors in the primary grid for quick picks, plus 92 named CSS3 colors on a hue wheel when you want something specific. Colors work per-event, not just per-calendar, and round-trip through CalDAV so iPhone and iPad see the same colors you chose."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Does KashCal have a dark mode?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, and it is designed dark, not inverted colors. KashCal follows your Android system light/dark setting by default."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is KashCal free?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. KashCal is free, open source, and has no ads, trackers, or accounts. It is distributed through F-Droid, IzzyOnDroid, and Obtainium."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
+    <link rel="apple-touch-icon" href="/icon-192.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"></noscript>
+    <style>
+        :root {
+            --bg: #F5F0E8;
+            --bg-alt: #E8E1D5;
+            --bg-dark: #1A1814;
+            --text: #1A1814;
+            --text-secondary: #5C554A;
+            --text-muted: #857F74;
+            --border: #D4CCC2;
+            --accent: #1B6B5F;
+            --accent-hover: #145A50;
+            --accent-warm: #935A32;
+            --accent-light: #3DA99A;
+            --text-light: #FAF8F4;
+            --text-muted-light: #948E83;
+            --shadow: 0 2px 20px rgba(26, 24, 20, 0.10);
+            --shadow-hover: 0 8px 36px rgba(26, 24, 20, 0.16);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent), var(--accent-warm));
+            z-index: 200;
+        }
+
+        body::after {
+            content: '';
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            opacity: 0.03;
+            pointer-events: none;
+            z-index: 1000;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+            background-repeat: repeat;
+            background-size: 256px 256px;
+        }
+
+        nav {
+            position: fixed;
+            top: 3px; left: 0; right: 0;
+            padding: 1rem 2rem;
+            background: rgba(245, 240, 232, 0.92);
+            -webkit-backdrop-filter: blur(16px);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border);
+            z-index: 100;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 1.5rem;
+            color: var(--text);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .logo-icon { width: 32px; height: 32px; border-radius: 8px; }
+
+        .nav-links { display: flex; gap: 2rem; align-items: center; }
+
+        .nav-link {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .nav-link:hover { color: var(--text); }
+
+        .menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--text);
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 0.5rem;
+        }
+
+        .mobile-menu {
+            display: none;
+            position: fixed;
+            top: 63px; left: 0; right: 0;
+            background: rgba(245, 240, 232, 0.98);
+            -webkit-backdrop-filter: blur(16px);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border);
+            padding: 1rem;
+            z-index: 99;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        .mobile-menu.open { display: flex; }
+
+        .mobile-menu a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            padding: 0.75rem 1rem;
+            border-radius: 8px;
+            transition: all 0.2s;
+        }
+
+        .mobile-menu a:hover {
+            color: var(--text);
+            background: var(--bg-alt);
+        }
+
+        .page {
+            flex: 1;
+            max-width: 820px;
+            margin: 0 auto;
+            padding: 7rem 1.75rem 4rem;
+            width: 100%;
+        }
+
+        .crumbs {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-bottom: 1.25rem;
+        }
+
+        .crumbs a {
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .crumbs a:hover { color: var(--accent); }
+
+        .crumbs span { margin: 0 0.4rem; }
+
+        .tag {
+            display: inline-block;
+            font-size: 0.72rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--accent-warm);
+            font-weight: 700;
+            margin-bottom: 0.85rem;
+        }
+
+        h1 {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 2.75rem;
+            font-weight: 700;
+            line-height: 1.1;
+            margin-bottom: 0.85rem;
+        }
+
+        .lede {
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            max-width: 580px;
+        }
+
+        .screenshot-wrap {
+            margin: 2rem 0 2.5rem;
+            text-align: center;
+        }
+
+        .screenshot-wrap img {
+            max-width: 280px;
+            width: 100%;
+            height: auto;
+            border-radius: 18px;
+            border: 1px solid var(--border);
+            box-shadow: 0 14px 40px rgba(45, 42, 38, 0.12), 0 4px 14px rgba(45, 42, 38, 0.05);
+        }
+
+        h2 {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin: 2.75rem 0 0.85rem;
+            color: var(--text);
+            padding-left: 0.85rem;
+            border-left: 3px solid var(--accent);
+        }
+
+        p {
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+            font-size: 1rem;
+        }
+
+        strong { color: var(--text); font-weight: 600; }
+
+        .page a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .page a:hover {
+            color: var(--accent-hover);
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        .trio {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.25rem;
+            margin: 1.5rem 0 2rem;
+        }
+
+        .trio figure {
+            margin: 0;
+            text-align: center;
+        }
+
+        .trio img {
+            width: 100%;
+            height: auto;
+            border-radius: 14px;
+            border: 1px solid var(--border);
+            box-shadow: 0 8px 28px rgba(45, 42, 38, 0.10), 0 2px 8px rgba(45, 42, 38, 0.04);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .trio figure:hover img {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .trio figcaption {
+            margin-top: 0.65rem;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            font-style: italic;
+        }
+
+        @media (max-width: 700px) {
+            .trio {
+                grid-template-columns: 1fr;
+                max-width: 280px;
+                margin: 1.5rem auto 2rem;
+            }
+            .trio figure:hover img { transform: none; }
+        }
+
+        .views-grid {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            column-gap: 1.25rem;
+            row-gap: 0.6rem;
+            margin: 1rem 0 1.5rem;
+            font-size: 0.98rem;
+        }
+
+        .views-grid dt {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        .views-grid dd {
+            color: var(--text-secondary);
+            margin: 0;
+        }
+
+        @media (max-width: 500px) {
+            .views-grid {
+                grid-template-columns: 1fr;
+                row-gap: 0.15rem;
+            }
+            .views-grid dd {
+                margin-bottom: 0.5rem;
+            }
+        }
+
+        .pullquote-row {
+            display: grid;
+            grid-template-columns: 1fr 200px;
+            gap: 2rem;
+            align-items: center;
+            margin: 1.5rem 0 1.5rem;
+        }
+
+        .pullquote {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 1.45rem;
+            font-weight: 700;
+            line-height: 1.3;
+            color: var(--text);
+            padding: 0.25rem 0 0.25rem 1.25rem;
+            border-left: 3px solid var(--accent-warm);
+        }
+
+        .pullquote-row .pullquote-shot {
+            width: 100%;
+            height: auto;
+            border-radius: 16px;
+            border: 1px solid var(--border);
+            box-shadow: 0 8px 28px rgba(45, 42, 38, 0.10), 0 2px 8px rgba(45, 42, 38, 0.04);
+        }
+
+        @media (max-width: 640px) {
+            .pullquote-row {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+            .pullquote {
+                font-size: 1.3rem;
+            }
+            .pullquote-row .pullquote-shot {
+                max-width: 220px;
+                margin: 0 auto;
+                display: block;
+            }
+        }
+
+        .check-list {
+            list-style: none;
+            margin: 0.5rem 0 1.25rem;
+            padding: 0;
+        }
+
+        .check-list li {
+            color: var(--text-secondary);
+            padding: 0.35rem 0 0.35rem 1.5rem;
+            position: relative;
+            font-size: 0.98rem;
+        }
+
+        .check-list li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0.7rem;
+            width: 8px;
+            height: 4px;
+            border-left: 2px solid var(--accent);
+            border-bottom: 2px solid var(--accent);
+            transform: rotate(-45deg);
+        }
+
+        .close {
+            margin: 2.5rem 0 1rem;
+            padding: 1.5rem 1.75rem;
+            background: rgba(147, 90, 50, 0.05);
+            border: 1px solid rgba(147, 90, 50, 0.15);
+            border-radius: 14px;
+        }
+
+        .close p {
+            margin: 0;
+            font-size: 0.98rem;
+            color: var(--text-secondary);
+        }
+
+        .close strong {
+            color: var(--accent-warm);
+        }
+
+        .download {
+            margin: 2rem 0 1rem;
+            padding: 1.5rem 1.5rem 1.75rem;
+            background: var(--bg-alt);
+            border-radius: 14px;
+        }
+
+        .download h3 {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.85rem;
+            color: var(--text);
+        }
+
+        .download-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.65rem;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .download-badges a {
+            transition: transform 0.25s ease;
+        }
+
+        .download-badges a:hover {
+            transform: scale(1.04) translateY(-2px);
+        }
+
+        .download-badges img {
+            height: 48px;
+            max-width: 140px;
+            object-fit: contain;
+        }
+
+        .download-apk {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 0.75rem;
+            margin-bottom: 0;
+        }
+
+        footer {
+            padding: 3rem 2rem;
+            background: linear-gradient(180deg, #201C17 0%, var(--bg-dark) 100%);
+            text-align: center;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: var(--text-muted-light);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+
+        .footer-links a:hover { color: var(--text-light); }
+
+        .footer-links a[href^="http"]::after {
+            content: " \2197";
+            font-size: 0.7em;
+            opacity: 0.7;
+        }
+
+        .footer-note {
+            color: var(--text-muted-light);
+            font-size: 0.85rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-brand { color: var(--text-muted-light); font-size: 0.8rem; }
+
+        .footer-brand a {
+            color: var(--text-light);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .footer-brand a:hover { color: var(--accent-light); }
+
+        a:focus-visible, button:focus-visible {
+            outline: 2px solid var(--accent);
+            outline-offset: 3px;
+        }
+
+        @media (max-width: 768px) {
+            nav { padding: 1rem 1.5rem; }
+            .nav-links { display: none; }
+            .menu-btn { display: block; }
+            .page { padding: 6.5rem 1.25rem 3rem; }
+            h1 { font-size: 2.15rem; }
+            .lede { font-size: 1.05rem; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            html { scroll-behavior: auto; }
+            *, *::before, *::after { transition: none !important; }
+            body::after { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/" class="logo">
+            <img src="/favicon.png" alt="KashCal" class="logo-icon">
+            KashCal
+        </a>
+        <div class="nav-links">
+            <a href="https://f-droid.org/en/packages/org.onekash.kashcal/" class="nav-link">Get KashCal</a>
+            <a href="/privacy/" class="nav-link">Privacy</a>
+            <a href="https://github.com/KashCal/KashCal" class="nav-link">Source</a>
+            <a href="/donate/" class="nav-link">Donate</a>
+        </div>
+        <button class="menu-btn" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+    </nav>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="https://f-droid.org/en/packages/org.onekash.kashcal/">Get KashCal</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="https://github.com/KashCal/KashCal">Source</a>
+        <a href="/donate/">Donate</a>
+    </div>
+
+    <main class="page">
+        <p class="crumbs">
+            <a href="/">Home</a><span>&rsaquo;</span>Features<span>&rsaquo;</span>Beautiful
+        </p>
+
+        <span class="tag">A modest claim</span>
+        <h1>The best-looking calendar on Android</h1>
+        <p class="lede">Yes, we said it. Scroll down and see if you still disagree.</p>
+
+        <div class="screenshot-wrap">
+            <img src="https://raw.githubusercontent.com/KashCal/KashCal/main/fastlane/metadata/android/en-US/images/phoneScreenshots/Navigation-to-different-month-year.png"
+                 alt="Navigating months and years in KashCal"
+                 loading="lazy">
+        </div>
+
+        <h2>Modern, without the air quotes</h2>
+        <p>KashCal is built on Material 3 with full <strong>Material You</strong> support, so on Android 12 and newer it picks up the colors from your wallpaper and wears them without looking like it's trying. The app runs edge-to-edge instead of boxed in by status bars. Dark mode is designed dark, not inverted light. Scroll, pinch, swipe, and the whole thing moves the way your phone does, not like a port of something older.</p>
+
+        <div class="trio">
+            <figure>
+                <img src="https://raw.githubusercontent.com/KashCal/KashCal/main/fastlane/metadata/android/en-US/images/phoneScreenshots/Insights.png"
+                     alt="Time insights in KashCal"
+                     loading="lazy">
+                <figcaption>Even the analytics look intentional</figcaption>
+            </figure>
+            <figure>
+                <img src="https://raw.githubusercontent.com/KashCal/KashCal/main/fastlane/metadata/android/en-US/images/phoneScreenshots/NewEvent.png"
+                     alt="New event form in KashCal"
+                     loading="lazy">
+                <figcaption>An event form that isn't a tax return</figcaption>
+            </figure>
+            <figure>
+                <img src="https://raw.githubusercontent.com/KashCal/KashCal/main/fastlane/metadata/android/en-US/images/phoneScreenshots/ViewOptions.png"
+                     alt="View options and settings in KashCal"
+                     loading="lazy">
+                <figcaption>Settings that don't need a guide</figcaption>
+            </figure>
+        </div>
+
+        <h2>Six views, not six versions of the same view</h2>
+        <p>Different days want different layouts. KashCal ships six, each designed for the job it's actually for.</p>
+        <dl class="views-grid">
+            <dt>Agenda</dt><dd>Today as a readable list. Good for mornings.</dd>
+            <dt>3-day</dt><dd>What's coming, at a glance.</dd>
+            <dt>Week</dt><dd>Pinch to zoom the hours. Drag an event to reschedule it.</dd>
+            <dt>Month</dt><dd>The classic grid, still legible on a phone.</dd>
+            <dt>Month-full</dt><dd>When month needs more breathing room.</dd>
+            <dt>Year</dt><dd>Twelve months on one screen. Tap any day to jump.</dd>
+        </dl>
+
+        <h2>Colors</h2>
+        <div class="pullquote-row">
+            <p class="pullquote">Couldn't pick a color? We couldn't either. So we added all 92.</p>
+            <img class="pullquote-shot"
+                 src="https://raw.githubusercontent.com/KashCal/KashCal/main/fastlane/metadata/android/en-US/images/phoneScreenshots/Event-Color-Picker.png"
+                 alt="92-color wheel picker in KashCal"
+                 loading="lazy">
+        </div>
+        <p>Twelve curated colors in the primary grid for quick picks, plus 92 named CSS3 colors on a hue wheel for when the mood is specifically <em>dodgerblue</em>. Colors are per-event, not just per-calendar, and they round-trip through CalDAV so your iPhone or iPad shows the same colors you chose on Android.</p>
+
+        <h2>Little things</h2>
+        <ul class="check-list">
+            <li>Pinch-to-zoom the week view to stretch the hours</li>
+            <li>Drag an event to a new time or day</li>
+            <li>Pull down on any view to refresh</li>
+            <li>Widgets that match your system palette</li>
+            <li>Auto-emoji for event titles (type "lunch," get a little fork)</li>
+            <li>Speaks 67 languages</li>
+        </ul>
+
+        <div class="close">
+            <p>Beauty is subjective, so we can't in good faith claim best in the universe. <strong>Best-looking one on your Android phone</strong> is a claim we're willing to stand behind. Free, open source, no ads, no trackers, no account.</p>
+        </div>
+
+        <div class="download">
+            <h3>Try it</h3>
+            <div class="download-badges">
+                <a href="https://f-droid.org/en/packages/org.onekash.kashcal/" aria-label="Get it on F-Droid">
+                    <img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on F-Droid">
+                </a>
+                <a href="https://apt.izzysoft.de/fdroid/index/apk/org.onekash.kashcal" aria-label="Get it on IzzyOnDroid">
+                    <img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" alt="Get it on IzzyOnDroid">
+                </a>
+                <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/%7B%22id%22:%22org.onekash.kashcal%22,%22url%22:%22https://github.com/KashCal/KashCal%22,%22author%22:%22KashCal%22,%22name%22:%22KashCal%22,%22additionalSettings%22:%22%7B%5C%22about%5C%22:%5C%22All%20your%20calendars%20in%20one%20private%20app%5C%22,%5C%22appAuthor%5C%22:%5C%22KashCal%5C%22%7D%22%7D" aria-label="Get it with Obtainium">
+                    <img src="https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/graphics/badge_obtainium.png" alt="Get it with Obtainium">
+                </a>
+            </div>
+            <p class="download-apk">or <a href="https://github.com/KashCal/KashCal/releases/latest">download the APK</a> directly</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="/">Home</a>
+            <a href="/privacy/">Privacy</a>
+            <a href="https://github.com/KashCal/KashCal/issues">Share Feedback</a>
+        </div>
+        <p class="footer-note">
+            &copy; <span id="year"></span> KashCal
+        </p>
+        <p class="footer-brand">
+            Built with love in Austin by <a href="https://onekash.org">OneKash Labs</a>
+        </p>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        const menuBtn = document.querySelector('.menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            const isOpen = mobileMenu.classList.toggle('open');
+            menuBtn.setAttribute('aria-expanded', isOpen);
+            menuBtn.textContent = isOpen ? '✕' : '☰';
+        });
+        mobileMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('open');
+                menuBtn.setAttribute('aria-expanded', 'false');
+                menuBtn.textContent = '☰';
+            });
+        });
+    </script>
+</body>
+</html>
