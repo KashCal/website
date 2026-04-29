@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iCloud Calendar on Android - KashCal</title>
+    <meta name="description" content="Sync iCloud calendars to Android with KashCal. Two-way sync with iPhone and iPad, shared family calendars included, no middleman server. Open source and free.">
+    <meta name="author" content="OneKash Labs">
+    <meta name="theme-color" content="#F5F0E8">
+
+    <link rel="canonical" href="https://kashcal.onekash.org/features/icloud-calendar-android/">
+
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://kashcal.onekash.org/features/icloud-calendar-android/">
+    <meta property="og:title" content="iCloud Calendar on Android - KashCal">
+    <meta property="og:description" content="Two-way sync between iCloud and Android. Shared family calendars, Material You theming, no middleman.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/KashCal/KashCal/main/fastlane/metadata/android/en-US/images/phoneScreenshots/Sync-with-iCloud.png">
+    <meta property="og:site_name" content="KashCal">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="iCloud Calendar on Android - KashCal">
+    <meta name="twitter:description" content="Two-way sync between iCloud and Android. Shared family calendars, Material You theming, no middleman.">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/KashCal/KashCal/main/fastlane/metadata/android/en-US/images/phoneScreenshots/Sync-with-iCloud.png">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "KashCal",
+                "item": "https://kashcal.onekash.org/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Features",
+                "item": "https://kashcal.onekash.org/features/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "iCloud Calendar on Android",
+                "item": "https://kashcal.onekash.org/features/icloud-calendar-android/"
+            }
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Does KashCal sync iCloud both ways?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Events you add or edit on Android push to iCloud right away, and iCloud pushes those changes on to iPhone and iPad. Inbound changes from Apple devices arrive in the background once an hour by default, and immediately when you open the app or pull down to refresh."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Do shared family calendars work?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Shared calendars and Family Sharing calendars show up alongside your personal ones, and you can add or edit events on them from Android."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What do I need to connect iCloud?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Your Apple ID and an app-specific password from account.apple.com. Your regular Apple ID password won't work because Apple requires app-specific passwords for third-party apps. It takes about 30 seconds to create one."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is KashCal free?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. KashCal is free, open source, and has no ads, trackers, or accounts. The source is on GitHub and the app is distributed through F-Droid, IzzyOnDroid, and Obtainium."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Does KashCal send my calendar data to its own servers?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. There are no KashCal servers. Your phone talks to iCloud directly over HTTPS. Credentials are stored encrypted in the Android Keystore and excluded from device backups."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
+    <link rel="apple-touch-icon" href="/icon-192.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"></noscript>
+    <style>
+        :root {
+            --bg: #F5F0E8;
+            --bg-alt: #E8E1D5;
+            --bg-dark: #1A1814;
+            --text: #1A1814;
+            --text-secondary: #5C554A;
+            --text-muted: #857F74;
+            --border: #D4CCC2;
+            --accent: #1B6B5F;
+            --accent-hover: #145A50;
+            --accent-warm: #935A32;
+            --accent-light: #3DA99A;
+            --text-light: #FAF8F4;
+            --text-muted-light: #948E83;
+            --shadow: 0 2px 20px rgba(26, 24, 20, 0.10);
+            --shadow-hover: 0 8px 36px rgba(26, 24, 20, 0.16);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent), var(--accent-warm));
+            z-index: 200;
+        }
+
+        body::after {
+            content: '';
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            opacity: 0.03;
+            pointer-events: none;
+            z-index: 1000;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+            background-repeat: repeat;
+            background-size: 256px 256px;
+        }
+
+        nav {
+            position: fixed;
+            top: 3px; left: 0; right: 0;
+            padding: 1rem 2rem;
+            background: rgba(245, 240, 232, 0.92);
+            -webkit-backdrop-filter: blur(16px);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border);
+            z-index: 100;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 1.5rem;
+            color: var(--text);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .logo-icon { width: 32px; height: 32px; border-radius: 8px; }
+
+        .nav-links { display: flex; gap: 2rem; align-items: center; }
+
+        .nav-link {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .nav-link:hover { color: var(--text); }
+
+        .menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--text);
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 0.5rem;
+        }
+
+        .mobile-menu {
+            display: none;
+            position: fixed;
+            top: 63px; left: 0; right: 0;
+            background: rgba(245, 240, 232, 0.98);
+            -webkit-backdrop-filter: blur(16px);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border);
+            padding: 1rem;
+            z-index: 99;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        .mobile-menu.open { display: flex; }
+
+        .mobile-menu a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            padding: 0.75rem 1rem;
+            border-radius: 8px;
+            transition: all 0.2s;
+        }
+
+        .mobile-menu a:hover {
+            color: var(--text);
+            background: var(--bg-alt);
+        }
+
+        .page {
+            flex: 1;
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 7rem 1.75rem 4rem;
+            width: 100%;
+        }
+
+        .crumbs {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-bottom: 1.25rem;
+        }
+
+        .crumbs a {
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .crumbs a:hover { color: var(--accent); }
+
+        .crumbs span { margin: 0 0.4rem; }
+
+        h1 {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            line-height: 1.15;
+            margin-bottom: 0.75rem;
+        }
+
+        .lede {
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+        }
+
+        .screenshot-wrap {
+            margin: 2rem 0 2.5rem;
+            text-align: center;
+        }
+
+        .screenshot-wrap img {
+            max-width: 280px;
+            width: 100%;
+            height: auto;
+            border-radius: 18px;
+            border: 1px solid var(--border);
+            box-shadow: 0 14px 40px rgba(45, 42, 38, 0.12), 0 4px 14px rgba(45, 42, 38, 0.05);
+        }
+
+        .setup-row {
+            display: grid;
+            grid-template-columns: 1fr 220px;
+            gap: 2rem;
+            align-items: start;
+            margin-bottom: 1.5rem;
+        }
+
+        .setup-row .setup-shot {
+            width: 100%;
+            height: auto;
+            border-radius: 16px;
+            border: 1px solid var(--border);
+            box-shadow: 0 8px 28px rgba(45, 42, 38, 0.10), 0 2px 8px rgba(45, 42, 38, 0.04);
+        }
+
+        @media (max-width: 640px) {
+            .setup-row {
+                grid-template-columns: 1fr;
+            }
+            .setup-row .setup-shot {
+                max-width: 240px;
+                margin: 0 auto;
+                display: block;
+            }
+        }
+
+        h2 {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin: 2.25rem 0 0.75rem;
+            color: var(--text);
+            padding-left: 0.85rem;
+            border-left: 3px solid var(--accent);
+        }
+
+        p {
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+            font-size: 1rem;
+        }
+
+        strong { color: var(--text); font-weight: 600; }
+
+        .page a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .page a:hover {
+            color: var(--accent-hover);
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        .check-list {
+            list-style: none;
+            margin: 0.5rem 0 1.25rem;
+            padding: 0;
+        }
+
+        .check-list li {
+            color: var(--text-secondary);
+            padding: 0.35rem 0 0.35rem 1.5rem;
+            position: relative;
+            font-size: 0.98rem;
+        }
+
+        .check-list li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0.7rem;
+            width: 8px;
+            height: 4px;
+            border-left: 2px solid var(--accent);
+            border-bottom: 2px solid var(--accent);
+            transform: rotate(-45deg);
+        }
+
+        .steps {
+            counter-reset: step;
+            list-style: none;
+            margin: 0.5rem 0 1.5rem;
+            padding: 0;
+        }
+
+        .steps li {
+            counter-increment: step;
+            padding: 0.4rem 0 0.4rem 2.2rem;
+            position: relative;
+            color: var(--text-secondary);
+            font-size: 0.98rem;
+        }
+
+        .steps li::before {
+            content: counter(step);
+            position: absolute;
+            left: 0;
+            top: 0.4rem;
+            width: 1.5rem;
+            height: 1.5rem;
+            background: rgba(27, 107, 95, 0.1);
+            color: var(--accent);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8rem;
+            font-weight: 700;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        .callout {
+            background: rgba(27, 107, 95, 0.05);
+            border: 1px solid rgba(27, 107, 95, 0.15);
+            border-radius: 10px;
+            padding: 1rem 1.25rem;
+            margin: 1rem 0 1.5rem;
+            font-size: 0.93rem;
+        }
+
+        .callout p { margin: 0; }
+
+        .honest {
+            background: rgba(147, 90, 50, 0.05);
+            border: 1px solid rgba(147, 90, 50, 0.15);
+        }
+
+        .honest strong { color: var(--accent-warm); }
+
+        .download {
+            margin: 2.5rem 0 1rem;
+            padding: 1.5rem 1.5rem 1.75rem;
+            background: var(--bg-alt);
+            border-radius: 14px;
+        }
+
+        .download h3 {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.85rem;
+            color: var(--text);
+        }
+
+        .download-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.65rem;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .download-badges a {
+            transition: transform 0.25s ease;
+        }
+
+        .download-badges a:hover {
+            transform: scale(1.04) translateY(-2px);
+        }
+
+        .download-badges img {
+            height: 48px;
+            max-width: 140px;
+            object-fit: contain;
+        }
+
+        .download-apk {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 0.75rem;
+            margin-bottom: 0;
+        }
+
+        .related {
+            margin-top: 2.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border);
+        }
+
+        .related h3 {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 1.05rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--text);
+        }
+
+        .related p {
+            font-size: 0.92rem;
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            padding: 3rem 2rem;
+            background: linear-gradient(180deg, #201C17 0%, var(--bg-dark) 100%);
+            text-align: center;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: var(--text-muted-light);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+
+        .footer-links a:hover { color: var(--text-light); }
+
+        .footer-links a[href^="http"]::after {
+            content: " \2197";
+            font-size: 0.7em;
+            opacity: 0.7;
+        }
+
+        .footer-note {
+            color: var(--text-muted-light);
+            font-size: 0.85rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-brand { color: var(--text-muted-light); font-size: 0.8rem; }
+
+        .footer-brand a {
+            color: var(--text-light);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .footer-brand a:hover { color: var(--accent-light); }
+
+        a:focus-visible, button:focus-visible {
+            outline: 2px solid var(--accent);
+            outline-offset: 3px;
+        }
+
+        @media (max-width: 768px) {
+            nav { padding: 1rem 1.5rem; }
+            .nav-links { display: none; }
+            .menu-btn { display: block; }
+            .page { padding: 6.5rem 1.25rem 3rem; }
+            h1 { font-size: 2rem; }
+            .lede { font-size: 1.05rem; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            html { scroll-behavior: auto; }
+            *, *::before, *::after { transition: none !important; }
+            body::after { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/" class="logo">
+            <img src="/favicon.png" alt="KashCal" class="logo-icon">
+            KashCal
+        </a>
+        <div class="nav-links">
+            <a href="https://f-droid.org/en/packages/org.onekash.kashcal/" class="nav-link">Get KashCal</a>
+            <a href="/privacy/" class="nav-link">Privacy</a>
+            <a href="https://github.com/KashCal/KashCal" class="nav-link">Source</a>
+            <a href="/donate/" class="nav-link">Donate</a>
+        </div>
+        <button class="menu-btn" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+    </nav>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="https://f-droid.org/en/packages/org.onekash.kashcal/">Get KashCal</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="https://github.com/KashCal/KashCal">Source</a>
+        <a href="/donate/">Donate</a>
+    </div>
+
+    <main class="page">
+        <p class="crumbs">
+            <a href="/">Home</a><span>&rsaquo;</span>Features<span>&rsaquo;</span>iCloud
+        </p>
+
+        <h1>iCloud calendar on Android</h1>
+        <p class="lede">Switched to Android but your family is still on Apple? KashCal syncs your iCloud calendars directly to your Android phone. Both directions. Free, open source, no workaround needed.</p>
+
+        <div class="screenshot-wrap">
+            <img src="https://raw.githubusercontent.com/KashCal/KashCal/main/fastlane/metadata/android/en-US/images/phoneScreenshots/Sync-with-iCloud.png"
+                 alt="iCloud calendars showing in KashCal on Android"
+                 loading="lazy">
+        </div>
+
+        <h2>What syncs</h2>
+        <p>Events you add or edit on Android push to iCloud right away, which means your partner's iPhone or iPad picks them up within seconds. Inbound changes from Apple devices arrive in the background once an hour by default, and immediately when you open KashCal or pull down to refresh.</p>
+
+        <ul class="check-list">
+            <li>Personal calendars</li>
+            <li>Shared and family calendars</li>
+            <li>Calendar colors</li>
+            <li>Event titles, times, locations, and notes</li>
+            <li>Recurring events, including one-off changes to a single occurrence</li>
+            <li>Reminders and alerts</li>
+            <li>All-day and multi-day events</li>
+            <li>Time zones</li>
+        </ul>
+
+        <div class="callout honest">
+            <p><strong>Not yet:</strong> meeting invites, attendees, and responding to invitations. If you rely on being invited to events with RSVP buttons, this isn't there yet. Everything else on a typical family or personal calendar works.</p>
+        </div>
+
+        <h2>What you need</h2>
+        <div class="setup-row">
+            <div>
+                <p>Apple requires an <strong>app-specific password</strong> to let third-party apps reach iCloud. Your regular Apple ID password won't work. Getting one is a 30-second detour:</p>
+                <ol class="steps">
+                    <li>Sign in to <a href="https://account.apple.com" rel="noopener">account.apple.com</a></li>
+                    <li>Open <a href="https://support.apple.com/102654" rel="noopener">App-Specific Passwords</a> and create one named "KashCal"</li>
+                    <li>Copy the 16-character code</li>
+                    <li>In KashCal, tap Add Account, pick iCloud, and paste the code with your Apple ID</li>
+                </ol>
+                <p>KashCal then finds all your calendars and asks which ones to show. That's the whole setup.</p>
+            </div>
+            <img class="setup-shot"
+                 src="https://raw.githubusercontent.com/KashCal/KashCal/main/fastlane/metadata/android/en-US/images/phoneScreenshots/Apple-Calendar-Connect.png"
+                 alt="Apple ID sign-in screen in KashCal"
+                 loading="lazy">
+        </div>
+
+        <h2>Material You</h2>
+        <p>KashCal picks up the colors from your Android wallpaper on Android 12 and newer, so the app feels at home on your phone instead of bolted on. Widgets pick up the same palette. Light and dark follow your system setting.</p>
+
+        <h2>No middleman</h2>
+        <p>Your phone talks to iCloud directly over HTTPS. There's no KashCal server in between, because there's no KashCal server at all. Credentials are stored encrypted in the Android Keystore and excluded from device backups. See the <a href="/privacy/">privacy policy</a> for details.</p>
+
+        <div class="download">
+            <h3>Get KashCal</h3>
+            <div class="download-badges">
+                <a href="https://f-droid.org/en/packages/org.onekash.kashcal/" aria-label="Get it on F-Droid">
+                    <img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on F-Droid">
+                </a>
+                <a href="https://apt.izzysoft.de/fdroid/index/apk/org.onekash.kashcal" aria-label="Get it on IzzyOnDroid">
+                    <img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" alt="Get it on IzzyOnDroid">
+                </a>
+                <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/%7B%22id%22:%22org.onekash.kashcal%22,%22url%22:%22https://github.com/KashCal/KashCal%22,%22author%22:%22KashCal%22,%22name%22:%22KashCal%22,%22additionalSettings%22:%22%7B%5C%22about%5C%22:%5C%22All%20your%20calendars%20in%20one%20private%20app%5C%22,%5C%22appAuthor%5C%22:%5C%22KashCal%5C%22%7D%22%7D" aria-label="Get it with Obtainium">
+                    <img src="https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/graphics/badge_obtainium.png" alt="Get it with Obtainium">
+                </a>
+            </div>
+            <p class="download-apk">or <a href="https://github.com/KashCal/KashCal/releases/latest">download the APK</a> directly</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="/">Home</a>
+            <a href="/privacy/">Privacy</a>
+            <a href="https://github.com/KashCal/KashCal/issues">Share Feedback</a>
+        </div>
+        <p class="footer-note">
+            &copy; <span id="year"></span> KashCal
+        </p>
+        <p class="footer-brand">
+            Built with love in Austin by <a href="https://onekash.org">OneKash Labs</a>
+        </p>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        const menuBtn = document.querySelector('.menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            const isOpen = mobileMenu.classList.toggle('open');
+            menuBtn.setAttribute('aria-expanded', isOpen);
+            menuBtn.textContent = isOpen ? '✕' : '☰';
+        });
+        mobileMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('open');
+                menuBtn.setAttribute('aria-expanded', 'false');
+                menuBtn.textContent = '☰';
+            });
+        });
+    </script>
+</body>
+</html>
