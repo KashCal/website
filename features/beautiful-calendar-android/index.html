@@ -506,6 +506,65 @@
             color: var(--accent-warm);
         }
 
+        .related {
+            margin: 2.5rem 0 1rem;
+            padding-top: 1.75rem;
+            border-top: 1px solid var(--border);
+        }
+
+        .related-label {
+            font-size: 0.72rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .related-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+
+        .related-card {
+            display: block;
+            padding: 1rem 1.25rem;
+            background: rgba(27, 107, 95, 0.04);
+            border: 1px solid rgba(27, 107, 95, 0.12);
+            border-radius: 10px;
+            text-decoration: none;
+            color: inherit;
+            transition: background 0.2s, border-color 0.2s, transform 0.2s;
+        }
+
+        .related-card:hover {
+            background: rgba(27, 107, 95, 0.07);
+            border-color: var(--accent);
+            transform: translateY(-2px);
+            text-decoration: none;
+        }
+
+        .related-card-title {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 0.25rem;
+        }
+
+        .related-card-desc {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+        }
+
+        @media (max-width: 560px) {
+            .related-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
         .download {
             margin: 2rem 0 1rem;
             padding: 1.5rem 1.5rem 1.75rem;
@@ -707,11 +766,27 @@
             <li>Widgets that match your system palette</li>
             <li>Auto-emoji for event titles (type "lunch," get a little fork)</li>
             <li>Speaks 67 languages</li>
+            <li>Syncs with <a href="/features/icloud-calendar-android/">iCloud</a>, Nextcloud, Fastmail, Outlook, and others</li>
+            <li>Shows you <a href="/features/calendar-insights-android/">where your time goes</a>, on-device</li>
         </ul>
 
         <div class="close">
             <p>Beauty is subjective, so we can't in good faith claim best in the universe. <strong>Best-looking one on your Android phone</strong> is a claim we're willing to stand behind. Free, open source, no ads, no trackers, no account.</p>
         </div>
+
+        <section class="related" aria-label="More features">
+            <p class="related-label">Also in KashCal</p>
+            <div class="related-grid">
+                <a class="related-card" href="/features/icloud-calendar-android/">
+                    <div class="related-card-title">iCloud calendar on Android</div>
+                    <div class="related-card-desc">Two-way sync with iPhone and iPad. Shared family calendars too.</div>
+                </a>
+                <a class="related-card" href="/features/calendar-insights-android/">
+                    <div class="related-card-title">See where your time goes</div>
+                    <div class="related-card-desc">Calendar insights, computed on your phone. Free, no work account.</div>
+                </a>
+            </div>
+        </section>
 
         <div class="download">
             <h3>Try it</h3>

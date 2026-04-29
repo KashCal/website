@@ -495,22 +495,62 @@
         }
 
         .related {
-            margin-top: 2.5rem;
-            padding-top: 1.5rem;
+            margin: 2.5rem 0 1rem;
+            padding-top: 1.75rem;
             border-top: 1px solid var(--border);
         }
 
-        .related h3 {
-            font-family: 'Lora', Georgia, 'Times New Roman', serif;
-            font-size: 1.05rem;
-            font-weight: 600;
-            margin-bottom: 0.5rem;
-            color: var(--text);
+        .related-label {
+            font-size: 0.72rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            font-weight: 700;
+            margin-bottom: 1rem;
         }
 
-        .related p {
-            font-size: 0.92rem;
-            margin-bottom: 0.5rem;
+        .related-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+
+        .related-card {
+            display: block;
+            padding: 1rem 1.25rem;
+            background: rgba(27, 107, 95, 0.04);
+            border: 1px solid rgba(27, 107, 95, 0.12);
+            border-radius: 10px;
+            text-decoration: none;
+            color: inherit;
+            transition: background 0.2s, border-color 0.2s, transform 0.2s;
+        }
+
+        .related-card:hover {
+            background: rgba(27, 107, 95, 0.07);
+            border-color: var(--accent);
+            transform: translateY(-2px);
+            text-decoration: none;
+        }
+
+        .related-card-title {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 0.25rem;
+        }
+
+        .related-card-desc {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+        }
+
+        @media (max-width: 560px) {
+            .related-grid {
+                grid-template-columns: 1fr;
+            }
         }
 
         footer {
@@ -653,10 +693,24 @@
         </div>
 
         <h2>Material You</h2>
-        <p>KashCal picks up the colors from your Android wallpaper on Android 12 and newer, so the app feels at home on your phone instead of bolted on. Widgets pick up the same palette. Light and dark follow your system setting.</p>
+        <p>KashCal picks up the <a href="/features/beautiful-calendar-android/">colors from your Android wallpaper</a> on Android 12 and newer, so the app feels at home on your phone instead of bolted on. Widgets pick up the same palette. Light and dark follow your system setting.</p>
 
         <h2>No middleman</h2>
         <p>Your phone talks to iCloud directly over HTTPS. There's no KashCal server in between, because there's no KashCal server at all. Credentials are stored encrypted in the Android Keystore and excluded from device backups. See the <a href="/privacy/">privacy policy</a> for details.</p>
+
+        <section class="related" aria-label="More features">
+            <p class="related-label">Also in KashCal</p>
+            <div class="related-grid">
+                <a class="related-card" href="/features/calendar-insights-android/">
+                    <div class="related-card-title">See where your time goes</div>
+                    <div class="related-card-desc">Calendar insights, computed on your phone. Free, no work account.</div>
+                </a>
+                <a class="related-card" href="/features/beautiful-calendar-android/">
+                    <div class="related-card-title">The best-looking calendar on Android</div>
+                    <div class="related-card-desc">Material You, six views, a 92-color wheel.</div>
+                </a>
+            </div>
+        </section>
 
         <div class="download">
             <h3>Get KashCal</h3>
