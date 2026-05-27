@@ -57,7 +57,7 @@
         "description": "Everything KashCal does, on one page. iCloud sync, CalDAV, time insights, widgets, device calendars, ICS feeds, birthdays, offline.",
         "inLanguage": "en",
         "datePublished": "2026-04-29",
-        "dateModified": "2026-04-29",
+        "dateModified": "2026-05-27",
         "isPartOf": {
             "@type": "WebSite",
             "url": "https://kashcal.onekash.org/",
@@ -72,18 +72,24 @@
                 {
                     "@type": "ListItem",
                     "position": 1,
+                    "url": "https://kashcal.onekash.org/features/all-your-calendars-google-outlook-android/",
+                    "name": "All your calendars on Android"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
                     "url": "https://kashcal.onekash.org/features/icloud-calendar-android/",
                     "name": "iCloud calendar on Android"
                 },
                 {
                     "@type": "ListItem",
-                    "position": 2,
+                    "position": 3,
                     "url": "https://kashcal.onekash.org/features/calendar-insights-android/",
                     "name": "Calendar insights for Android"
                 },
                 {
                     "@type": "ListItem",
-                    "position": 3,
+                    "position": 4,
                     "url": "https://kashcal.onekash.org/features/beautiful-calendar-android/",
                     "name": "The best-looking calendar on Android"
                 }
@@ -353,7 +359,7 @@
         /* Tier 1 — featured cards */
         .featured-grid {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(2, 1fr);
             gap: 1rem;
             margin: 0.5rem 0 1rem;
         }
@@ -413,6 +419,19 @@
         .caps-item {
             padding: 1rem 0;
             border-bottom: 1px solid var(--border);
+            display: block;
+            color: inherit;
+            text-decoration: none;
+            transition: padding-left 0.2s, color 0.2s;
+        }
+
+        a.caps-item:hover {
+            padding-left: 0.4rem;
+            text-decoration: none;
+        }
+
+        a.caps-item:hover .caps-name {
+            color: var(--accent);
         }
 
         .caps-item:last-child { border-bottom: none; }
@@ -423,6 +442,22 @@
             font-weight: 600;
             color: var(--text);
             margin-bottom: 0.2rem;
+            transition: color 0.2s;
+        }
+
+        .caps-name .caps-arrow {
+            display: inline-block;
+            margin-left: 0.4rem;
+            color: var(--accent);
+            font-size: 0.8em;
+            opacity: 0;
+            transform: translateX(-4px);
+            transition: opacity 0.2s, transform 0.2s;
+        }
+
+        a.caps-item:hover .caps-arrow {
+            opacity: 1;
+            transform: translateX(0);
         }
 
         .caps-desc {
@@ -587,9 +622,14 @@
 
         <span class="tag">A modest claim, a second time</span>
         <h1>What KashCal does</h1>
-        <p class="lede">There's more inside. These three are what we'd point at first.</p>
+        <p class="lede">There's more inside. These four are what we'd point at first.</p>
 
         <div class="featured-grid">
+            <a class="featured-card" href="/features/all-your-calendars-google-outlook-android/">
+                <div class="featured-card-title">All your calendars on Android</div>
+                <div class="featured-card-desc">iCloud, CalDAV, Google, Outlook, ICS feeds. What we mean by "all," and why it takes four sources.</div>
+                <div class="featured-card-cta">Read &rarr;</div>
+            </a>
             <a class="featured-card" href="/features/icloud-calendar-android/">
                 <div class="featured-card-title">iCloud calendar on Android</div>
                 <div class="featured-card-desc">Two-way sync with iPhone and iPad. Shared family calendars, no middleman server.</div>
@@ -613,18 +653,18 @@
                 <div class="caps-name">Quick Add</div>
                 <div class="caps-desc">Type "Coffee with Kash tomorrow 3pm" and the event gets created. Handles dates, times, recurrence, and locations.</div>
             </div>
-            <div class="caps-item">
-                <div class="caps-name">CalDAV sync</div>
+            <a class="caps-item" href="/features/all-your-calendars-google-outlook-android/">
+                <div class="caps-name">CalDAV sync<span class="caps-arrow">&rarr;</span></div>
                 <div class="caps-desc">Native sync with Nextcloud, Radicale, Fastmail, Baikal, Zoho, SoGo, Stalwart, and others. No middleware, no relay.</div>
-            </div>
-            <div class="caps-item">
-                <div class="caps-name">Device calendar</div>
+            </a>
+            <a class="caps-item" href="/features/all-your-calendars-google-outlook-android/">
+                <div class="caps-name">Device calendar<span class="caps-arrow">&rarr;</span></div>
                 <div class="caps-desc">Events from the calendars already on your phone show up alongside everything else. That includes your Google Calendar and Outlook accounts, synced by Android's own calendar system.</div>
-            </div>
-            <div class="caps-item">
-                <div class="caps-name">ICS subscriptions</div>
+            </a>
+            <a class="caps-item" href="/features/all-your-calendars-google-outlook-android/">
+                <div class="caps-name">ICS subscriptions<span class="caps-arrow">&rarr;</span></div>
                 <div class="caps-desc">Subscribe to any ICS URL. Public holidays, school terms, sports seasons. Refresh interval is yours to set.</div>
-            </div>
+            </a>
             <div class="caps-item">
                 <div class="caps-name">Widgets</div>
                 <div class="caps-desc">Agenda, date, week, and month. Check your schedule without opening the app. Material You palette, so they match the rest of your home screen.</div>
