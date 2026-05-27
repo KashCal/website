@@ -817,7 +817,7 @@
                  width="1080" height="1732">
         </div>
 
-        <h2>Four ways calendars get in</h2>
+        <h2 id="four-sources">Four ways calendars get in</h2>
         <p>No single protocol covers every calendar people use. Apple speaks one language, Microsoft speaks another, Google has its own, and schools and sports leagues hand out plain text feeds. KashCal supports four kinds of calendar sources so all of that can live in one app.</p>
 
         <div class="sources">
@@ -845,7 +845,7 @@
 
         <p>Once a source is connected, its events show up in the same month, week, agenda, and day views as everything else. Hide any calendar you don't want in view from the navigation drawer.</p>
 
-        <h2>iCloud vs other CalDAV servers</h2>
+        <h2 id="icloud-vs-caldav">iCloud vs other CalDAV servers</h2>
         <p>iCloud uses CalDAV, so technically it's part of the same family as Nextcloud and Fastmail and the rest. But Apple does a few things their own way and that's enough for iCloud to need its own setup path:</p>
 
         <ul style="list-style: none; padding-left: 0; margin-bottom: 1rem;">
@@ -856,7 +856,7 @@
 
         <p>For Nextcloud, Fastmail, Radicale, and the others, it's the standard CalDAV flow: server URL, username, password. The full list of providers people have tested is in the <a href="https://github.com/KashCal/KashCal#tested-caldav-providers" rel="noopener">README</a>.</p>
 
-        <h2>Why four, not one</h2>
+        <h2 id="why-four">Why four, not one</h2>
         <p>Calendar protocols are fragmented and the big vendors aren't in a hurry to fix that. The short version:</p>
 
         <ul style="list-style: none; padding-left: 0; margin-bottom: 1rem;">
@@ -869,7 +869,7 @@
 
         <p>Building a separate vendor integration for each one would mean shipping Microsoft Graph and Google Calendar API clients alongside CalDAV, with all the OAuth, token refresh, and policy machinery that goes with them. The simpler path is to let Android keep those vendor accounts in sync and read from there. That's what device calendars are.</p>
 
-        <h2>Where Microsoft and Google fit</h2>
+        <h2 id="microsoft-google">Where Microsoft and Google fit</h2>
         <p>If you have a Google or Outlook account, Android is almost certainly already syncing it through the system calendar. Google accounts sync automatically. Outlook for Android has a <strong>Sync calendars</strong> toggle that pushes Outlook events into the same place. KashCal reads from there, so those events show up alongside iCloud and CalDAV.</p>
 
         <p>KashCal users have reported pairing it with Google Calendar, Outlook for Android, Microsoft 365, and Samsung Calendar this way. Some have also subscribed to the published <code>.ics</code> URL from Outlook or Google directly as a one-way feed. Both work.</p>
@@ -905,25 +905,25 @@
             </tbody>
         </table>
 
-        <h2>What ICS feeds are good for</h2>
+        <h2 id="ics-feeds">What ICS feeds are good for</h2>
         <p>ICS subscriptions are one-way: paste a URL, KashCal fetches it, refreshes on a schedule. The classic use is holidays, school terms, sports seasons, and conference schedules. They're also a clean fallback for any calendar that publishes an <code>.ics</code> link, which includes most Outlook calendars and any Google Calendar you've made public.</p>
 
         <p>Recurring events with one-off changes (a cancelled occurrence here, a moved time there) work, including the kind of feeds Microsoft Exchange produces.</p>
 
-        <h2>What device calendars do and don't bring with them</h2>
+        <h2 id="device-calendars">What device calendars do and don't bring with them</h2>
         <p>Android keeps the underlying account in sync (Google, Outlook, etc.) and KashCal reads whatever lands in Android's calendar database. Write-back works as well as the vendor's own Android app supports. Reminders usually come through. Calendar colors come through if the vendor sets them.</p>
 
         <p>If two of your device calendars end up looking similar in KashCal, the fix is to change the calendar color at the source. Google Calendar writes the new color into Android within minutes and KashCal picks it up. Some accounts (Outlook is a common example) don't write a color at all, so there's nothing for KashCal to inherit.</p>
 
         <p>For per-event color, KashCal has its own <a href="/features/beautiful-calendar-android/">92-color picker</a> that overrides whatever the calendar provides. Handy when one event needs to stand out without recoloring the whole calendar.</p>
 
-        <h2>And one more: birthdays from your contacts</h2>
+        <h2 id="birthdays">And one more: birthdays from your contacts</h2>
         <p>The four sources above cover calendars. Birthdays and anniversaries usually aren't kept on a calendar at all. They're buried in your contacts. KashCal pulls birth dates and anniversaries straight from Android's contacts and shows them as yearly recurring events alongside everything else. No separate calendar to maintain, no annual prep work. Add a birthday to a contact and it appears on the right day next year too.</p>
 
-        <h2>How it stays private</h2>
+        <h2 id="privacy">How it stays private</h2>
         <p>There's no KashCal server. iCloud and CalDAV traffic goes phone to server over HTTPS. ICS subscriptions are direct fetches from your phone. Device calendars never leave your phone in the first place. They're already there and KashCal just reads them. The credentials you do enter are encrypted with the Android Keystore (AES-256-GCM) and excluded from device backups. Full details on the <a href="/privacy/">privacy page</a>.</p>
 
-        <h2>Where to start</h2>
+        <h2 id="where-to-start">Where to start</h2>
         <p>Pick whichever fits your setup:</p>
 
         <ul style="list-style: none; padding-left: 0; margin-bottom: 1rem;">
@@ -937,7 +937,7 @@
 
         <p>Add as many as you want. Toggle any on or off from the navigation drawer.</p>
 
-        <h2>Common questions</h2>
+        <h2 id="faq">Common questions</h2>
         <section class="faq" aria-label="Frequently asked questions">
             <details>
                 <summary>Can KashCal show my Google Calendar on Android?</summary>

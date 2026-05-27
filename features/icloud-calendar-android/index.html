@@ -126,6 +126,51 @@
     }
     </script>
 
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "Connect iCloud Calendar to Android with KashCal",
+        "description": "Sync iCloud calendars to Android using KashCal. Apple requires an app-specific password for third-party apps; the whole flow takes about a minute.",
+        "totalTime": "PT1M",
+        "tool": [
+            { "@type": "HowToTool", "name": "Apple ID" },
+            { "@type": "HowToTool", "name": "KashCal for Android" }
+        ],
+        "supply": [
+            { "@type": "HowToSupply", "name": "App-specific password from account.apple.com" }
+        ],
+        "step": [
+            {
+                "@type": "HowToStep",
+                "position": 1,
+                "name": "Sign in to your Apple ID",
+                "text": "Sign in to account.apple.com with your Apple ID.",
+                "url": "https://account.apple.com"
+            },
+            {
+                "@type": "HowToStep",
+                "position": 2,
+                "name": "Create an app-specific password",
+                "text": "Open App-Specific Passwords and create one named KashCal.",
+                "url": "https://support.apple.com/102654"
+            },
+            {
+                "@type": "HowToStep",
+                "position": 3,
+                "name": "Copy the 16-character code",
+                "text": "Copy the 16-character app-specific password Apple shows you."
+            },
+            {
+                "@type": "HowToStep",
+                "position": 4,
+                "name": "Add iCloud in KashCal",
+                "text": "In KashCal, tap Add Account, pick iCloud, and paste the code along with your Apple ID."
+            }
+        ]
+    }
+    </script>
+
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">

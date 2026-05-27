@@ -16,18 +16,18 @@
     <meta property="og:url" content="https://kashcal.onekash.org/">
     <meta property="og:title" content="KashCal - Free as in Speech. All Your Calendars.">
     <meta property="og:description" content="Free, open-source calendar for Android. Sync iCloud, CalDAV, holidays, and birthdays. Quick Add, Insights, Widgets. Private by default.">
-    <meta property="og:image" content="https://kashcal.onekash.org/icon-192.png">
-    <meta property="og:image:width" content="192">
-    <meta property="og:image:height" content="192">
-    <meta property="og:image:alt" content="KashCal app icon">
+    <meta property="og:image" content="https://kashcal.onekash.org/feature-graphic.png">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="500">
+    <meta property="og:image:alt" content="KashCal: Private. No tracking. Open Source.">
     <meta property="og:locale" content="en_US">
     <meta property="og:site_name" content="KashCal">
 
     <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="KashCal - Free as in Speech. All Your Calendars.">
     <meta name="twitter:description" content="Free, open-source calendar for Android. Sync iCloud, CalDAV, holidays, and birthdays. Quick Add, Insights, Widgets. Private by default.">
-    <meta name="twitter:image" content="https://kashcal.onekash.org/icon-192.png">
+    <meta name="twitter:image" content="https://kashcal.onekash.org/feature-graphic.png">
 
     <!-- Structured Data -->
     <script type="application/ld+json">
@@ -36,26 +36,73 @@
         "@type": "SoftwareApplication",
         "@id": "https://kashcal.onekash.org/#kashcal-app",
         "name": "KashCal",
-        "operatingSystem": "Android",
-        "applicationCategory": "UtilitiesApplication",
+        "alternateName": "KashCal Calendar",
+        "operatingSystem": "Android 12+",
+        "applicationCategory": "ProductivityApplication",
+        "applicationSubCategory": "Calendar",
         "description": "Free, open-source calendar for Android. Sync iCloud, CalDAV, holidays, and birthdays. Quick Add, Insights, Widgets. Private by default.",
+        "url": "https://kashcal.onekash.org/",
+        "image": "https://kashcal.onekash.org/icon-1024.png",
+        "logo": "https://kashcal.onekash.org/icon-512.png",
+        "license": "https://www.apache.org/licenses/LICENSE-2.0",
+        "softwareVersion": "23.7.46",
+        "featureList": [
+            "Sync with iCloud, CalDAV, Nextcloud, Radicale, Baikal, Zoho, FastMail",
+            "Subscribe to ICS calendar feeds (holidays, school, sports)",
+            "Read and write Android device calendars (Google, Outlook, Samsung)",
+            "Birthdays from contacts with yearly recurrence",
+            "Quick Add with natural language",
+            "Time analytics and Insights",
+            "Home screen widgets",
+            "Offline-first with background sync",
+            "No account required, no tracking"
+        ],
         "offers": {
             "@type": "Offer",
             "price": "0",
             "priceCurrency": "USD"
         },
         "downloadUrl": "https://f-droid.org/en/packages/org.onekash.kashcal/",
+        "installUrl": "https://f-droid.org/en/packages/org.onekash.kashcal/",
         "screenshot": [
             "https://raw.githubusercontent.com/KashCal/KashCal/main/fastlane/metadata/android/en-US/images/phoneScreenshots/HomePage-with-AboutMe.png",
             "https://raw.githubusercontent.com/KashCal/KashCal/main/fastlane/metadata/android/en-US/images/phoneScreenshots/Quick-Event-Add.png",
             "https://raw.githubusercontent.com/KashCal/KashCal/main/fastlane/metadata/android/en-US/images/phoneScreenshots/Apple-Calendar-Connect.png",
             "https://raw.githubusercontent.com/KashCal/KashCal/main/fastlane/metadata/android/en-US/images/phoneScreenshots/Insights.png"
         ],
-        "author": {
-            "@type": "Organization",
-            "name": "OneKash Labs",
-            "url": "https://onekash.org"
-        }
+        "author": { "@id": "https://onekash.org/#org" },
+        "publisher": { "@id": "https://onekash.org/#org" }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://onekash.org/#org",
+        "name": "OneKash Labs",
+        "url": "https://onekash.org",
+        "logo": "https://kashcal.onekash.org/icon-512.png",
+        "sameAs": [
+            "https://github.com/KashCal/KashCal",
+            "https://github.com/KashCal",
+            "https://f-droid.org/en/packages/org.onekash.kashcal/",
+            "https://apt.izzysoft.de/fdroid/index/apk/org.onekash.kashcal",
+            "https://signal.group/#CjQKIF2jZGgR164Zbe7xJ_auez3LCoza7he6hqtjNP0QtFHtEhBK1z09jMpsCSa8hbFhxdq9"
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://kashcal.onekash.org/#website",
+        "url": "https://kashcal.onekash.org/",
+        "name": "KashCal",
+        "description": "Free, open-source calendar for Android. One app, all your calendars.",
+        "publisher": { "@id": "https://onekash.org/#org" },
+        "inLanguage": "en"
     }
     </script>
 
@@ -473,6 +520,21 @@
         .also-item span {
             font-size: 0.85rem;
             color: var(--text-muted);
+        }
+
+        a.also-item {
+            text-decoration: none;
+            color: inherit;
+            transition: border-color 0.2s, transform 0.2s;
+        }
+
+        a.also-item:hover {
+            border-bottom-color: var(--accent);
+            transform: translateX(2px);
+        }
+
+        a.also-item:hover strong {
+            color: var(--accent);
         }
 
         /* --- Privacy --- */
@@ -985,10 +1047,10 @@
             </div>
             <div class="also fade-in">
                 <div class="also-item"><strong>Widgets</strong> <span>Agenda, date, week, and month.</span></div>
-                <div class="also-item"><strong>CalDAV</strong> <span>Nextcloud, Radicale, Fastmail, Baikal, and others.</span></div>
-                <div class="also-item"><strong>Device calendar</strong> <span>Your phone's built-in calendar alongside everything else.</span></div>
-                <div class="also-item"><strong>ICS subscriptions</strong> <span>Public holidays, school terms, sports seasons.</span></div>
-                <div class="also-item"><strong>Birthdays &amp; anniversaries</strong> <span>Pulled from your contacts automatically.</span></div>
+                <a class="also-item" href="/features/all-your-calendars-google-outlook-android/#icloud-vs-caldav"><strong>CalDAV</strong> <span>Nextcloud, Radicale, Fastmail, Baikal, and others.</span></a>
+                <a class="also-item" href="/features/all-your-calendars-google-outlook-android/#device-calendars"><strong>Device calendar</strong> <span>Your phone's built-in calendar alongside everything else.</span></a>
+                <a class="also-item" href="/features/all-your-calendars-google-outlook-android/#ics-feeds"><strong>ICS subscriptions</strong> <span>Public holidays, school terms, sports seasons.</span></a>
+                <a class="also-item" href="/features/all-your-calendars-google-outlook-android/#birthdays"><strong>Birthdays &amp; anniversaries</strong> <span>Pulled from your contacts automatically.</span></a>
                 <div class="also-item"><strong>Local</strong> <span>Works fully offline out of the box.</span></div>
             </div>
         </div>
