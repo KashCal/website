@@ -193,6 +193,14 @@
                     "@type": "Answer",
                     "text": "Yes. iCloud, CalDAV, ICS, and device calendar events appear in the same month, agenda, week, and day views. You can hide any calendar from the navigation drawer if you want a cleaner view."
                 }
+            },
+            {
+                "@type": "Question",
+                "name": "Where do birthdays and anniversaries come from?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "From your phone's contacts. KashCal reads birth dates and anniversary dates that Android already has and turns each one into a yearly recurring event. No separate birthday calendar to set up, and no manual prep at the start of every year."
+                }
             }
         ]
     }
@@ -909,6 +917,9 @@
 
         <p>For per-event color, KashCal has its own <a href="/features/beautiful-calendar-android/">92-color picker</a> that overrides whatever the calendar provides. Handy when one event needs to stand out without recoloring the whole calendar.</p>
 
+        <h2>And one more: birthdays from your contacts</h2>
+        <p>The four sources above cover calendars. Birthdays and anniversaries usually aren't kept on a calendar at all. They're buried in your contacts. KashCal pulls birth dates and anniversaries straight from Android's contacts and shows them as yearly recurring events alongside everything else. No separate calendar to maintain, no annual prep work. Add a birthday to a contact and it appears on the right day next year too.</p>
+
         <h2>How it stays private</h2>
         <p>There's no KashCal server. iCloud and CalDAV traffic goes phone to server over HTTPS. ICS subscriptions are direct fetches from your phone. Device calendars never leave your phone in the first place. They're already there and KashCal just reads them. The credentials you do enter are encrypted with the Android Keystore (AES-256-GCM) and excluded from device backups. Full details on the <a href="/privacy/">privacy page</a>.</p>
 
@@ -921,6 +932,7 @@
             <li style="padding: 0.4rem 0; color: var(--text-secondary);"><strong>Google Calendar or Google Workspace:</strong> sign your Google account into Android with calendar sync on. KashCal reads it as a device calendar.</li>
             <li style="padding: 0.4rem 0; color: var(--text-secondary);"><strong>Outlook or Microsoft 365:</strong> install Outlook for Android and turn on <em>Sync calendars</em>, or paste the published <code>.ics</code> URL as a subscription.</li>
             <li style="padding: 0.4rem 0; color: var(--text-secondary);"><strong>Holidays, school, sports, conference schedule:</strong> grab the ICS link from the source and add it as a subscription.</li>
+            <li style="padding: 0.4rem 0; color: var(--text-secondary);"><strong>Birthdays and anniversaries:</strong> already in your phone's contacts. KashCal turns them into yearly events automatically.</li>
         </ul>
 
         <p>Add as many as you want. Toggle any on or off from the navigation drawer.</p>
@@ -955,6 +967,12 @@
                 <summary>Will calendars from different sources show up together?</summary>
                 <div class="faq-answer">
                     <p>Yes. iCloud, CalDAV, ICS, and device calendar events appear in the same month, agenda, week, and day views. You can hide any calendar from the navigation drawer if you want a cleaner view.</p>
+                </div>
+            </details>
+            <details>
+                <summary>Where do birthdays and anniversaries come from?</summary>
+                <div class="faq-answer">
+                    <p>From your phone's contacts. KashCal reads birth dates and anniversary dates that Android already has and turns each one into a yearly recurring event. No separate birthday calendar to set up, and no manual prep at the start of every year.</p>
                 </div>
             </details>
         </section>
