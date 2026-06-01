@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share an event as a card - KashCal</title>
+    <meta name="author" content="OneKash Labs">
+
+    <link rel="canonical" href="https://kashcal.onekash.org/features/share-event-as-card-android/">
+    <meta name="description" content="One tap turns any event into a designed card you can drop into any chat, with a tap-to-add file alongside it.">
+    <meta name="theme-color" content="#F5F0E8">
+
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://kashcal.onekash.org/features/share-event-as-card-android/">
+    <meta property="og:title" content="Share an event as a card - KashCal">
+    <meta property="og:description" content="One tap turns any event into a designed card you can drop into any chat, with a tap-to-add file alongside it.">
+    <meta property="og:image" content="https://kashcal.onekash.org/feature-graphic.png">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="500">
+    <meta property="og:image:alt" content="KashCal share-as-card preview, two designed cards in Standard and Celebration styles, ready to send in any messenger.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="KashCal">
+    <meta property="article:published_time" content="2026-06-01T00:00:00Z">
+    <meta property="article:modified_time" content="2026-06-01T00:00:00Z">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Share an event as a card - KashCal">
+    <meta name="twitter:description" content="One tap turns any event into a designed card you can drop into any chat, with a tap-to-add file alongside it.">
+    <meta name="twitter:image" content="https://kashcal.onekash.org/feature-graphic.png">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "KashCal",
+                "item": "https://kashcal.onekash.org/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Features",
+                "item": "https://kashcal.onekash.org/features/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Share an event as a card",
+                "item": "https://kashcal.onekash.org/features/share-event-as-card-android/"
+            }
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://kashcal.onekash.org/features/share-event-as-card-android/#webpage",
+        "url": "https://kashcal.onekash.org/features/share-event-as-card-android/",
+        "name": "Share an event as a card - KashCal",
+        "description": "One tap turns any event into a designed card you can drop into any chat, with a tap-to-add file alongside it.",
+        "inLanguage": "en",
+        "datePublished": "2026-06-01",
+        "dateModified": "2026-06-01",
+        "isPartOf": {
+            "@type": "WebSite",
+            "url": "https://kashcal.onekash.org/",
+            "name": "KashCal"
+        },
+        "about": {
+            "@id": "https://kashcal.onekash.org/#kashcal-app"
+        }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What does share-as-card actually send?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A designed PNG of the event and a single-occurrence iCalendar (.ics) file, attached to one share intent. The recipient sees a card inline in their messenger and can tap the file to add the event to their own calendar with one tap."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Does the recipient need KashCal?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. The card is a regular image, viewable in any chat app. The .ics is a standard iCalendar file. Apple Calendar, Google Calendar, Outlook, and every other calendar app can open it and add the event."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Are my attendees or organizer email visible to the recipient?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. The .ics is a standalone, single-occurrence event with a fresh UID and no ATTENDEE or ORGANIZER properties. Sharing a recurring event sends only the occurrence you tapped on, not the whole series."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I share events from my Google or iCloud calendar this way?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Share-as-card works for any event KashCal can show: your phone's local calendar, iCloud, Nextcloud, Google (via Android's calendar system), an ICS subscription, or a contact's birthday."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
+    <link rel="apple-touch-icon" href="/icon-192.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"></noscript>
+    <style>
+        :root {
+            --bg: #F5F0E8;
+            --bg-alt: #E8E1D5;
+            --bg-dark: #1A1814;
+            --text: #1A1814;
+            --text-secondary: #5C554A;
+            --text-muted: #857F74;
+            --border: #D4CCC2;
+            --accent: #1B6B5F;
+            --accent-hover: #145A50;
+            --accent-warm: #935A32;
+            --accent-light: #3DA99A;
+            --text-light: #FAF8F4;
+            --text-muted-light: #948E83;
+            --shadow: 0 2px 20px rgba(26, 24, 20, 0.10);
+            --shadow-hover: 0 8px 36px rgba(26, 24, 20, 0.16);
+
+            /* ShareCardComposable Palette (verbatim from app/.../ShareCardComposable.kt) */
+            --c-brand-teal: #1F8A78;
+            --c-brand-teal-mid: #196F60;
+            --c-brand-teal-dark: #0E4A40;
+            --c-brand-blue: #5BA3D0;
+            --c-brand-yellow: #F0C14B;
+            --c-brand-yellow-bright: #FFD66B;
+            --c-brand-yellow-pale: #FFE9B0;
+            --c-brand-pink: #E94B6E;
+            --c-brand-cream: #F5EFDC;
+            --c-brand-warm-cream: #E6DFC4;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent), var(--accent-warm));
+            z-index: 200;
+        }
+
+        body::after {
+            content: '';
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            opacity: 0.03;
+            pointer-events: none;
+            z-index: 1000;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+            background-repeat: repeat;
+            background-size: 256px 256px;
+        }
+
+        nav {
+            position: fixed;
+            top: 3px; left: 0; right: 0;
+            padding: 1rem 2rem;
+            background: rgba(245, 240, 232, 0.92);
+            -webkit-backdrop-filter: blur(16px);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border);
+            z-index: 100;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 1.5rem;
+            color: var(--text);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .logo-icon { width: 32px; height: 32px; border-radius: 8px; }
+
+        .nav-links { display: flex; gap: 2rem; align-items: center; }
+
+        .nav-link {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .nav-link:hover { color: var(--text); }
+        .nav-link.active { color: var(--text); }
+        .nav-link .arrow {
+            display: inline-block;
+            margin-left: 0.25rem;
+            transition: transform 0.2s;
+        }
+        .nav-link:hover .arrow { transform: translateX(2px); }
+
+        .menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--text);
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 0.5rem;
+        }
+
+        .mobile-menu {
+            display: none;
+            position: fixed;
+            top: 63px; left: 0; right: 0;
+            background: rgba(245, 240, 232, 0.98);
+            -webkit-backdrop-filter: blur(16px);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border);
+            padding: 1rem;
+            z-index: 99;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        .mobile-menu.open { display: flex; }
+
+        .mobile-menu a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            padding: 0.75rem 1rem;
+            border-radius: 8px;
+            transition: all 0.2s;
+        }
+
+        .mobile-menu a:hover {
+            color: var(--text);
+            background: var(--bg-alt);
+        }
+
+        .page {
+            flex: 1;
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 7rem 1.75rem 4rem;
+            width: 100%;
+        }
+
+        .crumbs {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-bottom: 1.25rem;
+        }
+
+        .crumbs a {
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .crumbs a:hover { color: var(--accent); }
+
+        .crumbs span { margin: 0 0.4rem; }
+
+        .tag {
+            display: inline-block;
+            font-size: 0.72rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--accent-warm);
+            font-weight: 700;
+            margin-bottom: 0.85rem;
+        }
+
+        h1 {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 2.6rem;
+            font-weight: 700;
+            line-height: 1.1;
+            margin-bottom: 0.85rem;
+        }
+
+        .lede {
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            margin-bottom: 1.25rem;
+            max-width: 620px;
+        }
+
+        .sub-lede {
+            font-size: 1rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            max-width: 620px;
+        }
+
+        h2 {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 1.45rem;
+            font-weight: 600;
+            margin: 2.5rem 0 0.85rem;
+            color: var(--text);
+            padding-left: 0.85rem;
+            border-left: 3px solid var(--accent);
+        }
+
+        p {
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+            font-size: 1rem;
+        }
+
+        strong { color: var(--text); font-weight: 600; }
+
+        .page a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .page a:hover {
+            color: var(--accent-hover);
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        /* ========= Card stage + cards (faithful reproduction of ShareCardComposable) ========= */
+
+        .card-stage {
+            margin: 2rem 0 1.25rem;
+            padding: 2.5rem 1rem 2.25rem;
+            background: linear-gradient(180deg, #2a2520 0%, #1a1814 100%);
+            border-radius: 24px;
+        }
+
+        /* Reader-facing caption that sits below the dark stage and frames
+           the two cards before the article body resumes. Quiet enough not
+           to compete with the cards above it. */
+        .card-stage-caption {
+            margin: 0 auto 2.5rem;
+            padding: 0 0.5rem;
+            max-width: 580px;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-align: center;
+            line-height: 1.6;
+        }
+        .card-stage-caption strong {
+            color: var(--text);
+            font-weight: 600;
+        }
+
+        .card-row {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .card-figure {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.65rem;
+        }
+
+        .card-figure-label {
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 0.22em;
+            color: rgba(245, 239, 220, 0.55);
+            text-transform: uppercase;
+        }
+
+        /* Capture region wrapper. Real composable is 420×525dp; preview at 240×300px. */
+        .card-wrap {
+            position: relative;
+            width: 240px;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Stacked-card silhouettes peek out behind the main card. */
+        .card-silhouette {
+            position: absolute;
+            width: 192px;
+            height: 240px;
+            border-radius: 12px;
+            opacity: 0.6;
+        }
+        .card-silhouette.blue {
+            background: var(--c-brand-blue);
+            transform: rotate(-4deg) translate(-14px, 8px);
+        }
+        .card-silhouette.yellow {
+            background: var(--c-brand-yellow);
+            transform: rotate(4deg) translate(14px, -8px);
+        }
+
+        /* Main card surface ,  the 336×420dp Box, scaled down. */
+        .card-surface {
+            position: relative;
+            width: 192px;
+            height: 240px;
+            border-radius: 12px;
+            background: linear-gradient(
+                180deg,
+                var(--c-brand-teal) 0%,
+                var(--c-brand-teal-mid) 55%,
+                var(--c-brand-teal-dark) 100%
+            );
+            overflow: hidden;
+            box-shadow:
+                0 18px 40px rgba(8, 32, 28, 0.45),
+                0 4px 12px rgba(8, 32, 28, 0.25);
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            color: var(--c-brand-cream);
+        }
+
+        .card-surface .glow,
+        .card-surface .scatter {
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+        }
+
+        /* Celebration radial glow, drawn behind the body Column. */
+        .card-surface .glow {
+            background: radial-gradient(
+                circle at 50% 38%,
+                rgba(255, 214, 107, 0.14) 0%,
+                rgba(255, 214, 107, 0) 55%
+            );
+        }
+
+        /* Content layout: header at top (date chip + dot), divider, body, attribution. */
+        .card-content {
+            position: absolute;
+            inset: 0;
+            padding: 14px 14px 12px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-header {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+        }
+
+        /* Inline date chip ,  numeral on the left, stacked month/DOW on the right.
+           This sits directly on the teal surface, not in a pill. */
+        .card-chip {
+            display: flex;
+            align-items: flex-end;
+            gap: 5px;
+        }
+        .card-chip .numeral {
+            font-family: 'Lora', Georgia, serif;
+            font-size: 22px;
+            font-weight: 300;
+            line-height: 1;
+            letter-spacing: -0.5px;
+            color: var(--c-brand-cream);
+        }
+        .card-chip .stacked {
+            display: flex;
+            flex-direction: column;
+            gap: 1px;
+            padding-bottom: 1px;
+        }
+        .card-chip .month {
+            font-size: 8px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            color: var(--c-brand-yellow);
+            line-height: 1;
+        }
+        .card-chip.celebration .month {
+            color: var(--c-brand-yellow-bright);
+        }
+        .card-chip .dow {
+            font-size: 7px;
+            font-weight: 500;
+            letter-spacing: 1.4px;
+            color: rgba(245, 239, 220, 0.6);
+            line-height: 1;
+        }
+
+        .card-header-right {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .card-pink-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--c-brand-pink);
+        }
+        .card-party {
+            font-size: 10px;
+            line-height: 1;
+        }
+
+        .card-divider {
+            margin-top: 8px;
+            height: 1px;
+            background: rgba(245, 239, 220, 0.15);
+        }
+
+        /* Body cluster.
+           Title + time sit at the top of the body (right under the
+           divider). Location + day stripe anchor at the bottom, just
+           above the attribution. Flex slack falls between the two
+           clusters, matching the real ShareCardComposable layout. */
+        .card-body {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            padding-top: 10px;
+            padding-bottom: 4px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .card-title {
+            font-family: 'Lora', Georgia, serif;
+            font-size: 19px;
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: -0.4px;
+            background: linear-gradient(180deg, var(--c-brand-cream), var(--c-brand-warm-cream));
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: transparent;
+        }
+        .card-title.celebration {
+            background: linear-gradient(180deg, var(--c-brand-yellow-pale), var(--c-brand-yellow));
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .card-time {
+            margin-top: 3px;
+            font-size: 9px;
+            font-weight: 500;
+            letter-spacing: 0.15px;
+            color: rgba(245, 239, 220, 0.85);
+        }
+
+        /* Flex slack between the WHAT/WHEN cluster and the WHERE cluster. */
+        .card-spacer { flex: 1; }
+
+        /* Location row: small pin icon + address. */
+        .card-location {
+            display: flex;
+            align-items: flex-start;
+            gap: 4px;
+            font-size: 8.5px;
+            line-height: 1.3;
+            color: var(--c-brand-cream);
+        }
+        .card-location svg {
+            flex-shrink: 0;
+            margin-top: 1px;
+            opacity: 0.85;
+        }
+
+        /* Day stripe.
+           Continuous bar (cream @ 0.15) with three vertical hour ticks
+           at 25 / 50 / 75 percent, a solid event-range block in the
+           time-accent color, and five hour labels underneath. */
+        .card-stripe {
+            margin-top: 7px;
+            position: relative;
+        }
+        .card-stripe-bar {
+            position: relative;
+            height: 4px;
+            border-radius: 1px;
+            background: rgba(245, 239, 220, 0.15);
+            overflow: visible;
+        }
+        .card-stripe-tick-mark {
+            position: absolute;
+            top: -1px;
+            width: 0.6px;
+            height: 6px;
+            background: rgba(245, 239, 220, 0.6);
+        }
+        .card-stripe-range {
+            position: absolute;
+            top: 0;
+            height: 4px;
+            background: var(--c-brand-yellow);
+            box-shadow: 0 0 4px var(--c-brand-yellow);
+        }
+        .card-stripe.celebration .card-stripe-range {
+            background: var(--c-brand-yellow-bright);
+            box-shadow: 0 0 4px var(--c-brand-yellow-bright);
+        }
+        .card-stripe-labels {
+            margin-top: 5px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 5.5px;
+            font-weight: 500;
+            letter-spacing: 0.4px;
+            color: rgba(245, 239, 220, 0.6);
+        }
+
+        .card-attribution {
+            font-size: 6.5px;
+            font-weight: 500;
+            letter-spacing: 1px;
+            color: rgba(245, 239, 220, 0.6);
+            text-align: right;
+            margin-top: 8px;
+        }
+
+        /* ========= cards-grid, callout, close, related, download ,  verbatim from insights page ========= */
+
+        .cards-grid {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            column-gap: 1.25rem;
+            row-gap: 0.85rem;
+            margin: 1.25rem 0 1.5rem;
+            font-size: 0.98rem;
+        }
+
+        .cards-grid dt {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-weight: 600;
+            color: var(--text);
+            white-space: nowrap;
+        }
+
+        .cards-grid dd {
+            color: var(--text-secondary);
+            margin: 0;
+        }
+
+        @media (max-width: 560px) {
+            .cards-grid {
+                grid-template-columns: 1fr;
+                row-gap: 0.25rem;
+            }
+            .cards-grid dd {
+                margin-bottom: 0.65rem;
+            }
+        }
+
+        .callout {
+            background: rgba(27, 107, 95, 0.05);
+            border: 1px solid rgba(27, 107, 95, 0.15);
+            border-radius: 10px;
+            padding: 1rem 1.25rem;
+            margin: 1rem 0 1.5rem;
+            font-size: 0.95rem;
+        }
+
+        .callout p { margin: 0; color: var(--text-secondary); }
+        .callout strong { color: var(--accent); }
+
+        .close {
+            margin: 2.5rem 0 1rem;
+            padding: 1.5rem 1.75rem;
+            background: rgba(147, 90, 50, 0.05);
+            border: 1px solid rgba(147, 90, 50, 0.15);
+            border-radius: 14px;
+        }
+
+        .close p {
+            margin: 0;
+            font-size: 0.98rem;
+            color: var(--text-secondary);
+        }
+
+        .related {
+            margin: 2.5rem 0 1rem;
+            padding-top: 1.75rem;
+            border-top: 1px solid var(--border);
+        }
+
+        .related-label {
+            font-size: 0.72rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .related-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+
+        .related-card {
+            display: block;
+            padding: 1rem 1.25rem;
+            background: rgba(27, 107, 95, 0.04);
+            border: 1px solid rgba(27, 107, 95, 0.12);
+            border-radius: 10px;
+            text-decoration: none;
+            color: inherit;
+            transition: background 0.2s, border-color 0.2s, transform 0.2s;
+        }
+
+        .related-card:hover {
+            background: rgba(27, 107, 95, 0.07);
+            border-color: var(--accent);
+            transform: translateY(-2px);
+            text-decoration: none;
+        }
+
+        .related-card-title {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 0.25rem;
+        }
+
+        .related-card-desc {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+        }
+
+        @media (max-width: 560px) {
+            .related-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .download {
+            margin: 2rem 0 1rem;
+            padding: 1.5rem 1.5rem 1.75rem;
+            background: var(--bg-alt);
+            border-radius: 14px;
+        }
+
+        .download h3 {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.85rem;
+            color: var(--text);
+        }
+
+        .download-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.65rem;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .download-badges a { transition: transform 0.25s ease; }
+        .download-badges a:hover { transform: scale(1.04) translateY(-2px); }
+
+        .download-badges img {
+            height: 48px;
+            max-width: 140px;
+            object-fit: contain;
+        }
+
+        .download-apk {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 0.75rem;
+            margin-bottom: 0;
+        }
+
+        footer {
+            padding: 3rem 2rem;
+            background: linear-gradient(180deg, #201C17 0%, var(--bg-dark) 100%);
+            text-align: center;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: var(--text-muted-light);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+
+        .footer-links a:hover { color: var(--text-light); }
+
+        .footer-links a[href^="http"]::after {
+            content: " \2197";
+            font-size: 0.7em;
+            opacity: 0.7;
+        }
+
+        .footer-note {
+            color: var(--text-muted-light);
+            font-size: 0.85rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-brand { color: var(--text-muted-light); font-size: 0.8rem; }
+
+        .footer-brand a {
+            color: var(--text-light);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .footer-brand a:hover { color: var(--accent-light); }
+
+        a:focus-visible, button:focus-visible {
+            outline: 2px solid var(--accent);
+            outline-offset: 3px;
+        }
+
+        @media (max-width: 768px) {
+            nav { padding: 1rem 1.5rem; }
+            .nav-links { display: none; }
+            .menu-btn { display: block; }
+            .page { padding: 6.5rem 1.25rem 3rem; }
+            h1 { font-size: 2.1rem; }
+            .lede { font-size: 1.05rem; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            html { scroll-behavior: auto; }
+            *, *::before, *::after { transition: none !important; }
+            body::after { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/" class="logo">
+            <img src="/favicon.png" alt="KashCal" class="logo-icon">
+            KashCal
+        </a>
+        <div class="nav-links">
+            <a href="/features/" class="nav-link">Features</a>
+            <a href="https://f-droid.org/en/packages/org.onekash.kashcal/" class="nav-link">Get KashCal</a>
+            <a href="/privacy/" class="nav-link">Privacy</a>
+            <a href="https://github.com/KashCal/KashCal" class="nav-link">Source</a>
+            <a href="/donate/" class="nav-link">Donate</a>
+            <a href="/work-with-us/" class="nav-link">Work with us<span class="arrow">&rarr;</span></a>
+        </div>
+        <button class="menu-btn" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+    </nav>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="/features/">Features</a>
+        <a href="https://f-droid.org/en/packages/org.onekash.kashcal/">Get KashCal</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="https://github.com/KashCal/KashCal">Source</a>
+        <a href="/donate/">Donate</a>
+        <a href="/work-with-us/">Work with us</a>
+    </div>
+
+    <main class="page">
+        <p class="crumbs">
+            <a href="/">Home</a><span>&rsaquo;</span><a href="/features/">Features</a><span>&rsaquo;</span>Share as card
+        </p>
+
+        <span class="tag">A small, friendly thing</span>
+        <h1>Share an event the way you'd actually want to</h1>
+        <p class="lede">One tap. A designed card and a tap-to-add file, sent together.</p>
+        <p class="sub-lede">Sharing an event on a phone has always meant a typed-out chat message, a screenshot the recipient has to retype, or a calendar invite that drags in email accounts you didn't want involved. KashCal hands you something nicer to send, and saves your friend the trouble.</p>
+
+        <div class="card-stage" aria-label="Two share-card styles, Standard and Celebration">
+            <div class="card-row">
+
+                <!-- =================== STANDARD =================== -->
+                <figure class="card-figure">
+                    <div class="card-wrap" role="img" aria-label="Standard share card. Teal gradient surface with the date 31 May Friday at top, an event title 'Brunch at Sam's', the time 11:30 AM to 1:00 PM, and a day stripe showing late morning to early afternoon as the active range.">
+                        <div class="card-silhouette blue"></div>
+                        <div class="card-silhouette yellow"></div>
+                        <div class="card-surface">
+                            <div class="card-content">
+                                <div class="card-header">
+                                    <div class="card-chip">
+                                        <div class="numeral">31</div>
+                                        <div class="stacked">
+                                            <div class="month">MAY</div>
+                                            <div class="dow">FRI</div>
+                                        </div>
+                                    </div>
+                                    <div class="card-header-right">
+                                        <div class="card-pink-dot"></div>
+                                    </div>
+                                </div>
+                                <div class="card-divider"></div>
+                                <div class="card-body">
+                                    <!-- Title cluster (WHAT + WHEN), top of the body. -->
+                                    <div class="card-title">Brunch at Sam's</div>
+                                    <div class="card-time">11:30 AM &ndash; 1:00 PM</div>
+                                    <!-- Flex slack falls between clusters. -->
+                                    <div class="card-spacer"></div>
+                                    <!-- Context cluster (WHERE), bottom of the body. -->
+                                    <div class="card-location">
+                                        <svg width="7" height="9" viewBox="0 0 14 18" fill="none" aria-hidden="true">
+                                            <path d="M7 0c-3.3 0-6 2.6-6 5.9 0 4.4 6 11.1 6 11.1s6-6.7 6-11.1C13 2.6 10.3 0 7 0zm0 8.1a2.1 2.1 0 110-4.2 2.1 2.1 0 010 4.2z" fill="#F5EFDC" fill-opacity="0.85"/>
+                                        </svg>
+                                        <span>Sam's Cafe, Berkeley</span>
+                                    </div>
+                                    <!-- Day stripe: 11:30 AM, 1:00 PM is roughly 48% to 54% of the day. -->
+                                    <div class="card-stripe" aria-hidden="true">
+                                        <div class="card-stripe-bar">
+                                            <div class="card-stripe-tick-mark" style="left: 25%;"></div>
+                                            <div class="card-stripe-tick-mark" style="left: 50%;"></div>
+                                            <div class="card-stripe-tick-mark" style="left: 75%;"></div>
+                                            <div class="card-stripe-range" style="left: 47.9%; width: 6.25%;"></div>
+                                        </div>
+                                        <div class="card-stripe-labels">
+                                            <span>12a</span><span>6a</span><span>12p</span><span>6p</span><span>12a</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-attribution">MADE WITH KASHCAL</div>
+                            </div>
+                        </div>
+                    </div>
+                    <figcaption class="card-figure-label">Standard</figcaption>
+                </figure>
+
+                <!-- =================== CELEBRATION =================== -->
+                <figure class="card-figure">
+                    <div class="card-wrap" role="img" aria-label="Celebration share card. Same teal gradient with a soft gold glow, a party glyph next to the pink dot, scattered stars and confetti, the date 12 Jun Friday, the title 'Maya's Birthday Dinner', and the time 7:00 PM to 10:00 PM.">
+                        <div class="card-silhouette blue"></div>
+                        <div class="card-silhouette yellow"></div>
+                        <div class="card-surface">
+                            <div class="glow" aria-hidden="true"></div>
+                            <!-- Celebration scatter ,  stars, streamers, confetti dots, sparkles. -->
+                            <svg class="scatter" viewBox="0 0 192 240" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Atmospheric scatter. Alphas tuned so the
+                                     scatter reads as background mood at this
+                                     thumbnail size, not as content. -->
+                                <g fill="#F5EFDC" fill-opacity="0.15" font-family="serif" font-size="6">
+                                    <text x="15" y="14">★</text>
+                                    <text x="173" y="12">★</text>
+                                    <text x="29" y="211">★</text>
+                                    <text x="150" y="221">★</text>
+                                </g>
+                                <g fill-opacity="0.25">
+                                    <rect x="23" y="53" width="1.2" height="13" fill="#E94B6E" transform="rotate(20 23 53)"/>
+                                    <rect x="161" y="72" width="1.2" height="13" fill="#FFD66B" transform="rotate(-25 161 72)"/>
+                                    <rect x="165" y="187" width="1.2" height="13" fill="#E94B6E" transform="rotate(15 165 187)"/>
+                                    <rect x="15" y="144" width="1.2" height="13" fill="#FFD66B" transform="rotate(-30 15 144)"/>
+                                </g>
+                                <g fill-opacity="0.25">
+                                    <circle cx="38" cy="19" r="1.8" fill="#F0C14B"/>
+                                    <circle cx="125" cy="22" r="1.2" fill="#F5EFDC"/>
+                                    <circle cx="154" cy="43" r="1.2" fill="#F5EFDC"/>
+                                    <circle cx="11" cy="91" r="1.6" fill="#F0C14B"/>
+                                    <circle cx="177" cy="115" r="1.8" fill="#E94B6E"/>
+                                    <circle cx="142" cy="158" r="1.4" fill="#F0C14B"/>
+                                    <circle cx="35" cy="178" r="1.2" fill="#F5EFDC"/>
+                                    <circle cx="115" cy="206" r="1.2" fill="#F5EFDC"/>
+                                </g>
+                                <g fill="#FFD66B" font-family="serif">
+                                    <text x="144" y="22" font-size="11" fill-opacity="0.45">✦</text>
+                                    <text x="27" y="36" font-size="7" fill-opacity="0.35">✦</text>
+                                    <text x="173" y="213" font-size="7" fill-opacity="0.35">✦</text>
+                                    <text x="19" y="199" font-size="11" fill-opacity="0.45">✦</text>
+                                    <text x="169" y="89" font-size="6" fill-opacity="0.25">✦</text>
+                                </g>
+                            </svg>
+                            <div class="card-content">
+                                <div class="card-header">
+                                    <div class="card-chip celebration">
+                                        <div class="numeral">12</div>
+                                        <div class="stacked">
+                                            <div class="month">JUN</div>
+                                            <div class="dow">FRI</div>
+                                        </div>
+                                    </div>
+                                    <div class="card-header-right">
+                                        <span class="card-party">🎉</span>
+                                        <div class="card-pink-dot"></div>
+                                    </div>
+                                </div>
+                                <div class="card-divider"></div>
+                                <div class="card-body">
+                                    <!-- Title cluster (WHAT + WHEN). -->
+                                    <div class="card-title celebration">Maya's Birthday Dinner</div>
+                                    <div class="card-time">7:00 PM &ndash; 10:00 PM</div>
+                                    <div class="card-spacer"></div>
+                                    <!-- Context cluster (WHERE). -->
+                                    <div class="card-location">
+                                        <svg width="7" height="9" viewBox="0 0 14 18" fill="none" aria-hidden="true">
+                                            <path d="M7 0c-3.3 0-6 2.6-6 5.9 0 4.4 6 11.1 6 11.1s6-6.7 6-11.1C13 2.6 10.3 0 7 0zm0 8.1a2.1 2.1 0 110-4.2 2.1 2.1 0 010 4.2z" fill="#F5EFDC" fill-opacity="0.85"/>
+                                        </svg>
+                                        <span>Comal, Hotel San Jos&eacute;</span>
+                                    </div>
+                                    <!-- 7 PM to 10 PM is 79.2% to 91.7% of the day. -->
+                                    <div class="card-stripe celebration" aria-hidden="true">
+                                        <div class="card-stripe-bar">
+                                            <div class="card-stripe-tick-mark" style="left: 25%;"></div>
+                                            <div class="card-stripe-tick-mark" style="left: 50%;"></div>
+                                            <div class="card-stripe-tick-mark" style="left: 75%;"></div>
+                                            <div class="card-stripe-range" style="left: 79.2%; width: 12.5%;"></div>
+                                        </div>
+                                        <div class="card-stripe-labels">
+                                            <span>12a</span><span>6a</span><span>12p</span><span>6p</span><span>12a</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-attribution">MADE WITH KASHCAL</div>
+                            </div>
+                        </div>
+                    </div>
+                    <figcaption class="card-figure-label">Celebration</figcaption>
+                </figure>
+
+            </div>
+        </div>
+
+        <p class="card-stage-caption">
+            <strong>Standard</strong> for the things on your week. <strong>Celebration</strong> for the things you actually want to talk about. Both go out in one tap.
+        </p>
+
+        <h2>What the recipient gets</h2>
+        <p>The card lands in the chat as a regular image, viewable in any messenger. Alongside it travels a small file their calendar already knows how to handle: tapping it opens iPhone Calendar, Google Calendar, Outlook, or whichever calendar they use, ready to add the event with one tap. No KashCal install required, no account, no retyping.</p>
+
+        <h2>Privacy</h2>
+        <p>The file you send is a clean, single-occurrence copy of the event. It carries a brand-new identifier with no attendee list, no organizer email, no link back to the meeting it came from. If your event has attendees, none of their addresses travel with the share. Sharing a recurring event sends only the occurrence you tapped on, never the whole series.</p>
+
+        <div class="callout">
+            <p>You're not sending a meeting invite. You're handing the recipient a copy of the event so <em>they</em> can decide what to put on their calendar. It's their event now, not yours.</p>
+        </div>
+
+        <h2>Designed details</h2>
+        <dl class="cards-grid">
+            <dt>Two styles</dt>
+            <dd>Standard for everyday plans. Celebration for the kind you tell people about.</dd>
+            <dt>Multi-day events</dt>
+            <dd>A horizontal range chip ("MAY 31 to JUN 03"), with day-of-week in the body so the chip stays light.</dd>
+            <dt>Overnight events</dt>
+            <dd>Saturday 10 PM to Sunday 2 AM stays a single Saturday-night card. KashCal only treats an event as multi-day when it crosses a date and lasts at least 18 hours.</dd>
+            <dt>All sources</dt>
+            <dd>Works for events from any calendar: iCloud, Nextcloud, Google (via Android), your phone's local calendar, an ICS feed, or a contact's birthday.</dd>
+        </dl>
+
+        <h2>How to share</h2>
+        <p>Tap an event anywhere it appears: the day view, the agenda, the week. The quick view sheet has a small Share icon at the top right. Tap it, pick a style, tap Send.</p>
+
+        <section class="related" aria-label="More features">
+            <p class="related-label">Also in KashCal</p>
+            <div class="related-grid">
+                <a class="related-card" href="/features/icloud-calendar-android/">
+                    <div class="related-card-title">iCloud calendar on Android</div>
+                    <div class="related-card-desc">Two-way sync with iPhone and iPad. Shared family calendars too.</div>
+                </a>
+                <a class="related-card" href="/features/beautiful-calendar-android/">
+                    <div class="related-card-title">The best-looking calendar on Android</div>
+                    <div class="related-card-desc">Material You, six views, a 92-color wheel.</div>
+                </a>
+            </div>
+        </section>
+
+        <div class="download">
+            <h3>Try it</h3>
+            <div class="download-badges">
+                <a href="https://f-droid.org/en/packages/org.onekash.kashcal/" aria-label="Get it on F-Droid">
+                    <img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on F-Droid">
+                </a>
+                <a href="https://apt.izzysoft.de/fdroid/index/apk/org.onekash.kashcal" aria-label="Get it on IzzyOnDroid">
+                    <img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" alt="Get it on IzzyOnDroid">
+                </a>
+                <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/%7B%22id%22:%22org.onekash.kashcal%22,%22url%22:%22https://github.com/KashCal/KashCal%22,%22author%22:%22KashCal%22,%22name%22:%22KashCal%22,%22additionalSettings%22:%22%7B%5C%22about%5C%22:%5C%22All%20your%20calendars%20in%20one%20private%20app%5C%22,%5C%22appAuthor%5C%22:%5C%22KashCal%5C%22%7D%22%7D" aria-label="Get it with Obtainium">
+                    <img src="https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/graphics/badge_obtainium.png" alt="Get it with Obtainium">
+                </a>
+            </div>
+            <p class="download-apk">or <a href="https://github.com/KashCal/KashCal/releases/latest">download the APK</a> directly</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="/">Home</a>
+            <a href="/features/">Features</a>
+            <a href="/privacy/">Privacy</a>
+            <a href="/work-with-us/">Work with us</a>
+            <a href="https://github.com/KashCal/KashCal/issues">Share Feedback</a>
+        </div>
+        <p class="footer-note">
+            &copy; <span id="year"></span> KashCal
+        </p>
+        <p class="footer-brand">
+            Built with love in Austin by <a href="https://onekash.org">OneKash Labs</a>
+        </p>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        const menuBtn = document.querySelector('.menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            const isOpen = mobileMenu.classList.toggle('open');
+            menuBtn.setAttribute('aria-expanded', isOpen);
+            menuBtn.textContent = isOpen ? '✕' : '☰';
+        });
+        mobileMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('open');
+                menuBtn.setAttribute('aria-expanded', 'false');
+                menuBtn.textContent = '☰';
+            });
+        });
+    </script>
+</body>
+</html>
