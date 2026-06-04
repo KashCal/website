@@ -569,8 +569,8 @@
             border-bottom: 1px solid var(--border);
         }
 
-        .also-item:nth-child(5),
-        .also-item:nth-child(6) {
+        /* Last row of the 2-column grid: drop the bottom border. */
+        .also-item:nth-last-child(-n+2) {
             border-bottom: none;
         }
 
@@ -906,7 +906,8 @@
             .also {
                 grid-template-columns: 1fr;
             }
-            .also-item:nth-child(5) {
+            /* Single column: only the very last item drops its border. */
+            .also-item:nth-last-child(2) {
                 border-bottom: 1px solid var(--border);
             }
             .also-item:last-child {
@@ -1113,6 +1114,7 @@
             <div class="also fade-in">
                 <div class="also-item"><strong>Widgets</strong> <span>Agenda, date, week, and month.</span></div>
                 <a class="also-item" href="/features/share-event-as-card-android/"><strong>Share as card</strong> <span>One tap turns any event into a designed card and a tap-to-add file.</span></a>
+                <a class="also-item" href="/features/my-calendar-can-do-this-can-yours/"><strong>KashCal Challenge</strong> <span>Mine can do this. Can yours? Show off a feature and tag #KashCal.</span></a>
                 <a class="also-item" href="/features/all-your-calendars-google-outlook-android/#icloud-vs-caldav"><strong>CalDAV</strong> <span>Nextcloud, Radicale, Fastmail, Baikal, and others.</span></a>
                 <a class="also-item" href="/features/all-your-calendars-google-outlook-android/#device-calendars"><strong>Device calendar</strong> <span>Your phone's built-in calendar alongside everything else.</span></a>
                 <a class="also-item" href="/features/all-your-calendars-google-outlook-android/#ics-feeds"><strong>ICS subscriptions</strong> <span>Public holidays, school terms, sports seasons.</span></a>
