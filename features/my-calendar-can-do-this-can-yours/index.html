@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The KashCal Challenge - KashCal</title>
+    <meta name="author" content="OneKash Labs">
+
+    <link rel="canonical" href="https://kashcal.onekash.org/features/my-calendar-can-do-this-can-yours/">
+    <meta name="description" content="Take the KashCal Challenge: post the one thing your calendar does that others can't, tag #KashCal, dare a friend. Quick Add, a Quick Settings tile, real CalDAV, on-device insights. All free, no account.">
+    <meta name="theme-color" content="#F5F0E8">
+
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://kashcal.onekash.org/features/my-calendar-can-do-this-can-yours/">
+    <meta property="og:title" content="The KashCal Challenge: my calendar can do this, can yours?">
+    <meta property="og:description" content="Post the one thing your calendar does that others can't, tag #KashCal, and dare a friend. Quick Add, a Quick Settings tile, send-as-card, real CalDAV, on-device insights. All free, no account.">
+    <meta property="og:image" content="https://kashcal.onekash.org/feature-graphic.png">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="500">
+    <meta property="og:image:alt" content="The KashCal Challenge, an open-source Android calendar with features most calendar apps charge for or skip entirely.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="KashCal">
+    <meta property="article:published_time" content="2026-06-04T00:00:00Z">
+    <meta property="article:modified_time" content="2026-06-04T00:00:00Z">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The KashCal Challenge: my calendar can do this, can yours?">
+    <meta name="twitter:description" content="Post the one thing your calendar does that others can't, tag #KashCal, and dare a friend. Quick Add, a Quick Settings tile, real CalDAV, on-device insights. All free, no account.">
+    <meta name="twitter:image" content="https://kashcal.onekash.org/feature-graphic.png">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "KashCal",
+                "item": "https://kashcal.onekash.org/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Features",
+                "item": "https://kashcal.onekash.org/features/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "The KashCal Challenge",
+                "item": "https://kashcal.onekash.org/features/my-calendar-can-do-this-can-yours/"
+            }
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://kashcal.onekash.org/features/my-calendar-can-do-this-can-yours/#webpage",
+        "url": "https://kashcal.onekash.org/features/my-calendar-can-do-this-can-yours/",
+        "name": "The KashCal Challenge - KashCal",
+        "description": "Take the KashCal Challenge: post the one thing your calendar does that others can't, tag #KashCal, dare a friend. Quick Add, a Quick Settings tile, real CalDAV, on-device insights. All free, no account.",
+        "inLanguage": "en",
+        "datePublished": "2026-06-04",
+        "dateModified": "2026-06-04",
+        "isPartOf": {
+            "@type": "WebSite",
+            "url": "https://kashcal.onekash.org/",
+            "name": "KashCal"
+        },
+        "about": {
+            "@id": "https://kashcal.onekash.org/#kashcal-app"
+        }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is the KashCal Challenge?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Three steps: do one thing in KashCal that your old calendar couldn't, post it anywhere you already hang out (Reddit, Mastodon, X, Lemmy, a group chat) with the tag #KashCal, and dare a friend to match it. There is no contest, no signup, and no email to collect. It is just word of mouth for a free, open-source app."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the Quick Settings tile?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A KashCal tile you can drop into the Android Quick Settings panel, the same place your flashlight and Wi-Fi toggles live. Pull down from the top of the screen, tap it, and Quick Add opens, even over other apps. It is the fastest way to capture an event without leaving what you are doing."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Are these features really free?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. KashCal is free and open source under Apache 2.0. No trial, no pro tier, no paywalled features, no ads, no trackers, and no KashCal account. The things on this page are the whole app, not a teaser for an upgrade."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
+    <link rel="apple-touch-icon" href="/icon-192.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"></noscript>
+    <style>
+        :root {
+            --bg: #F5F0E8;
+            --bg-alt: #E8E1D5;
+            --bg-dark: #1A1814;
+            --text: #1A1814;
+            --text-secondary: #5C554A;
+            --text-muted: #857F74;
+            --border: #D4CCC2;
+            --accent: #1B6B5F;
+            --accent-hover: #145A50;
+            --accent-warm: #935A32;
+            --accent-light: #3DA99A;
+            --text-light: #FAF8F4;
+            --text-muted-light: #948E83;
+            --shadow: 0 2px 20px rgba(26, 24, 20, 0.10);
+            --shadow-hover: 0 8px 36px rgba(26, 24, 20, 0.16);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent), var(--accent-warm));
+            z-index: 200;
+        }
+
+        body::after {
+            content: '';
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            opacity: 0.03;
+            pointer-events: none;
+            z-index: 1000;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+            background-repeat: repeat;
+            background-size: 256px 256px;
+        }
+
+        nav {
+            position: fixed;
+            top: 3px; left: 0; right: 0;
+            padding: 1rem 2rem;
+            background: rgba(245, 240, 232, 0.92);
+            -webkit-backdrop-filter: blur(16px);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border);
+            z-index: 100;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 1.5rem;
+            color: var(--text);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .logo-icon { width: 32px; height: 32px; border-radius: 8px; }
+
+        .nav-links { display: flex; gap: 2rem; align-items: center; }
+
+        .nav-link {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .nav-link:hover { color: var(--text); }
+        .nav-link.active { color: var(--text); }
+        .nav-link .arrow {
+            display: inline-block;
+            margin-left: 0.25rem;
+            transition: transform 0.2s;
+        }
+        .nav-link:hover .arrow { transform: translateX(2px); }
+
+        .menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--text);
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 0.5rem;
+        }
+
+        .mobile-menu {
+            display: none;
+            position: fixed;
+            top: 63px; left: 0; right: 0;
+            background: rgba(245, 240, 232, 0.98);
+            -webkit-backdrop-filter: blur(16px);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border);
+            padding: 1rem;
+            z-index: 99;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        .mobile-menu.open { display: flex; }
+
+        .mobile-menu a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            padding: 0.75rem 1rem;
+            border-radius: 8px;
+            transition: all 0.2s;
+        }
+
+        .mobile-menu a:hover {
+            color: var(--text);
+            background: var(--bg-alt);
+        }
+
+        .page {
+            flex: 1;
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 7rem 1.75rem 4rem;
+            width: 100%;
+        }
+
+        .crumbs {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-bottom: 1.25rem;
+        }
+
+        .crumbs a {
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .crumbs a:hover { color: var(--accent); }
+
+        .crumbs span { margin: 0 0.4rem; }
+
+        .tag {
+            display: inline-block;
+            font-size: 0.72rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--accent-warm);
+            font-weight: 700;
+            margin-bottom: 0.85rem;
+        }
+
+        h1 {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 2.6rem;
+            font-weight: 700;
+            line-height: 1.1;
+            margin-bottom: 0.85rem;
+        }
+
+        .lede {
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            margin-bottom: 1.25rem;
+            max-width: 620px;
+        }
+
+        .sub-lede {
+            font-size: 1rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            max-width: 620px;
+        }
+
+        /* ========= How the challenge works ========= */
+
+        .steps {
+            list-style: none;
+            margin: 1.75rem 0 0.5rem;
+            display: grid;
+            gap: 0.75rem;
+            max-width: 620px;
+        }
+
+        .step {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.85rem;
+        }
+
+        .step-num {
+            flex-shrink: 0;
+            width: 1.7rem;
+            height: 1.7rem;
+            border-radius: 50%;
+            background: var(--accent);
+            color: var(--text-light);
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-weight: 700;
+            font-size: 0.95rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 1;
+        }
+
+        .step-text {
+            font-size: 1rem;
+            color: var(--text-secondary);
+            line-height: 1.55;
+            padding-top: 0.1rem;
+        }
+
+        .step-text .hash { color: var(--accent); font-weight: 600; }
+
+        h2 {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 1.45rem;
+            font-weight: 600;
+            margin: 2.5rem 0 0.85rem;
+            color: var(--text);
+            padding-left: 0.85rem;
+            border-left: 3px solid var(--accent);
+        }
+
+        p {
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+            font-size: 1rem;
+        }
+
+        strong { color: var(--text); font-weight: 600; }
+
+        .page a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .page a:hover {
+            color: var(--accent-hover);
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        /* ========= Brag list: one feature, then the wink ========= */
+
+        .brags {
+            margin: 2rem 0 1.5rem;
+            display: grid;
+            gap: 0.85rem;
+        }
+
+        .brag {
+            padding: 1.15rem 1.35rem 1.25rem;
+            background: rgba(27, 107, 95, 0.05);
+            border: 1px solid rgba(27, 107, 95, 0.15);
+            border-radius: 12px;
+            position: relative;
+        }
+
+        .brag-claim {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 1.12rem;
+            font-weight: 600;
+            color: var(--text);
+            line-height: 1.35;
+            margin-bottom: 0.35rem;
+        }
+
+        .brag-detail {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        .brag-detail a { font-weight: 600; }
+
+        /* The recurring "can yours?" tag in the corner of each brag. */
+        .brag-wink {
+            display: inline-block;
+            margin-top: 0.6rem;
+            font-size: 0.78rem;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+            color: var(--accent-warm);
+        }
+
+        /* The just-shipped item gets a NEW flag. */
+        .brag.is-new { border-color: var(--accent); background: rgba(27, 107, 95, 0.08); }
+
+        .brag-new-flag {
+            display: inline-block;
+            font-size: 0.62rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: var(--text-light);
+            background: var(--accent);
+            border-radius: 999px;
+            padding: 0.15rem 0.55rem;
+            margin-left: 0.5rem;
+            vertical-align: 0.18em;
+        }
+
+        /* ========= Share kit ========= */
+
+        .kit {
+            margin: 1.5rem 0;
+            display: grid;
+            gap: 0.85rem;
+        }
+
+        .post {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            padding: 1.1rem 1.25rem;
+            background: var(--bg-alt);
+            border-radius: 12px;
+        }
+
+        .post-text {
+            flex: 1;
+            font-size: 0.96rem;
+            color: var(--text);
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        .post-text .hash { color: var(--accent); font-weight: 600; }
+
+        .copy-btn {
+            flex-shrink: 0;
+            font-family: inherit;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--accent);
+            background: transparent;
+            border: 1px solid rgba(27, 107, 95, 0.35);
+            border-radius: 8px;
+            padding: 0.4rem 0.8rem;
+            cursor: pointer;
+            transition: background 0.2s, color 0.2s, border-color 0.2s;
+            white-space: nowrap;
+        }
+
+        .copy-btn:hover {
+            background: var(--accent);
+            color: var(--text-light);
+            border-color: var(--accent);
+        }
+
+        .copy-btn.copied {
+            background: var(--accent);
+            color: var(--text-light);
+            border-color: var(--accent);
+        }
+
+        .callout {
+            background: rgba(27, 107, 95, 0.05);
+            border: 1px solid rgba(27, 107, 95, 0.15);
+            border-radius: 10px;
+            padding: 1rem 1.25rem;
+            margin: 1rem 0 1.5rem;
+            font-size: 0.95rem;
+        }
+
+        .callout p { margin: 0; color: var(--text-secondary); }
+        .callout strong { color: var(--accent); }
+
+        .related {
+            margin: 2.5rem 0 1rem;
+            padding-top: 1.75rem;
+            border-top: 1px solid var(--border);
+        }
+
+        .related-label {
+            font-size: 0.72rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .related-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+
+        .related-card {
+            display: block;
+            padding: 1rem 1.25rem;
+            background: rgba(27, 107, 95, 0.04);
+            border: 1px solid rgba(27, 107, 95, 0.12);
+            border-radius: 10px;
+            text-decoration: none;
+            color: inherit;
+            transition: background 0.2s, border-color 0.2s, transform 0.2s;
+        }
+
+        .related-card:hover {
+            background: rgba(27, 107, 95, 0.07);
+            border-color: var(--accent);
+            transform: translateY(-2px);
+            text-decoration: none;
+        }
+
+        .related-card-title {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 0.25rem;
+        }
+
+        .related-card-desc {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+        }
+
+        @media (max-width: 560px) {
+            .related-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .download {
+            margin: 2rem 0 1rem;
+            padding: 1.5rem 1.5rem 1.75rem;
+            background: var(--bg-alt);
+            border-radius: 14px;
+        }
+
+        .download h3 {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.85rem;
+            color: var(--text);
+        }
+
+        .download-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.65rem;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .download-badges a { transition: transform 0.25s ease; }
+        .download-badges a:hover { transform: scale(1.04) translateY(-2px); }
+
+        .download-badges img {
+            height: 48px;
+            max-width: 140px;
+            object-fit: contain;
+        }
+
+        .download-apk {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 0.75rem;
+            margin-bottom: 0;
+        }
+
+        footer {
+            padding: 3rem 2rem;
+            background: linear-gradient(180deg, #201C17 0%, var(--bg-dark) 100%);
+            text-align: center;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: var(--text-muted-light);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+
+        .footer-links a:hover { color: var(--text-light); }
+
+        .footer-links a[href^="http"]::after {
+            content: " \2197";
+            font-size: 0.7em;
+            opacity: 0.7;
+        }
+
+        .footer-note {
+            color: var(--text-muted-light);
+            font-size: 0.85rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-brand { color: var(--text-muted-light); font-size: 0.8rem; }
+
+        .footer-brand a {
+            color: var(--text-light);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .footer-brand a:hover { color: var(--accent-light); }
+
+        a:focus-visible, button:focus-visible {
+            outline: 2px solid var(--accent);
+            outline-offset: 3px;
+        }
+
+        @media (max-width: 768px) {
+            nav { padding: 1rem 1.5rem; }
+            .nav-links { display: none; }
+            .menu-btn { display: block; }
+            .page { padding: 6.5rem 1.25rem 3rem; }
+            h1 { font-size: 2.1rem; }
+            .lede { font-size: 1.05rem; }
+            .post { flex-direction: column; gap: 0.75rem; }
+            .copy-btn { align-self: flex-start; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            html { scroll-behavior: auto; }
+            *, *::before, *::after { transition: none !important; }
+            body::after { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/" class="logo">
+            <img src="/favicon.png" alt="KashCal" class="logo-icon">
+            KashCal
+        </a>
+        <div class="nav-links">
+            <a href="/features/" class="nav-link active">Features</a>
+            <a href="https://f-droid.org/en/packages/org.onekash.kashcal/" class="nav-link">Get KashCal</a>
+            <a href="/privacy/" class="nav-link">Privacy</a>
+            <a href="https://github.com/KashCal/KashCal" class="nav-link">Source</a>
+            <a href="/donate/" class="nav-link">Donate</a>
+            <a href="/work-with-us/" class="nav-link">Work with us<span class="arrow">&rarr;</span></a>
+        </div>
+        <button class="menu-btn" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+    </nav>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="/features/">Features</a>
+        <a href="https://f-droid.org/en/packages/org.onekash.kashcal/">Get KashCal</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="https://github.com/KashCal/KashCal">Source</a>
+        <a href="/donate/">Donate</a>
+        <a href="/work-with-us/">Work with us</a>
+    </div>
+
+    <main class="page">
+        <p class="crumbs">
+            <a href="/">Home</a><span>&rsaquo;</span><a href="/features/">Features</a><span>&rsaquo;</span>Can yours?
+        </p>
+
+        <span class="tag">The KashCal Challenge</span>
+        <h1>My calendar can do this. Can yours?</h1>
+        <p class="lede">A handful of things KashCal does that most calendar apps charge for, bury, or skip. All free, no account. Show off the one you like and dare a friend to match it.</p>
+
+        <ol class="steps" aria-label="How the challenge works">
+            <li class="step">
+                <span class="step-num">1</span>
+                <span class="step-text"><strong>Do the thing.</strong> Pick something from the list below that your old calendar couldn't do.</span>
+            </li>
+            <li class="step">
+                <span class="step-num">2</span>
+                <span class="step-text"><strong>Post it.</strong> A screenshot or one line, anywhere you hang out, tagged <span class="hash">#KashCal</span>.</span>
+            </li>
+            <li class="step">
+                <span class="step-num">3</span>
+                <span class="step-text"><strong>Dare a friend.</strong> "Mine can do this. Can yours?" Then pass it on.</span>
+            </li>
+        </ol>
+
+        <h2>The list</h2>
+        <div class="brags">
+
+            <div class="brag is-new">
+                <div class="brag-claim">Mine opens a new event from Quick Settings<span class="brag-new-flag">New</span></div>
+                <p class="brag-detail">I dropped a KashCal tile next to my flashlight and Wi-Fi toggles. I pull down from the top of the screen, tap it, and I'm typing a new event, even over whatever app I was in. The fastest way to catch a plan before it slips.</p>
+                <span class="brag-wink">Can yours?</span>
+            </div>
+
+            <div class="brag">
+                <div class="brag-claim">Mine takes the event as a sentence</div>
+                <p class="brag-detail">I type "Yoga every Tuesday 7am at the studio" and it becomes a real recurring event, with the time, the place, the repeat, and the title each landing where they belong. It reads dates, times, durations, recurrence, and locations. <a href="/features/share-event-as-card-android/">No form, no fields</a>, I just type.</p>
+                <span class="brag-wink">Can yours?</span>
+            </div>
+
+            <div class="brag">
+                <div class="brag-claim">Mine sends an event as a card people can actually use</div>
+                <p class="brag-detail">One tap turns any event into a designed card and a tap-to-add file, sent together in any chat. My friend taps once to drop it on their own calendar. No screenshots to retype, no invite that drags in email accounts. <a href="/features/share-event-as-card-android/">See how it looks.</a></p>
+                <span class="brag-wink">Can yours?</span>
+            </div>
+
+            <div class="brag">
+                <div class="brag-claim">Mine does real CalDAV the moment I install it</div>
+                <p class="brag-detail">Nextcloud, Radicale, Fastmail, Baikal, Zoho, SoGo, Stalwart, and more, syncing two ways with no middleware app, no relay server, and no second thing to install. <a href="/features/all-your-calendars-google-outlook-android/">My phone's Google and Outlook calendars</a> show up too.</p>
+                <span class="brag-wink">Can yours?</span>
+            </div>
+
+            <div class="brag">
+                <div class="brag-claim">Mine shows my iPhone family calendar, on Android</div>
+                <p class="brag-detail">I signed in once and my iCloud calendars sync both ways, shared family calendars included. No bridge, no export-import dance. <a href="/features/icloud-calendar-android/">Just my calendars, where I am now.</a></p>
+                <span class="brag-wink">Can yours?</span>
+            </div>
+
+            <div class="brag">
+                <div class="brag-claim">Mine shows where my time goes, computed on my phone</div>
+                <p class="brag-detail">Busiest day, meeting-free days, weekend load, my next free block. It works the numbers out on-device, no work account and no cloud crunching my schedule. <a href="/features/calendar-insights-android/">A quiet look at my week.</a></p>
+                <span class="brag-wink">Can yours?</span>
+            </div>
+
+            <div class="brag">
+                <div class="brag-claim">Mine has a 92-color wheel, six views, Material You</div>
+                <p class="brag-detail">Month, agenda, three-day, week, month-full, and year. I pinch to zoom, drag to reschedule, and color any event from a curated palette or the full color wheel. <a href="/features/beautiful-calendar-android/">It's nice to look at.</a></p>
+                <span class="brag-wink">Can yours?</span>
+            </div>
+
+            <div class="brag">
+                <div class="brag-claim">Mine works fully offline and speaks 67 languages</div>
+                <p class="brag-detail">No KashCal account, ever. No ads, no trackers, no analytics. My credentials are encrypted with the Android Keystore, and the whole thing works offline from first install. Free and open source under Apache 2.0.</p>
+                <span class="brag-wink">Can yours?</span>
+            </div>
+
+        </div>
+
+        <div class="callout">
+            <p>None of the above is a trial, a teaser, or a "pro" tier. <strong>It's the whole app.</strong> Found the one thing your old calendar couldn't do? That's your challenge entry.</p>
+        </div>
+
+        <h2>Take the challenge</h2>
+        <p>Pick the line that's true for you, tap copy, and post it wherever you already hang out: Reddit, Mastodon, X, Lemmy, a group chat. Tag it <strong>#KashCal</strong> and dare a friend to match it. Even better, post a screenshot of the feature you like.</p>
+
+        <div class="kit">
+            <div class="post">
+                <p class="post-text">My calendar opens a new event from the Quick Settings panel, before I've even left the app I'm in. Can yours? <span class="hash">#KashCal</span></p>
+                <button class="copy-btn" type="button">Copy</button>
+            </div>
+            <div class="post">
+                <p class="post-text">I type "dinner with mom friday 7pm" and my calendar just makes the event. No form. Free, open source, no account. <span class="hash">#KashCal</span></p>
+                <button class="copy-btn" type="button">Copy</button>
+            </div>
+            <div class="post">
+                <p class="post-text">Finally syncing my iPhone family calendar on Android with no middleman. <span class="hash">#KashCal</span> kashcal.onekash.org</p>
+                <button class="copy-btn" type="button">Copy</button>
+            </div>
+            <div class="post">
+                <p class="post-text">Found an Android calendar with real CalDAV out of the box, on-device time insights, and a 92-color wheel. No ads, no trackers, no paywall. <span class="hash">#KashCal</span></p>
+                <button class="copy-btn" type="button">Copy</button>
+            </div>
+        </div>
+
+        <section class="related" aria-label="More features">
+            <p class="related-label">Pick something to brag about</p>
+            <div class="related-grid">
+                <a class="related-card" href="/features/share-event-as-card-android/">
+                    <div class="related-card-title">Share an event as a card</div>
+                    <div class="related-card-desc">A designed card and a tap-to-add file, sent together in one tap.</div>
+                </a>
+                <a class="related-card" href="/features/all-your-calendars-google-outlook-android/">
+                    <div class="related-card-title">All your calendars on Android</div>
+                    <div class="related-card-desc">iCloud, CalDAV, Google, Outlook, ICS feeds, in one app.</div>
+                </a>
+                <a class="related-card" href="/features/calendar-insights-android/">
+                    <div class="related-card-title">See where your time goes</div>
+                    <div class="related-card-desc">Calendar insights computed on your phone. No cloud, no work account.</div>
+                </a>
+                <a class="related-card" href="/features/beautiful-calendar-android/">
+                    <div class="related-card-title">The best-looking calendar on Android</div>
+                    <div class="related-card-desc">Material You, six views, a 92-color wheel.</div>
+                </a>
+            </div>
+        </section>
+
+        <div class="download">
+            <h3>Get it, then brag</h3>
+            <div class="download-badges">
+                <a href="https://f-droid.org/en/packages/org.onekash.kashcal/" aria-label="Get it on F-Droid">
+                    <img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on F-Droid">
+                </a>
+                <a href="https://apt.izzysoft.de/fdroid/index/apk/org.onekash.kashcal" aria-label="Get it on IzzyOnDroid">
+                    <img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" alt="Get it on IzzyOnDroid">
+                </a>
+                <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/%7B%22id%22:%22org.onekash.kashcal%22,%22url%22:%22https://github.com/KashCal/KashCal%22,%22author%22:%22KashCal%22,%22name%22:%22KashCal%22,%22additionalSettings%22:%22%7B%5C%22about%5C%22:%5C%22All%20your%20calendars%20in%20one%20private%20app%5C%22,%5C%22appAuthor%5C%22:%5C%22KashCal%5C%22%7D%22%7D" aria-label="Get it with Obtainium">
+                    <img src="https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/graphics/badge_obtainium.png" alt="Get it with Obtainium">
+                </a>
+            </div>
+            <p class="download-apk">or <a href="https://github.com/KashCal/KashCal/releases/latest">download the APK</a> directly</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="/">Home</a>
+            <a href="/features/">Features</a>
+            <a href="/privacy/">Privacy</a>
+            <a href="/work-with-us/">Work with us</a>
+            <a href="https://github.com/KashCal/KashCal/issues">Share Feedback</a>
+        </div>
+        <p class="footer-note">
+            &copy; <span id="year"></span> KashCal
+        </p>
+        <p class="footer-brand">
+            Built with love in Austin by <a href="https://onekash.org">OneKash Labs</a>
+        </p>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        const menuBtn = document.querySelector('.menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            const isOpen = mobileMenu.classList.toggle('open');
+            menuBtn.setAttribute('aria-expanded', isOpen);
+            menuBtn.textContent = isOpen ? '✕' : '☰';
+        });
+        mobileMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('open');
+                menuBtn.setAttribute('aria-expanded', 'false');
+                menuBtn.textContent = '☰';
+            });
+        });
+
+        // Copy-to-clipboard for the share kit. Falls back gracefully if the
+        // Clipboard API is unavailable (older browsers, non-secure context).
+        document.querySelectorAll('.post').forEach(post => {
+            const btn = post.querySelector('.copy-btn');
+            const text = post.querySelector('.post-text').textContent.trim();
+            btn.addEventListener('click', async () => {
+                try {
+                    await navigator.clipboard.writeText(text);
+                } catch (e) {
+                    const ta = document.createElement('textarea');
+                    ta.value = text;
+                    ta.style.position = 'fixed';
+                    ta.style.opacity = '0';
+                    document.body.appendChild(ta);
+                    ta.select();
+                    try { document.execCommand('copy'); } catch (_) {}
+                    document.body.removeChild(ta);
+                }
+                const original = btn.textContent;
+                btn.textContent = 'Copied';
+                btn.classList.add('copied');
+                setTimeout(() => {
+                    btn.textContent = original;
+                    btn.classList.remove('copied');
+                }, 1600);
+            });
+        });
+    </script>
+</body>
+</html>
