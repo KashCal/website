@@ -1,0 +1,113 @@
+.wrap {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 6rem 1.5rem 5rem;
+  text-align: center;
+}
+
+.title {
+  font-size: clamp(2rem, 5vw, 2.8rem);
+  line-height: 1.05;
+  margin: 0 0 1rem;
+}
+
+.lede {
+  font-size: 1.1rem;
+  color: var(--ifm-color-emphasis-700);
+  margin: 0 auto 3rem;
+  max-width: 32rem;
+}
+
+/* Three brand cards, left to right (matches the original donate page). */
+.options {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 2rem 1.5rem 1.75rem;
+  background: var(--brand-light);
+  border: 1px solid var(--kc-line);
+  border-radius: 14px;
+  text-decoration: none;
+  color: var(--ifm-font-color-base);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.option:hover {
+  text-decoration: none;
+  color: var(--ifm-font-color-base);
+  transform: translateY(-4px);
+  border-color: var(--brand);
+  box-shadow: 0 16px 36px -20px rgba(0, 0, 0, 0.4);
+}
+
+/* Brand colors, chosen to match each service. */
+.optGithub {
+  --brand: #ea4aaa;
+  --brand-light: rgba(234, 74, 170, 0.1);
+}
+.optKofi {
+  --brand: #29abe0;
+  --brand-light: rgba(41, 171, 224, 0.1);
+}
+.optStripe {
+  --brand: #635bff;
+  --brand-light: rgba(99, 91, 255, 0.1);
+}
+
+.optionIcon {
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  background: var(--brand-light);
+  color: var(--brand);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+
+.option:hover .optionIcon {
+  background: var(--brand);
+  color: #fff;
+}
+
+.optionName {
+  font-family: var(--ifm-heading-font-family);
+  font-weight: 700;
+  font-size: 1.15rem;
+}
+
+.optionDesc {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.82rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.footnote {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+@media (max-width: 700px) {
+  .options {
+    grid-template-columns: 1fr;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .option {
+    flex-direction: row;
+    padding: 1.25rem;
+    gap: 1rem;
+    text-align: left;
+  }
+}

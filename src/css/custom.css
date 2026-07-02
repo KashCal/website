@@ -1,0 +1,749 @@
+/**
+ * KashCal site theme.
+ *
+ * Teal is the one fixed brand color (it matches the app and logo). Everything
+ * else is chosen to escape the cream/terracotta default: the body is a cool
+ * near-white, section banding is a faint teal mist, and the single accent is
+ * marigold, the color of "today" on a calendar day. The calendar grid is the
+ * recurring visual motif. Type pairs Bricolage Grotesque (display) with
+ * Figtree (body) and JetBrains Mono (labels, times, the Quick Add voice).
+ */
+
+:root {
+  /* Brand teal */
+  --ifm-color-primary: #0e6e62;
+  --ifm-color-primary-dark: #0c6358;
+  --ifm-color-primary-darker: #0b5d53;
+  --ifm-color-primary-darkest: #094c44;
+  --ifm-color-primary-light: #107a6c;
+  --ifm-color-primary-lighter: #118071;
+  --ifm-color-primary-lightest: #159a88;
+
+  /* Tokens */
+  --kc-teal: #0e6e62;
+  --kc-teal-deep: #093a34;
+  --kc-teal-ink: #06231f;
+  --kc-accent: #f4b740;
+  /* Darker marigold for small text on light backgrounds (AA: ~4.6:1 on white). */
+  --kc-accent-deep: #936410;
+  --kc-mist: #eef4f2;
+  --kc-paper: #fbfcfb;
+  --kc-ink: #14201e;
+  --kc-line: rgba(20, 32, 30, 0.1);
+
+  --ifm-background-color: var(--kc-paper);
+  --ifm-background-surface-color: #ffffff;
+  --ifm-font-color-base: #16221f;
+
+  --ifm-font-family-base: 'Figtree', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --ifm-heading-font-family: 'Bricolage Grotesque', 'Figtree', system-ui, sans-serif;
+  --ifm-font-family-monospace: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+  --ifm-heading-font-weight: 700;
+  --ifm-h1-font-size: 2.4rem;
+  --ifm-code-font-size: 92%;
+
+  --ifm-navbar-background-color: rgba(251, 252, 251, 0.85);
+  --ifm-navbar-shadow: inset 0 -1px 0 var(--kc-line);
+  --docusaurus-highlighted-code-line-bg: rgba(14, 110, 98, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #45c2ad;
+  --ifm-color-primary-dark: #34b8a1;
+  --ifm-color-primary-darker: #31ae99;
+  --ifm-color-primary-darkest: #28907e;
+  --ifm-color-primary-light: #5cc9b7;
+  --ifm-color-primary-lighter: #68cdbc;
+  --ifm-color-primary-lightest: #8bdacd;
+
+  --kc-mist: #15201e;
+  --kc-paper: #101615;
+  --kc-ink: #eef3f1;
+  --kc-line: rgba(255, 255, 255, 0.1);
+
+  --ifm-background-color: #0d1413;
+  --ifm-background-surface-color: #151d1b;
+  --ifm-font-color-base: #e6ece9;
+  --ifm-navbar-background-color: rgba(13, 20, 19, 0.85);
+  --docusaurus-highlighted-code-line-bg: rgba(69, 194, 173, 0.14);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: -0.02em;
+  line-height: 1.08;
+}
+
+/* The blur is a desktop nicety. On mobile a backdrop-filter on .navbar
+   creates a containing block that clips the slide-out .navbar-sidebar to the
+   bar's height, so only apply it on wider screens. */
+@media (min-width: 997px) {
+  .navbar {
+    backdrop-filter: saturate(160%) blur(12px);
+  }
+}
+
+.navbar__title {
+  font-family: var(--ifm-heading-font-family);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  font-size: 1.25rem;
+}
+
+/* ----------------------------------------------------------------------- */
+/* Shared landing primitives                                               */
+/* ----------------------------------------------------------------------- */
+
+.kc-eyebrow {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--kc-accent-deep);
+  margin: 0 0 1rem;
+}
+
+[data-theme='dark'] .kc-eyebrow {
+  color: var(--kc-accent);
+}
+
+.kc-section {
+  padding: 5.5rem 0;
+}
+
+/* Quietly separate adjacent paper sections with a hairline instead of a
+   color block, so the page reads calm: teal hero, calm body, teal close.
+   The teal privacy band brings its own contrast, so skip the rule there. */
+.kc-section + .kc-section:not(.kc-privacy) {
+  border-top: 1px solid var(--kc-line);
+}
+
+.kc-section--mist {
+  background: var(--kc-mist);
+  border-top: 1px solid var(--kc-line);
+  border-bottom: 1px solid var(--kc-line);
+}
+
+.kc-section__head {
+  max-width: 40rem;
+  margin: 0 0 3rem;
+}
+
+.kc-section__head h2 {
+  font-size: clamp(1.9rem, 4vw, 2.75rem);
+  margin: 0 0 0.75rem;
+}
+
+.kc-section__head p {
+  font-size: 1.15rem;
+  color: var(--ifm-color-emphasis-700);
+  margin: 0;
+}
+
+/* ----------------------------------------------------------------------- */
+/* Hero                                                                    */
+/* ----------------------------------------------------------------------- */
+
+.kc-hero {
+  position: relative;
+  overflow: hidden;
+  background: var(--kc-teal-deep);
+  color: #eef3f1;
+  padding: clamp(4rem, 9vw, 7rem) 0 clamp(4rem, 8vw, 6rem);
+}
+
+/* The calendar grid is the signature motif, ghosted into the hero. */
+.kc-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 64px 64px;
+  mask-image: radial-gradient(ellipse 80% 70% at 70% 30%, #000 30%, transparent 80%);
+  pointer-events: none;
+}
+
+.kc-hero__inner {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.kc-hero__title {
+  font-size: clamp(2.6rem, 6vw, 4.2rem);
+  line-height: 0.98;
+  margin: 0.5rem 0 1.25rem;
+  color: #fbfcfb;
+}
+
+.kc-hero__title em {
+  font-style: normal;
+  color: var(--kc-accent);
+}
+
+.kc-hero__titleLink {
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  transition: border-color 0.15s ease;
+}
+
+.kc-hero__titleLink:hover {
+  text-decoration: none;
+  border-bottom-color: var(--kc-accent);
+}
+
+.kc-hero__titleLink em {
+  color: var(--kc-accent);
+}
+
+.kc-hero__lead {
+  font-size: 1.2rem;
+  line-height: 1.55;
+  color: rgba(238, 243, 241, 0.82);
+  max-width: 32rem;
+  margin: 0 0 2rem;
+}
+
+.kc-hero .kc-eyebrow {
+  color: var(--kc-accent);
+}
+
+.kc-hero__cta {
+  display: flex;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.kc-hero__note {
+  margin-top: 1.5rem;
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  color: rgba(238, 243, 241, 0.6);
+}
+
+/* Buttons */
+.kc-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.8rem 1.4rem;
+  border-radius: 10px;
+  border: 1.5px solid transparent;
+  transition: transform 0.12s ease, background 0.15s ease, border-color 0.15s ease;
+  text-decoration: none;
+}
+
+.kc-btn:hover {
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.kc-btn--accent {
+  background: var(--kc-accent);
+  color: var(--kc-teal-ink);
+}
+
+.kc-btn--accent:hover {
+  background: #f7c863;
+  color: var(--kc-teal-ink);
+}
+
+.kc-btn--ghost {
+  border-color: rgba(238, 243, 241, 0.4);
+  color: #eef3f1;
+}
+
+.kc-btn--ghost:hover {
+  border-color: #eef3f1;
+  color: #fbfcfb;
+}
+
+.kc-btn--solid {
+  background: var(--ifm-color-primary);
+  color: #fff;
+}
+
+.kc-btn--solid:hover {
+  background: var(--ifm-color-primary-dark);
+  color: #fff;
+}
+
+/* ----------------------------------------------------------------------- */
+/* Quick Add demo (hero signature)                                         */
+/* ----------------------------------------------------------------------- */
+
+.kc-demo {
+  background: rgba(251, 252, 251, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 18px;
+  padding: 1.25rem;
+  box-shadow: 0 30px 60px -25px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(6px);
+}
+
+.kc-demo__bar {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.92rem;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 0.7rem 0.9rem;
+  color: #eef3f1;
+  min-height: 2.6rem;
+}
+
+.kc-demo__prompt {
+  color: var(--kc-accent);
+  font-weight: 700;
+}
+
+.kc-demo__typed::after {
+  content: '';
+  display: inline-block;
+  width: 0.55ch;
+  height: 1.05em;
+  background: var(--kc-accent);
+  margin-left: 1px;
+  vertical-align: text-bottom;
+  animation: kc-blink 1s steps(1) infinite;
+}
+
+.kc-demo__typed--done::after {
+  animation: none;
+  opacity: 0;
+}
+
+@keyframes kc-blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.kc-demo__arrow {
+  text-align: center;
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(238, 243, 241, 0.55);
+  margin: 0.85rem 0;
+}
+
+.kc-demo__card {
+  background: #fbfcfb;
+  /* The card background is always light, so its text is always dark,
+     regardless of the page theme. (Using --kc-ink would flip to light
+     text in dark mode and vanish.) */
+  color: #14201e;
+  border-radius: 12px;
+  border-left: 5px solid var(--kc-accent);
+  padding: 1rem 1.1rem;
+  /* Visible by default so the card never depends on JS to be readable.
+     The reveal is a non-destructive enhancement layered on top. */
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.kc-demo__card-title {
+  color: #14201e;
+}
+
+/* Before the typing finishes, soften the card in. If JS never runs, the
+   card simply stays fully visible (no opacity:0 trap). */
+.kc-demo[data-typing='true'] .kc-demo__card {
+  opacity: 0.35;
+  transform: translateY(6px);
+}
+
+.kc-demo__card-title {
+  font-family: var(--ifm-heading-font-family);
+  font-weight: 700;
+  font-size: 1.15rem;
+}
+
+.kc-demo__card-row {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-top: 0.4rem;
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.85rem;
+  color: #5d574c;
+}
+
+/* ----------------------------------------------------------------------- */
+/* Feature cards                                                           */
+/* ----------------------------------------------------------------------- */
+
+.kc-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+.kc-card {
+  display: block;
+  height: 100%;
+  padding: 1.6rem;
+  border-radius: 16px;
+  border: 1px solid var(--kc-line);
+  background: var(--ifm-background-surface-color);
+  color: inherit;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.kc-card:hover {
+  text-decoration: none;
+  color: inherit;
+  transform: translateY(-4px);
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 18px 40px -22px rgba(14, 110, 98, 0.6);
+}
+
+.kc-card__icon {
+  font-size: 1.7rem;
+  line-height: 1;
+  display: block;
+  margin-bottom: 0.9rem;
+}
+
+.kc-card h3 {
+  font-size: 1.2rem;
+  margin: 0 0 0.4rem;
+}
+
+.kc-card p {
+  margin: 0;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.98rem;
+  line-height: 1.5;
+}
+
+/* ----------------------------------------------------------------------- */
+/* Server chips                                                            */
+/* ----------------------------------------------------------------------- */
+
+.kc-servers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0 0 2rem;
+}
+
+.kc-chip {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.88rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  border: 1px solid var(--kc-line);
+  background: var(--ifm-background-surface-color);
+}
+
+.kc-chip--more {
+  border-style: dashed;
+  color: var(--ifm-color-emphasis-800);
+  text-decoration: none;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+a.kc-chip--more:hover {
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+/* ----------------------------------------------------------------------- */
+/* Screenshots (the real app)                                              */
+/* ----------------------------------------------------------------------- */
+
+.kc-shots {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.kc-shot {
+  text-align: center;
+}
+
+.kc-phone {
+  position: relative;
+  max-width: 252px;
+  margin: 0 auto 1rem;
+  border-radius: 30px;
+  padding: 10px;
+  background: linear-gradient(160deg, #2a2a2a, #0d0d0d);
+  box-shadow: 0 24px 50px -20px rgba(0, 0, 0, 0.55);
+}
+
+.kc-phone::before {
+  content: '';
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70px;
+  height: 5px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.25);
+  z-index: 2;
+}
+
+.kc-phone img {
+  display: block;
+  width: 100%;
+  border-radius: 22px;
+}
+
+.kc-shot h3 {
+  font-size: 1.1rem;
+  margin: 0 0 0.25rem;
+}
+
+.kc-shot p {
+  margin: 0;
+  font-size: 0.94rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+/* ----------------------------------------------------------------------- */
+/* Privacy moment                                                          */
+/* ----------------------------------------------------------------------- */
+
+.kc-privacy {
+  background: var(--kc-teal-deep);
+  color: #eef3f1;
+  text-align: center;
+}
+
+.kc-privacy h2 {
+  font-size: clamp(1.9rem, 4.5vw, 3rem);
+  color: #fbfcfb;
+  max-width: 22ch;
+  margin: 0 auto 1rem;
+}
+
+.kc-privacy p {
+  font-size: 1.15rem;
+  color: rgba(238, 243, 241, 0.8);
+  max-width: 38rem;
+  margin: 0 auto 2rem;
+}
+
+/* ----------------------------------------------------------------------- */
+/* Responsive                                                              */
+/* ----------------------------------------------------------------------- */
+
+@media (max-width: 996px) {
+  .kc-hero__inner {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  .kc-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .kc-shots {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .kc-grid {
+    grid-template-columns: 1fr;
+  }
+  .kc-section {
+    padding: 3.5rem 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .kc-demo__typed::after,
+  .kc-demo__card {
+    animation: none;
+  }
+  .kc-demo__card {
+    opacity: 1;
+    transform: none;
+  }
+  .kc-btn:hover,
+  .kc-card:hover {
+    transform: none;
+  }
+}
+
+/* ----------------------------------------------------------------------- */
+/* Admonitions, recolored to the brand instead of Infima's stock green     */
+/* ----------------------------------------------------------------------- */
+
+/* tip: brand teal */
+.theme-admonition-tip {
+  --ifm-color-info: var(--ifm-color-primary);
+  --ifm-alert-background-color: var(--kc-mist);
+  --ifm-alert-background-color-highlight: rgba(14, 110, 98, 0.1);
+  --ifm-alert-foreground-color: var(--ifm-font-color-base);
+  --ifm-alert-border-color: var(--ifm-color-primary);
+}
+
+/* note: quiet neutral */
+.theme-admonition-note {
+  --ifm-alert-background-color: var(--ifm-color-emphasis-100);
+  --ifm-alert-background-color-highlight: var(--ifm-color-emphasis-200);
+  --ifm-alert-foreground-color: var(--ifm-font-color-base);
+  --ifm-alert-border-color: var(--ifm-color-emphasis-500);
+}
+
+/* warning: marigold accent */
+.theme-admonition-warning {
+  --ifm-alert-background-color: rgba(244, 183, 64, 0.14);
+  --ifm-alert-background-color-highlight: rgba(244, 183, 64, 0.22);
+  --ifm-alert-foreground-color: var(--ifm-font-color-base);
+  --ifm-alert-border-color: var(--kc-accent-deep);
+}
+
+.theme-admonition {
+  border-radius: 12px;
+}
+
+[data-theme='dark'] .theme-admonition-note {
+  --ifm-alert-background-color: var(--ifm-color-emphasis-200);
+}
+
+/* ----------------------------------------------------------------------- */
+/* Footer, in brand teal and tightened up                                  */
+/* ----------------------------------------------------------------------- */
+
+/* A quiet light shelf, so every page ends on the same calm surface as the
+   body. The one bold dark-teal moment stays the hero. */
+.footer {
+  --ifm-footer-background-color: var(--kc-mist);
+  --ifm-footer-color: var(--ifm-color-emphasis-700);
+  --ifm-footer-link-color: var(--ifm-color-emphasis-800);
+  --ifm-footer-title-color: var(--ifm-color-emphasis-700);
+  --ifm-footer-link-hover-color: var(--ifm-color-primary);
+  padding: 2rem 0 1.5rem;
+  border-top: 1px solid var(--kc-line);
+  font-size: 0.88rem;
+}
+
+/* Single centered row of links. */
+.footer__links {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__col {
+  margin-bottom: 0;
+}
+
+.footer .col {
+  --ifm-spacing-horizontal: 0;
+}
+
+.footer__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem 1.5rem;
+}
+
+.footer__item {
+  padding: 0;
+}
+
+.footer__link-item {
+  line-height: 1.5;
+}
+
+.footer__bottom {
+  font-size: 0.82rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.footer__bottom a {
+  color: var(--ifm-color-primary);
+}
+
+/* ----------------------------------------------------------------------- */
+/* Accessibility: visible keyboard focus on every interactive element      */
+/* ----------------------------------------------------------------------- */
+
+a:focus-visible,
+button:focus-visible,
+.kc-btn:focus-visible,
+.kc-card:focus-visible,
+.navbar__link:focus-visible,
+.menu__link:focus-visible,
+.footer__link-item:focus-visible,
+.pagination-nav__link:focus-visible {
+  outline: 3px solid var(--kc-accent);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+[data-theme='dark'] a:focus-visible,
+[data-theme='dark'] .kc-btn:focus-visible,
+[data-theme='dark'] .kc-card:focus-visible {
+  outline-color: var(--ifm-color-primary-lighter);
+}
+
+/* On the dark hero, the focus ring needs to read against teal */
+.kc-hero a:focus-visible,
+.kc-privacy a:focus-visible {
+  outline-color: #fbfcfb;
+}
+
+/* ----------------------------------------------------------------------- */
+/* Navbar RSS link (icon-only, like the GitHub/F-Droid items)              */
+/* ----------------------------------------------------------------------- */
+
+.navbar-rss-link {
+  font-size: 0;
+  padding: var(--ifm-navbar-item-padding-vertical) 0.75rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-rss-link::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  display: block;
+  background-color: var(--ifm-navbar-link-color);
+  transition: background-color var(--ifm-transition-fast);
+  /* Standard RSS glyph, inlined as a mask so it inherits the link color. */
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='black'%3E%3Cpath d='M6.18 17.82a2.18 2.18 0 1 0 0 4.36 2.18 2.18 0 0 0 0-4.36zM4 10.1v3.02a7.86 7.86 0 0 1 7.88 7.88h3.02A10.88 10.88 0 0 0 4 10.1zm0-5.66v3.03A15.32 15.32 0 0 1 19.53 21h3.03A18.35 18.35 0 0 0 4 4.44z'/%3E%3C/svg%3E");
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+}
+
+.navbar-rss-link:hover::before {
+  background-color: var(--ifm-navbar-link-hover-color);
+}

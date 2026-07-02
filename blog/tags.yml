@@ -1,0 +1,24 @@
+features:
+  label: Features
+  permalink: /features
+  description: A closer look at what KashCal can do
+
+announcements:
+  label: Announcements
+  permalink: /announcements
+  description: News and release announcements for KashCal
+
+releases:
+  label: Releases
+  permalink: /releases
+  description: KashCal release notes
+
+behind-the-scenes:
+  label: Behind the scenes
+  permalink: /behind-the-scenes
+  description: How KashCal is built
+
+privacy:
+  label: Privacy
+  permalink: /privacy
+  description: Privacy and security in KashCal

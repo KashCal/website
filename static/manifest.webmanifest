@@ -1,0 +1,24 @@
+{
+  "name": "KashCal",
+  "short_name": "KashCal",
+  "description": "Free, open-source calendar for Android. Sync iCloud, CalDAV, holidays, and birthdays. Private by default, no account required.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fbfcfb",
+  "theme_color": "#0e6e62",
+  "icons": [
+    {
+      "src": "/img/icon-transparent.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/img/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+---
+sidebar_position: 2
+title: CalDAV (Nextcloud, Fastmail & more)
+---
+
+import Screenshot from '@site/src/components/Screenshot';
+
+# Connecting a CalDAV server
+
+<Screenshot src="/img/screenshots/CalDAV-Account.png" alt="KashCal CalDAV account sign-in screen" align="right" caption="Server address, username, and password." />
+
+This is the one path that connects just about any CalDAV calendar service, including
+Nextcloud, Fastmail, Radicale, Baikal, Zoho, mailbox.org, Stalwart, SOGo, and more.
+
+## Add the account
+
+1. Open the navigation drawer → **Settings** → add an account → **CalDAV**.
+2. Fill in:
+   - **Server URL**: for example, `nextcloud.example.com`. If you leave off
+     `https://`, KashCal adds it for you.
+   - **Username**: your account username for that service.
+   - **Password**: your password, or better, an **app password** if the service
+     offers one (see below).
+   - **Display Name** *(optional)*: a friendly name shown in Settings. If you leave
+     it blank, KashCal names it after the server.
+3. Sign in. KashCal automatically finds your calendars.
+
+## Use an app password where possible
+
+Services like **Nextcloud** and **Fastmail** let you create a dedicated **app
+password** for connecting other apps. Use one instead of your main password. It's
+safer and, for some services, required. Look in your provider's security settings to
+generate one.
+
+## Automatic discovery
+
+You usually only need the main server address. KashCal probes the standard CalDAV
+locations to find your calendars automatically, so you rarely need to know the exact
+calendar path.
+
+If you do have a full CalDAV URL from your provider, you can enter that too.
+
+## Self-hosted servers (HTTP or self-signed certificates)
+
+If you run your own server over plain `http://`, or with a self-signed TLS
+certificate, switch on **Trust insecure connection** (labeled "For self-signed
+certificates or local HTTP servers").
+
+Use this only for self-hosted or local setups. For public services, always keep the
+secure `https://` connection.
+
+## Provider-specific tips
+
+- **Nextcloud**: use an app password from *Settings → Security → Devices & sessions*. The address is usually your Nextcloud domain.
+- **Fastmail**: create an app password scoped to calendars (CalDAV) in your Fastmail settings.
+- **Baikal / Radicale**: often self-hosted, so you may need the "Trust insecure connection" option for local or self-signed setups.
+- **Zoho, mailbox.org, Stalwart, SOGo**: enter your normal server address and credentials, and KashCal recognizes these services and adjusts automatically.
+
+## Trouble connecting?
+
+- Confirm the server address is correct and reachable from your phone.
+- If your provider offers app passwords, make sure you're using one.
+- For self-hosted servers, check whether you need "Trust insecure connection".
+- See [Sync troubleshooting](../../help/troubleshooting.md).

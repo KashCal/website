@@ -1,0 +1,59 @@
+---
+title: Share an event the way you'd actually want to
+description: One tap turns any event into a designed card you can drop into any chat, with a tap-to-add file alongside it.
+image: /img/social/share-event-as-card-android.png
+---
+
+import Cards from '@site/src/components/Cards';
+import ShareCardMock from '@site/src/components/ShareCardMock';
+
+# Share an event the way you'd actually want to
+
+<ShareCardMock />
+
+One tap. A designed card and a tap-to-add file, sent together.
+
+Sharing an event on a phone has always meant a typed-out chat message, a screenshot the recipient has to retype, or a calendar invite that drags in email accounts you didn't want involved. KashCal hands you something nicer to send, and saves your friend the trouble.
+
+**Standard** for the things on your week. **Celebration** for the things you actually want to talk about. Both go out in one tap.
+
+## What the recipient gets
+
+The card lands in the chat as a regular image, viewable in any messenger. Alongside it travels a small file their calendar already knows how to handle: tapping it opens iPhone Calendar, Google Calendar, Outlook, or whichever calendar they use, ready to add the event with one tap. No KashCal install required, no account, no retyping.
+
+## Privacy
+
+The file you send is a clean, single-occurrence copy of the event. It carries a brand-new identifier with no attendee list, no organizer email, no link back to the meeting it came from. If your event has attendees, none of their addresses travel with the share. Sharing a recurring event sends only the occurrence you tapped on, never the whole series.
+
+> You're not sending a meeting invite. You're handing the recipient a copy of the event so *they* can decide what to put on their calendar. It's their event now, not yours.
+
+## Designed details
+
+<Cards items={[
+  {title: 'Two styles', body: <>Standard for everyday plans. Celebration for the kind you tell people about.</>},
+  {title: 'Multi-day events', body: <>A horizontal range chip ("MAY 31 to JUN 03"), with day-of-week in the body so the chip stays light.</>},
+  {title: 'Overnight events', body: <>Saturday 10 PM to Sunday 2 AM stays a single Saturday-night card. KashCal only treats an event as multi-day when it crosses a date and lasts at least 18 hours.</>},
+  {title: 'All sources', body: <>Works for events from any calendar: iCloud, Nextcloud, Google (via Android), your phone's local calendar, an ICS feed, or a contact's birthday.</>},
+]} />
+
+## How to share
+
+Tap an event anywhere it appears: the day view, the agenda, the week. The quick view sheet has a small Share icon at the top right. Tap it, pick a style, tap Send.
+
+## Frequently asked questions
+
+**What does share-as-card actually send?**
+
+A designed PNG of the event and a single-occurrence iCalendar (.ics) file, attached to one share intent. The recipient sees a card inline in their messenger and can tap the file to add the event to their own calendar with one tap.
+
+**Does the recipient need KashCal?**
+
+No. The card is a regular image, viewable in any chat app. The .ics is a standard iCalendar file. Apple Calendar, Google Calendar, Outlook, and every other calendar app can open it and add the event.
+
+**Are my attendees or organizer email visible to the recipient?**
+
+No. The .ics is a standalone, single-occurrence event with a fresh UID and no ATTENDEE or ORGANIZER properties. Sharing a recurring event sends only the occurrence you tapped on, not the whole series.
+
+**Can I share events from my Google or iCloud calendar this way?**
+
+Yes. Share-as-card works for any event KashCal can show: your phone's local calendar, iCloud, Nextcloud, Google (via Android's calendar system), an ICS subscription, or a contact's birthday.
