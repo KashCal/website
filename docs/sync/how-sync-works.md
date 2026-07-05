@@ -31,8 +31,7 @@ KashCal syncs in several ways:
 - **In the background**: on a schedule you can adjust (the shortest automatic interval Android allows is 15 minutes), or set to **Manual only**. The frequency control lives in [Advanced options](../help/advanced-options.md).
 - **When your connection returns**: pending changes go out as soon as you're back online.
 
-You control whether background sync runs only on Wi-Fi, and how far back in history
-to download.
+You control how far back in history to download, and how often background sync runs.
 
 KashCal polls on a schedule; there's no server push. Changes made on the server show
 up at the next scheduled sync, or right away when you pull down to refresh.

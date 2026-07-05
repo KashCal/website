@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 title: Install KashCal
+description: Install KashCal on Android from F-Droid, IzzyOnDroid, Obtainium, or GitHub Releases. Free, open source, no account required.
 ---
 
 # Install KashCal

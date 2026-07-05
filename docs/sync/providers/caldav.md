@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 title: CalDAV (Nextcloud, Fastmail & more)
+description: "Connect any CalDAV server to KashCal on Android: Nextcloud, Fastmail, Radicale, Baikal, Zoho, and more. Automatic server discovery included."
 ---
 
 import Screenshot from '@site/src/components/Screenshot';

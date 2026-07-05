@@ -52,4 +52,5 @@ settings.
 
 - [Calendar views and gestures](../calendar/views.md)
 - [Connect your calendars](../sync/index.md)
+- [Adjust your settings](../features/settings.md): week start, time format, event defaults
 - [Browse all features](../features/index.md)

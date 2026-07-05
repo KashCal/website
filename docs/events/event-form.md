@@ -45,3 +45,9 @@ holidays, trips, and deadlines. All-day events have their own reminder options, 
 When you edit or delete an event that repeats, KashCal asks how much of the series
 you mean to change: just this one, this and everything after it, or all of them.
 See [Recurring events](./recurring.md) for the details.
+
+## Related
+
+- [Quick Add](./quick-add.md): the faster way to create events
+- [Recurring events](./recurring.md): make an event repeat
+- [Reminders](./reminders.md): get alerted before it starts

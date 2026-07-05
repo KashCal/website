@@ -1,5 +1,5 @@
 ---
-sidebar_position: 9
+sidebar_position: 10
 title: Share an event as a card
 ---
 
@@ -33,3 +33,8 @@ image on its own, which is useful on its own.
 The shared card is a clean, single copy of the event. It carries the title, date,
 and time, and nothing else. Guest lists and organizer details are not included, so
 sharing a card never leaks who else is involved.
+
+## Related
+
+- [Import & export](../sync/import-export.md): share events as .ics files
+- [Creating & editing events](../events/event-form.md): build the event first

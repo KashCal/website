@@ -62,3 +62,8 @@ on time.
 If you show calendars from other apps on your phone (see
 [Device calendars](../sync/device-calendars.md)), KashCal can deliver reminders for
 those events too, which you can toggle in Settings.
+
+## Related
+
+- [Creating & editing events](./event-form.md): set a reminder while you edit
+- [Settings](../features/settings.md): the default reminder for new events

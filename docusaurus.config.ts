@@ -93,6 +93,11 @@ const config: Config = {
         applicationCategory: 'BusinessApplication',
         description:
           'Free, open-source calendar for Android. Sync iCloud, CalDAV, holidays, and birthdays. Private by default, no account required.',
+        screenshot: [
+          'https://kashcal.onekash.org/img/screenshots/NewEvent.png',
+          'https://kashcal.onekash.org/img/screenshots/Insights.png',
+          'https://kashcal.onekash.org/img/screenshots/Quick-Event-Add.png',
+        ],
         url: 'https://kashcal.onekash.org',
         downloadUrl: 'https://f-droid.org/packages/org.onekash.kashcal/',
         license: 'https://www.apache.org/licenses/LICENSE-2.0',
@@ -252,25 +257,8 @@ const config: Config = {
         {to: '/features', label: 'Features', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'},
         {to: '/community', label: 'Community', position: 'left'},
-        {to: '/work-with-us', label: 'Work with us', position: 'left'},
-        {to: '/donate', label: 'Donate', position: 'left'},
-        {
-          href: 'https://f-droid.org/packages/org.onekash.kashcal/',
-          label: 'F-Droid',
-          position: 'right',
-        },
-        {
-          href: 'https://github.com/KashCal/KashCal',
-          label: 'GitHub',
-          position: 'right',
-        },
-        {
-          href: 'https://kashcal.onekash.org/blog/rss.xml',
-          position: 'right',
-          className: 'navbar-rss-link',
-          'aria-label': 'Subscribe to the blog via RSS',
-          title: 'Subscribe via RSS',
-        },
+        {to: '/work-with-us', label: 'Work with us', position: 'right'},
+        {to: '/donate', label: 'Donate', position: 'right'},
       ],
     },
     footer: {
@@ -289,6 +277,7 @@ const config: Config = {
             {label: 'Work with us', to: '/work-with-us'},
             {label: 'Get KashCal', href: 'https://f-droid.org/packages/org.onekash.kashcal/'},
             {label: 'Source', href: 'https://github.com/KashCal/KashCal'},
+            {label: 'RSS', href: 'pathname:///blog/rss.xml'},
           ],
         },
       ],

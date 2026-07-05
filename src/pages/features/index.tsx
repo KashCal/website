@@ -5,7 +5,7 @@ import Heading from '@theme/Heading';
 
 const PAGES = [
   {to: '/features/all-your-calendars-google-outlook-android', title: 'All your calendars on Android', body: 'iCloud, CalDAV, Google, Outlook, and ICS feeds, on one phone.'},
-  {to: '/features/beautiful-calendar-android', title: 'The best-looking calendar on Android', body: 'Material You, six views, a 92-color wheel.'},
+  {to: '/features/beautiful-calendar-android', title: 'The best-looking calendar on Android', body: 'Material You, seven views, a 92-color wheel.'},
   {to: '/features/calendar-insights-android', title: 'See where your time goes', body: 'On-device insights into your week.'},
   {to: '/features/icloud-calendar-android', title: 'iCloud calendar on Android', body: 'Two-way iCloud sync, family calendars included.'},
   {to: '/features/share-event-as-card-android', title: 'Share an event as a card', body: 'One tap turns an event into a card plus a tap-to-add file.'},

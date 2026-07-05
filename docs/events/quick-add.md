@@ -81,3 +81,8 @@ While you type, KashCal shows what it parsed:
 If something looks off, keep editing and the preview updates instantly. When
 you're happy, save it. Need more control? Open the full
 [event form](./event-form.md) to fine-tune everything.
+
+## Related
+
+- [Creating & editing events](./event-form.md): the full editor
+- [Search](../features/search.md): find an event later

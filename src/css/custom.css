@@ -719,31 +719,3 @@ button:focus-visible,
   outline-color: #fbfcfb;
 }
 
-/* ----------------------------------------------------------------------- */
-/* Navbar RSS link (icon-only, like the GitHub/F-Droid items)              */
-/* ----------------------------------------------------------------------- */
-
-.navbar-rss-link {
-  font-size: 0;
-  padding: var(--ifm-navbar-item-padding-vertical) 0.75rem;
-  display: flex;
-  align-items: center;
-}
-
-.navbar-rss-link::before {
-  content: '';
-  width: 20px;
-  height: 20px;
-  display: block;
-  background-color: var(--ifm-navbar-link-color);
-  transition: background-color var(--ifm-transition-fast);
-  /* Standard RSS glyph, inlined as a mask so it inherits the link color. */
-  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='black'%3E%3Cpath d='M6.18 17.82a2.18 2.18 0 1 0 0 4.36 2.18 2.18 0 0 0 0-4.36zM4 10.1v3.02a7.86 7.86 0 0 1 7.88 7.88h3.02A10.88 10.88 0 0 0 4 10.1zm0-5.66v3.03A15.32 15.32 0 0 1 19.53 21h3.03A18.35 18.35 0 0 0 4 4.44z'/%3E%3C/svg%3E");
-  mask-repeat: no-repeat;
-  mask-position: center;
-  mask-size: contain;
-}
-
-.navbar-rss-link:hover::before {
-  background-color: var(--ifm-navbar-link-hover-color);
-}

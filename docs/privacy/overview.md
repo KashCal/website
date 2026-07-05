@@ -2,6 +2,7 @@
 sidebar_position: 1
 title: Privacy & Security
 slug: /privacy/overview
+description: "How KashCal protects your calendar: no accounts, no tracking, no KashCal servers. Credentials are encrypted on your device and your data stays yours."
 ---
 
 # Privacy & Security

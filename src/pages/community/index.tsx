@@ -51,8 +51,8 @@ const PROVIDERS: Provider[] = [
       {handle: '@dev-inside', url: 'https://github.com/dev-inside'},
     ],
   },
-  {name: 'Baïkal', testers: [{handle: '@one-kash', url: 'https://github.com/one-kash'}]},
-  {name: 'Baïkal (Digest Auth)', testers: [{handle: '@englut', url: 'https://github.com/englut'}]},
+  {name: 'Baikal', testers: [{handle: '@one-kash', url: 'https://github.com/one-kash'}]},
+  {name: 'Baikal (Digest Auth)', testers: [{handle: '@englut', url: 'https://github.com/englut'}]},
   {name: 'Radicale', testers: [{handle: '@one-kash', url: 'https://github.com/one-kash'}]},
   {name: 'mailbox.org', testers: [{handle: '@h1nnak', url: 'https://github.com/h1nnak'}]},
   {

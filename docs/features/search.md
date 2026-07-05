@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 title: Search
 ---
 
@@ -28,3 +28,8 @@ Narrow results to the time range you care about:
 
 This makes it easy to answer questions like "when's my next dentist appointment?" or
 "what did I have on last March?"
+
+## Related
+
+- [Navigation](../calendar/navigation.md): get around the app
+- [Quick Add](../events/quick-add.md): add events by typing

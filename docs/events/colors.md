@@ -35,3 +35,8 @@ local color anyway, so your calendar still looks the way you set it up.
 Colors you set are standard web color values, so they travel cleanly between
 KashCal and servers that understand them.
 :::
+
+## Related
+
+- [Creating & editing events](./event-form.md): set a color while you edit
+- [Calendar views](../calendar/views.md): where colors show up

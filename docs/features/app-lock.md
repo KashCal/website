@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 8
 title: App lock
 ---
 
@@ -35,3 +35,8 @@ Once enabled, KashCal confirms:
   happens automatically with strong encryption (see [Privacy & Security](../privacy/overview.md)).
 - Because it's tied to your specific device's biometric/lock, the app lock setting
   isn't included in [settings backups](./backup-restore.md).
+
+## Related
+
+- [Privacy & Security](../privacy/overview.md): what leaves your device, and what doesn't
+- [Backup & restore](./backup-restore.md): move your settings to a new device

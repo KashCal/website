@@ -43,3 +43,8 @@ If you change a single occurrence of a repeating event, KashCal records it as an
 exception to the series and keeps it linked to the original, so the rest of the
 series stays intact and continues to sync correctly.
 :::
+
+## Related
+
+- [Creating & editing events](./event-form.md): edit a single occurrence or the whole series
+- [Reminders](./reminders.md): reminders on repeating events

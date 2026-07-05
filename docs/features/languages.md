@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 9
 title: Languages
 ---
 
@@ -22,3 +22,8 @@ closest available language, and ultimately to English.
 Translations are part of the open-source project. If you spot something that reads
 awkwardly in your language, contributions are welcome on
 [GitHub](https://github.com/KashCal/KashCal).
+
+## Related
+
+- [Settings](./settings.md): appearance and formatting options
+- [First run](../getting-started/first-run.md): what to expect the first time you open KashCal

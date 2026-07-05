@@ -58,3 +58,8 @@ still add guests, but they won't be notified. KashCal shows a note saying so:
 
 See [Known limitations](../help/known-limitations.md) for more on which accounts
 support invitations.
+
+## Related
+
+- [Creating & editing events](./event-form.md): where you add people
+- [Known limitations](../help/known-limitations.md): what scheduling can and can't do

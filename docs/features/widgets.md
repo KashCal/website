@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 title: Home-screen widgets
 ---
 
@@ -30,3 +30,8 @@ start of each new day, so they stay accurate without you doing anything.
 
 For the agenda-style widgets you can set a **Widget Event Limit** in Settings to
 control how many events appear per day.
+
+## Related
+
+- [Calendar views](../calendar/views.md): the same views, in the app
+- [Settings](./settings.md): set how many events each widget day shows

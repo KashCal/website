@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 title: Contact birthdays
 ---
 
@@ -35,3 +35,8 @@ get a heads-up before each one.
 These calendars are read from your contacts and are shown read-only in KashCal. To
 change a birthday, edit the contact.
 :::
+
+## Related
+
+- [Reminders](../events/reminders.md): get nudged before the day
+- [Settings](./settings.md): turn birthdays on or off

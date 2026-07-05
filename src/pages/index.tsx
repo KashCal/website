@@ -11,8 +11,8 @@ type Feature = {icon: string; title: string; body: string; to: string};
 const FEATURES: Feature[] = [
   {
     icon: '🗓️',
-    title: 'Six ways to look at it',
-    body: 'Month, agenda, day, 3-day, week, and year. Pinch to zoom the timeline, drag an event to move it.',
+    title: 'Seven ways to look at it',
+    body: 'Month, full-month, agenda, day, 3-day, week, and year. Pinch to zoom the timeline, drag an event to move it.',
     to: '/features/beautiful-calendar-android',
   },
   {

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 title: iCloud
+description: Connect your iCloud calendars to KashCal on Android. Set up two-way sync with an Apple ID and an app-specific password, shared family calendars included.
 ---
 
 import Screenshot from '@site/src/components/Screenshot';
@@ -26,11 +27,10 @@ password.
 
 ## Create an app-specific password
 
-1. Go to [appleid.apple.com](https://appleid.apple.com).
-2. Sign in with your Apple ID.
-3. Open **Sign-In and Security**.
-4. Choose **App-Specific Passwords**.
-5. Click **Generate**, then copy the password.
+1. Go to [account.apple.com](https://account.apple.com) and sign in with your Apple ID.
+2. Open **Sign-In and Security**.
+3. Choose [App-Specific Passwords](https://support.apple.com/102654).
+4. Click **Generate**, then copy the password.
 
 The password looks like `xxxx-xxxx-xxxx-xxxx`, 16 characters. (Dashes are
 optional when you enter it.)

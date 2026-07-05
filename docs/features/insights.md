@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 title: Insights
 ---
 
@@ -41,3 +41,8 @@ For the current and upcoming periods you'll also see forward-looking cards like
 All of this is calculated locally from your calendar data. Insights never uploads
 your schedule or sends analytics anywhere, in keeping with KashCal's
 [privacy approach](../privacy/overview.md).
+
+## Related
+
+- [Calendar views](../calendar/views.md): the seven ways to see your schedule
+- [Privacy & Security](../privacy/overview.md): insights are computed on your device

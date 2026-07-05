@@ -2,6 +2,7 @@
 sidebar_position: 1
 title: What is KashCal?
 slug: /
+description: KashCal is a free, open-source calendar for Android that gathers iCloud, CalDAV, holiday, and birthday calendars onto one screen. Private by default, no account required.
 ---
 
 # What is KashCal?
@@ -21,7 +22,7 @@ calendars *you* choose to connect.
 
 ## What you can do with it
 
-- **See your schedule six ways:** month, agenda, day, 3-day, week, and year views, plus a full-month grid.
+- **See your schedule seven ways:** month, full-month grid, agenda, day, 3-day, week, and year views.
 - **Sync with the services you already use:** iCloud, Nextcloud, Fastmail, Radicale, Baikal, Zoho, mailbox.org, Stalwart, SOGo, and any standard CalDAV server.
 - **Add events by typing naturally.** "Coffee with Kash tomorrow 3pm" becomes a real event.
 - **Get reminded.** Notifications that survive reboots, with snooze and dismiss.

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 title: Backup & restore settings
 ---
 
@@ -44,3 +44,8 @@ when it's done:
 
 After restoring on a new device, add your calendar accounts again to bring your
 events back via sync.
+
+## Related
+
+- [Import & export](../sync/import-export.md): move events in and out as .ics files
+- [Settings](./settings.md): what gets backed up

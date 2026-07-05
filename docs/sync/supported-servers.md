@@ -21,6 +21,7 @@ guides. Everything else connects through the general
 | **Baikal** | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
 | **Zoho** | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
 | **mailbox.org** | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
+| **Posteo** | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
 | **Stalwart** | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
 | **SOGo** | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
 | **Any other CalDAV server** | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
