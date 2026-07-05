@@ -23,11 +23,15 @@ Turn on TalkBack and many calendar apps become a guessing game: unlabeled button
 
 ## Color is never the only signal
 
-For KashCal users who are colorblind or have low vision, color alone isn't enough to go on. Cancelled and declined events are crossed out, in the app and in the home-screen widgets, so their status shows without relying on color. A screen reader reads that status aloud. Every color in the event palette is checked for contrast, so text on a colored event stays legible.
+For KashCal users who are colorblind or have low vision, color alone isn't enough to go on. Cancelled and declined events are crossed out, in the app and in the home-screen widgets, so their status shows without relying on color, and a screen reader reads that status aloud.
 
-## Checked on every build
+## Accessibility is part of the build
 
-Accessibility is easy to break by accident. Every build checks that the event colors meet WCAG AA contrast, and the main screens run through Google's accessibility checks, the same ones behind Accessibility Scanner.
+WCAG is the international standard for making things usable by people with disabilities. KashCal holds itself to it, and doesn't leave that to chance.
+
+Text and background colors are checked for readability, and the main screens run through Google's accessibility checks, the same ones behind Accessibility Scanner. Both run automatically every time KashCal is built, so an accessibility problem stops a release instead of shipping in it. It's a standing part of how the app is made and tested, not a one-time pass.
+
+Read more about [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/).
 
 ## Frequently asked questions
 
