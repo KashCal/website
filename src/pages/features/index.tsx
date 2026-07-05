@@ -9,6 +9,7 @@ const PAGES = [
   {to: '/features/calendar-insights-android', title: 'See where your time goes', body: 'On-device insights into your week.'},
   {to: '/features/icloud-calendar-android', title: 'iCloud calendar on Android', body: 'Two-way iCloud sync, family calendars included.'},
   {to: '/features/share-event-as-card-android', title: 'Share an event as a card', body: 'One tap turns an event into a card plus a tap-to-add file.'},
+  {to: '/features/accessible-calendar-android', title: 'Built to use with a screen reader', body: 'TalkBack support, event status read aloud, and color is never the only signal.'},
 ];
 
 export default function Features(): ReactNode {

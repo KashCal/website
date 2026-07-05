@@ -1,0 +1,36 @@
+---
+title: An accessible calendar for Android
+description: KashCal works with TalkBack, reads event status aloud, and never uses color as the only signal. A calendar for Android you can navigate by ear.
+image: /img/social/home.png
+---
+
+import Cards from '@site/src/components/Cards';
+
+# An accessible calendar for Android
+
+Turn on TalkBack and many calendar apps become a guessing game: unlabeled buttons, no headings, no way to tell which view you're in. KashCal is built to be used by ear.
+
+## Using KashCal with a screen reader
+
+<Cards items={[
+  {title: 'Headings to jump between', body: <>Screen titles and the sections in Settings and the drawer are marked as headings, so you jump straight to what you want.</>},
+  {title: 'Labeled controls', body: <>Every icon-only button carries a label, so nothing reads as just "button."</>},
+  {title: 'Spoken status', body: <>Sync, a failed save, a sign-in error, an empty search. KashCal announces the change instead of updating silently.</>},
+  {title: 'Event status, out loud', body: <>A cancelled event says "cancelled," a declined one says "declined." You hear an event's status, not just see it.</>},
+  {title: 'Which view you are in', body: <>The drawer announces the active view, not just highlights it.</>},
+  {title: 'Actions, not gestures', body: <>Delete a subscription from a menu action, not a swipe a screen reader can't reach.</>},
+]} />
+
+## Color is never the only signal
+
+For KashCal users who are colorblind or have low vision, color alone isn't enough to go on. Cancelled and declined events are crossed out, in the app and in the home-screen widgets, so their status shows without relying on color. A screen reader reads that status aloud. Every color in the event palette is checked for contrast, so text on a colored event stays legible.
+
+## Checked on every build
+
+Accessibility is easy to break by accident. Every build checks that the event colors meet WCAG AA contrast, and the main screens run through Google's accessibility checks, the same ones behind Accessibility Scanner.
+
+## Frequently asked questions
+
+**How do I report an accessibility problem?**
+
+Open an issue on [GitHub](https://github.com/KashCal/KashCal/issues), or see [reporting a bug](/docs/help/report-a-bug). Tell us the screen, what your screen reader said or didn't say, and what you expected. Accessibility reports get treated as real bugs.
