@@ -10,7 +10,7 @@ asking you to unlock KashCal before anything inside it shows.
 
 ## What it does
 
-When app lock is on, opening KashCal shows a lock screen that hides all your events
+When App lock is on, opening KashCal shows a lock screen that hides all your events
 until you unlock. You unlock with whatever your device already uses: **fingerprint,
 face, or your screen lock** (PIN/pattern/password).
 
@@ -33,7 +33,7 @@ Once enabled, KashCal confirms:
 - App lock is a **privacy screen for the app**. It controls who can open KashCal on
   your phone. It's separate from how your calendar **passwords** are protected, which
   happens automatically with strong encryption (see [Privacy & Security](../privacy/overview.md)).
-- Because it's tied to your specific device's biometric/lock, the app lock setting
+- Because it's tied to your specific device's biometric/lock, the App lock setting
   isn't included in [settings backups](./backup-restore.md).
 
 ## Related

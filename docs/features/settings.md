@@ -26,7 +26,7 @@ Open the navigation drawer (swipe from the left edge, or tap the menu icon) and 
 - **Show declined events:** keep events you've declined visible, shown dimmed with a strikethrough, instead of hiding them.
 - **Widget Event Limit:** how many events each day shows in the home-screen widgets. The default is 5.
 
-:::note Light and dark mode
+:::note[Light and dark mode]
 KashCal follows your **system** light/dark setting, so it switches automatically when your phone does. There's no separate in-app theme switch. On Android 12 and newer it also picks up your **Material You** wallpaper colors.
 :::
 

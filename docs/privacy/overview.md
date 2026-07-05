@@ -54,7 +54,7 @@ KashCal asks only for what its features require:
 | **Contacts** | Suggest people when inviting attendees, and show birthdays from contacts |
 | **Read calendar** | Show calendars from other apps on your phone |
 | **Write calendar** | Optionally save or edit events in those device calendars |
-| **Biometric** | The optional [app lock](../features/app-lock.md) |
+| **Biometric** | The optional [App lock](../features/app-lock.md) |
 
 You're asked for sensitive permissions (like Contacts and Notifications) in context,
 with a plain explanation, and you can decline. The rest of the app keeps working.
