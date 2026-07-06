@@ -1,3 +1,23 @@
 .cardDescription {
   font-size: 0.8rem;
+  line-height: 1.5;
+  /* Let the description wrap instead of truncating to one line with an ellipsis.
+     Clamp to a few lines so an unusually long entry can't ruin the grid, but on a
+     phone the full short description shows. */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  overflow: hidden;
+}
+
+/* On phones the cards stack in one column, so ragged heights don't matter.
+   Drop the clamp entirely there so nothing is ever cut off. */
+@media (max-width: 768px) {
+  .cardDescription {
+    -webkit-line-clamp: unset;
+    line-clamp: unset;
+    display: block;
+    overflow: visible;
+  }
 }

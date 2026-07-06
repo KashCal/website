@@ -26,6 +26,10 @@ const AUDIENCE = [
     body: 'Field service, healthcare, education, scheduling. You need a calendar feature next quarter, not three roadmaps from now.',
   },
   {
+    title: 'Smart display & wall-calendar makers',
+    body: 'You build a family display, a fridge screen, or a digital wall calendar on Android. Bring the hardware; the calendar is done. It runs offline and syncs when it can.',
+  },
+  {
     title: 'Anyone allergic to building one',
     body: 'You looked at the timeline, the hiring, and the maintenance, and decided your team’s time is better spent elsewhere. We agree.',
   },
@@ -56,13 +60,17 @@ const GET = [
     title: 'We sweat the sync',
     body: 'iCloud tweaks a header, a CalDAV server bends a spec, and somewhere a recurring event goes sideways. We catch it so your users never feel it.',
   },
+  {
+    title: 'Runs offline, on your screen',
+    body: 'Offline-first by design, so a wall display or kiosk shows the day even when the network blinks, then syncs when it returns. Built to sit on a screen, not just a phone.',
+  },
 ];
 
 export default function WorkWithUs(): ReactNode {
   return (
     <Layout
       title="Work with us"
-      description="License KashCal and ship a calendar under your own brand. Years of engineering, ready now.">
+      description="License KashCal and ship a calendar under your own brand, or on your own hardware. Years of engineering, ready now.">
       <header className="kc-hero">
         <div className="container">
           <p className="kc-eyebrow">For teams</p>
@@ -72,8 +80,8 @@ export default function WorkWithUs(): ReactNode {
           <p className="kc-hero__lead">
             Building a polished Android calendar from scratch is a year and a half
             of engineering, design, and edge-case grinding. We have already done
-            that part. License KashCal and release it under your own brand in
-            weeks, not quarters.
+            that part. License KashCal and put it in your customers' hands, under
+            your brand or on your hardware, in weeks, not quarters.
           </p>
           <div className="kc-hero__cta">
             <Link
@@ -91,6 +99,42 @@ export default function WorkWithUs(): ReactNode {
       </header>
 
       <main>
+        {/* Two audiences */}
+        <section className="kc-section">
+          <div className="container">
+            <div className="kc-section__head">
+              <p className="kc-eyebrow">Two ways in</p>
+              <Heading as="h2">You bring the audience. We bring the calendar.</Heading>
+            </div>
+            <div className={styles.compare}>
+              <div className={`${styles.col} ${styles.track}`}>
+                <div className={styles.colLabel}>Software</div>
+                <Heading as="h3">
+                  <strong>A calendar provider who needs an Android app.</strong>
+                </Heading>
+                <p>
+                  You sell calendar storage, sync, or a productivity suite, and
+                  your customers keep asking for a native Android client that looks
+                  like yours. Ship KashCal under your brand instead of pointing
+                  them at a generic CalDAV picker.
+                </p>
+              </div>
+              <div className={`${styles.col} ${styles.track}`}>
+                <div className={styles.colLabel}>Hardware</div>
+                <Heading as="h3">
+                  <strong>A hardware maker who needs software.</strong>
+                </Heading>
+                <p>
+                  You build the device, a wall calendar, a family display, a
+                  kitchen screen, and you do not want to also become a software
+                  company. You bring the hardware, we bring the calendar. It runs
+                  offline out of the box and syncs when it can.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Build vs. buy */}
         <section className="kc-section">
           <div className="container">

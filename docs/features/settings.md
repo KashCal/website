@@ -23,6 +23,7 @@ Open the navigation drawer (swipe from the left edge, or tap the menu icon) and 
   - **System default** follows your phone's light or dark setting and switches automatically when your phone does.
   - **Light** and **Dark** pin the app to that appearance regardless of the system setting.
   - **KashCal Teal** applies the app's teal palette, still following your phone's light or dark setting.
+- **App Icon:** choose the icon KashCal wears on your home screen. Keep the default, or switch to the **Supporter** icon, a gold card with a heart, to show you've chipped in (or [would like to](https://kashcal.onekash.org/donate)). The supporter icon comes two ways: one keeps the KashCal name, and one shows a discreet **Calendar** name instead. Changing the icon may restart the app, and notifications always use the default icon and name.
 - **Event Emojis:** when on, KashCal shows an emoji next to an event based on its title (a cake for a birthday, a plane for a flight). Turn it off for a plainer list.
 - **Time Format:** 12-hour, 24-hour, or follow the system. The row shows a live example of the current format.
 - **Start Week On:** whether your week begins on the system default, Monday, Sunday, or Saturday. This changes every calendar grid at once.
