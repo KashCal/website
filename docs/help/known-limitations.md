@@ -1,6 +1,7 @@
 ---
 sidebar_position: 4
 title: Known limitations
+description: A few things KashCal doesn't do, on purpose or because of how a server works, so you know what to expect.
 ---
 
 # Known limitations

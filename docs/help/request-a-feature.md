@@ -1,6 +1,7 @@
 ---
 sidebar_position: 7
 title: Requesting a feature
+description: How to suggest a KashCal feature in a way that's most likely to land, and what's already planned.
 ---
 
 # Requesting a feature

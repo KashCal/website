@@ -1,6 +1,7 @@
 ---
 sidebar_position: 6
 title: Before you file a bug
+description: What to check and what to include so your KashCal bug report can actually be fixed, fast.
 ---
 
 # Before you file a bug

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 title: FAQ
+description: Quick answers to the most common KashCal questions, from whether it's free to how sync, accounts, and privacy work.
 ---
 
 # Frequently asked questions
