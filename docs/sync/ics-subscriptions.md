@@ -13,7 +13,30 @@ Follow the calendars someone else keeps up to date: public holidays, your team's
 fixtures, school terms, release dates, and more. These are free, read-only ICS
 links, not paid subscriptions.
 
-## Add a feed
+## Add a holiday calendar
+
+The quickest way to get started is the built-in holiday catalog, so you don't have to
+hunt for a URL:
+
+1. Open **Settings** → **Calendar Feeds**.
+2. Tap **Add holiday calendar**.
+3. Search for your country and tap it to subscribe.
+
+KashCal ships a catalog of national holiday calendars for many countries (some in
+more than one language). Countries you're already subscribed to are marked **Added**.
+Each one is a regular calendar feed, so it stays up to date on its own and follows all
+the behavior below.
+
+:::note[Where these come from]
+The holiday calendars come from Mozilla Thunderbird's public holiday feeds, licensed
+under CC BY-SA 3.0. KashCal only points at those feeds; it doesn't host the calendar
+data itself.
+:::
+
+## Add any other feed
+
+For a feed that isn't in the holiday catalog (a sports schedule, your school's term
+dates, and so on):
 
 1. Open **Settings** → **Calendar Feeds** → add a calendar.
 2. Paste the feed's URL. It must start with `http://`, `https://`, or `webcal://`:

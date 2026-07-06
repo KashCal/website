@@ -19,8 +19,12 @@ support scheduling:
 - **Some accounts don't support inviting people at all**, in which case KashCal tells
   you:
   > Inviting people isn't available on this account
-- A few servers have their own quirks around how invitations are delivered. Major
-  services generally work well.
+- **A few servers accept guests but never deliver the invitation.** Some CalDAV
+  servers (SOGo and mailbox.org are the ones we've seen) save your guests without
+  sending anyone an email, and they don't report this back, so KashCal can't warn you
+  in advance. The guests are on the event, but they aren't notified. This matches how
+  other calendar apps behave: when a server won't deliver, sending the invite is up to
+  you. Major services like iCloud generally deliver as expected.
 
 ## RSVP to a recurring event covers the whole series
 
@@ -46,6 +50,38 @@ refresh any time for an immediate sync.
 
 Events from an [ICS subscription](../sync/ics-subscriptions.md) can't be edited in
 KashCal. They belong to the source feed.
+
+## KashCal handles calendar events, not contacts or tasks
+
+KashCal is an events app. It reads and writes calendar events (the `VEVENT` part of
+the calendar standard) and nothing else:
+
+- **No contacts (CardDAV).** KashCal doesn't sync address books. It does read
+  birthdays and anniversaries from your phone's contacts, see
+  [Contact birthdays](../features/birthdays.md), but that's a one-way read, not
+  CardDAV.
+- **No tasks or to-dos (VTODO), journals, or attachments.** Calendars that contain
+  only tasks or journal entries are skipped during sync rather than shown as empty.
+
+This keeps the app focused and fast. A separate tasks or contacts app is the right
+tool for those.
+
+## Google and Outlook connect through your phone, not directly
+
+KashCal talks to iCloud and CalDAV servers directly, but neither Google nor Microsoft
+offers that kind of access anymore. Google removed third-party CalDAV access, and
+Outlook and Microsoft 365 don't expose CalDAV at all. So both come in through the
+**Device calendars** bridge instead: if the Google or Outlook app already syncs those
+calendars to your phone, KashCal can show and edit them. See
+[Device calendars](../sync/device-calendars.md) and the
+[FAQ](./faq.md#does-it-work-with-google-calendar-or-outlook).
+
+## Views are the seven built in
+
+KashCal offers month, agenda, day, 3-day, week, full-month, and year views, plus
+Insights. There's no multi-month grid (like a 3- or 6-month view) and no
+non-Gregorian calendar system (such as Hijri or lunar). The Gregorian calendar is the
+only one available.
 
 ---
 

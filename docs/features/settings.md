@@ -19,6 +19,10 @@ Open the navigation drawer (swipe from the left edge, or tap the menu icon) and 
 
 ## Appearance
 
+- **Theme:** choose how KashCal looks:
+  - **System default** follows your phone's light or dark setting and switches automatically when your phone does.
+  - **Light** and **Dark** pin the app to that appearance regardless of the system setting.
+  - **KashCal Teal** applies the app's teal palette, still following your phone's light or dark setting.
 - **Event Emojis:** when on, KashCal shows an emoji next to an event based on its title (a cake for a birthday, a plane for a flight). Turn it off for a plainer list.
 - **Time Format:** 12-hour, 24-hour, or follow the system. The row shows a live example of the current format.
 - **Start Week On:** whether your week begins on the system default, Monday, Sunday, or Saturday. This changes every calendar grid at once.
@@ -26,8 +30,8 @@ Open the navigation drawer (swipe from the left edge, or tap the menu icon) and 
 - **Show declined events:** keep events you've declined visible, shown dimmed with a strikethrough, instead of hiding them.
 - **Widget Event Limit:** how many events each day shows in the home-screen widgets. The default is 5.
 
-:::note[Light and dark mode]
-KashCal follows your **system** light/dark setting, so it switches automatically when your phone does. There's no separate in-app theme switch. On Android 12 and newer it also picks up your **Material You** wallpaper colors.
+:::note[Material You colors]
+With the **System default**, **Light**, and **Dark** themes, KashCal picks up your **Material You** wallpaper colors on Android 12 and newer. **KashCal Teal** uses its own fixed palette instead.
 :::
 
 ## Creating events
