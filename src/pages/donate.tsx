@@ -75,7 +75,11 @@ export default function Donate(): ReactNode {
           ))}
         </div>
 
-        <p className={styles.footnote}>Thank you for using KashCal.</p>
+        <p className={styles.footnote}>
+          Thank you for supporting KashCal. Other ways to help: tell family and
+          friends, take the <Link to="/blog/kashcal-challenge">KashCal Challenge</Link>,
+          or <Link to="/community">join the community</Link> to test providers and more.
+        </p>
       </main>
     </Layout>
   );
