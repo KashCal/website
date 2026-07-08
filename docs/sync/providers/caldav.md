@@ -57,6 +57,14 @@ secure `https://` connection.
 - **Baikal / Radicale**: often self-hosted, so you may need the "Trust insecure connection" option for local or self-signed setups.
 - **Zoho, mailbox.org, Stalwart, SOGo**: enter your normal server address and credentials, and KashCal recognizes these services and adjusts automatically.
 
+## Managing or removing the account
+
+Tap the account in **Settings** → **Accounts** to open its details, where you can:
+
+- **Sync Now** to pull the latest changes immediately.
+- **Change Password** if you rotated your password or app password.
+- **Sign Out** to disconnect the account. KashCal asks you to confirm first.
+
 ## Trouble connecting?
 
 - Confirm the server address is correct and reachable from your phone.

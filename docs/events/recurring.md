@@ -31,9 +31,9 @@ example *"Standup every weekday at 9am"*.
 When you change or delete a repeating event, KashCal asks what you mean. The exact
 wording depends on what you're doing:
 
-- **Editing:** "Just this one", "This and all future", or "All occurrences".
-- **Deleting:** the same scope choices, with "All occurrences" styled as the destructive option.
-- **Dragging to reschedule:** "This event" or "All events".
+- **Editing:** "This event", "This and all future", or "All events".
+- **Deleting:** the same scope choices, with "All events" styled as the destructive option.
+- **Dragging to reschedule:** "This event", "This and all future", or "All events". For events from a device calendar, only "This event" and "This and all future" are offered.
 
 This lets you move *this week's* meeting without disturbing the rest of the
 series, or change the time for *every* future meeting at once.

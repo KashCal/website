@@ -28,6 +28,10 @@ Once enabled, KashCal confirms:
 
 > App lock on. KashCal will ask you to authenticate next time you open it.
 
+Turning App lock **off** asks you to authenticate first, so someone holding your
+already-unlocked phone can't quietly disable it. If you cancel that prompt, the lock
+stays on.
+
 ## Good to know
 
 - App lock is a **privacy screen for the app**. It controls who can open KashCal on

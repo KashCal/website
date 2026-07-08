@@ -20,6 +20,9 @@ For **timed events**, the options include:
 - 1 hour, 4 hours before
 - 1 day, 1 week before
 
+Need something in between? Tap a reminder to open a days/hours/minutes picker and set
+any custom lead time. To remove a reminder, tap the **✕** on its row.
+
 For **all-day events**, reminders work a little differently because there's no
 specific start time. Options include:
 

@@ -17,13 +17,17 @@ track of who's coming.
 In the event form, tap **Add attendees**. You can:
 
 - Search your contacts by name (with Contacts permission), or
-- Type an email address directly.
+- Type an email address directly, then tap the **Add "…"** row or press Enter.
 
 KashCal validates email addresses and will prompt you if one looks incomplete:
 
 > Enter a full email address
 
+Each guest appears as a chip; tap the **✕** on a chip to uninvite them.
+
 When you save the event, KashCal sends the invitation through your calendar server.
+Whenever a save will notify guests (a new invitation, a change, or an uninvite), the
+button reads **Save & notify**, so you can see the consequence before you tap.
 
 ## Seeing who's coming
 

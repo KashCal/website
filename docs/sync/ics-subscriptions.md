@@ -61,8 +61,20 @@ feed might warrant **Daily** or hourly.
 ## Feeds are read-only
 
 Events from a subscription show up alongside your other calendars, but you can't
-edit them in KashCal. They belong to the source feed. To stop following a feed,
-remove the subscription (with an undo option if you change your mind):
+edit them in KashCal. They belong to the source feed.
+
+## Manage or remove a feed
+
+Everything lives on the **Settings** → **Calendar Feeds** list, where each feed is a
+single row:
+
+- **Pause a feed** without deleting it: flip the switch on the row off. Its events
+  stay hidden until you turn it back on, and the row shows **Sync paused**.
+- **Refresh now:** tap the refresh button on the row to pull the latest events
+  straight away, instead of waiting for the next scheduled check.
+- **Edit a feed:** tap the row to change its name, color, or refresh interval.
+- **Remove a feed:** swipe the row left. If you change your mind, tap **Undo** on the
+  confirmation before it disappears:
 
 > Subscription removed
 

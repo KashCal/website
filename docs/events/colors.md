@@ -19,8 +19,10 @@ In the event form, tap **Choose Color**. You'll see:
 
 - A **quick palette** of 12 colors covering the main hue families:
   browns, reds, oranges, yellows, greens, teals, blues, purples, pinks, and gray.
-- A **full color browser** with 92 named colors, organized by hue family, when you
-  want something more specific.
+  Tap a swatch to apply it instantly.
+- **More colors** opens a full browser of 92 named colors, organized by hue family,
+  when you want something more specific. Adjust the color wheel there and tap **Done**
+  to confirm.
 
 You can also leave an event on its **calendar default**, so it simply takes the
 color of the calendar it belongs to.

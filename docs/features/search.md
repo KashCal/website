@@ -24,7 +24,7 @@ Narrow results to the time range you care about:
 - **All**: past and future events.
 - **Week**: this week.
 - **Month**: this month.
-- **Custom range**: pick a start date, and an end date for a range (or the same date for a single day).
+- **Custom range**: tap a day, then tap it again for a single day, or tap another day to select the range between them.
 
 This makes it easy to answer questions like "when's my next dentist appointment?" or
 "what did I have on last March?"

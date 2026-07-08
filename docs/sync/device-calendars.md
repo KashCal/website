@@ -15,7 +15,10 @@ you bring **Google** and **Outlook** calendars into KashCal.
 1. Open **Settings** → **Device Calendars**.
 2. Toggle it on. KashCal asks for calendar permission:
    > Calendar read permission required. Tap Enable to grant access.
-3. Choose which device calendars to show from the navigation drawer.
+3. Enable the specific calendars you want using the switch on each row. The footer
+   shows how many are enabled.
+4. Once enabled, you can still show or hide those calendars per view from the
+   navigation drawer.
 
 ## Reading vs. editing
 

@@ -26,15 +26,20 @@ Common reasons an import won't start:
 - **File not found or cannot be read.**
 - **Invalid calendar file format.**
 
-## Export a calendar to .ics
+## Export to .ics
 
-1. Open **Settings** → **Export**.
-2. Choose the calendar you want to export.
-3. KashCal writes all of its events to an `.ics` file you can save or share.
+To export your whole local calendar:
 
-If a calendar has no events, there's nothing to export:
+1. Open **Settings** and tap **Export Local calendar**.
+2. KashCal writes its events to an `.ics` file and opens the system share sheet, so
+   you can save it or send it anywhere.
+
+If the calendar has no events, there's nothing to export:
 
 > No events to export.
+
+To export a single event instead, open the event and choose **Export as .ics** from
+its menu.
 
 ## Import vs. subscribe
 

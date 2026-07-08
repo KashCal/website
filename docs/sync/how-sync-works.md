@@ -40,7 +40,11 @@ up at the next scheduled sync, or right away when you pull down to refresh.
 
 To save battery and data, KashCal normally fetches only what's **changed** since the
 last sync. Occasionally a server needs a complete refresh, which KashCal handles
-automatically. You can also start one yourself with **Force Full Sync**:
+automatically, so you rarely need to think about it.
+
+If you ever want to force one, long-press the version number at the very bottom of
+Settings to open the debug menu, tap **Force Full Sync**, and confirm. Your local
+changes are preserved:
 
 > This will re-download all calendar data from the server. Local changes will be
 > preserved.

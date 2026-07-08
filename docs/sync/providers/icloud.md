@@ -46,6 +46,14 @@ That's it. KashCal connects to iCloud automatically. Apple sometimes routes you 
 a regional server behind the scenes, and KashCal handles that for you, so you don't
 have to worry about server addresses.
 
+## Managing or removing the account
+
+Tap the account in **Settings** → **Accounts** to open its details, where you can:
+
+- **Sync Now** to pull the latest changes immediately.
+- **Change Password** if you generated a new app-specific password.
+- **Sign Out** to disconnect the account. KashCal asks you to confirm first.
+
 ## Trouble signing in?
 
 - Make sure you're using an **app-specific password**, not your normal password.
