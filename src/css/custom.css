@@ -658,6 +658,12 @@ a.kc-chip--more:hover {
   justify-content: center;
 }
 
+/* The column has no title, but Infima still renders an empty .footer__title
+   with a bottom margin, leaving a gap above the link row. Collapse it. */
+.footer__title {
+  display: none;
+}
+
 .footer__col {
   margin-bottom: 0;
 }
