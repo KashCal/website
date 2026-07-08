@@ -11,12 +11,9 @@
 }
 
 .askLabel {
-  font-family: var(--ifm-font-family-monospace);
-  font-size: 0.72rem;
+  font-size: 0.82rem;
   font-weight: 500;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--ifm-color-emphasis-600);
+  color: var(--ifm-color-emphasis-700);
 }
 
 .askList {
