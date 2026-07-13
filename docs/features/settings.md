@@ -19,10 +19,12 @@ Open the navigation drawer (swipe from the left edge, or tap the menu icon) and 
 
 ## Appearance
 
-- **Theme:** choose how KashCal looks:
+- **Theme:** choose the app's light or dark face:
   - **System default** follows your phone's light or dark setting and switches automatically when your phone does.
   - **Light** and **Dark** pin the app to that appearance regardless of the system setting.
-  - **KashCal Teal** applies the app's teal palette, still following your phone's light or dark setting.
+- **Accent color:** choose the color KashCal is built around. This is separate from the light/dark Theme above, and it recolors both the app and your home-screen widgets.
+  - **Automatic** follows your device's Material You wallpaper colors on Android 12 and newer, and is the default.
+  - Or pick your own: twelve curated swatches for a quick choice, plus a wheel of 92 named colors for something specific. **KashCal Teal** is the app's own palette, and the fallback when Material You isn't available. Whatever you pick, KashCal keeps text readable on top of it, in light and dark.
 - **App Icon:** choose the icon KashCal wears on your home screen. Keep the default, or switch to the **Supporter** icon, a gold card with a heart, to show you've chipped in (or [would like to](https://kashcal.onekash.org/donate)). The supporter icon comes two ways: one keeps the KashCal name, and one shows a discreet **Calendar** name instead. Changing the icon may restart the app, and notifications always use the default icon and name.
 - **Event Emojis:** when on, KashCal shows an emoji next to an event based on its title (a cake for a birthday, a plane for a flight). Turn it off for a plainer list.
 - **Time Format:** 12-hour, 24-hour, or follow the system. The row shows a live example of the current format.
@@ -32,7 +34,7 @@ Open the navigation drawer (swipe from the left edge, or tap the menu icon) and 
 - **Widget Event Limit:** how many events each day shows in the home-screen widgets. The default is 5.
 
 :::note[Material You colors]
-With the **System default**, **Light**, and **Dark** themes, KashCal picks up your **Material You** wallpaper colors on Android 12 and newer. **KashCal Teal** uses its own fixed palette instead.
+With **Accent color** set to **Automatic**, KashCal picks up your **Material You** wallpaper colors on Android 12 and newer. Pick any other accent and KashCal uses that color instead, on both the app and your widgets.
 :::
 
 ## Creating events

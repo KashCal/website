@@ -29,6 +29,13 @@ agenda, month, and upcoming widgets to add one.
 Widgets refresh when you add, change, or delete events, after a sync, and at the
 start of each new day, so they stay accurate without you doing anything.
 
+## Matching your colors
+
+The widgets wear the same **accent color** as the app. Leave it on **Automatic** and
+they follow your Material You wallpaper colors on Android 12 and newer; pick one of
+the 92 accent colors and every widget recolors to match, add button and all. Set it
+under [Settings, then Appearance](./settings.md).
+
 ## How many events show
 
 For the agenda-style widgets you can set a **Widget Event Limit** in Settings to
