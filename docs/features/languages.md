@@ -10,9 +10,13 @@ of the world's widely-spoken ones along with many regional variants.
 
 ## How the language is chosen
 
-KashCal follows your **device language** automatically. Set your phone to your
-preferred language and KashCal matches it. There's no separate setting to change inside the
-app.
+By default, KashCal follows your **device language** automatically. Set your phone to
+your preferred language and KashCal matches it.
+
+On **Android 13 and newer**, you can also give KashCal its own language, separate from
+the rest of your phone. KashCal advertises all 67 languages to Android, so it appears in
+the system **per-app language** picker (Settings, then Apps, then KashCal, then
+Language). Pick a language there and KashCal uses it regardless of your device language.
 
 If KashCal doesn't yet have your exact regional variant, it falls back to the
 closest available language, and ultimately to English.

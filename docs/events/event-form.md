@@ -19,7 +19,7 @@ edit it. Everything lives on one screen, no digging through menus.
 - **Location.** An address, room, or meeting link. KashCal suggests places you've used before.
 - **Notes.** Free-form details for the event.
 - **Calendar.** Which calendar the event belongs to. New events go to your default calendar unless you change it.
-- **Start and end.** Pick the date and time, or switch on **All day**.
+- **Start and end.** Pick the date and time, or switch on **All day**. The time picker's wheel steps in 5-minute increments; to set an exact minute like 3:47, tap the keyboard button and type it. Events already on an odd minute show their exact time as tappable text instead of rounding.
 - **Time zone.** Events use your device time zone by default, but you can set a specific one.
 - **Repeat.** Make the event recurring. See [Recurring events](./recurring.md).
 - **Color.** Give the event its own color. See [Event colors](./colors.md).
