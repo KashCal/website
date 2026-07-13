@@ -14,7 +14,7 @@ description: "KashCal 2026.07.13 widens the agenda to 90 days, gives its top bar
 image: /img/social/home.png
 ---
 
-Your agenda finally learned to read the room. For years its top bar proudly announced "Agenda," heroically confirming that the agenda screen was, against all odds, the agenda screen. Thank you, brave label. It has now been reassigned.
+Your agenda finally learned to read the room. Day in, day out, its top bar proudly announced "Agenda," heroically confirming that the agenda screen was, against all odds, the agenda screen. Thank you, brave label. It has now been reassigned.
 
 {/* truncate */}
 
