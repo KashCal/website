@@ -49,7 +49,9 @@ years, and tap a day or month to drill in.
 ## Landscape and larger screens
 
 KashCal adapts to landscape orientation and larger displays, giving the timeline
-views more room to show day columns side by side.
+views more room to show day columns side by side. Rotate your phone while you're
+partway through filling in an event and KashCal keeps what you've typed, rather than
+starting the form over.
 
 ## Related
 
