@@ -63,7 +63,7 @@
 }
 
 .cell {
-  min-height: 4.4rem;
+  min-height: 3rem;
   border-right: 1px solid var(--kc-line);
   border-bottom: 1px solid var(--kc-line);
   padding: 0.3rem 0.4rem 0.4rem;
@@ -117,8 +117,8 @@
   margin-top: 0.3rem;
   font-family: var(--ifm-heading-font-family);
   font-weight: 600;
-  font-size: 0.76rem;
-  line-height: 1.2;
+  font-size: 0.72rem;
+  line-height: 1.18;
   color: var(--ifm-font-color-base);
 }
 
@@ -131,6 +131,12 @@
   padding: 0 2px;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
+  /* Safety net: cap very long notes so the preview grid stays compact. The
+     sample notes are short enough to fit without truncating. */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .kind {

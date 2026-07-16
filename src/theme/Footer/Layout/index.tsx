@@ -1,5 +1,6 @@
 import React, {type ReactNode} from 'react';
 import clsx from 'clsx';
+import Link from '@docusaurus/Link';
 import {ThemeClassNames} from '@docusaurus/theme-common';
 
 import styles from './styles.module.css';
@@ -104,6 +105,10 @@ function AskAboutKashCal(): ReactNode {
           </li>
         ))}
       </ul>
+      <span className={styles.askSep} aria-hidden="true">|</span>
+      <Link className={styles.askFeed} to="/reluctant-motivation">
+        Subscribe to the Reluctant Motivation feed
+      </Link>
     </div>
   );
 }

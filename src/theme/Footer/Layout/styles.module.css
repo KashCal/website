@@ -40,3 +40,21 @@
   color: var(--ifm-color-primary);
   background-color: var(--ifm-color-emphasis-200);
 }
+
+.askSep {
+  color: var(--ifm-color-emphasis-400);
+  user-select: none;
+}
+
+.askFeed {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--ifm-color-emphasis-700);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.askFeed:hover {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
