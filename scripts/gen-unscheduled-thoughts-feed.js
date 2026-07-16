@@ -1,9 +1,9 @@
 #!/usr/bin/env node
-// Generates the "Reluctant Motivation" ICS feed at static/reluctant-motivation.ics.
+// Generates the "Unscheduled Thoughts" ICS feed at static/unscheduled-thoughts.ics.
 //
 // A calendar subscription that drops one all-day note every 2-4 days: a bit of
 // gentle encouragement, a bit of snark, and the occasional calendar-nerd joke.
-// People subscribe to https://kashcal.onekash.org/reluctant-motivation.ics in
+// People subscribe to https://kashcal.onekash.org/unscheduled-thoughts.ics in
 // any calendar app; the notes appear on their own.
 //
 // Design goals:
@@ -17,16 +17,16 @@
 //     SOURCE tell clients to re-fetch.
 //
 // Run on demand (not a build hook — the .ics is a committed source asset, like
-// the social cards):  node scripts/gen-motivation-feed.js [--years N]
+// the social cards):  node scripts/gen-unscheduled-thoughts-feed.js [--years N]
 
 const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
 
 const FEED_HOST = 'kashcal.onekash.org';
-const FEED_URL = `https://${FEED_HOST}/reluctant-motivation.ics`;
-const PAGE_URL = `https://${FEED_HOST}/reluctant-motivation`;
-const CAL_NAME = 'Reluctant Motivation';
+const FEED_URL = `https://${FEED_HOST}/unscheduled-thoughts.ics`;
+const PAGE_URL = `https://${FEED_HOST}/unscheduled-thoughts`;
+const CAL_NAME = 'Unscheduled Thoughts';
 const CAL_DESC =
   'A little encouragement, a little snark, every few days. Means well, mostly.';
 const CAL_COLOR = '#0e6e62'; // brand teal
@@ -284,7 +284,7 @@ function buildIcs(startYear, years) {
   const lines = [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
-    'PRODID:-//KashCal//Reluctant Motivation//EN',
+    'PRODID:-//KashCal//Unscheduled Thoughts//EN',
     'CALSCALE:GREGORIAN',
     'METHOD:PUBLISH',
     `NAME:${esc(CAL_NAME)}`,
@@ -337,11 +337,11 @@ function main() {
   const startYear =
     startIdx >= 0 ? parseInt(args[startIdx + 1], 10) : new Date().getUTCFullYear();
 
-  const out = path.join(__dirname, '..', 'static', 'reluctant-motivation.ics');
+  const out = path.join(__dirname, '..', 'static', 'unscheduled-thoughts.ics');
   const {ics, count} = buildIcs(startYear, years);
   fs.writeFileSync(out, ics);
   console.log(
-    `[gen-motivation-feed] ${count} notes, ${startYear}-${startYear + years - 1} -> ${out}`,
+    `[gen-unscheduled-thoughts-feed] ${count} notes, ${startYear}-${startYear + years - 1} -> ${out}`,
   );
 }
 

@@ -1,18 +1,18 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//KashCal//Reluctant Motivation//EN
+PRODID:-//KashCal//Unscheduled Thoughts//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-NAME:Reluctant Motivation
-X-WR-CALNAME:Reluctant Motivation
+NAME:Unscheduled Thoughts
+X-WR-CALNAME:Unscheduled Thoughts
 X-WR-CALDESC:A little encouragement\, a little snark\, every few days. Mean
  s well\, mostly.
 COLOR:#0e6e62
 X-APPLE-CALENDAR-COLOR:#0e6e62
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
-URL:https://kashcal.onekash.org/reluctant-motivation
-SOURCE;VALUE=URI:https://kashcal.onekash.org/reluctant-motivation.ics
+URL:https://kashcal.onekash.org/unscheduled-thoughts
+SOURCE;VALUE=URI:https://kashcal.onekash.org/unscheduled-thoughts.ics
 BEGIN:VEVENT
 UID:2026-01-01-gentle@kashcal.onekash.org
 DTSTAMP:20260101T000000Z

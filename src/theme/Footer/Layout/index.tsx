@@ -106,8 +106,8 @@ function AskAboutKashCal(): ReactNode {
         ))}
       </ul>
       <span className={styles.askSep} aria-hidden="true">|</span>
-      <Link className={styles.askFeed} to="/reluctant-motivation">
-        Subscribe to the Reluctant Motivation feed
+      <Link className={styles.askFeed} to="/unscheduled-thoughts">
+        Subscribe to the Unscheduled Thoughts feed
       </Link>
     </div>
   );

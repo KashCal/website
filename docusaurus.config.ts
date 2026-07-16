@@ -174,7 +174,7 @@ const config: Config = {
                 // Boost the pages we most want crawled and ranked.
                 if (path === '/') return {...item, priority: 1.0};
                 if (path.startsWith('/features')) return {...item, priority: 0.8};
-                if (path === '/reluctant-motivation') return {...item, priority: 0.7};
+                if (path === '/unscheduled-thoughts') return {...item, priority: 0.7};
                 if (path.startsWith('/docs/getting-started') || path === '/donate' || path === '/work-with-us') {
                   return {...item, priority: 0.7};
                 }
@@ -223,6 +223,8 @@ const config: Config = {
           },
           // The docs landing now lives at /docs; keep the old deep link working.
           {from: '/docs/getting-started/what-is-kashcal', to: '/docs'},
+          // The feed page was renamed from "Reluctant Motivation".
+          {from: '/reluctant-motivation', to: '/unscheduled-thoughts'},
         ],
       },
     ],

@@ -3,10 +3,10 @@ import Link from '@docusaurus/Link';
 import Head from '@docusaurus/Head';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
-import styles from './reluctant-motivation.module.css';
+import styles from './unscheduled-thoughts.module.css';
 
-const FEED_URL = 'https://kashcal.onekash.org/reluctant-motivation.ics';
-const WEBCAL_URL = 'webcal://kashcal.onekash.org/reluctant-motivation.ics';
+const FEED_URL = 'https://kashcal.onekash.org/unscheduled-thoughts.ics';
+const WEBCAL_URL = 'webcal://kashcal.onekash.org/unscheduled-thoughts.ics';
 
 // A curated sample month for the hero preview. Real feed notes are picked
 // deterministically per date by the generator; this is a hand-picked set that
@@ -103,8 +103,8 @@ function Hero(): ReactNode {
         <div>
           <p className="kc-eyebrow">A calendar feed · free · no account</p>
           <Heading as="h1" className="kc-hero__title">
-            Reluctant<br />
-            <em>Motivation.</em>
+            Unscheduled<br />
+            <em>Thoughts.</em>
           </Heading>
           <p className="kc-hero__lead">
             Subscribe once and a little note lands in your calendar every few
@@ -227,15 +227,17 @@ function Subscribe(): ReactNode {
   );
 }
 
-export default function ReluctantMotivation(): ReactNode {
+export default function UnscheduledThoughts(): ReactNode {
   return (
     <Layout
-      title="Reluctant Motivation — a calendar feed that means well, mostly"
-      description="A free calendar feed you can subscribe to. Every few days it drops a bit of encouragement, a bit of snark, and the occasional calendar-nerd joke. No account, never blocks your day. Works in Google Calendar, Apple Calendar, Outlook, and KashCal.">
+      title="Unscheduled Thoughts — a calendar feed that means well, mostly"
+      description="A free calendar feed you can subscribe to. Every few days Unscheduled Thoughts drops a bit of encouragement, a bit of snark, and the occasional calendar-nerd joke. No account, never blocks your day. Works in Google Calendar, Apple Calendar, Outlook, and KashCal.">
       <Head>
-        <link rel="canonical" href="https://kashcal.onekash.org/reluctant-motivation" />
-        <meta property="og:image" content="https://kashcal.onekash.org/img/social/reluctant-motivation.png" />
-        <meta property="og:title" content="Reluctant Motivation" />
+        <link rel="canonical" href="https://kashcal.onekash.org/unscheduled-thoughts" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://kashcal.onekash.org/unscheduled-thoughts" />
+        <meta property="og:image" content="https://kashcal.onekash.org/img/social/unscheduled-thoughts.png" />
+        <meta property="og:title" content="Unscheduled Thoughts" />
         <meta
           property="og:description"
           content="A calendar feed that means well, mostly. One gently unhelpful note every few days."
