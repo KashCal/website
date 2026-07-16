@@ -1,0 +1,367 @@
+/**
+ * Reluctant Motivation subscribe page.
+ *
+ * Reuses the site's tokens (brand teal, marigold accent, the calendar grid as
+ * signature motif). The hero is a real month grid where a few day cells hold a
+ * note, and one cell is the subscribe call to action disguised as an event —
+ * an honest preview of what lands in your calendar.
+ */
+
+/* The month-grid hero card, sitting on the dark teal .kc-hero band. */
+.cal {
+  position: relative;
+  background: var(--ifm-background-surface-color);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 30px 60px -25px rgba(0, 0, 0, 0.6);
+}
+
+.calHead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.9rem 1.1rem;
+  border-bottom: 1px solid var(--kc-line);
+  background: var(--kc-mist);
+}
+
+.calMonth {
+  font-family: var(--ifm-heading-font-family);
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--ifm-font-color-base);
+  margin: 0;
+}
+
+.calNote {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.dow {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  border-bottom: 1px solid var(--kc-line);
+}
+
+.dow span {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ifm-color-emphasis-600);
+  padding: 0.5rem 0.55rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.cell {
+  min-height: 6.2rem;
+  border-right: 1px solid var(--kc-line);
+  border-bottom: 1px solid var(--kc-line);
+  padding: 0.35rem 0.45rem 0.5rem;
+}
+
+.cell:nth-child(7n) {
+  border-right: 0;
+}
+
+.grid > .cell:nth-last-child(-n + 7) {
+  border-bottom: 0;
+}
+
+.pad {
+  background: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 6px,
+    var(--kc-mist) 6px,
+    var(--kc-mist) 7px
+  );
+}
+
+.num {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.72rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.today {
+  background: rgba(244, 183, 64, 0.16);
+}
+
+.today .num {
+  color: var(--kc-accent-deep);
+  font-weight: 700;
+}
+
+.todayTag {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.55rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--kc-accent-deep);
+  margin-left: 0.35rem;
+}
+
+/* A note sitting in a day cell, marked with the marigold "today" highlight. */
+.chip {
+  display: block;
+  margin-top: 0.4rem;
+  font-family: var(--ifm-heading-font-family);
+  font-weight: 600;
+  font-size: 0.82rem;
+  line-height: 1.25;
+  color: var(--ifm-font-color-base);
+}
+
+.chip mark {
+  background: linear-gradient(rgba(244, 183, 64, 0.55), rgba(244, 183, 64, 0.55));
+  background-repeat: no-repeat;
+  background-position: 0 82%;
+  background-size: 100% 46%;
+  color: inherit;
+  padding: 0 2px;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.kind {
+  display: block;
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.56rem;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--ifm-color-emphasis-600);
+  margin-top: 0.4rem;
+}
+
+/* The subscribe call to action, disguised as a calendar event. */
+.cta {
+  background: var(--kc-teal);
+}
+
+.cta .num {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.ctaLink {
+  display: block;
+  margin-top: 0.4rem;
+  text-decoration: none;
+  font-family: var(--ifm-heading-font-family);
+  font-weight: 700;
+  font-size: 0.9rem;
+  line-height: 1.15;
+  color: #fff;
+}
+
+.ctaLink:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.ctaPlus {
+  color: var(--kc-accent);
+}
+
+.ctaLink small {
+  display: block;
+  font-family: var(--ifm-font-family-monospace);
+  font-weight: 400;
+  font-size: 0.58rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.72);
+  margin-top: 0.45rem;
+}
+
+/* Mobile agenda view: the same feed as a list (a real calendar view), shown
+   instead of the grid on narrow screens. */
+.agenda {
+  display: none;
+}
+
+.agendaRow {
+  display: grid;
+  grid-template-columns: 3.2rem 1fr;
+  gap: 0.9rem;
+  padding: 0.9rem 1rem;
+  border-bottom: 1px solid var(--kc-line);
+}
+
+.agendaRow:last-child {
+  border-bottom: 0;
+}
+
+.agendaDate {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.7rem;
+  color: var(--ifm-color-emphasis-600);
+  line-height: 1.3;
+}
+
+.agendaDate b {
+  display: block;
+  font-size: 1.25rem;
+  color: var(--ifm-font-color-base);
+  font-weight: 700;
+}
+
+.agendaTxt {
+  font-family: var(--ifm-heading-font-family);
+  font-weight: 600;
+  font-size: 0.98rem;
+  line-height: 1.3;
+}
+
+.agendaCta {
+  background: var(--kc-teal);
+}
+
+.agendaCta .agendaDate {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.agendaCta .agendaDate b {
+  color: #fff;
+}
+
+.agendaCta a {
+  color: #fff;
+  text-decoration: none;
+  font-family: var(--ifm-heading-font-family);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+/* ----------------------------------------------------------------------- */
+/* Subscribe block                                                         */
+/* ----------------------------------------------------------------------- */
+
+.subGrid {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.urlBox {
+  display: flex;
+  align-items: stretch;
+  border: 1px solid var(--kc-line);
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--ifm-background-surface-color);
+}
+
+.urlBox code {
+  flex: 1;
+  min-width: 0;
+  align-self: center;
+  padding: 0.85rem 1rem;
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.82rem;
+  color: var(--ifm-font-color-base);
+  background: none;
+  border: 0;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.copyBtn {
+  border: 0;
+  border-left: 1px solid var(--kc-line);
+  background: var(--kc-teal);
+  color: #fff;
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0 1.1rem;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.copyBtn:hover {
+  background: var(--ifm-color-primary-dark);
+}
+
+.copied {
+  background: var(--kc-accent);
+  color: var(--kc-teal-ink);
+}
+
+.copied:hover {
+  background: var(--kc-accent);
+}
+
+.btnRow {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+/* Per-app subscribe steps. */
+.apps {
+  border-top: 1px solid var(--kc-line);
+}
+
+.app {
+  border-bottom: 1px solid var(--kc-line);
+  padding: 0.9rem 0.1rem;
+  display: grid;
+  grid-template-columns: 5.5rem 1fr;
+  gap: 0.9rem;
+  align-items: baseline;
+}
+
+.appName {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.74rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ifm-font-color-base);
+}
+
+.app p {
+  margin: 0;
+  font-size: 0.92rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.kinds {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0 0 2rem;
+}
+
+@media (max-width: 996px) {
+  .subGrid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .cal {
+    display: none;
+  }
+  .agenda {
+    display: block;
+    background: var(--ifm-background-surface-color);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 30px 60px -25px rgba(0, 0, 0, 0.6);
+  }
+}

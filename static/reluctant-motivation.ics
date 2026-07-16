@@ -1,0 +1,5590 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//KashCal//Reluctant Motivation//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+NAME:Reluctant Motivation
+X-WR-CALNAME:Reluctant Motivation
+X-WR-CALDESC:A little encouragement\, a little snark\, every few days. Mean
+ s well\, mostly.
+COLOR:#0e6e62
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+URL:https://kashcal.onekash.org/reluctant-motivation
+SOURCE;VALUE=URI:https://kashcal.onekash.org/reluctant-motivation.ics
+BEGIN:VEVENT
+UID:2026-01-01-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260101
+DTEND;VALUE=DATE:20260102
+SUMMARY:Take the walk. The problem will still be here\, but smaller.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-01-04-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260104
+DTEND;VALUE=DATE:20260105
+SUMMARY:Your future self called. Straight to voicemail\, as usual.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-01-06-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260106
+DTEND;VALUE=DATE:20260107
+SUMMARY:Free/busy status: busy being free of any actual plans.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-01-09-sincere@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260109
+DTEND;VALUE=DATE:20260110
+SUMMARY:The version of you from a year ago would be amazed. Really.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-01-12-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260112
+DTEND;VALUE=DATE:20260113
+SUMMARY:Eat something that wasn't invented by a vending machine.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-01-15-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260115
+DTEND;VALUE=DATE:20260116
+SUMMARY:Inbox zero is a myth\, like work-life balance and matching socks.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-01-18-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260118
+DTEND;VALUE=DATE:20260119
+SUMMARY:Someone scheduled a meeting to plan the meeting. Recursion detected
+ .
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-01-22-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260122
+DTEND;VALUE=DATE:20260123
+SUMMARY:Two minutes of tidying now\, one less sigh later.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-01-25-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260125
+DTEND;VALUE=DATE:20260126
+SUMMARY:You've earned a break from the thing you have not started.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-01-28-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260128
+DTEND;VALUE=DATE:20260129
+SUMMARY:Your 'out of office' is the most productive thing on the calendar.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-01-31-sincere@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260131
+DTEND;VALUE=DATE:20260201
+SUMMARY:Ask how you're actually doing\, then answer honestly. Just to you i
+ s fine.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-02-03-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260203
+DTEND;VALUE=DATE:20260204
+SUMMARY:Put the phone down first. The scroll will wait. It's patient.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-02-05-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260205
+DTEND;VALUE=DATE:20260206
+SUMMARY:Wow\, a whole to-do list. Manifesting\, are we?
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-02-07-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260207
+DTEND;VALUE=DATE:20260208
+SUMMARY:Overlapping events again. The universe supports concurrency\; you d
+ on't.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-02-10-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260210
+DTEND;VALUE=DATE:20260211
+SUMMARY:Say the thing kindly. Future you hates unsent messages.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-02-13-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260213
+DTEND;VALUE=DATE:20260214
+SUMMARY:The plan was flawless until the part where you had to do it.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-02-15-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260215
+DTEND;VALUE=DATE:20260216
+SUMMARY:RECURRENCE-ID: the one Tuesday that thinks it's special. It is.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-02-19-sincere@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260219
+DTEND;VALUE=DATE:20260220
+SUMMARY:Not every day needs a win. Some just need to be gotten through. Thi
+ s counts.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-02-22-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260222
+DTEND;VALUE=DATE:20260223
+SUMMARY:Progress before perfect. Perfect isn't coming\; it RSVP'd no.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-02-26-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260226
+DTEND;VALUE=DATE:20260227
+SUMMARY:Reminder: 'I'll remember it' is not a system. It is a hope.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-03-01-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260301
+DTEND;VALUE=DATE:20260302
+SUMMARY:You RSVP'd yes to brunch and no to your responsibilities. Balanced.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-03-05-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260305
+DTEND;VALUE=DATE:20260306
+SUMMARY:You can do hard things. You can also do easy things first.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-03-08-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260308
+DTEND;VALUE=DATE:20260309
+SUMMARY:Multitasking: doing several things poorly at the same convenient ti
+ me.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-03-11-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260311
+DTEND;VALUE=DATE:20260312
+SUMMARY:A 30-minute event\, 5 minutes of content\, and a lifetime of 'any q
+ uestions?'
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-03-14-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260314
+DTEND;VALUE=DATE:20260315
+SUMMARY:Unclench your jaw. There\, that's the one.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-03-18-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260318
+DTEND;VALUE=DATE:20260319
+SUMMARY:Bold of that meeting to exist. Bolder of you to attend.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-03-21-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260321
+DTEND;VALUE=DATE:20260322
+SUMMARY:The calendar week starts on Monday or Sunday. Nobody's happy. That'
+ s calendars.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-03-24-sincere@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260324
+DTEND;VALUE=DATE:20260325
+SUMMARY:You showed up. On the hard days\, that is the whole achievement.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-03-27-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260327
+DTEND;VALUE=DATE:20260328
+SUMMARY:Ask for the help. People like being useful\; let's find out.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-03-29-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260329
+DTEND;VALUE=DATE:20260330
+SUMMARY:You could start now\, or wait until it's a crisis. Dealer's choice.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-03-31-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260401
+SUMMARY:"Gym" has recurred since March. The RRULE is the only consistent on
+ e here.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-04-02-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260402
+DTEND;VALUE=DATE:20260403
+SUMMARY:Done is a lovely place. Visit it more often.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-04-04-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260404
+DTEND;VALUE=DATE:20260405
+SUMMARY:Impressive how 'quick task' has been open for eleven days.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-04-07-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260407
+DTEND;VALUE=DATE:20260408
+SUMMARY:All-day event. Like your to-do list. Forever.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-04-10-sincere@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260410
+DTEND;VALUE=DATE:20260411
+SUMMARY:Be kind to yourself. You are doing better than this calendar implie
+ s.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-04-14-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260414
+DTEND;VALUE=DATE:20260415
+SUMMARY:Water the plant. It has fewer options than you do.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-04-17-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260417
+DTEND;VALUE=DATE:20260418
+SUMMARY:New week\, same you\, marginally better snacks. We take those.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-04-20-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260420
+DTEND;VALUE=DATE:20260421
+SUMMARY:This note is TRANSP:TRANSPARENT\, so it won't block your day. Unlik
+ e your inbox.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-04-23-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260423
+DTEND;VALUE=DATE:20260424
+SUMMARY:Fresh air is free and suspiciously effective.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-04-27-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260427
+DTEND;VALUE=DATE:20260428
+SUMMARY:You said you'd 'circle back.' The circle is now a full lap track.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-04-30-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260430
+DTEND;VALUE=DATE:20260501
+SUMMARY:Reminder set for -10 minutes: you're already late in principle.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-03-sincere@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260503
+DTEND;VALUE=DATE:20260504
+SUMMARY:Made it to the end of the month. Low bar. Cleared it anyway. Proud 
+ of you.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-05-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260505
+DTEND;VALUE=DATE:20260506
+SUMMARY:Write it down. Your brain is for thinking\, not storage.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-09-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260509
+DTEND;VALUE=DATE:20260510
+SUMMARY:Deadline: the ancient art of doing a week's work in an afternoon.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-12-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260512
+DTEND;VALUE=DATE:20260513
+SUMMARY:Your busiest day is marked 'tentative.' Emotionally accurate.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-14-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260514
+DTEND;VALUE=DATE:20260515
+SUMMARY:Go to bed. The internet will regenerate overnight.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-18-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260518
+DTEND;VALUE=DATE:20260519
+SUMMARY:You're one 'per my last email' away from your final form.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-20-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260520
+DTEND;VALUE=DATE:20260521
+SUMMARY:Someone invited you with PARTSTAT=NEEDS-ACTION. Same\, honestly.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-22-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260522
+DTEND;VALUE=DATE:20260523
+SUMMARY:Celebrate the small win. The big one is made of these.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-24-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260524
+DTEND;VALUE=DATE:20260525
+SUMMARY:Self-care is great\, but have you tried doing the thing? Wild idea.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-27-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260527
+DTEND;VALUE=DATE:20260528
+SUMMARY:This event repeats UNTIL you deal with it. No COUNT. No mercy.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-30-sincere@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260530
+DTEND;VALUE=DATE:20260531
+SUMMARY:Whatever happened yesterday doesn't get a recurring event. Let it e
+ nd.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-02-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260602
+DTEND;VALUE=DATE:20260603
+SUMMARY:Be a little brave before noon. It sets the tone.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-05-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260605
+DTEND;VALUE=DATE:20260606
+SUMMARY:Congratulations\, you found this note instead of the task. Classic.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-09-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260609
+DTEND;VALUE=DATE:20260610
+SUMMARY:Time zone check: it's 'too late' somewhere and 'not yet' in your he
+ art.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-11-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260611
+DTEND;VALUE=DATE:20260612
+SUMMARY:Tomorrow-you would love a five-minute head start today.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-14-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260614
+DTEND;VALUE=DATE:20260615
+SUMMARY:Your goals are in another castle. Again.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-17-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260617
+DTEND;VALUE=DATE:20260618
+SUMMARY:You have a free hour. It got double-booked by two kinds of avoidanc
+ e.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-20-sincere@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260620
+DTEND;VALUE=DATE:20260621
+SUMMARY:You've handled every worst day so far. Perfect record. Keep it.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-24-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260624
+DTEND;VALUE=DATE:20260625
+SUMMARY:You survived every previous Monday. Solid track record.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-28-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260628
+DTEND;VALUE=DATE:20260629
+SUMMARY:Everything is fine. This is fine. The calendar is fine. You're fine
+ .
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-01-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:DTSTART: now. DTEND: whenever you stop scrolling.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-04-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260704
+DTEND;VALUE=DATE:20260705
+SUMMARY:Pick the frog. Eat it first. Feel smug all afternoon.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-07-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260707
+DTEND;VALUE=DATE:20260708
+SUMMARY:Optimism is just a lack of information. Stay uninformed. Thrive.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-09-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260709
+DTEND;VALUE=DATE:20260710
+SUMMARY:Your 9am is recurring. So is your 8:55 panic. Beautiful symmetry.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-13-sincere@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260713
+DTEND;VALUE=DATE:20260714
+SUMMARY:The busy will pass. So will the quiet. Notice both while they last.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-16-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
+SUMMARY:Fold the laundry off the chair. You know the chair.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-19-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260719
+DTEND;VALUE=DATE:20260720
+SUMMARY:You've opened this app three times to avoid one email. Efficient.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-21-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260721
+DTEND;VALUE=DATE:20260722
+SUMMARY:That 'quick sync' has no DTEND. A meeting with COUNT=infinity.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-25-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260725
+DTEND;VALUE=DATE:20260726
+SUMMARY:Take the compliment. Just say thanks. Don't argue with it.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-29-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260729
+DTEND;VALUE=DATE:20260730
+SUMMARY:Slow and steady wins the race\, unless the race was yesterday.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-02-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
+SUMMARY:You declined the event but kept the dread. Very RFC-noncompliant.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-05-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260806
+SUMMARY:Momentum beats motivation. Start\; the feeling catches up.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-09-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260809
+DTEND;VALUE=DATE:20260810
+SUMMARY:You've got this. Statistically\, someone has to.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-11-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260812
+SUMMARY:BYDAY=MO\,TU\,WE\,TH\,FR. The weekend is an EXDATE\, cherish it.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-14-sincere@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+SUMMARY:You don't have to earn rest. It's not a reward\, it's maintenance.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-18-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260818
+DTEND;VALUE=DATE:20260819
+SUMMARY:It's fine to do it badly the first time. That's how firsts work.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-20-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260821
+SUMMARY:Nothing scheduled today. That was\, in fact\, the plan.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-23-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260824
+SUMMARY:You set three reminders. You will ignore all three\, in order.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-27-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+SUMMARY:Breathe out longer than you breathe in. Sneaky little reset.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-30-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260830
+DTEND;VALUE=DATE:20260831
+SUMMARY:This note has no location\, because neither do your goals. Kidding.
+  Mostly.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-02-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+SUMMARY:This block says 'focus time.' The RRULE says otherwise.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-06-sincere@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+SUMMARY:Someone is glad you exist today\, and it isn't just the calendar.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-09-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
+SUMMARY:You are not behind. Time is just ambitious.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-12-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Great news: expectations are low and you're clearing them.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-16-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:Every calendar has one event titled just '???'. This is a safe spac
+ e.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-19-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:Small win: you opened the calendar instead of the news.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-22-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SUMMARY:Believe in yourself. The bar is on the floor and you're a professio
+ nal.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-25-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:Leap day is here: recurring-birthday edge case in the flesh.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-28-sincere@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+SUMMARY:Slow days count too. Growing looks like nothing from the outside.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-01-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Drink water. Coffee is an argument\, not water.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-05-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:Today's goal: fewer open loops than yesterday. High drama\, low sta
+ kes.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-08-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:DST tonight. One hour of sleep is being force-pushed. No revert.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-11-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:You woke up on time. Let's not peak too early.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-14-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:You are doing amazing\, per the very forgiving metric you chose.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-18-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Your event has 14 attendees and 0 decisions. Peak scheduling.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-21-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Start the smallest possible version. The rest is negotiable.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-25-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Progress is progress. Even the kind only you would call progress.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-28-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:You color-coded the chaos. It's still chaos\, but it's aesthetic no
+ w.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-31-sincere@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:It's okay to close the laptop with things unfinished. There will be
+  more.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-03-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:Rest is on the schedule too. It's just badly attended.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-05-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:You rescheduled it again. Bold. Committed. To not doing it.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-08-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:'Lunch' is the only non-negotiable recurring event. As it should be
+ .
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-11-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:One thing today. The other things will keep. They always do.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-14-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:A wise person once said 'later.' You've really run with that.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-17-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:You accepted a 'maybe.' Schrodinger would like a word.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-20-sincere@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:You are allowed to change the plan. The plan works for you\, not th
+ e reverse.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-22-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Stretch. You're folded like a lawn chair again.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-24-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Motivation is on its way. Stuck in the same traffic as your plans.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-27-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:The all-hands has an agenda item called 'other.' Godspeed.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-29-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Reply to the message. It's been a draft since Tuesday.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-03-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Congrats on surviving a Monday that had the audacity to be a Tuesda
+ y.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-06-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Your calendar and your energy are in different time zones today.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-08-sincere@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:Hard season? Shorten the to-do list\, not your patience with yourse
+ lf.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-10-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Close six tabs. You will not miss them. Probably.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-13-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:You're not procrastinating. You're pre-heating.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-17-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:This note has no ATTENDEEs. Just you\, being quietly cheered on.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-19-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:You did the boring task. Nobody clapped. It still counted.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-22-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:Ambitious of you to set an alarm you had no intention of respecting
+ .
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-24-calendar-joke@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+SUMMARY:You moved the workout to 'later.' Later has UNTIL=never.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-28-gentle@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:Take the walk. The problem will still be here\, but smaller.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-31-snark@kashcal.onekash.org
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Your future self called. Straight to voicemail\, as usual.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-03-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:Two minutes of tidying now\, one less sigh later.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-06-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:Today's goal: fewer open loops than yesterday. High drama\, low sta
+ kes.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-09-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:'Lunch' is the only non-negotiable recurring event. As it should be
+ .
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-11-sincere@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+SUMMARY:It's okay to close the laptop with things unfinished. There will be
+  more.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-15-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:Put the phone down first. The scroll will wait. It's patient.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-17-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:You are doing amazing\, per the very forgiving metric you chose.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-20-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:You accepted a 'maybe.' Schrodinger would like a word.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-23-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:Say the thing kindly. Future you hates unsent messages.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-26-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:Progress is progress. Even the kind only you would call progress.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-29-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:The all-hands has an agenda item called 'other.' Godspeed.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-01-sincere@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:You are allowed to change the plan. The plan works for you\, not th
+ e reverse.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-03-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270204
+SUMMARY:Progress before perfect. Perfect isn't coming\; it RSVP'd no.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-05-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+SUMMARY:You rescheduled it again. Bold. Committed. To not doing it.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-09-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:Your calendar and your energy are in different time zones today.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-11-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:You can do hard things. You can also do easy things first.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-13-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:A wise person once said 'later.' You've really run with that.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-17-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270218
+SUMMARY:This note has no ATTENDEEs. Just you\, being quietly cheered on.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-20-sincere@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:Hard season? Shorten the to-do list\, not your patience with yourse
+ lf.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-22-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270222
+DTEND;VALUE=DATE:20270223
+SUMMARY:Unclench your jaw. There\, that's the one.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-25-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:Motivation is on its way. Stuck in the same traffic as your plans.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-27-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:You moved the workout to 'later.' Later has UNTIL=never.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-01-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Ask for the help. People like being useful\; let's find out.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-04-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+SUMMARY:Congrats on surviving a Monday that had the audacity to be a Tuesda
+ y.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-07-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:Free/busy status: busy being free of any actual plans.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-09-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270310
+SUMMARY:Done is a lovely place. Visit it more often.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-13-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270313
+DTEND;VALUE=DATE:20270314
+SUMMARY:You're not procrastinating. You're pre-heating.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-15-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:Someone scheduled a meeting to plan the meeting. Recursion detected
+ .
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-17-sincere@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+SUMMARY:The version of you from a year ago would be amazed. Really.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-19-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+SUMMARY:Water the plant. It has fewer options than you do.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-23-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270324
+SUMMARY:Ambitious of you to set an alarm you had no intention of respecting
+ .
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-27-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270327
+DTEND;VALUE=DATE:20270328
+SUMMARY:Your 'out of office' is the most productive thing on the calendar.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-30-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270330
+DTEND;VALUE=DATE:20270331
+SUMMARY:Fresh air is free and suspiciously effective.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-02-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270402
+DTEND;VALUE=DATE:20270403
+SUMMARY:Your future self called. Straight to voicemail\, as usual.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-05-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270405
+DTEND;VALUE=DATE:20270406
+SUMMARY:Overlapping events again. The universe supports concurrency\; you d
+ on't.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-07-sincere@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+SUMMARY:Ask how you're actually doing\, then answer honestly. Just to you i
+ s fine.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-09-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270410
+SUMMARY:Write it down. Your brain is for thinking\, not storage.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-13-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:Inbox zero is a myth\, like work-life balance and matching socks.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-16-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270416
+DTEND;VALUE=DATE:20270417
+SUMMARY:RECURRENCE-ID: the one Tuesday that thinks it's special. It is.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-20-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+SUMMARY:Go to bed. The internet will regenerate overnight.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-24-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270424
+DTEND;VALUE=DATE:20270425
+SUMMARY:You've earned a break from the thing you have not started.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-26-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270426
+DTEND;VALUE=DATE:20270427
+SUMMARY:You RSVP'd yes to brunch and no to your responsibilities. Balanced.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-29-sincere@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+SUMMARY:Not every day needs a win. Some just need to be gotten through. Thi
+ s counts.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-02-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270502
+DTEND;VALUE=DATE:20270503
+SUMMARY:Celebrate the small win. The big one is made of these.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-05-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270505
+DTEND;VALUE=DATE:20270506
+SUMMARY:Wow\, a whole to-do list. Manifesting\, are we?
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-09-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270509
+DTEND;VALUE=DATE:20270510
+SUMMARY:A 30-minute event\, 5 minutes of content\, and a lifetime of 'any q
+ uestions?'
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-11-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270511
+DTEND;VALUE=DATE:20270512
+SUMMARY:Be a little brave before noon. It sets the tone.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-14-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270514
+DTEND;VALUE=DATE:20270515
+SUMMARY:The plan was flawless until the part where you had to do it.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-18-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270518
+DTEND;VALUE=DATE:20270519
+SUMMARY:The calendar week starts on Monday or Sunday. Nobody's happy. That'
+ s calendars.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-20-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270520
+DTEND;VALUE=DATE:20270521
+SUMMARY:Tomorrow-you would love a five-minute head start today.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-23-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270523
+DTEND;VALUE=DATE:20270524
+SUMMARY:Reminder: 'I'll remember it' is not a system. It is a hope.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-25-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270525
+DTEND;VALUE=DATE:20270526
+SUMMARY:"Gym" has recurred since March. The RRULE is the only consistent on
+ e here.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-28-sincere@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270528
+DTEND;VALUE=DATE:20270529
+SUMMARY:You showed up. On the hard days\, that is the whole achievement.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-01-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:You survived every previous Monday. Solid track record.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-03-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270603
+DTEND;VALUE=DATE:20270604
+SUMMARY:Multitasking: doing several things poorly at the same convenient ti
+ me.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-06-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270606
+DTEND;VALUE=DATE:20270607
+SUMMARY:All-day event. Like your to-do list. Forever.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-09-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270610
+SUMMARY:Pick the frog. Eat it first. Feel smug all afternoon.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-13-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270613
+DTEND;VALUE=DATE:20270614
+SUMMARY:Bold of that meeting to exist. Bolder of you to attend.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-15-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270616
+SUMMARY:This note is TRANSP:TRANSPARENT\, so it won't block your day. Unlik
+ e your inbox.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-17-sincere@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270617
+DTEND;VALUE=DATE:20270618
+SUMMARY:Be kind to yourself. You are doing better than this calendar implie
+ s.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-21-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270621
+DTEND;VALUE=DATE:20270622
+SUMMARY:Fold the laundry off the chair. You know the chair.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-25-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270625
+DTEND;VALUE=DATE:20270626
+SUMMARY:You could start now\, or wait until it's a crisis. Dealer's choice.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-27-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270627
+DTEND;VALUE=DATE:20270628
+SUMMARY:Reminder set for -10 minutes: you're already late in principle.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-29-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270629
+DTEND;VALUE=DATE:20270630
+SUMMARY:Take the compliment. Just say thanks. Don't argue with it.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-03-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270703
+DTEND;VALUE=DATE:20270704
+SUMMARY:Impressive how 'quick task' has been open for eleven days.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-06-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270706
+DTEND;VALUE=DATE:20270707
+SUMMARY:Your busiest day is marked 'tentative.' Emotionally accurate.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-09-sincere@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270709
+DTEND;VALUE=DATE:20270710
+SUMMARY:Made it to the end of the month. Low bar. Cleared it anyway. Proud 
+ of you.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-12-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270712
+DTEND;VALUE=DATE:20270713
+SUMMARY:Momentum beats motivation. Start\; the feeling catches up.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-15-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:New week\, same you\, marginally better snacks. We take those.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-19-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270719
+DTEND;VALUE=DATE:20270720
+SUMMARY:Someone invited you with PARTSTAT=NEEDS-ACTION. Same\, honestly.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-21-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270721
+DTEND;VALUE=DATE:20270722
+SUMMARY:It's fine to do it badly the first time. That's how firsts work.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-24-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270724
+DTEND;VALUE=DATE:20270725
+SUMMARY:You said you'd 'circle back.' The circle is now a full lap track.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-28-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270728
+DTEND;VALUE=DATE:20270729
+SUMMARY:This event repeats UNTIL you deal with it. No COUNT. No mercy.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-08-01-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270801
+DTEND;VALUE=DATE:20270802
+SUMMARY:Breathe out longer than you breathe in. Sneaky little reset.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-08-04-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270804
+DTEND;VALUE=DATE:20270805
+SUMMARY:Deadline: the ancient art of doing a week's work in an afternoon.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-08-07-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270807
+DTEND;VALUE=DATE:20270808
+SUMMARY:Time zone check: it's 'too late' somewhere and 'not yet' in your he
+ art.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-08-10-sincere@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270810
+DTEND;VALUE=DATE:20270811
+SUMMARY:Whatever happened yesterday doesn't get a recurring event. Let it e
+ nd.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-08-14-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270814
+DTEND;VALUE=DATE:20270815
+SUMMARY:You are not behind. Time is just ambitious.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-08-18-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270818
+DTEND;VALUE=DATE:20270819
+SUMMARY:You're one 'per my last email' away from your final form.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-08-20-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270820
+DTEND;VALUE=DATE:20270821
+SUMMARY:You have a free hour. It got double-booked by two kinds of avoidanc
+ e.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-08-24-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270824
+DTEND;VALUE=DATE:20270825
+SUMMARY:Small win: you opened the calendar instead of the news.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-08-28-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270828
+DTEND;VALUE=DATE:20270829
+SUMMARY:Self-care is great\, but have you tried doing the thing? Wild idea.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-08-31-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270831
+DTEND;VALUE=DATE:20270901
+SUMMARY:DTSTART: now. DTEND: whenever you stop scrolling.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-09-03-sincere@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270903
+DTEND;VALUE=DATE:20270904
+SUMMARY:You've handled every worst day so far. Perfect record. Keep it.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-09-07-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270907
+DTEND;VALUE=DATE:20270908
+SUMMARY:Drink water. Coffee is an argument\, not water.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-09-10-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270910
+DTEND;VALUE=DATE:20270911
+SUMMARY:Congratulations\, you found this note instead of the task. Classic.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-09-14-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270914
+DTEND;VALUE=DATE:20270915
+SUMMARY:Your 9am is recurring. So is your 8:55 panic. Beautiful symmetry.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-09-17-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270917
+DTEND;VALUE=DATE:20270918
+SUMMARY:You woke up on time. Let's not peak too early.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-09-20-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270920
+DTEND;VALUE=DATE:20270921
+SUMMARY:Your goals are in another castle. Again.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-09-24-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270924
+DTEND;VALUE=DATE:20270925
+SUMMARY:That 'quick sync' has no DTEND. A meeting with COUNT=infinity.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-09-27-sincere@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270927
+DTEND;VALUE=DATE:20270928
+SUMMARY:The busy will pass. So will the quiet. Notice both while they last.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-10-01-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20271002
+SUMMARY:Start the smallest possible version. The rest is negotiable.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-10-05-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20271005
+DTEND;VALUE=DATE:20271006
+SUMMARY:Everything is fine. This is fine. The calendar is fine. You're fine
+ .
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-10-08-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20271008
+DTEND;VALUE=DATE:20271009
+SUMMARY:You declined the event but kept the dread. Very RFC-noncompliant.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-10-10-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20271010
+DTEND;VALUE=DATE:20271011
+SUMMARY:Rest is on the schedule too. It's just badly attended.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-10-14-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20271014
+DTEND;VALUE=DATE:20271015
+SUMMARY:Optimism is just a lack of information. Stay uninformed. Thrive.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-10-17-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20271017
+DTEND;VALUE=DATE:20271018
+SUMMARY:BYDAY=MO\,TU\,WE\,TH\,FR. The weekend is an EXDATE\, cherish it.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-10-20-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20271020
+DTEND;VALUE=DATE:20271021
+SUMMARY:One thing today. The other things will keep. They always do.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-10-22-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20271022
+DTEND;VALUE=DATE:20271023
+SUMMARY:You've opened this app three times to avoid one email. Efficient.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-10-24-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20271024
+DTEND;VALUE=DATE:20271025
+SUMMARY:You set three reminders. You will ignore all three\, in order.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-10-26-sincere@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20271026
+DTEND;VALUE=DATE:20271027
+SUMMARY:You don't have to earn rest. It's not a reward\, it's maintenance.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-10-30-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20271030
+DTEND;VALUE=DATE:20271031
+SUMMARY:Stretch. You're folded like a lawn chair again.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-11-01-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20271101
+DTEND;VALUE=DATE:20271102
+SUMMARY:Slow and steady wins the race\, unless the race was yesterday.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-11-04-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20271104
+DTEND;VALUE=DATE:20271105
+SUMMARY:This block says 'focus time.' The RRULE says otherwise.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-11-07-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20271107
+DTEND;VALUE=DATE:20271108
+SUMMARY:Reply to the message. It's been a draft since Tuesday.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-11-10-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20271110
+DTEND;VALUE=DATE:20271111
+SUMMARY:You've got this. Statistically\, someone has to.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-11-13-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20271113
+DTEND;VALUE=DATE:20271114
+SUMMARY:Every calendar has one event titled just '???'. This is a safe spac
+ e.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-11-17-sincere@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20271117
+DTEND;VALUE=DATE:20271118
+SUMMARY:Someone is glad you exist today\, and it isn't just the calendar.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-11-19-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20271119
+DTEND;VALUE=DATE:20271120
+SUMMARY:Close six tabs. You will not miss them. Probably.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-11-22-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20271122
+DTEND;VALUE=DATE:20271123
+SUMMARY:Nothing scheduled today. That was\, in fact\, the plan.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-11-25-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20271125
+DTEND;VALUE=DATE:20271126
+SUMMARY:Leap day is here: recurring-birthday edge case in the flesh.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-11-28-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20271128
+DTEND;VALUE=DATE:20271129
+SUMMARY:You did the boring task. Nobody clapped. It still counted.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-11-30-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20271130
+DTEND;VALUE=DATE:20271201
+SUMMARY:This note has no location\, because neither do your goals. Kidding.
+  Mostly.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-12-04-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20271204
+DTEND;VALUE=DATE:20271205
+SUMMARY:DST tonight. One hour of sleep is being force-pushed. No revert.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-12-07-sincere@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20271207
+DTEND;VALUE=DATE:20271208
+SUMMARY:Slow days count too. Growing looks like nothing from the outside.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-12-10-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20271210
+DTEND;VALUE=DATE:20271211
+SUMMARY:Take the walk. The problem will still be here\, but smaller.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-12-14-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20271214
+DTEND;VALUE=DATE:20271215
+SUMMARY:Great news: expectations are low and you're clearing them.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-12-17-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20271217
+DTEND;VALUE=DATE:20271218
+SUMMARY:Your event has 14 attendees and 0 decisions. Peak scheduling.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-12-20-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20271220
+DTEND;VALUE=DATE:20271221
+SUMMARY:Eat something that wasn't invented by a vending machine.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-12-22-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20271222
+DTEND;VALUE=DATE:20271223
+SUMMARY:Believe in yourself. The bar is on the floor and you're a professio
+ nal.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-12-24-calendar-joke@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20271224
+DTEND;VALUE=DATE:20271225
+SUMMARY:You color-coded the chaos. It's still chaos\, but it's aesthetic no
+ w.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-12-26-gentle@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20271226
+DTEND;VALUE=DATE:20271227
+SUMMARY:Two minutes of tidying now\, one less sigh later.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-12-29-snark@kashcal.onekash.org
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20271229
+DTEND;VALUE=DATE:20271230
+SUMMARY:Today's goal: fewer open loops than yesterday. High drama\, low sta
+ kes.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-01-01-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280101
+DTEND;VALUE=DATE:20280102
+SUMMARY:Stretch. You're folded like a lawn chair again.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-01-04-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280104
+DTEND;VALUE=DATE:20280105
+SUMMARY:Congrats on surviving a Monday that had the audacity to be a Tuesda
+ y.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-01-07-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280107
+DTEND;VALUE=DATE:20280108
+SUMMARY:This note is TRANSP:TRANSPARENT\, so it won't block your day. Unlik
+ e your inbox.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-01-10-sincere@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280110
+DTEND;VALUE=DATE:20280111
+SUMMARY:Whatever happened yesterday doesn't get a recurring event. Let it e
+ nd.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-01-14-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280114
+DTEND;VALUE=DATE:20280115
+SUMMARY:Reply to the message. It's been a draft since Tuesday.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-01-18-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280118
+DTEND;VALUE=DATE:20280119
+SUMMARY:You're not procrastinating. You're pre-heating.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-01-22-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280122
+DTEND;VALUE=DATE:20280123
+SUMMARY:Reminder set for -10 minutes: you're already late in principle.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-01-24-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280124
+DTEND;VALUE=DATE:20280125
+SUMMARY:Close six tabs. You will not miss them. Probably.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-01-27-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280127
+DTEND;VALUE=DATE:20280128
+SUMMARY:Ambitious of you to set an alarm you had no intention of respecting
+ .
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-01-31-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280131
+DTEND;VALUE=DATE:20280201
+SUMMARY:Your busiest day is marked 'tentative.' Emotionally accurate.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-02-03-sincere@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280203
+DTEND;VALUE=DATE:20280204
+SUMMARY:You've handled every worst day so far. Perfect record. Keep it.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-02-05-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280205
+DTEND;VALUE=DATE:20280206
+SUMMARY:You did the boring task. Nobody clapped. It still counted.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-02-09-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280209
+DTEND;VALUE=DATE:20280210
+SUMMARY:Your future self called. Straight to voicemail\, as usual.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-02-12-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280212
+DTEND;VALUE=DATE:20280213
+SUMMARY:Someone invited you with PARTSTAT=NEEDS-ACTION. Same\, honestly.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-02-15-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280215
+DTEND;VALUE=DATE:20280216
+SUMMARY:Take the walk. The problem will still be here\, but smaller.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-02-17-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280217
+DTEND;VALUE=DATE:20280218
+SUMMARY:Inbox zero is a myth\, like work-life balance and matching socks.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-02-20-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280220
+DTEND;VALUE=DATE:20280221
+SUMMARY:This event repeats UNTIL you deal with it. No COUNT. No mercy.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-02-23-sincere@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280223
+DTEND;VALUE=DATE:20280224
+SUMMARY:The busy will pass. So will the quiet. Notice both while they last.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-02-27-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280227
+DTEND;VALUE=DATE:20280228
+SUMMARY:Eat something that wasn't invented by a vending machine.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-03-02-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280302
+DTEND;VALUE=DATE:20280303
+SUMMARY:You've earned a break from the thing you have not started.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-03-04-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280304
+DTEND;VALUE=DATE:20280305
+SUMMARY:Time zone check: it's 'too late' somewhere and 'not yet' in your he
+ art.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-03-08-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280308
+DTEND;VALUE=DATE:20280309
+SUMMARY:Two minutes of tidying now\, one less sigh later.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-03-10-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280310
+DTEND;VALUE=DATE:20280311
+SUMMARY:Wow\, a whole to-do list. Manifesting\, are we?
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-03-13-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280313
+DTEND;VALUE=DATE:20280314
+SUMMARY:You have a free hour. It got double-booked by two kinds of avoidanc
+ e.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-03-16-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280316
+DTEND;VALUE=DATE:20280317
+SUMMARY:Put the phone down first. The scroll will wait. It's patient.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-03-19-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280319
+DTEND;VALUE=DATE:20280320
+SUMMARY:The plan was flawless until the part where you had to do it.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-03-21-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280321
+DTEND;VALUE=DATE:20280322
+SUMMARY:DTSTART: now. DTEND: whenever you stop scrolling.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-03-24-sincere@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280324
+DTEND;VALUE=DATE:20280325
+SUMMARY:You don't have to earn rest. It's not a reward\, it's maintenance.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-03-27-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280327
+DTEND;VALUE=DATE:20280328
+SUMMARY:Say the thing kindly. Future you hates unsent messages.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-03-30-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280330
+DTEND;VALUE=DATE:20280331
+SUMMARY:Reminder: 'I'll remember it' is not a system. It is a hope.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-04-02-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280402
+DTEND;VALUE=DATE:20280403
+SUMMARY:Your 9am is recurring. So is your 8:55 panic. Beautiful symmetry.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-04-06-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280406
+DTEND;VALUE=DATE:20280407
+SUMMARY:Progress before perfect. Perfect isn't coming\; it RSVP'd no.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-04-08-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280408
+DTEND;VALUE=DATE:20280409
+SUMMARY:Multitasking: doing several things poorly at the same convenient ti
+ me.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-04-12-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280412
+DTEND;VALUE=DATE:20280413
+SUMMARY:That 'quick sync' has no DTEND. A meeting with COUNT=infinity.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-04-15-sincere@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280415
+DTEND;VALUE=DATE:20280416
+SUMMARY:Someone is glad you exist today\, and it isn't just the calendar.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-04-19-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280419
+DTEND;VALUE=DATE:20280420
+SUMMARY:You can do hard things. You can also do easy things first.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-04-22-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280422
+DTEND;VALUE=DATE:20280423
+SUMMARY:Bold of that meeting to exist. Bolder of you to attend.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-04-24-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280424
+DTEND;VALUE=DATE:20280425
+SUMMARY:You declined the event but kept the dread. Very RFC-noncompliant.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-04-28-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280428
+DTEND;VALUE=DATE:20280429
+SUMMARY:Unclench your jaw. There\, that's the one.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-05-02-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280502
+DTEND;VALUE=DATE:20280503
+SUMMARY:You could start now\, or wait until it's a crisis. Dealer's choice.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-05-05-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280505
+DTEND;VALUE=DATE:20280506
+SUMMARY:BYDAY=MO\,TU\,WE\,TH\,FR. The weekend is an EXDATE\, cherish it.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-05-08-sincere@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280508
+DTEND;VALUE=DATE:20280509
+SUMMARY:Slow days count too. Growing looks like nothing from the outside.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-05-11-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280511
+DTEND;VALUE=DATE:20280512
+SUMMARY:Ask for the help. People like being useful\; let's find out.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-05-15-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280515
+DTEND;VALUE=DATE:20280516
+SUMMARY:Impressive how 'quick task' has been open for eleven days.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-05-18-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280518
+DTEND;VALUE=DATE:20280519
+SUMMARY:You set three reminders. You will ignore all three\, in order.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-05-22-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280522
+DTEND;VALUE=DATE:20280523
+SUMMARY:Done is a lovely place. Visit it more often.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-05-24-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280524
+DTEND;VALUE=DATE:20280525
+SUMMARY:New week\, same you\, marginally better snacks. We take those.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-05-27-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280527
+DTEND;VALUE=DATE:20280528
+SUMMARY:This block says 'focus time.' The RRULE says otherwise.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-05-30-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280530
+DTEND;VALUE=DATE:20280531
+SUMMARY:Water the plant. It has fewer options than you do.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-06-02-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280602
+DTEND;VALUE=DATE:20280603
+SUMMARY:You said you'd 'circle back.' The circle is now a full lap track.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-06-04-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280604
+DTEND;VALUE=DATE:20280605
+SUMMARY:Every calendar has one event titled just '???'. This is a safe spac
+ e.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-06-06-sincere@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280606
+DTEND;VALUE=DATE:20280607
+SUMMARY:It's okay to close the laptop with things unfinished. There will be
+  more.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-06-10-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280610
+DTEND;VALUE=DATE:20280611
+SUMMARY:Fresh air is free and suspiciously effective.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-06-12-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280612
+DTEND;VALUE=DATE:20280613
+SUMMARY:Deadline: the ancient art of doing a week's work in an afternoon.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-06-15-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280615
+DTEND;VALUE=DATE:20280616
+SUMMARY:Leap day is here: recurring-birthday edge case in the flesh.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-06-18-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280618
+DTEND;VALUE=DATE:20280619
+SUMMARY:Write it down. Your brain is for thinking\, not storage.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-06-21-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280621
+DTEND;VALUE=DATE:20280622
+SUMMARY:You're one 'per my last email' away from your final form.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-06-23-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280623
+DTEND;VALUE=DATE:20280624
+SUMMARY:DST tonight. One hour of sleep is being force-pushed. No revert.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-06-26-sincere@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280626
+DTEND;VALUE=DATE:20280627
+SUMMARY:You are allowed to change the plan. The plan works for you\, not th
+ e reverse.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-06-30-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280630
+DTEND;VALUE=DATE:20280701
+SUMMARY:Go to bed. The internet will regenerate overnight.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-07-04-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280704
+DTEND;VALUE=DATE:20280705
+SUMMARY:Self-care is great\, but have you tried doing the thing? Wild idea.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-07-07-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280707
+DTEND;VALUE=DATE:20280708
+SUMMARY:Your event has 14 attendees and 0 decisions. Peak scheduling.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-07-11-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280711
+DTEND;VALUE=DATE:20280712
+SUMMARY:Celebrate the small win. The big one is made of these.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-07-13-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280713
+DTEND;VALUE=DATE:20280714
+SUMMARY:Congratulations\, you found this note instead of the task. Classic.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-07-15-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280715
+DTEND;VALUE=DATE:20280716
+SUMMARY:You color-coded the chaos. It's still chaos\, but it's aesthetic no
+ w.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-07-18-sincere@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280718
+DTEND;VALUE=DATE:20280719
+SUMMARY:Hard season? Shorten the to-do list\, not your patience with yourse
+ lf.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-07-20-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280720
+DTEND;VALUE=DATE:20280721
+SUMMARY:Be a little brave before noon. It sets the tone.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-07-22-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280722
+DTEND;VALUE=DATE:20280723
+SUMMARY:Your goals are in another castle. Again.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-07-24-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280724
+DTEND;VALUE=DATE:20280725
+SUMMARY:'Lunch' is the only non-negotiable recurring event. As it should be
+ .
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-07-28-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280728
+DTEND;VALUE=DATE:20280729
+SUMMARY:Tomorrow-you would love a five-minute head start today.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-07-31-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280731
+DTEND;VALUE=DATE:20280801
+SUMMARY:Everything is fine. This is fine. The calendar is fine. You're fine
+ .
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-08-04-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280804
+DTEND;VALUE=DATE:20280805
+SUMMARY:You accepted a 'maybe.' Schrodinger would like a word.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-08-07-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280807
+DTEND;VALUE=DATE:20280808
+SUMMARY:You survived every previous Monday. Solid track record.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-08-09-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280809
+DTEND;VALUE=DATE:20280810
+SUMMARY:Optimism is just a lack of information. Stay uninformed. Thrive.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-08-11-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280811
+DTEND;VALUE=DATE:20280812
+SUMMARY:The all-hands has an agenda item called 'other.' Godspeed.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-08-14-sincere@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280814
+DTEND;VALUE=DATE:20280815
+SUMMARY:The version of you from a year ago would be amazed. Really.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-08-17-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280817
+DTEND;VALUE=DATE:20280818
+SUMMARY:Pick the frog. Eat it first. Feel smug all afternoon.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-08-21-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280821
+DTEND;VALUE=DATE:20280822
+SUMMARY:You've opened this app three times to avoid one email. Efficient.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-08-24-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280824
+DTEND;VALUE=DATE:20280825
+SUMMARY:Your calendar and your energy are in different time zones today.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-08-27-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280827
+DTEND;VALUE=DATE:20280828
+SUMMARY:Fold the laundry off the chair. You know the chair.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-08-31-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280831
+DTEND;VALUE=DATE:20280901
+SUMMARY:Slow and steady wins the race\, unless the race was yesterday.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-09-03-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280903
+DTEND;VALUE=DATE:20280904
+SUMMARY:This note has no ATTENDEEs. Just you\, being quietly cheered on.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-09-06-sincere@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280906
+DTEND;VALUE=DATE:20280907
+SUMMARY:Ask how you're actually doing\, then answer honestly. Just to you i
+ s fine.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-09-09-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280909
+DTEND;VALUE=DATE:20280910
+SUMMARY:Take the compliment. Just say thanks. Don't argue with it.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-09-13-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280913
+DTEND;VALUE=DATE:20280914
+SUMMARY:You've got this. Statistically\, someone has to.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-09-16-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280916
+DTEND;VALUE=DATE:20280917
+SUMMARY:You moved the workout to 'later.' Later has UNTIL=never.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-09-19-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280919
+DTEND;VALUE=DATE:20280920
+SUMMARY:Momentum beats motivation. Start\; the feeling catches up.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-09-21-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280921
+DTEND;VALUE=DATE:20280922
+SUMMARY:Nothing scheduled today. That was\, in fact\, the plan.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-09-25-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280925
+DTEND;VALUE=DATE:20280926
+SUMMARY:Free/busy status: busy being free of any actual plans.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-09-28-sincere@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280928
+DTEND;VALUE=DATE:20280929
+SUMMARY:Not every day needs a win. Some just need to be gotten through. Thi
+ s counts.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-09-30-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280930
+DTEND;VALUE=DATE:20281001
+SUMMARY:It's fine to do it badly the first time. That's how firsts work.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-10-04-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281004
+DTEND;VALUE=DATE:20281005
+SUMMARY:This note has no location\, because neither do your goals. Kidding.
+  Mostly.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-10-08-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281008
+DTEND;VALUE=DATE:20281009
+SUMMARY:Someone scheduled a meeting to plan the meeting. Recursion detected
+ .
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-10-11-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281011
+DTEND;VALUE=DATE:20281012
+SUMMARY:Breathe out longer than you breathe in. Sneaky little reset.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-10-14-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281014
+DTEND;VALUE=DATE:20281015
+SUMMARY:Great news: expectations are low and you're clearing them.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-10-18-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281018
+DTEND;VALUE=DATE:20281019
+SUMMARY:Your 'out of office' is the most productive thing on the calendar.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-10-21-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281021
+DTEND;VALUE=DATE:20281022
+SUMMARY:You are not behind. Time is just ambitious.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-10-24-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281024
+DTEND;VALUE=DATE:20281025
+SUMMARY:Believe in yourself. The bar is on the floor and you're a professio
+ nal.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-10-27-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281027
+DTEND;VALUE=DATE:20281028
+SUMMARY:Overlapping events again. The universe supports concurrency\; you d
+ on't.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-10-29-sincere@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281029
+DTEND;VALUE=DATE:20281030
+SUMMARY:You showed up. On the hard days\, that is the whole achievement.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-10-31-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281031
+DTEND;VALUE=DATE:20281101
+SUMMARY:Small win: you opened the calendar instead of the news.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-11-03-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281103
+DTEND;VALUE=DATE:20281104
+SUMMARY:Today's goal: fewer open loops than yesterday. High drama\, low sta
+ kes.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-11-06-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281106
+DTEND;VALUE=DATE:20281107
+SUMMARY:RECURRENCE-ID: the one Tuesday that thinks it's special. It is.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-11-08-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281108
+DTEND;VALUE=DATE:20281109
+SUMMARY:Drink water. Coffee is an argument\, not water.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-11-11-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281111
+DTEND;VALUE=DATE:20281112
+SUMMARY:You are doing amazing\, per the very forgiving metric you chose.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-11-15-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281115
+DTEND;VALUE=DATE:20281116
+SUMMARY:You RSVP'd yes to brunch and no to your responsibilities. Balanced.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-11-17-sincere@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281117
+DTEND;VALUE=DATE:20281118
+SUMMARY:Be kind to yourself. You are doing better than this calendar implie
+ s.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-11-19-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281119
+DTEND;VALUE=DATE:20281120
+SUMMARY:You woke up on time. Let's not peak too early.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-11-23-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281123
+DTEND;VALUE=DATE:20281124
+SUMMARY:Progress is progress. Even the kind only you would call progress.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-11-26-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281126
+DTEND;VALUE=DATE:20281127
+SUMMARY:A 30-minute event\, 5 minutes of content\, and a lifetime of 'any q
+ uestions?'
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-11-29-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281129
+DTEND;VALUE=DATE:20281130
+SUMMARY:Start the smallest possible version. The rest is negotiable.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-12-02-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281202
+DTEND;VALUE=DATE:20281203
+SUMMARY:You rescheduled it again. Bold. Committed. To not doing it.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-12-04-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281204
+DTEND;VALUE=DATE:20281205
+SUMMARY:The calendar week starts on Monday or Sunday. Nobody's happy. That'
+ s calendars.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-12-07-sincere@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281207
+DTEND;VALUE=DATE:20281208
+SUMMARY:Made it to the end of the month. Low bar. Cleared it anyway. Proud 
+ of you.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-12-10-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281210
+DTEND;VALUE=DATE:20281211
+SUMMARY:Rest is on the schedule too. It's just badly attended.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-12-14-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281214
+DTEND;VALUE=DATE:20281215
+SUMMARY:A wise person once said 'later.' You've really run with that.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-12-18-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281218
+DTEND;VALUE=DATE:20281219
+SUMMARY:"Gym" has recurred since March. The RRULE is the only consistent on
+ e here.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-12-22-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281222
+DTEND;VALUE=DATE:20281223
+SUMMARY:One thing today. The other things will keep. They always do.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-12-24-snark@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281224
+DTEND;VALUE=DATE:20281225
+SUMMARY:Motivation is on its way. Stuck in the same traffic as your plans.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-12-26-calendar-joke@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281226
+DTEND;VALUE=DATE:20281227
+SUMMARY:All-day event. Like your to-do list. Forever.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-12-29-gentle@kashcal.onekash.org
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281229
+DTEND;VALUE=DATE:20281230
+SUMMARY:Stretch. You're folded like a lawn chair again.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-01-01-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290101
+DTEND;VALUE=DATE:20290102
+SUMMARY:Start the smallest possible version. The rest is negotiable.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-01-04-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290104
+DTEND;VALUE=DATE:20290105
+SUMMARY:Optimism is just a lack of information. Stay uninformed. Thrive.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-01-07-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290107
+DTEND;VALUE=DATE:20290108
+SUMMARY:A 30-minute event\, 5 minutes of content\, and a lifetime of 'any q
+ uestions?'
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-01-10-sincere@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290110
+DTEND;VALUE=DATE:20290111
+SUMMARY:Ask how you're actually doing\, then answer honestly. Just to you i
+ s fine.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-01-13-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290113
+DTEND;VALUE=DATE:20290114
+SUMMARY:Rest is on the schedule too. It's just badly attended.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-01-16-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290116
+DTEND;VALUE=DATE:20290117
+SUMMARY:You've opened this app three times to avoid one email. Efficient.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-01-19-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290119
+DTEND;VALUE=DATE:20290120
+SUMMARY:The calendar week starts on Monday or Sunday. Nobody's happy. That'
+ s calendars.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-01-23-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290123
+DTEND;VALUE=DATE:20290124
+SUMMARY:One thing today. The other things will keep. They always do.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-01-26-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290126
+DTEND;VALUE=DATE:20290127
+SUMMARY:Slow and steady wins the race\, unless the race was yesterday.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-01-29-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290129
+DTEND;VALUE=DATE:20290130
+SUMMARY:"Gym" has recurred since March. The RRULE is the only consistent on
+ e here.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-02-01-sincere@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290201
+DTEND;VALUE=DATE:20290202
+SUMMARY:Not every day needs a win. Some just need to be gotten through. Thi
+ s counts.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-02-04-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290204
+DTEND;VALUE=DATE:20290205
+SUMMARY:Stretch. You're folded like a lawn chair again.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-02-07-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290207
+DTEND;VALUE=DATE:20290208
+SUMMARY:You've got this. Statistically\, someone has to.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-02-10-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290210
+DTEND;VALUE=DATE:20290211
+SUMMARY:All-day event. Like your to-do list. Forever.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-02-13-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290213
+DTEND;VALUE=DATE:20290214
+SUMMARY:Reply to the message. It's been a draft since Tuesday.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-02-17-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290217
+DTEND;VALUE=DATE:20290218
+SUMMARY:Nothing scheduled today. That was\, in fact\, the plan.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-02-21-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290221
+DTEND;VALUE=DATE:20290222
+SUMMARY:This note is TRANSP:TRANSPARENT\, so it won't block your day. Unlik
+ e your inbox.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-02-25-sincere@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290225
+DTEND;VALUE=DATE:20290226
+SUMMARY:You showed up. On the hard days\, that is the whole achievement.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-02-27-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290227
+DTEND;VALUE=DATE:20290228
+SUMMARY:Close six tabs. You will not miss them. Probably.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-03-03-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290303
+DTEND;VALUE=DATE:20290304
+SUMMARY:This note has no location\, because neither do your goals. Kidding.
+  Mostly.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-03-05-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290305
+DTEND;VALUE=DATE:20290306
+SUMMARY:Reminder set for -10 minutes: you're already late in principle.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-03-08-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290308
+DTEND;VALUE=DATE:20290309
+SUMMARY:You did the boring task. Nobody clapped. It still counted.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-03-10-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290310
+DTEND;VALUE=DATE:20290311
+SUMMARY:Great news: expectations are low and you're clearing them.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-03-12-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290312
+DTEND;VALUE=DATE:20290313
+SUMMARY:Your busiest day is marked 'tentative.' Emotionally accurate.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-03-15-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290315
+DTEND;VALUE=DATE:20290316
+SUMMARY:Take the walk. The problem will still be here\, but smaller.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-03-19-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290319
+DTEND;VALUE=DATE:20290320
+SUMMARY:Believe in yourself. The bar is on the floor and you're a professio
+ nal.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-03-21-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290321
+DTEND;VALUE=DATE:20290322
+SUMMARY:Someone invited you with PARTSTAT=NEEDS-ACTION. Same\, honestly.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-03-24-sincere@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290324
+DTEND;VALUE=DATE:20290325
+SUMMARY:Be kind to yourself. You are doing better than this calendar implie
+ s.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-03-27-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290327
+DTEND;VALUE=DATE:20290328
+SUMMARY:Eat something that wasn't invented by a vending machine.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-03-29-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290329
+DTEND;VALUE=DATE:20290330
+SUMMARY:Today's goal: fewer open loops than yesterday. High drama\, low sta
+ kes.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-04-01-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290401
+DTEND;VALUE=DATE:20290402
+SUMMARY:This event repeats UNTIL you deal with it. No COUNT. No mercy.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-04-05-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290405
+DTEND;VALUE=DATE:20290406
+SUMMARY:Two minutes of tidying now\, one less sigh later.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-04-08-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290408
+DTEND;VALUE=DATE:20290409
+SUMMARY:You are doing amazing\, per the very forgiving metric you chose.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-04-11-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290411
+DTEND;VALUE=DATE:20290412
+SUMMARY:Time zone check: it's 'too late' somewhere and 'not yet' in your he
+ art.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-04-14-sincere@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290414
+DTEND;VALUE=DATE:20290415
+SUMMARY:Made it to the end of the month. Low bar. Cleared it anyway. Proud 
+ of you.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-04-16-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290416
+DTEND;VALUE=DATE:20290417
+SUMMARY:Put the phone down first. The scroll will wait. It's patient.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-04-18-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290418
+DTEND;VALUE=DATE:20290419
+SUMMARY:Progress is progress. Even the kind only you would call progress.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-04-21-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290421
+DTEND;VALUE=DATE:20290422
+SUMMARY:You have a free hour. It got double-booked by two kinds of avoidanc
+ e.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-04-23-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290423
+DTEND;VALUE=DATE:20290424
+SUMMARY:Say the thing kindly. Future you hates unsent messages.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-04-26-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290426
+DTEND;VALUE=DATE:20290427
+SUMMARY:You rescheduled it again. Bold. Committed. To not doing it.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-04-30-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290430
+DTEND;VALUE=DATE:20290501
+SUMMARY:DTSTART: now. DTEND: whenever you stop scrolling.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-05-03-sincere@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290503
+DTEND;VALUE=DATE:20290504
+SUMMARY:Whatever happened yesterday doesn't get a recurring event. Let it e
+ nd.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-05-05-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290505
+DTEND;VALUE=DATE:20290506
+SUMMARY:Progress before perfect. Perfect isn't coming\; it RSVP'd no.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-05-08-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290508
+DTEND;VALUE=DATE:20290509
+SUMMARY:A wise person once said 'later.' You've really run with that.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-05-10-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290510
+DTEND;VALUE=DATE:20290511
+SUMMARY:Your 9am is recurring. So is your 8:55 panic. Beautiful symmetry.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-05-14-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290514
+DTEND;VALUE=DATE:20290515
+SUMMARY:You can do hard things. You can also do easy things first.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-05-17-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290517
+DTEND;VALUE=DATE:20290518
+SUMMARY:Motivation is on its way. Stuck in the same traffic as your plans.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-05-20-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290520
+DTEND;VALUE=DATE:20290521
+SUMMARY:That 'quick sync' has no DTEND. A meeting with COUNT=infinity.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-05-22-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290522
+DTEND;VALUE=DATE:20290523
+SUMMARY:Unclench your jaw. There\, that's the one.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-05-25-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290525
+DTEND;VALUE=DATE:20290526
+SUMMARY:Congrats on surviving a Monday that had the audacity to be a Tuesda
+ y.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-05-28-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290528
+DTEND;VALUE=DATE:20290529
+SUMMARY:You declined the event but kept the dread. Very RFC-noncompliant.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-05-31-sincere@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290531
+DTEND;VALUE=DATE:20290601
+SUMMARY:You've handled every worst day so far. Perfect record. Keep it.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-06-03-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290603
+DTEND;VALUE=DATE:20290604
+SUMMARY:Ask for the help. People like being useful\; let's find out.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-06-06-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290606
+DTEND;VALUE=DATE:20290607
+SUMMARY:You're not procrastinating. You're pre-heating.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-06-10-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290610
+DTEND;VALUE=DATE:20290611
+SUMMARY:BYDAY=MO\,TU\,WE\,TH\,FR. The weekend is an EXDATE\, cherish it.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-06-14-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290614
+DTEND;VALUE=DATE:20290615
+SUMMARY:Done is a lovely place. Visit it more often.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-06-18-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290618
+DTEND;VALUE=DATE:20290619
+SUMMARY:Ambitious of you to set an alarm you had no intention of respecting
+ .
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-06-21-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290621
+DTEND;VALUE=DATE:20290622
+SUMMARY:You set three reminders. You will ignore all three\, in order.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-06-24-sincere@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290624
+DTEND;VALUE=DATE:20290625
+SUMMARY:The busy will pass. So will the quiet. Notice both while they last.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-06-27-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290627
+DTEND;VALUE=DATE:20290628
+SUMMARY:Water the plant. It has fewer options than you do.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-07-01-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290701
+DTEND;VALUE=DATE:20290702
+SUMMARY:Your future self called. Straight to voicemail\, as usual.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-07-05-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290705
+DTEND;VALUE=DATE:20290706
+SUMMARY:This block says 'focus time.' The RRULE says otherwise.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-07-07-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290707
+DTEND;VALUE=DATE:20290708
+SUMMARY:Fresh air is free and suspiciously effective.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-07-11-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290711
+DTEND;VALUE=DATE:20290712
+SUMMARY:Inbox zero is a myth\, like work-life balance and matching socks.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-07-14-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290714
+DTEND;VALUE=DATE:20290715
+SUMMARY:Every calendar has one event titled just '???'. This is a safe spac
+ e.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-07-17-sincere@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290717
+DTEND;VALUE=DATE:20290718
+SUMMARY:You don't have to earn rest. It's not a reward\, it's maintenance.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-07-21-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290721
+DTEND;VALUE=DATE:20290722
+SUMMARY:Write it down. Your brain is for thinking\, not storage.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-07-24-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290724
+DTEND;VALUE=DATE:20290725
+SUMMARY:You've earned a break from the thing you have not started.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-07-26-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290726
+DTEND;VALUE=DATE:20290727
+SUMMARY:Leap day is here: recurring-birthday edge case in the flesh.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-07-30-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290730
+DTEND;VALUE=DATE:20290731
+SUMMARY:Go to bed. The internet will regenerate overnight.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-08-02-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290802
+DTEND;VALUE=DATE:20290803
+SUMMARY:Wow\, a whole to-do list. Manifesting\, are we?
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-08-05-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290805
+DTEND;VALUE=DATE:20290806
+SUMMARY:DST tonight. One hour of sleep is being force-pushed. No revert.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-08-07-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290807
+DTEND;VALUE=DATE:20290808
+SUMMARY:Celebrate the small win. The big one is made of these.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-08-10-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290810
+DTEND;VALUE=DATE:20290811
+SUMMARY:The plan was flawless until the part where you had to do it.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-08-14-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290814
+DTEND;VALUE=DATE:20290815
+SUMMARY:Your event has 14 attendees and 0 decisions. Peak scheduling.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-08-18-sincere@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290818
+DTEND;VALUE=DATE:20290819
+SUMMARY:Someone is glad you exist today\, and it isn't just the calendar.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-08-22-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290822
+DTEND;VALUE=DATE:20290823
+SUMMARY:Be a little brave before noon. It sets the tone.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-08-25-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290825
+DTEND;VALUE=DATE:20290826
+SUMMARY:Reminder: 'I'll remember it' is not a system. It is a hope.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-08-27-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290827
+DTEND;VALUE=DATE:20290828
+SUMMARY:You color-coded the chaos. It's still chaos\, but it's aesthetic no
+ w.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-08-30-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290830
+DTEND;VALUE=DATE:20290831
+SUMMARY:Tomorrow-you would love a five-minute head start today.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-09-02-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290902
+DTEND;VALUE=DATE:20290903
+SUMMARY:Multitasking: doing several things poorly at the same convenient ti
+ me.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-09-04-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290904
+DTEND;VALUE=DATE:20290905
+SUMMARY:'Lunch' is the only non-negotiable recurring event. As it should be
+ .
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-09-07-sincere@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290907
+DTEND;VALUE=DATE:20290908
+SUMMARY:Slow days count too. Growing looks like nothing from the outside.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-09-10-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290910
+DTEND;VALUE=DATE:20290911
+SUMMARY:You survived every previous Monday. Solid track record.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-09-13-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290913
+DTEND;VALUE=DATE:20290914
+SUMMARY:Bold of that meeting to exist. Bolder of you to attend.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-09-16-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290916
+DTEND;VALUE=DATE:20290917
+SUMMARY:You accepted a 'maybe.' Schrodinger would like a word.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-09-19-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290919
+DTEND;VALUE=DATE:20290920
+SUMMARY:Pick the frog. Eat it first. Feel smug all afternoon.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-09-21-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290921
+DTEND;VALUE=DATE:20290922
+SUMMARY:You could start now\, or wait until it's a crisis. Dealer's choice.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-09-24-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290924
+DTEND;VALUE=DATE:20290925
+SUMMARY:The all-hands has an agenda item called 'other.' Godspeed.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-09-27-sincere@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290927
+DTEND;VALUE=DATE:20290928
+SUMMARY:It's okay to close the laptop with things unfinished. There will be
+  more.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-09-29-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290929
+DTEND;VALUE=DATE:20290930
+SUMMARY:Fold the laundry off the chair. You know the chair.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-10-02-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20291002
+DTEND;VALUE=DATE:20291003
+SUMMARY:Impressive how 'quick task' has been open for eleven days.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-10-04-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20291004
+DTEND;VALUE=DATE:20291005
+SUMMARY:Your calendar and your energy are in different time zones today.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-10-06-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20291006
+DTEND;VALUE=DATE:20291007
+SUMMARY:Take the compliment. Just say thanks. Don't argue with it.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-10-10-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20291010
+DTEND;VALUE=DATE:20291011
+SUMMARY:New week\, same you\, marginally better snacks. We take those.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-10-12-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20291012
+DTEND;VALUE=DATE:20291013
+SUMMARY:This note has no ATTENDEEs. Just you\, being quietly cheered on.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-10-14-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20291014
+DTEND;VALUE=DATE:20291015
+SUMMARY:Momentum beats motivation. Start\; the feeling catches up.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-10-16-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20291016
+DTEND;VALUE=DATE:20291017
+SUMMARY:You said you'd 'circle back.' The circle is now a full lap track.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-10-18-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20291018
+DTEND;VALUE=DATE:20291019
+SUMMARY:You moved the workout to 'later.' Later has UNTIL=never.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-10-22-sincere@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20291022
+DTEND;VALUE=DATE:20291023
+SUMMARY:You are allowed to change the plan. The plan works for you\, not th
+ e reverse.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-10-25-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20291025
+DTEND;VALUE=DATE:20291026
+SUMMARY:It's fine to do it badly the first time. That's how firsts work.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-10-28-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20291028
+DTEND;VALUE=DATE:20291029
+SUMMARY:Deadline: the ancient art of doing a week's work in an afternoon.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-10-31-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20291031
+DTEND;VALUE=DATE:20291101
+SUMMARY:Free/busy status: busy being free of any actual plans.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-11-03-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20291103
+DTEND;VALUE=DATE:20291104
+SUMMARY:Breathe out longer than you breathe in. Sneaky little reset.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-11-06-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20291106
+DTEND;VALUE=DATE:20291107
+SUMMARY:You're one 'per my last email' away from your final form.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-11-09-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20291109
+DTEND;VALUE=DATE:20291110
+SUMMARY:Someone scheduled a meeting to plan the meeting. Recursion detected
+ .
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-11-11-sincere@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20291111
+DTEND;VALUE=DATE:20291112
+SUMMARY:Hard season? Shorten the to-do list\, not your patience with yourse
+ lf.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-11-15-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20291115
+DTEND;VALUE=DATE:20291116
+SUMMARY:You are not behind. Time is just ambitious.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-11-17-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20291117
+DTEND;VALUE=DATE:20291118
+SUMMARY:Self-care is great\, but have you tried doing the thing? Wild idea.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-11-20-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20291120
+DTEND;VALUE=DATE:20291121
+SUMMARY:Your 'out of office' is the most productive thing on the calendar.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-11-23-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20291123
+DTEND;VALUE=DATE:20291124
+SUMMARY:Small win: you opened the calendar instead of the news.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-11-27-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20291127
+DTEND;VALUE=DATE:20291128
+SUMMARY:Congratulations\, you found this note instead of the task. Classic.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-11-30-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20291130
+DTEND;VALUE=DATE:20291201
+SUMMARY:Overlapping events again. The universe supports concurrency\; you d
+ on't.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-12-04-sincere@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20291204
+DTEND;VALUE=DATE:20291205
+SUMMARY:The version of you from a year ago would be amazed. Really.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-12-08-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20291208
+DTEND;VALUE=DATE:20291209
+SUMMARY:Drink water. Coffee is an argument\, not water.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-12-11-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20291211
+DTEND;VALUE=DATE:20291212
+SUMMARY:Your goals are in another castle. Again.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-12-15-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20291215
+DTEND;VALUE=DATE:20291216
+SUMMARY:RECURRENCE-ID: the one Tuesday that thinks it's special. It is.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-12-18-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20291218
+DTEND;VALUE=DATE:20291219
+SUMMARY:You woke up on time. Let's not peak too early.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-12-22-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20291222
+DTEND;VALUE=DATE:20291223
+SUMMARY:Everything is fine. This is fine. The calendar is fine. You're fine
+ .
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-12-26-calendar-joke@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20291226
+DTEND;VALUE=DATE:20291227
+SUMMARY:You RSVP'd yes to brunch and no to your responsibilities. Balanced.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-12-29-gentle@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20291229
+DTEND;VALUE=DATE:20291230
+SUMMARY:Start the smallest possible version. The rest is negotiable.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-12-31-snark@kashcal.onekash.org
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20291231
+DTEND;VALUE=DATE:20300101
+SUMMARY:Optimism is just a lack of information. Stay uninformed. Thrive.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-01-04-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300104
+DTEND;VALUE=DATE:20300105
+SUMMARY:Go to bed. The internet will regenerate overnight.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-01-07-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300107
+DTEND;VALUE=DATE:20300108
+SUMMARY:A wise person once said 'later.' You've really run with that.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-01-10-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300110
+DTEND;VALUE=DATE:20300111
+SUMMARY:DTSTART: now. DTEND: whenever you stop scrolling.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-01-13-sincere@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300113
+DTEND;VALUE=DATE:20300114
+SUMMARY:Whatever happened yesterday doesn't get a recurring event. Let it e
+ nd.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-01-17-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300117
+DTEND;VALUE=DATE:20300118
+SUMMARY:Celebrate the small win. The big one is made of these.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-01-21-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300121
+DTEND;VALUE=DATE:20300122
+SUMMARY:Motivation is on its way. Stuck in the same traffic as your plans.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-01-24-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300124
+DTEND;VALUE=DATE:20300125
+SUMMARY:Your 9am is recurring. So is your 8:55 panic. Beautiful symmetry.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-01-27-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300127
+DTEND;VALUE=DATE:20300128
+SUMMARY:Be a little brave before noon. It sets the tone.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-01-29-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300129
+DTEND;VALUE=DATE:20300130
+SUMMARY:Congrats on surviving a Monday that had the audacity to be a Tuesda
+ y.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-02-01-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300201
+DTEND;VALUE=DATE:20300202
+SUMMARY:That 'quick sync' has no DTEND. A meeting with COUNT=infinity.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-02-04-sincere@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300204
+DTEND;VALUE=DATE:20300205
+SUMMARY:You've handled every worst day so far. Perfect record. Keep it.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-02-06-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300206
+DTEND;VALUE=DATE:20300207
+SUMMARY:Tomorrow-you would love a five-minute head start today.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-02-08-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300208
+DTEND;VALUE=DATE:20300209
+SUMMARY:You're not procrastinating. You're pre-heating.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-02-10-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300210
+DTEND;VALUE=DATE:20300211
+SUMMARY:You declined the event but kept the dread. Very RFC-noncompliant.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-02-12-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300212
+DTEND;VALUE=DATE:20300213
+SUMMARY:You survived every previous Monday. Solid track record.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-02-15-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300215
+DTEND;VALUE=DATE:20300216
+SUMMARY:Ambitious of you to set an alarm you had no intention of respecting
+ .
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-02-18-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300218
+DTEND;VALUE=DATE:20300219
+SUMMARY:BYDAY=MO\,TU\,WE\,TH\,FR. The weekend is an EXDATE\, cherish it.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-02-21-sincere@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300221
+DTEND;VALUE=DATE:20300222
+SUMMARY:The busy will pass. So will the quiet. Notice both while they last.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-02-24-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300224
+DTEND;VALUE=DATE:20300225
+SUMMARY:Pick the frog. Eat it first. Feel smug all afternoon.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-02-28-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300228
+DTEND;VALUE=DATE:20300301
+SUMMARY:Your future self called. Straight to voicemail\, as usual.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-03-02-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300302
+DTEND;VALUE=DATE:20300303
+SUMMARY:You set three reminders. You will ignore all three\, in order.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-03-06-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300306
+DTEND;VALUE=DATE:20300307
+SUMMARY:Fold the laundry off the chair. You know the chair.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-03-08-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300308
+DTEND;VALUE=DATE:20300309
+SUMMARY:Inbox zero is a myth\, like work-life balance and matching socks.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-03-11-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300311
+DTEND;VALUE=DATE:20300312
+SUMMARY:This block says 'focus time.' The RRULE says otherwise.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-03-14-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300314
+DTEND;VALUE=DATE:20300315
+SUMMARY:Take the compliment. Just say thanks. Don't argue with it.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-03-17-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300317
+DTEND;VALUE=DATE:20300318
+SUMMARY:You've earned a break from the thing you have not started.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-03-21-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300321
+DTEND;VALUE=DATE:20300322
+SUMMARY:Every calendar has one event titled just '???'. This is a safe spac
+ e.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-03-24-sincere@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300324
+DTEND;VALUE=DATE:20300325
+SUMMARY:You don't have to earn rest. It's not a reward\, it's maintenance.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-03-26-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300326
+DTEND;VALUE=DATE:20300327
+SUMMARY:Momentum beats motivation. Start\; the feeling catches up.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-03-30-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300330
+DTEND;VALUE=DATE:20300331
+SUMMARY:Wow\, a whole to-do list. Manifesting\, are we?
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-04-01-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300401
+DTEND;VALUE=DATE:20300402
+SUMMARY:Leap day is here: recurring-birthday edge case in the flesh.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-04-03-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300403
+DTEND;VALUE=DATE:20300404
+SUMMARY:It's fine to do it badly the first time. That's how firsts work.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-04-06-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300406
+DTEND;VALUE=DATE:20300407
+SUMMARY:The plan was flawless until the part where you had to do it.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-04-10-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300410
+DTEND;VALUE=DATE:20300411
+SUMMARY:DST tonight. One hour of sleep is being force-pushed. No revert.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-04-13-sincere@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300413
+DTEND;VALUE=DATE:20300414
+SUMMARY:Someone is glad you exist today\, and it isn't just the calendar.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-04-16-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300416
+DTEND;VALUE=DATE:20300417
+SUMMARY:Breathe out longer than you breathe in. Sneaky little reset.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-04-18-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300418
+DTEND;VALUE=DATE:20300419
+SUMMARY:Reminder: 'I'll remember it' is not a system. It is a hope.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-04-21-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300421
+DTEND;VALUE=DATE:20300422
+SUMMARY:Your event has 14 attendees and 0 decisions. Peak scheduling.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-04-24-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300424
+DTEND;VALUE=DATE:20300425
+SUMMARY:You are not behind. Time is just ambitious.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-04-27-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300427
+DTEND;VALUE=DATE:20300428
+SUMMARY:Multitasking: doing several things poorly at the same convenient ti
+ me.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-05-01-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300501
+DTEND;VALUE=DATE:20300502
+SUMMARY:You color-coded the chaos. It's still chaos\, but it's aesthetic no
+ w.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-05-04-sincere@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300504
+DTEND;VALUE=DATE:20300505
+SUMMARY:Slow days count too. Growing looks like nothing from the outside.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-05-07-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300507
+DTEND;VALUE=DATE:20300508
+SUMMARY:Small win: you opened the calendar instead of the news.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-05-10-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300510
+DTEND;VALUE=DATE:20300511
+SUMMARY:Bold of that meeting to exist. Bolder of you to attend.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-05-12-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300512
+DTEND;VALUE=DATE:20300513
+SUMMARY:'Lunch' is the only non-negotiable recurring event. As it should be
+ .
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-05-15-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300515
+DTEND;VALUE=DATE:20300516
+SUMMARY:Drink water. Coffee is an argument\, not water.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-05-19-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300519
+DTEND;VALUE=DATE:20300520
+SUMMARY:You could start now\, or wait until it's a crisis. Dealer's choice.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-05-22-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300522
+DTEND;VALUE=DATE:20300523
+SUMMARY:You accepted a 'maybe.' Schrodinger would like a word.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-05-25-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300525
+DTEND;VALUE=DATE:20300526
+SUMMARY:You woke up on time. Let's not peak too early.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-05-28-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300528
+DTEND;VALUE=DATE:20300529
+SUMMARY:Impressive how 'quick task' has been open for eleven days.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-05-31-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300531
+DTEND;VALUE=DATE:20300601
+SUMMARY:The all-hands has an agenda item called 'other.' Godspeed.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-06-04-sincere@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300604
+DTEND;VALUE=DATE:20300605
+SUMMARY:It's okay to close the laptop with things unfinished. There will be
+  more.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-06-08-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300608
+DTEND;VALUE=DATE:20300609
+SUMMARY:Start the smallest possible version. The rest is negotiable.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-06-11-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300611
+DTEND;VALUE=DATE:20300612
+SUMMARY:New week\, same you\, marginally better snacks. We take those.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-06-14-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300614
+DTEND;VALUE=DATE:20300615
+SUMMARY:Your calendar and your energy are in different time zones today.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-06-17-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300617
+DTEND;VALUE=DATE:20300618
+SUMMARY:Rest is on the schedule too. It's just badly attended.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-06-20-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300620
+DTEND;VALUE=DATE:20300621
+SUMMARY:You said you'd 'circle back.' The circle is now a full lap track.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-06-24-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300624
+DTEND;VALUE=DATE:20300625
+SUMMARY:This note has no ATTENDEEs. Just you\, being quietly cheered on.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-06-27-sincere@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300627
+DTEND;VALUE=DATE:20300628
+SUMMARY:You are allowed to change the plan. The plan works for you\, not th
+ e reverse.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-07-01-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300701
+DTEND;VALUE=DATE:20300702
+SUMMARY:One thing today. The other things will keep. They always do.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-07-03-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300703
+DTEND;VALUE=DATE:20300704
+SUMMARY:Deadline: the ancient art of doing a week's work in an afternoon.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-07-06-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300706
+DTEND;VALUE=DATE:20300707
+SUMMARY:You moved the workout to 'later.' Later has UNTIL=never.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-07-10-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300710
+DTEND;VALUE=DATE:20300711
+SUMMARY:Stretch. You're folded like a lawn chair again.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-07-14-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300714
+DTEND;VALUE=DATE:20300715
+SUMMARY:You're one 'per my last email' away from your final form.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-07-17-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300717
+DTEND;VALUE=DATE:20300718
+SUMMARY:Free/busy status: busy being free of any actual plans.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-07-20-sincere@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300720
+DTEND;VALUE=DATE:20300721
+SUMMARY:Hard season? Shorten the to-do list\, not your patience with yourse
+ lf.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-07-24-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300724
+DTEND;VALUE=DATE:20300725
+SUMMARY:Reply to the message. It's been a draft since Tuesday.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-07-26-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300726
+DTEND;VALUE=DATE:20300727
+SUMMARY:Self-care is great\, but have you tried doing the thing? Wild idea.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-07-29-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300729
+DTEND;VALUE=DATE:20300730
+SUMMARY:Someone scheduled a meeting to plan the meeting. Recursion detected
+ .
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-08-01-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300801
+DTEND;VALUE=DATE:20300802
+SUMMARY:Close six tabs. You will not miss them. Probably.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-08-04-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300804
+DTEND;VALUE=DATE:20300805
+SUMMARY:Congratulations\, you found this note instead of the task. Classic.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-08-07-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300807
+DTEND;VALUE=DATE:20300808
+SUMMARY:Your 'out of office' is the most productive thing on the calendar.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-08-09-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300809
+DTEND;VALUE=DATE:20300810
+SUMMARY:You did the boring task. Nobody clapped. It still counted.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-08-12-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300812
+DTEND;VALUE=DATE:20300813
+SUMMARY:Your goals are in another castle. Again.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-08-16-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300816
+DTEND;VALUE=DATE:20300817
+SUMMARY:Overlapping events again. The universe supports concurrency\; you d
+ on't.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-08-19-sincere@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300819
+DTEND;VALUE=DATE:20300820
+SUMMARY:The version of you from a year ago would be amazed. Really.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-08-23-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300823
+DTEND;VALUE=DATE:20300824
+SUMMARY:Take the walk. The problem will still be here\, but smaller.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-08-26-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300826
+DTEND;VALUE=DATE:20300827
+SUMMARY:Everything is fine. This is fine. The calendar is fine. You're fine
+ .
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-08-30-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300830
+DTEND;VALUE=DATE:20300831
+SUMMARY:RECURRENCE-ID: the one Tuesday that thinks it's special. It is.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-09-02-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300902
+DTEND;VALUE=DATE:20300903
+SUMMARY:Eat something that wasn't invented by a vending machine.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-09-06-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300906
+DTEND;VALUE=DATE:20300907
+SUMMARY:Optimism is just a lack of information. Stay uninformed. Thrive.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-09-08-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300908
+DTEND;VALUE=DATE:20300909
+SUMMARY:You RSVP'd yes to brunch and no to your responsibilities. Balanced.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-09-12-sincere@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300912
+DTEND;VALUE=DATE:20300913
+SUMMARY:Ask how you're actually doing\, then answer honestly. Just to you i
+ s fine.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-09-16-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300916
+DTEND;VALUE=DATE:20300917
+SUMMARY:Two minutes of tidying now\, one less sigh later.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-09-19-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300919
+DTEND;VALUE=DATE:20300920
+SUMMARY:You've opened this app three times to avoid one email. Efficient.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-09-22-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300922
+DTEND;VALUE=DATE:20300923
+SUMMARY:A 30-minute event\, 5 minutes of content\, and a lifetime of 'any q
+ uestions?'
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-09-24-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300924
+DTEND;VALUE=DATE:20300925
+SUMMARY:Put the phone down first. The scroll will wait. It's patient.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-09-28-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300928
+DTEND;VALUE=DATE:20300929
+SUMMARY:Slow and steady wins the race\, unless the race was yesterday.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-10-02-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20301002
+DTEND;VALUE=DATE:20301003
+SUMMARY:The calendar week starts on Monday or Sunday. Nobody's happy. That'
+ s calendars.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-10-05-sincere@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20301005
+DTEND;VALUE=DATE:20301006
+SUMMARY:Not every day needs a win. Some just need to be gotten through. Thi
+ s counts.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-10-08-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20301008
+DTEND;VALUE=DATE:20301009
+SUMMARY:Say the thing kindly. Future you hates unsent messages.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-10-12-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20301012
+DTEND;VALUE=DATE:20301013
+SUMMARY:You've got this. Statistically\, someone has to.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-10-15-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20301015
+DTEND;VALUE=DATE:20301016
+SUMMARY:"Gym" has recurred since March. The RRULE is the only consistent on
+ e here.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-10-18-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20301018
+DTEND;VALUE=DATE:20301019
+SUMMARY:Progress before perfect. Perfect isn't coming\; it RSVP'd no.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-10-21-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20301021
+DTEND;VALUE=DATE:20301022
+SUMMARY:Nothing scheduled today. That was\, in fact\, the plan.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-10-25-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20301025
+DTEND;VALUE=DATE:20301026
+SUMMARY:All-day event. Like your to-do list. Forever.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-10-28-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20301028
+DTEND;VALUE=DATE:20301029
+SUMMARY:You can do hard things. You can also do easy things first.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-10-31-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20301031
+DTEND;VALUE=DATE:20301101
+SUMMARY:This note has no location\, because neither do your goals. Kidding.
+  Mostly.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-11-04-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20301104
+DTEND;VALUE=DATE:20301105
+SUMMARY:This note is TRANSP:TRANSPARENT\, so it won't block your day. Unlik
+ e your inbox.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-11-06-sincere@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20301106
+DTEND;VALUE=DATE:20301107
+SUMMARY:You showed up. On the hard days\, that is the whole achievement.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-11-08-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20301108
+DTEND;VALUE=DATE:20301109
+SUMMARY:Unclench your jaw. There\, that's the one.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-11-11-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20301111
+DTEND;VALUE=DATE:20301112
+SUMMARY:Great news: expectations are low and you're clearing them.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-11-14-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20301114
+DTEND;VALUE=DATE:20301115
+SUMMARY:Reminder set for -10 minutes: you're already late in principle.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-11-17-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20301117
+DTEND;VALUE=DATE:20301118
+SUMMARY:Ask for the help. People like being useful\; let's find out.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-11-21-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20301121
+DTEND;VALUE=DATE:20301122
+SUMMARY:Believe in yourself. The bar is on the floor and you're a professio
+ nal.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-11-23-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20301123
+DTEND;VALUE=DATE:20301124
+SUMMARY:Your busiest day is marked 'tentative.' Emotionally accurate.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-11-25-sincere@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20301125
+DTEND;VALUE=DATE:20301126
+SUMMARY:Be kind to yourself. You are doing better than this calendar implie
+ s.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-11-28-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20301128
+DTEND;VALUE=DATE:20301129
+SUMMARY:Done is a lovely place. Visit it more often.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-12-02-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20301202
+DTEND;VALUE=DATE:20301203
+SUMMARY:Today's goal: fewer open loops than yesterday. High drama\, low sta
+ kes.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-12-05-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20301205
+DTEND;VALUE=DATE:20301206
+SUMMARY:Someone invited you with PARTSTAT=NEEDS-ACTION. Same\, honestly.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-12-07-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20301207
+DTEND;VALUE=DATE:20301208
+SUMMARY:Water the plant. It has fewer options than you do.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-12-11-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20301211
+DTEND;VALUE=DATE:20301212
+SUMMARY:You are doing amazing\, per the very forgiving metric you chose.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-12-15-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20301215
+DTEND;VALUE=DATE:20301216
+SUMMARY:This event repeats UNTIL you deal with it. No COUNT. No mercy.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-12-18-sincere@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20301218
+DTEND;VALUE=DATE:20301219
+SUMMARY:Made it to the end of the month. Low bar. Cleared it anyway. Proud 
+ of you.
+CATEGORIES:Reluctant Motivation,Sincere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-12-21-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20301221
+DTEND;VALUE=DATE:20301222
+SUMMARY:Fresh air is free and suspiciously effective.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-12-25-snark@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20301225
+DTEND;VALUE=DATE:20301226
+SUMMARY:Progress is progress. Even the kind only you would call progress.
+CATEGORIES:Reluctant Motivation,Snark
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-12-29-calendar-joke@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20301229
+DTEND;VALUE=DATE:20301230
+SUMMARY:Time zone check: it's 'too late' somewhere and 'not yet' in your he
+ art.
+CATEGORIES:Reluctant Motivation,Calendar joke
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2030-12-31-gentle@kashcal.onekash.org
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20301231
+DTEND;VALUE=DATE:20310101
+SUMMARY:Write it down. Your brain is for thinking\, not storage.
+CATEGORIES:Reluctant Motivation,Gentle
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
