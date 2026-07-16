@@ -63,10 +63,10 @@
 }
 
 .cell {
-  min-height: 6.2rem;
+  min-height: 4.4rem;
   border-right: 1px solid var(--kc-line);
   border-bottom: 1px solid var(--kc-line);
-  padding: 0.35rem 0.45rem 0.5rem;
+  padding: 0.3rem 0.4rem 0.4rem;
 }
 
 .cell:nth-child(7n) {
@@ -114,11 +114,11 @@
 /* A note sitting in a day cell, marked with the marigold "today" highlight. */
 .chip {
   display: block;
-  margin-top: 0.4rem;
+  margin-top: 0.3rem;
   font-family: var(--ifm-heading-font-family);
   font-weight: 600;
-  font-size: 0.82rem;
-  line-height: 1.25;
+  font-size: 0.76rem;
+  line-height: 1.2;
   color: var(--ifm-font-color-base);
 }
 
@@ -136,11 +136,11 @@
 .kind {
   display: block;
   font-family: var(--ifm-font-family-monospace);
-  font-size: 0.56rem;
-  letter-spacing: 0.11em;
+  font-size: 0.54rem;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--ifm-color-emphasis-600);
-  margin-top: 0.4rem;
+  margin-top: 0.3rem;
 }
 
 /* The subscribe call to action, disguised as a calendar event. */
