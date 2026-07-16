@@ -10,7 +10,7 @@ keywords:
   - google calendar alternative
   - icloud calendar on android
   - caldav calendar app
-description: The free, open-source things KashCal does that most Android calendar apps charge for or skip. Take the KashCal Challenge, tag #KashCal, and dare a friend.
+description: "The free, open-source things KashCal does that most Android calendar apps charge for or skip. Take the KashCal Challenge, tag #KashCal, and dare a friend."
 image: /img/social/home.png
 ---
 

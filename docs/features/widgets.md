@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3
 title: Home-screen widgets
+description: KashCal's five home-screen widgets keep your day in view, agenda, week, month, and date, each themed to your accent color, no need to open the app.
 ---
 
 import WidgetMock from '@site/src/components/WidgetMock';

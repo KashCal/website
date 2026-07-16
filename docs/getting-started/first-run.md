@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3
 title: Your first few minutes
+description: KashCal works the moment you open it, no setup or sign-up. Here's how to find your way around and start with a local calendar on your device.
 ---
 
 # Your first few minutes

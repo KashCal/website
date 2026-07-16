@@ -1,6 +1,7 @@
 ---
 sidebar_position: 8
 title: App lock
+description: Keep your calendar for your eyes only. KashCal's app lock hides your events behind your device fingerprint, PIN, or pattern until you unlock.
 ---
 
 # App lock

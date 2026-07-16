@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 title: Navigation & shortcuts
+description: Get around KashCal fast with the navigation drawer, home-screen shortcuts, search, the Today button, and pull-to-sync gestures.
 ---
 
 # Navigation & shortcuts

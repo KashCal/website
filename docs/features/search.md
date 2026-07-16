@@ -1,6 +1,7 @@
 ---
 sidebar_position: 4
 title: Search
+description: Search across all your events in KashCal in an instant, by title, location, or notes, from the top bar or an app-icon long-press shortcut.
 ---
 
 # Search

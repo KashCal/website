@@ -1,7 +1,8 @@
 ---
 sidebar_position: 1
-title: Sync & Accounts overview
+title: Sync & accounts
 slug: /sync
+description: Connect KashCal to the calendar servers you already use. It speaks CalDAV, the open standard behind iCloud, Nextcloud, Fastmail, and most services.
 ---
 
 # Sync & Accounts

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 5
 title: Event colors
+description: Give individual events their own color in KashCal, blue for work, green for personal, red for deadlines, so your week reads at a glance.
 ---
 
 import Screenshot from '@site/src/components/Screenshot';

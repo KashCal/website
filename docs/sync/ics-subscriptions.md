@@ -1,6 +1,7 @@
 ---
 sidebar_position: 5
 title: Calendar feeds (ICS subscriptions)
+description: Subscribe to ICS calendar feeds in KashCal, public holidays, team schedules, sports fixtures, and pick how often each one refreshes.
 ---
 
 import Screenshot from '@site/src/components/Screenshot';

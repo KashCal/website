@@ -10,7 +10,7 @@ keywords:
   - calendar timeline zoom android
   - agenda month header android
   - android calendar 90 day view
-description: "KashCal 2026.07.13 widens the agenda to 90 days, gives its top bar a scroll-aware month, remembers your timeline zoom across restart, and stops the month view time-traveling to 1969. Here's what changed."
+description: "KashCal 2026.07.13 widens the agenda to 90 days, adds a scroll-aware month header, remembers your timeline zoom across restart, and fixes the month view."
 image: /img/social/home.png
 ---
 

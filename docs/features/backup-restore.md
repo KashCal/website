@@ -1,6 +1,7 @@
 ---
 sidebar_position: 7
 title: Backup & restore settings
+description: Save your KashCal settings to a JSON file and restore them later, handy for setting up a new phone or keeping a safety net before you experiment.
 ---
 
 # Backup & restore settings

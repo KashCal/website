@@ -9,7 +9,7 @@ keywords:
   - screen reader calendar android
   - calendar app for blind android
   - colorblind calendar android
-description: "KashCal 2026.07.05 adds full TalkBack support: headings you can jump between, spoken status, and events that say what they are. Cancelled events get crossed off, and you can set the app's language from Android settings."
+description: "KashCal 2026.07.05 adds full TalkBack support: jumpable headings, spoken status, events that say what they are, plus a per-app language setting."
 image: /img/social/home.png
 ---
 

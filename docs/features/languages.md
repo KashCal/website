@@ -1,6 +1,7 @@
 ---
 sidebar_position: 9
 title: Languages
+description: KashCal is translated into 67 languages and follows your device language automatically, or set a specific one for the app from Android settings.
 ---
 
 # Languages

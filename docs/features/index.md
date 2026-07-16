@@ -1,7 +1,8 @@
 ---
 sidebar_position: 1
-title: All features
+title: KashCal features
 slug: /features
+description: "Everything KashCal can do: seven calendar views, iCloud and CalDAV sync, Quick Add, reminders, widgets, search, insights, birthdays, and more."
 ---
 
 # All features

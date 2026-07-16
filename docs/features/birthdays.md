@@ -1,6 +1,7 @@
 ---
 sidebar_position: 6
 title: Contact birthdays
+description: Show the birthdays and anniversaries from your contacts right on your KashCal calendar, so you get a nudge before the day and never miss one.
 ---
 
 # Contact birthdays & anniversaries

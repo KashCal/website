@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 title: Quick Add (natural language)
+description: "Type an event the way you'd say it, and KashCal's natural-language Quick Add parses the title, date, time, recurrence, location, and #tags."
 ---
 
 import QuickAddDiagram from '@site/src/components/QuickAddDiagram';

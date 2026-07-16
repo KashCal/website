@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 title: Creating & editing events
+description: "Set every detail of an event in KashCal on one screen: title, location, time zone, repeat, color, tags, reminders, availability, and attendees."
 ---
 
 import Screenshot from '@site/src/components/Screenshot';

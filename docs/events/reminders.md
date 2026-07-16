@@ -1,6 +1,7 @@
 ---
 sidebar_position: 4
 title: Reminders
+description: Get a heads-up before an event starts. Add up to five reminders per event in KashCal, with their own timing options for all-day events.
 ---
 
 # Reminders

@@ -10,7 +10,7 @@ keywords:
   - calendar event tags android
   - tag events quick add android
   - caldav calendar tags
-description: "KashCal 2026.07.15 adds event tags: colored #chips you set in the form or type into Quick Add, shown across the day, week, and agenda views. Plus fixes for zero-length events, synced emoji, and duration edge cases. Here's what changed."
+description: "KashCal 2026.07.15 adds event tags: colored #chips you set in the form or type into Quick Add, shown across the day, week, and agenda views."
 image: /img/social/home.png
 ---
 

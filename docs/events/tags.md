@@ -1,6 +1,7 @@
 ---
 sidebar_position: 6
 title: Tags
+description: "Label events with colored tag chips in KashCal, add them in the form or by typing #tag in Quick Add, shown across day, week, and agenda views."
 ---
 
 import Screenshot from '@site/src/components/Screenshot';

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 7
 title: Import & export (.ics files)
+description: KashCal reads and writes standard .ics calendar files, so you can move events in or out and keep a portable copy of any calendar.
 ---
 
 # Import & export

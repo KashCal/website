@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 title: Calendar views
+description: "KashCal's seven Android calendar views: month, agenda, day, 3-day, week, full-month, and year, with pinch-to-zoom, drag-to-reschedule, and tag chips."
 ---
 
 # Calendar views

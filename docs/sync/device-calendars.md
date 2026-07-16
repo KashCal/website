@@ -1,6 +1,7 @@
 ---
 sidebar_position: 6
 title: Device calendars
+description: Show the Google, Outlook, and work calendars your phone already holds right alongside KashCal's own, so every calendar sits in one place.
 ---
 
 # Device calendars

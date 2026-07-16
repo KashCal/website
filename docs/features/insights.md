@@ -1,6 +1,7 @@
 ---
 sidebar_position: 5
 title: Insights
+description: See where your week actually went. KashCal Insights breaks down how you spend your time in a few quiet cards, computed entirely on-device.
 ---
 
 import Screenshot from '@site/src/components/Screenshot';

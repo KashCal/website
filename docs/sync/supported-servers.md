@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3
 title: Supported servers
+description: KashCal connects to any CalDAV server, including iCloud, Nextcloud, Fastmail, Radicale, Baikal, SOGo, Zoho, and more, with guides for popular ones.
 ---
 
 # Supported servers
