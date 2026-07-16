@@ -11,7 +11,7 @@ keywords:
   - tag events quick add android
   - caldav calendar tags
 description: "KashCal 2026.07.15 adds event tags: colored #chips you set in the form or type into Quick Add, shown across the day, week, and agenda views."
-image: /img/social/home.png
+image: /img/social/blog/kashcal-event-tags.png
 ---
 
 Since the beginning of KashCal, your events have been sorted the way a coat check sorts coats: by which calendar you flung them into, and not one thought more. This release lets you label them yourself. Meet tags.

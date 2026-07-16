@@ -4,7 +4,24 @@ title: FAQ
 description: Quick answers to the most common KashCal questions, from whether it's free to how sync, accounts, and privacy work.
 ---
 
+import FaqSchema from '@site/src/components/FaqSchema';
+
 # Frequently asked questions
+
+<FaqSchema items={[
+  {question: 'Is KashCal free? Is there a catch?', answer: "Yes, it's free and open source under the Apache-2.0 license. There's no paid tier, no ads, and no account to create. A donation is optional and never required, and nothing in the app is locked behind it."},
+  {question: 'Do I need to create a KashCal account?', answer: 'No. KashCal has no accounts and no servers. You connect your own calendar accounts (like iCloud or Nextcloud), and you can use the app fully offline with a local calendar even without connecting anything.'},
+  {question: 'Does KashCal track me or sell my data?', answer: 'No. There is no analytics, no telemetry, and no advertising. Your data stays on your device and your own calendar servers.'},
+  {question: 'Which calendar services does it work with?', answer: 'iCloud and any CalDAV server: Nextcloud, Fastmail, Radicale, Baikal, Zoho, mailbox.org, Stalwart, SOGo, and more.'},
+  {question: 'Does it work with Google Calendar or Outlook?', answer: 'Yes, through your phone. Google removed third-party CalDAV access and Outlook does not expose CalDAV, so both come in through the Device Calendar bridge: if the Google or Outlook app already syncs those calendars to your phone, KashCal shows them.'},
+  {question: 'Is KashCal on the Google Play Store?', answer: 'Not yet. KashCal is distributed through F-Droid, IzzyOnDroid, and Obtainium.'},
+  {question: 'Does KashCal support CardDAV, tasks, or attachments?', answer: 'No. KashCal is events-only (VEVENT). It does not do CardDAV (contacts) or VTODO tasks and attachments. Calendars that contain only VTODO or VJOURNAL resources are skipped during sync.'},
+  {question: 'Why will my iCloud password not work?', answer: 'iCloud requires an app-specific password, not your normal Apple password. Create one at account.apple.com and use that to connect.'},
+  {question: 'Can I use KashCal offline?', answer: 'Yes, it is offline-first. You can view and edit events with no connection, and changes sync automatically when you are back online.'},
+  {question: 'Why is background sync not more frequent than 15 minutes?', answer: 'That is an Android system limit for background work. It is the shortest automatic interval the platform allows. You can always pull down to refresh for an immediate sync.'},
+  {question: 'What Android version do I need?', answer: 'Android 12 or newer.'},
+  {question: 'How do I move to a new phone?', answer: 'Back up your settings, restore them on the new device, and re-add your calendar accounts (passwords are not transferred, by design). Your events come back via sync.'},
+]} />
 
 ## Is KashCal free? Is there a catch?
 

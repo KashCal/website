@@ -11,7 +11,7 @@ keywords:
   - agenda month header android
   - android calendar 90 day view
 description: "KashCal 2026.07.13 widens the agenda to 90 days, adds a scroll-aware month header, remembers your timeline zoom across restart, and fixes the month view."
-image: /img/social/home.png
+image: /img/social/blog/kashcal-agenda-90-days-timeline-memory.png
 ---
 
 Your agenda finally learned to read the room. Day in, day out, its top bar proudly announced "Agenda," heroically confirming that the agenda screen was, against all odds, the agenda screen. Thank you, brave label. It has now been reassigned.

@@ -10,7 +10,7 @@ keywords:
   - calendar app for blind android
   - colorblind calendar android
 description: "KashCal 2026.07.05 adds full TalkBack support: jumpable headings, spoken status, events that say what they are, plus a per-app language setting."
-image: /img/social/home.png
+image: /img/social/blog/kashcal-talkback-accessibility.png
 ---
 
 For a while now, KashCal has had a quiet flaw: you could only use it by looking at it. It worked beautifully with your eyes, and went silent as a stone the moment you turned on a screen reader. A calendar that only works when you're watching it is, on reflection, a poster. So this release taught it to talk.

@@ -5,6 +5,15 @@ image: /img/social/icloud-calendar-android.png
 ---
 
 import Screenshot from '@site/src/components/Screenshot';
+import FaqSchema from '@site/src/components/FaqSchema';
+
+<FaqSchema items={[
+  {question: 'Does KashCal sync iCloud both ways?', answer: 'Yes. Events you add or edit on Android push to iCloud right away, and iCloud pushes those changes on to iPhone and iPad. Inbound changes from Apple devices arrive in the background once an hour by default, and immediately when you open the app or pull down to refresh.'},
+  {question: 'Do shared family calendars work?', answer: 'Yes. Shared calendars and Family Sharing calendars show up alongside your personal ones, and you can add or edit events on them from Android.'},
+  {question: 'What do I need to connect iCloud?', answer: "Your Apple ID and an app-specific password from account.apple.com. Your regular Apple ID password won't work because Apple requires app-specific passwords for third-party apps. It takes about 30 seconds to create one."},
+  {question: 'Is KashCal free?', answer: 'Yes. KashCal is free, open source, and has no ads, trackers, or accounts. The source is on GitHub and the app is distributed through F-Droid, IzzyOnDroid, and Obtainium.'},
+  {question: 'Does KashCal send my calendar data to its own servers?', answer: 'No. There are no KashCal servers. Your phone talks to iCloud directly over HTTPS. Credentials are stored encrypted in the Android Keystore and excluded from device backups.'},
+]} />
 
 # iCloud calendar on Android
 

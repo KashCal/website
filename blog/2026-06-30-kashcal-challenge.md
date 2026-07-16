@@ -11,7 +11,7 @@ keywords:
   - icloud calendar on android
   - caldav calendar app
 description: "The free, open-source things KashCal does that most Android calendar apps charge for or skip. Take the KashCal Challenge, tag #KashCal, and dare a friend."
-image: /img/social/home.png
+image: /img/social/blog/kashcal-challenge.png
 ---
 
 A handful of things KashCal does that most calendar apps charge for, bury, or skip.

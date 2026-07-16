@@ -11,7 +11,7 @@ keywords:
   - material you calendar android
   - calendar widget theme android
 description: "KashCal 2026.07.11 lets you pick your accent from 92 colors and carry it across the whole app and your home screen widgets, or keep Material You. Here's what changed."
-image: /img/social/home.png
+image: /img/social/blog/kashcal-calendar-you-accent-colors.png
 ---
 
 Last release we gave you KashCal Teal and were very pleased with ourselves. Then someone pointed out the obvious: we had spent a whole update letting you choose your color, and then chose it for you. A calendar telling you your favorite color is teal is a bit like a waiter ordering for the table. Bold. Rarely correct.

@@ -11,7 +11,7 @@ keywords:
   - custom app icon calendar android
   - teal calendar app
 description: "KashCal 2026.07.06 adds a theme picker with a KashCal Teal palette, and a supporter app icon you can switch to from Settings. Here's what changed."
-image: /img/social/home.png
+image: /img/social/blog/kashcal-theme-picker-supporter-icon.png
 ---
 
 This release is about making KashCal yours. Two new choices, both in Settings, one for how the app looks and one for how it shows up on your home screen.

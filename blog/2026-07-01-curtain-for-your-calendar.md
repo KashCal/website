@@ -11,7 +11,7 @@ keywords:
   - fingerprint lock calendar
   - password protect calendar android
 description: KashCal now has App lock. Hide your calendar behind your fingerprint, face, or PIN on Android, so it stops being everyone's business.
-image: /img/social/home.png
+image: /img/social/blog/curtain-for-your-calendar.png
 ---
 
 Your calendar is the nosiest app on your phone. It knows about the dentist, the interview you told nobody about, and the event you just labeled "lunch??". It is a diary that schedules your life.

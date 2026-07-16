@@ -6,6 +6,16 @@ image: /img/social/all-your-calendars-google-outlook-android.png
 
 import Screenshot from '@site/src/components/Screenshot';
 import Cards from '@site/src/components/Cards';
+import FaqSchema from '@site/src/components/FaqSchema';
+
+<FaqSchema items={[
+  {question: 'Can KashCal show my Google Calendar on Android?', answer: "Yes. Add your Google account in Android's system settings and let it sync. KashCal reads from Android's calendar system, so your Google events show up alongside everything else. Calendar colors set in Google Calendar carry through too."},
+  {question: 'Does KashCal sync with Outlook?', answer: "Indirectly. Microsoft doesn't publish a CalDAV endpoint, so the path is to install Outlook for Android and turn on Sync calendars in its settings. Your Outlook events then appear in Android's calendar system, which KashCal reads. You can also subscribe to an Outlook .ics share link as an ICS feed."},
+  {question: 'What is the difference between CalDAV, ICS, and device calendars?', answer: 'CalDAV is two-way live sync over an open standard. ICS is a one-way subscription to a calendar URL that refreshes on a schedule. Device calendars are accounts already configured on your Android phone, like Google or Outlook, which Android keeps in sync and KashCal reads alongside its own.'},
+  {question: 'Why four different sources instead of one?', answer: 'Because calendar protocols are fragmented. Apple speaks CalDAV. Microsoft only opens its Graph API. Google has partial CalDAV but steers developers to its REST API. ICS feeds cover everything else, from school terms to sports seasons.'},
+  {question: 'Will calendars from different sources show up together?', answer: 'Yes. iCloud, CalDAV, ICS, and device calendar events appear in the same month, agenda, week, and day views. You can hide any calendar from the navigation drawer if you want a cleaner view.'},
+  {question: 'Where do birthdays and anniversaries come from?', answer: "From your phone's contacts. KashCal reads birth dates and anniversary dates that Android already has and turns each one into a yearly recurring event. No separate birthday calendar to set up."},
+]} />
 
 # All your calendars on Android
 
