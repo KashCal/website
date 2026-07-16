@@ -309,13 +309,6 @@
   background: var(--kc-accent);
 }
 
-.btnRow {
-  display: flex;
-  gap: 0.75rem;
-  flex-wrap: wrap;
-  margin-top: 1rem;
-}
-
 /* Per-app subscribe steps. */
 .apps {
   border-top: 1px solid var(--kc-line);
