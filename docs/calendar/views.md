@@ -39,6 +39,12 @@ under your thumb:
 In **Month** and **Year** views, swipe left and right to move between months or
 years, and tap a day or month to drill in.
 
+## Tag chips
+
+Events you've labeled with [tags](../events/tags.md) show their colored chips in
+the Day, Week, and Agenda views, so you can pick out a `#focus` block or a
+`#travel` day at a glance without opening the event.
+
 ## Moving around
 
 - **Today.** Tap the Today button to jump back to the current date in any view.
@@ -57,3 +63,4 @@ starting the form over.
 
 - [Widgets](../features/widgets.md): put your calendar on the home screen
 - [Search](../features/search.md): find any event fast
+- [Tags](../events/tags.md): label events with colored chips

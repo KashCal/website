@@ -58,6 +58,12 @@ sentence.
 - Anything after **at** becomes the location: `Lunch at Olive Garden`,
   `Meeting at Conference Room B`
 
+### Tags
+
+- Put `#` in front of a word to add it as a tag: `Lunch with Sam #social`,
+  `Deep work #focus`. You can add several, and KashCal keeps the rest of the
+  phrase as the event. See [Tags](./tags.md).
+
 ## Examples
 
 | You type | KashCal creates |
@@ -67,6 +73,7 @@ sentence.
 | `Lunch with Sam Friday 12:30 for 1 hour` | "Lunch with Sam", this Friday 12:30-1:30 PM |
 | `Book club every Tuesday until December` | "Book club", weekly on Tuesday, ending in December |
 | `Dentist in 2 weeks at 10am` | "Dentist", two weeks out at 10:00 AM |
+| `Deep work 2pm #focus` | "Deep work", today at 2:00 PM, tagged #focus |
 
 ## The live preview
 

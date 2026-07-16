@@ -23,6 +23,7 @@ edit it. Everything lives on one screen, no digging through menus.
 - **Time zone.** Events use your device time zone by default, but you can set a specific one.
 - **Repeat.** Make the event recurring. See [Recurring events](./recurring.md).
 - **Color.** Give the event its own color. See [Event colors](./colors.md).
+- **Tags.** Label the event with colored chips like `#focus` or `#dentist`, with suggestions from tags you've used before. See [Tags](./tags.md).
 - **Alerts.** Add reminders. See [Reminders](./reminders.md).
 - **Availability.** Mark the event as **Busy** or **Free**, which controls whether it blocks your time for others.
 - **Attendees.** Invite people. See [Scheduling & invitations](./attendees.md).
@@ -51,3 +52,4 @@ See [Recurring events](./recurring.md) for the details.
 - [Quick Add](./quick-add.md): the faster way to create events
 - [Recurring events](./recurring.md): make an event repeat
 - [Reminders](./reminders.md): get alerted before it starts
+- [Tags](./tags.md): label events with colored chips
