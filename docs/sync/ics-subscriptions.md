@@ -47,6 +47,15 @@ dates, and so on):
 
 KashCal checks for an existing subscription so you don't add the same feed twice.
 
+### webcal:// links work too
+
+Many sites offer a **Subscribe** or **Add to Calendar** button that hands your
+device a `webcal://` link (Google Calendar, Apple Calendar, and lots of holiday
+and sports feeds do this). KashCal is webcal compatible: tap one of those links
+and it opens with the URL already filled in, so you just pick a refresh interval
+and save. `webcal://` is the same feed as its `https://` version, just a
+different label, so pasting either one works and previews the same events.
+
 ## How often feeds refresh
 
 Pick the refresh interval that suits the feed:
