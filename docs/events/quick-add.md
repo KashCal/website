@@ -80,6 +80,17 @@ creates a single event on that date, not a repeat.
   the note never move your event. The space before `//` means pasted links like
   `https://…` are left alone.
 
+<QuickAddDiagram example={{
+  typed: 'Team lunch 2nd Tuesday of the month 12pm at Nios // bring the quarterly deck',
+  rows: [
+    {label: 'Title', value: '🍽️ Team lunch'},
+    {label: 'When', value: 'Next 2nd Tuesday · 12:00 PM'},
+    {label: 'Where', value: 'Nios'},
+    {label: 'Repeats', value: 'Monthly on the 2nd Tuesday'},
+    {label: 'Note', value: 'bring the quarterly deck'},
+  ],
+}} />
+
 ## Examples
 
 | You type | KashCal creates |
@@ -90,7 +101,7 @@ creates a single event on that date, not a repeat.
 | `Book club every Tuesday until December` | "Book club", weekly on Tuesday, ending in December |
 | `Dentist in 2 weeks at 10am` | "Dentist", two weeks out at 10:00 AM |
 | `Deep work 2pm #focus` | "Deep work", today at 2:00 PM, tagged #focus |
-| `Team sync every last Thursday` | "Team sync", the last Thursday of each month |
+| `Team sync last Thursday of the month` | "Team sync", the last Thursday of each month |
 | `Rent last day of every month` | "Rent", on the last day of every month |
 | `Call Sam 4pm // ask about the invoice` | "Call Sam", today at 4:00 PM, with a note |
 
