@@ -4,6 +4,7 @@ import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 
 const PAGES = [
+  {to: '/features/natural-language-add-event-calendar', title: 'Add events in plain language', body: 'Type "lunch every 2nd Tuesday" and KashCal fills in the date, time, and repeat.'},
   {to: '/features/all-your-calendars-google-outlook-android', title: 'All your calendars on Android', body: 'iCloud, CalDAV, Google, Outlook, and ICS feeds, on one phone.'},
   {to: '/features/beautiful-calendar-android', title: 'The best-looking calendar on Android', body: 'Material You, seven views, a 92-color wheel.'},
   {to: '/features/calendar-insights-android', title: 'See where your time goes', body: 'On-device insights into your week.'},

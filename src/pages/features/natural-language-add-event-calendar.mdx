@@ -1,0 +1,55 @@
+---
+title: Add events in plain language
+description: Type an event the way you'd say it and KashCal's natural-language Quick Add fills in the date, time, recurrence, location, and tags. The fastest way to add a calendar event on Android.
+---
+
+import Cards from '@site/src/components/Cards';
+
+# Add events the way you'd say them
+
+Most calendars make you fill in a form: a title here, a date picker there, a
+separate screen for "repeat every." KashCal lets you type the whole thing in one
+line, the way you'd say it out loud, and sorts out the rest. "Dinner with Kash
+next Friday 7pm" becomes a real event, on the right day, at the right time,
+before you've reached for a single dropdown.
+
+As you type, a live preview shows what KashCal understood, so you watch it get
+the date, time, and repeat right before you save.
+
+## One line does the work
+
+<Cards items={[
+  {title: 'Dates, however you say them', body: <>"tomorrow", "next Friday", "March 15", "3/15/2027" all land on the right day.</>},
+  {title: 'Times, spoken or exact', body: <>"3pm", "half past 3", "2pm to 4pm", or "morning" if you're not precise yet.</>},
+  {title: 'Repeats without a dialog', body: <>"every weekday", "every 2 weeks", "monthly until December", or "every last Thursday" set the recurrence for you.</>},
+  {title: 'Duration and offsets', body: <>"for 90 minutes", "in 2 weeks", "3 days ago" all just work.</>},
+  {title: 'Location after "at"', body: <>"Lunch at Olive Garden" files the place in the location field, not the title.</>},
+  {title: 'Tags with #', body: <>"Deep work #focus" adds a tag and keeps the rest as the event.</>},
+]} />
+
+## It shows its work
+
+While you type, KashCal shows what it parsed, the title, the date as
+Today/Tomorrow or a full date, the time range, the location, and any repeat.
+If something looks off, keep editing and the preview updates instantly. Want
+more control? Open the full event form to fine-tune anything.
+
+## A few things you can type
+
+| You type | KashCal creates |
+|----------|-----------------|
+| `Coffee with Kash tomorrow 3pm` | "Coffee with Kash", tomorrow at 3:00 PM |
+| `Standup every weekday at 9am` | "Standup", repeating every weekday at 9:00 AM |
+| `Rent last day of the month` | "Rent", on the last day of every month |
+| `Team sync every last Thursday` | "Team sync", the last Thursday of each month |
+| `Deep work 2pm #focus` | "Deep work", today at 2:00 PM, tagged #focus |
+
+## Learn the full vocabulary
+
+Every phrase Quick Add understands, dates, times, durations, offsets,
+recurrence, location, and tags, is written up with examples in the docs.
+
+<Cards items={[
+  {title: 'Quick Add reference', body: <>The complete list of what you can type, with a live-preview walkthrough. <a href="/docs/events/quick-add">Read the guide</a>.</>},
+  {title: 'Repeating events', body: <>Pick "2nd Tuesday" or "Last Friday" from a picker when you'd rather tap than type. <a href="/docs/events/event-form">See event editing</a>.</>},
+]} />

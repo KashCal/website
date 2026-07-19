@@ -8,7 +8,7 @@ description: Where to change KashCal's appearance, event defaults, sync, and pri
 
 Most of KashCal works without touching a single setting. But when you want to change how the week starts, how times show up, or how far back sync reaches, it's all in one place.
 
-Open the navigation drawer (swipe from the left edge, or tap the menu icon) and tap **Settings**. The screen is grouped into sections, described below in the order they appear. You can also search settings from the top of the screen.
+Tap the avatar in the top-right corner to open the [account hub](../calendar/navigation.md#the-account-hub), then tap **Accounts & Settings**. The screen is grouped into sections, described below in the order they appear. You can also search settings from the top of the screen.
 
 ## Calendars
 
@@ -19,13 +19,12 @@ Open the navigation drawer (swipe from the left edge, or tap the menu icon) and 
 
 ## Appearance
 
-- **Theme:** choose the app's light or dark face:
-  - **System default** follows your phone's light or dark setting and switches automatically when your phone does.
-  - **Light** and **Dark** pin the app to that appearance regardless of the system setting.
-- **Accent color:** choose the color KashCal is built around. This is separate from the light/dark Theme above, and it recolors both the app and your home-screen widgets.
-  - **Automatic** follows your device's Material You wallpaper colors on Android 12 and newer, and is the default.
-  - Or pick your own: twelve curated swatches for a quick choice, plus a wheel of 92 named colors for something specific. **KashCal Teal** is the app's own palette, and the fallback when Material You isn't available. Whatever you pick, KashCal keeps text readable on top of it, in light and dark.
-- **App Icon:** choose the icon KashCal wears on your home screen. Keep the default, or switch to the **Supporter** icon, a gold card with a heart, to show you've chipped in (or [would like to](https://kashcal.onekash.org/donate)). The supporter icon comes two ways: one keeps the KashCal name, and one shows a discreet **Calendar** name instead. Changing the icon may restart the app, and notifications always use the default icon and name.
+:::note[Theme, accent color, and app icon moved]
+Personalization now lives in the **account hub**, not here. Tap the avatar in the
+top-right of any calendar view and look under **Make it yours** for **Theme**,
+**Accent color**, and **App icon**. See [The account hub](../calendar/navigation.md#the-account-hub).
+:::
+
 - **Event Emojis:** when on, KashCal shows an emoji next to an event based on its title (a cake for a birthday, a plane for a flight). Turn it off for a plainer list.
 - **Time Format:** 12-hour, 24-hour, or follow the system. The row shows a live example of the current format.
 - **Start Week On:** whether your week begins on the system default, Monday, Sunday, or Saturday. This changes every calendar grid at once.

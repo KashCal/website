@@ -51,8 +51,15 @@ sentence.
 
 - `daily`, `weekly`, `biweekly`, `monthly`, `yearly`
 - `every day`, `every 2 weeks`, `every 3 months`
-- `every Monday`, `every weekday`
+- `every Monday`, `every weekday`, `every weekend`
+- **Ordinal weekday of the month:** `every 2nd Tuesday`, `first Monday of every month`,
+  or `last Friday of the month` (handy for a meeting that lands on the last weekday,
+  whether that's the 4th or 5th)
+- **Last day of the month:** `last day of the month`, `last day of every month`
 - End conditions like `until December` or `5 times`
+
+Saying something is on `the 2nd Tuesday of this month` (rather than *every* month)
+creates a single event on that date, not a repeat.
 
 ### Location
 
@@ -65,6 +72,14 @@ sentence.
   `Deep work #focus`. You can add several, and KashCal keeps the rest of the
   phrase as the event. See [Tags](./tags.md).
 
+### Notes
+
+- Everything after a space and `//` becomes the event's note:
+  `Call plumber tomorrow 3pm // ask about the leak under the sink`. KashCal only
+  reads the part *before* the `//` for the date, time, and location, so words in
+  the note never move your event. The space before `//` means pasted links like
+  `https://…` are left alone.
+
 ## Examples
 
 | You type | KashCal creates |
@@ -75,6 +90,9 @@ sentence.
 | `Book club every Tuesday until December` | "Book club", weekly on Tuesday, ending in December |
 | `Dentist in 2 weeks at 10am` | "Dentist", two weeks out at 10:00 AM |
 | `Deep work 2pm #focus` | "Deep work", today at 2:00 PM, tagged #focus |
+| `Team sync every last Thursday` | "Team sync", the last Thursday of each month |
+| `Rent last day of every month` | "Rent", on the last day of every month |
+| `Call Sam 4pm // ask about the invoice` | "Call Sam", today at 4:00 PM, with a note |
 
 ## The live preview
 
