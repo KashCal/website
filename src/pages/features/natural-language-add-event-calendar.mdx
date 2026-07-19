@@ -4,6 +4,7 @@ description: Type an event the way you'd say it and KashCal's natural-language Q
 ---
 
 import Cards from '@site/src/components/Cards';
+import QuickAddDiagram from '@site/src/components/QuickAddDiagram';
 
 # Add events the way you'd say them
 
@@ -15,6 +16,16 @@ before you've reached for a single dropdown.
 
 As you type, a live preview shows what KashCal understood, so you watch it get
 the date, time, and repeat right before you save.
+
+<QuickAddDiagram example={{
+  typed: 'Dinner with Kash next Friday 7pm at Olive Garden',
+  rows: [
+    {label: 'Title', value: '🍽️ Dinner with Kash'},
+    {label: 'When', value: 'Next Friday · 7:00 PM'},
+    {label: 'Where', value: 'Olive Garden'},
+    {label: 'Repeats', value: 'No'},
+  ],
+}} />
 
 ## One line does the work
 
