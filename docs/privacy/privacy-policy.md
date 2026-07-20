@@ -70,8 +70,9 @@ plain-language breakdown of each permission, see
 
 - **Credential encryption:** AES-256-GCM via the Android Keystore, with
   hardware-backed key storage where available.
-- **Transport security:** All network connections use TLS/HTTPS. Plaintext HTTP is
-  not permitted.
+- **Transport security:** Network connections use TLS/HTTPS by default. Plaintext HTTP
+  is used only if you deliberately enter an `http://` address for a self-hosted server;
+  addresses without a scheme default to HTTPS.
 - **Backup exclusion:** Credentials and sync logs are excluded from Android backup.
 - **No remote access:** We cannot retrieve, view, or modify information on your
   device.
