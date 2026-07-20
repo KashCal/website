@@ -7,8 +7,8 @@ description: "How KashCal protects your calendar: no accounts, no tracking, no K
 
 # Privacy & Security
 
-KashCal's guiding principle is simple: **for you, not your data.** It's built so your
-calendar stays yours.
+Your calendar is a record of your life: where you go, who you meet, what's coming up.
+KashCal is built to keep that record yours.
 
 :::tip[The short version]
 - **No KashCal account, no KashCal servers.** We have nowhere to put your data, and no
@@ -16,7 +16,7 @@ calendar stays yours.
 - **No tracking, no ads, no analytics.** Not a single line of it in the app.
 - **Your data stays on your device**, and syncs only with the servers *you* connect.
 - **Your passwords are encrypted** on your phone with hardware-backed keys.
-- **Everything here is verifiable** — the code is open source, and F-Droid builds it
+- **Everything here is verifiable.** The code is open source, and F-Droid builds it
   from that source.
 :::
 
@@ -29,18 +29,18 @@ in the same terms:
 |----------|------------------|
 | **Data collected** | None. KashCal collects no personal data. |
 | **Data shared with third parties** | None. |
-| **Data sent to KashCal** | None — there are no KashCal servers. |
+| **Data sent to KashCal** | None. There are no KashCal servers. |
 | **Where your data is stored** | On your device. It syncs only with the calendar servers *you* connect. |
 | **Is data encrypted in transit?** | Yes, over HTTPS (see [below](#everything-travels-encrypted)). |
-| **Can you request deletion?** | You control all of it on-device — delete any time. |
+| **Can you delete your data?** | Yes. It all lives on your device, so you can delete it any time. |
 
 ## No accounts, no tracking, no KashCal servers
 
 - **No KashCal account** to create. You connect *your* calendar servers, not ours.
 - **No analytics, no telemetry, no advertising.** KashCal contains no tracking SDKs
   and collects no usage data. No crash reports are sent anywhere.
-- **No KashCal servers exist.** There is literally nowhere for your data to be sent
-  to us, so there's nothing for us to collect, leak, subpoena, or sell.
+- **No KashCal servers exist.** Your data never reaches us, because there is nowhere to
+  send it. There is nothing for us to collect, lose, or sell.
 
 ## What leaves your phone (and what doesn't)
 
@@ -58,17 +58,16 @@ all computed **on-device** and never transmitted.
 
 ## Everything travels encrypted
 
-KashCal talks to your servers over **encrypted HTTPS**. The one exception is
-deliberate: if you're running a self-hosted server on your own network, you can type
-a plain `http://` address for it — a conscious choice you make, never a default.
-Anything without a scheme is treated as **HTTPS**.
+KashCal talks to your servers over **encrypted HTTPS**, and any address you enter
+defaults to it. Plain `http://` works only if you type it yourself, which you might do
+for a self-hosted server on your own network.
 
 ## How your passwords are protected
 
-Account passwords are **encrypted on your device** using strong, modern encryption
-(**AES-256-GCM**), with the encryption key held in the **Android Keystore**, which is
-hardware-backed on devices that support it. Passwords are never stored in readable form,
-and they're **excluded from Android backups**.
+Account passwords are **encrypted on your device** with **AES-256-GCM**, and the
+encryption key is held in the **Android Keystore**, which is hardware-backed on devices
+that support it. Passwords are never stored in readable form, and they're **excluded
+from Android backups**.
 
 Because the key is specific to your device, your saved credentials **can't be lifted
 from a backup and used on another phone**. The trade-off is that when you move to a
@@ -105,9 +104,9 @@ you can:
 - **Trust the build.** Releases on F-Droid are **compiled from that public source**, so
   the app on your phone matches the code you can read.
 - **Watch the network.** Point a network monitor at KashCal and you'll see traffic go
-  only to the servers you connected, and nowhere else.
+  only to the servers you connected.
 
-:::note[Looking for the formal version?]
-This page is the plain-language walkthrough. For the complete, legal text, read the
-full [Privacy Policy](./privacy-policy.md).
+:::note[Want the details?]
+This page covers the essentials in plain language. For the more comprehensive version,
+read the full [Privacy Policy](./privacy-policy.md).
 :::
