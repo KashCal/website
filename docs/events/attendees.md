@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 title: Scheduling & invitations
 description: Invite people, send meeting invitations, RSVP, and use CalDAV scheduling in KashCal.
 keywords: [scheduling, meeting invitations, attendees, RSVP, iTIP, invite]
@@ -46,6 +46,9 @@ When someone invites you, KashCal shows the invitation and lets you reply **Yes*
 
 > Your reply applies to the whole series.
 
+You can reply on the event itself, or from [Invites](./invites.md), which gathers
+every invitation still waiting on you into one list.
+
 ## When invitations aren't available
 
 Sending invitations needs a calendar account that supports scheduling. When yours
@@ -65,5 +68,6 @@ support invitations.
 
 ## Related
 
+- [Invites](./invites.md): invitations waiting on your reply
 - [Creating & editing events](./event-form.md): where you add people
 - [Known limitations](../help/known-limitations.md): what scheduling can and can't do

@@ -50,7 +50,12 @@ The hub gathers:
     It comes two ways, one keeping the KashCal name and one showing a discreet
     **Calendar** name. Changing it may restart the app, and notifications always
     use the default icon and name.
-- **Invites**, **Go to date**, **Share availability**, and **Insights**.
+- **[Invites](../events/invites.md)**, every invitation still waiting on your reply.
+  A count appears on the row, and on the avatar itself, when something is owed.
+- **Go to date**, to jump anywhere in the calendar.
+- **[Share availability](../features/share-availability.md)**, to send someone your
+  free times as plain text.
+- **[Insights](../features/insights.md)**, analytics about how you spend your time.
 - **About** and a link to **Privacy & Security**.
 
 ## App shortcuts

@@ -23,6 +23,7 @@ Everything KashCal can do, in one place. Tap into any feature for the details.
 - **[Reminders](../events/reminders.md)**: alerts that survive reboots.
 - **[Event colors](../events/colors.md)**: color-code your schedule.
 - **[Scheduling & invitations](../events/attendees.md)**: invite people, send meeting invitations, and RSVP.
+- **[Invites](../events/invites.md)**: every invitation waiting on your reply, in one list.
 - **[Share an event as a card](./share-as-card.md)**: send an event as an image with a tappable calendar file.
 
 ## Connecting calendars
@@ -34,6 +35,7 @@ Everything KashCal can do, in one place. Tap into any feature for the details.
 
 - **[Search](./search.md)**: full-text search with date filters.
 - **[Insights](./insights.md)**: on-device analytics about how you spend your time.
+- **[Share availability](./share-availability.md)**: send someone your free times as plain text.
 - **[Contact birthdays](./birthdays.md)**: birthdays and anniversaries from your contacts.
 - **[Backup & restore](./backup-restore.md)**: save and restore your settings.
 - **[App lock](./app-lock.md)**: keep your calendar private behind a lock.

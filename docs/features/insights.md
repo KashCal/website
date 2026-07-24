@@ -45,5 +45,6 @@ your schedule or sends analytics anywhere, in keeping with KashCal's
 
 ## Related
 
+- [Share availability](./share-availability.md): send your free times to someone else
 - [Calendar views](../calendar/views.md): the seven ways to see your schedule
 - [Privacy & Security](../privacy/overview.md): insights are computed on your device

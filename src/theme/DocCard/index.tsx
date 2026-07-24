@@ -71,6 +71,7 @@ const ICON_BY_PATH: Record<string, ReactNode> = {
   reminders: Icons.bell,
   colors: Icons.palette,
   attendees: Icons.users,
+  invites: Icons.bell,
   'share-as-card': Icons.share,
   // sync
   'how-sync-works': Icons.repeat,
@@ -84,6 +85,7 @@ const ICON_BY_PATH: Record<string, ReactNode> = {
   widgets: Icons.phone,
   search: Icons.search,
   insights: Icons.chart,
+  'share-availability': Icons.share,
   birthdays: Icons.gift,
   'backup-restore': Icons.save,
   'app-lock': Icons.lock,
