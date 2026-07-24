@@ -46,9 +46,11 @@ make you miss an alert.
 
 ## Default reminders
 
-You can set a **default reminder** (and a separate **default all-day reminder**) in
-Settings, so every new event starts with the alert you prefer. You can always
-change or remove it per event.
+Settings has two defaults, so every new event starts with the alert you prefer:
+**Timed event alert** for events with a start time (15 minutes before, by default)
+and **All-day event alert** for all-day events. They're separate because "10 minutes
+before" and "the morning of" aren't the same request. Both are under **Event
+preferences**, and you can always change or remove the alert on an individual event.
 
 ## Notification permission
 

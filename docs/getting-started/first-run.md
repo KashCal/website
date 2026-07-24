@@ -17,19 +17,20 @@ you just want a private calendar that never touches the internet.
 
 ## Add a calendar account (optional)
 
-To bring in calendars you already have (iCloud, Nextcloud, Fastmail, and so on),
-open the navigation drawer (swipe from the left edge or tap the menu icon), go to
-**Settings**, and add an account. See [Sync & Accounts](../sync/index.md) for
-step-by-step guides.
+To bring in calendars you already have (iCloud, Nextcloud, Fastmail, and so on), tap
+the round avatar in the top-right corner, then **Accounts & settings**, and add an
+account. (The navigation drawer also has a Settings entry, if you prefer swiping in
+from the left edge.) See [Sync & Accounts](../sync/index.md) for step-by-step guides.
 
 ## Create your first event
 
-There are two quick ways:
+Tap the **+** button and fill in the event form. That's the whole thing, and it's
+always available.
 
-- Tap the **+** button and fill in the event form.
-- Use **Quick Add** and type it in plain language, like *"Lunch with Sam
-  Friday 12:30 for 1 hour"*. KashCal figures out the date, time, and duration as
-  you type. See [Quick Add](../events/quick-add.md).
+If you'd rather type an event the way you'd say it, like *"Lunch with Sam Friday
+12:30 for 1 hour"*, turn on **Smart event add** in Settings under **Event
+preferences**. It's off until you enable it. After that, KashCal works out the date,
+time, and duration as you type. See [Quick Add](../events/quick-add.md).
 
 ## Find your way around
 

@@ -32,8 +32,8 @@ it shows a neutral person outline.
 
 The hub gathers:
 
-- **Accounts & Settings**, a button at the top that opens Settings, where you
-  connect accounts and calendars.
+- **Accounts & settings**, an outlined button at the top that opens Settings, where
+  you connect accounts and calendars.
 - **Make it yours**, where you personalize the app:
   - **Theme:** the light or dark face. **System default** follows your phone;
     **Light** and **Dark** pin it.
@@ -42,7 +42,9 @@ The hub gathers:
     wallpaper colors on Android 12 and newer (the default), or pick your own from
     twelve curated swatches or a wheel of 92 named colors. **KashCal Teal** is the
     app's own palette, and the fallback when Material You isn't available. Whatever
-    you pick, text stays readable on top of it.
+    you pick, text stays readable on top of it: pale accents get outlines instead of
+    fills, so the hub avatar, the **Accounts & settings** button, and today's date in
+    the calendar grid all stay visible rather than washing out.
   - **App icon:** keep the default, or switch to the **Supporter** icon, a gold
     card with a heart, to show you've chipped in (or [would like to](https://kashcal.onekash.org/donate)).
     It comes two ways, one keeping the KashCal name and one showing a discreet

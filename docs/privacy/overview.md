@@ -80,7 +80,7 @@ KashCal asks only for what its features require:
 | Permission | Why |
 |------------|-----|
 | **Internet & network state** | Sync your events with your calendar servers, and handle going offline/online |
-| **Local network access** | Reach self-hosted CalDAV servers running on your home or office network |
+| **Local network access** | Reach self-hosted CalDAV servers running on your home or office network (Android 17 and newer) |
 | **Notifications** | Show event reminders |
 | **Exact alarms** | Deliver reminders at the precise minute |
 | **Run after restart** | Re-schedule your reminders after a reboot |

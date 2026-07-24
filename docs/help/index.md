@@ -16,7 +16,7 @@ waiting on a reply.
 1. **[FAQ](./faq.md)**: quick answers to the most common questions.
 2. **[Troubleshooting](./troubleshooting.md)**: fixes for sync, reminders, and other issues.
 3. **[Known limitations](./known-limitations.md)**: things KashCal intentionally doesn't do (yet), so you know what to expect.
-4. **[Advanced options](./advanced-options.md)**: the hidden menu for force-sync, sync history, and sync frequency.
+4. **[Advanced options](./advanced-options.md)**: the hidden menu for force-sync and sync history.
 
 ## Still stuck?
 

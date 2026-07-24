@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: Advanced options
-description: Open KashCal's hidden advanced menu to force a full sync, view sync history, or change sync frequency.
+description: Open KashCal's hidden advanced menu to force a full sync or view your recent sync history.
 keywords: [advanced options, developer options, debug menu, sync history, force full sync, sync logs]
 ---
 
@@ -27,8 +27,12 @@ A sheet slides up (labeled **Developer Options** in the app).
   each took, how many events were pushed, pulled, skipped, or failed, and any
   warnings. This is the first place to look when sync isn't behaving, and the best
   thing to attach (with personal details removed) when you [report a sync bug](./report-a-bug.md).
-- **Sync Frequency.** Choose how often KashCal syncs in the background, or set it to
-  manual only. This is the same control described in [How sync works](../sync/how-sync-works.md).
+
+:::note[Sync frequency moved]
+Choosing how often background sync runs used to live here. It's now a regular
+**Sync frequency** row in Settings, under **Notifications & sync**. See
+[Settings](../features/settings.md#notifications--sync).
+:::
 
 ## When you'd use it
 
@@ -36,4 +40,3 @@ Most people never need this menu. Reach for it when:
 
 - A change isn't showing up and you want to force a fresh pull (**Force Full Sync**).
 - You're chasing a sync problem and want to see what actually happened (**Sync History**).
-- You want to dial how often background sync runs (**Sync Frequency**).

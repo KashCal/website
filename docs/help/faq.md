@@ -127,7 +127,11 @@ the platform allows. You can always pull down to refresh for an immediate sync.
 
 ## What Android version do I need?
 
-Android 12 or newer.
+Android 12 or newer. KashCal is built and tested against **Android 17**, the current
+release, so it picks up the newest platform behavior rather than running in a
+compatibility mode. One thing to know if you self-host: on Android 17, reaching a
+CalDAV server on your own network needs a
+[local network permission](../sync/providers/caldav.md#servers-on-your-home-network).
 
 ## How do I get reminders to work?
 

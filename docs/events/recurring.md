@@ -39,10 +39,18 @@ wording depends on what you're doing:
 This lets you move *this week's* meeting without disturbing the rest of the
 series, or change the time for *every* future meeting at once.
 
-:::note
+:::note[How a single-occurrence change is stored]
 If you change a single occurrence of a repeating event, KashCal records it as an
 exception to the series and keeps it linked to the original, so the rest of the
 series stays intact and continues to sync correctly.
+
+The edit also stays a single edit. It's sent to your server as a change to that one
+occurrence, tagged with the date and time of the occurrence it replaces, so it
+doesn't turn into a duplicate or a separate new event the next time you sync.
+
+It works in the other direction too. If you delete that changed occurrence from
+another app or another device, KashCal removes its local copy on the next sync
+instead of leaving a stray event on your calendar.
 :::
 
 ## Related

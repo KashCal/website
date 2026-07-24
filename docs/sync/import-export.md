@@ -11,7 +11,7 @@ files, which is handy for moving events in or out, or keeping a copy of a calend
 
 ## Import an .ics file
 
-1. Open **Settings** → **Import** and pick an `.ics` file from your device.
+1. Open **Settings** → **Import events from file** and pick an `.ics` file from your device.
 2. KashCal shows a preview of the events it found, with titles, dates, and locations.
 3. Choose which calendar to import into (it must be a writable calendar).
 4. Confirm the import.
@@ -26,6 +26,18 @@ Common reasons an import won't start:
 - **No writable calendars**: you need at least one calendar you can add to.
 - **File not found or cannot be read.**
 - **Invalid calendar file format.**
+
+### Repeating events and files from other apps
+
+A file containing a repeating event arrives as **one linked series**, including any
+occurrences that were changed individually. Those land as exceptions attached to the
+series, the same way they would if you'd edited them in KashCal, rather than as a
+scattering of unrelated events.
+
+Files exported by other apps sometimes leave out the unique ID that identifies an
+event, or leave it empty. KashCal gives each of those events an ID of its own, so a
+file full of them imports as separate events rather than being folded together into
+one repeating series.
 
 ## Export to .ics
 

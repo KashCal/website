@@ -50,6 +50,20 @@ certificates or local HTTP servers").
 Use this only for self-hosted or local setups. For public services, always keep the
 secure `https://` connection.
 
+### Servers on your home network
+
+On **Android 17 and newer**, apps need your permission before they can reach devices
+on your local network. When you enter an address that looks like it's on your own
+network, KashCal shows a banner in the sign-in screen:
+
+> This server looks like it's on your local network. Allow local network access so
+> KashCal can connect to it.
+
+Tap **Allow access** and the connection goes through. It's a banner rather than a
+blocking dialog, so you can carry on filling in the form and grant it when you're
+ready. Without it, a server at an address like `192.168.1.10` can't be reached, which
+otherwise looks like an unexplained connection failure.
+
 ## Provider-specific tips
 
 - **Nextcloud**: use an app password from *Settings → Security → Devices & sessions*. The address is usually your Nextcloud domain.

@@ -27,14 +27,15 @@ standard behind most calendar services.
 
 ## Managing your accounts
 
-Open the navigation drawer and tap **Settings** to manage connected accounts.
+Tap the avatar in the top-right corner, then **Accounts & settings**, to manage
+connected accounts. (The navigation drawer has a Settings entry too.)
 
 - **See an account's status.** Each connected account shows how many calendars it syncs, and flags any sync trouble.
 - **Remove an account.** Open the account and choose **Sign Out**. KashCal asks first, because signing out removes that account's synced calendars from this device. Your events on the server stay put, and anything you made in your local calendar stays on the device.
-- **Choose your default calendar.** Under **Creating events**, tap **Default Calendar** to pick where new events go by default.
+- **Choose your default calendar.** Under **Event preferences**, tap **Default calendar** to pick where new events go by default.
 - **Show or hide calendars.** Toggle individual calendars from the navigation drawer, where they're grouped by account.
 
-How far back sync downloads events applies to all accounts together. It lives in **Settings**, under Sync (Sync Lookback). See [Settings](../features/settings.md) and [How sync works](./how-sync-works.md).
+How far back sync downloads events applies to all accounts together, as does how often it runs. Both live in **Settings**, under **Notifications & sync** (**Sync lookback** and **Sync frequency**). See [Settings](../features/settings.md#notifications--sync) and [How sync works](./how-sync-works.md).
 
 ## Quick links
 

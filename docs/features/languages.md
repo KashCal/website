@@ -22,6 +22,16 @@ Language). Pick a language there and KashCal uses it regardless of your device l
 If KashCal doesn't yet have your exact regional variant, it falls back to the
 closest available language, and ultimately to English.
 
+## What gets translated
+
+Every part of KashCal's own interface is translated, including the built-in
+**Local** calendar that ships with the app: its name now appears in your language
+wherever a calendar is listed, rather than always reading "Local" in English.
+
+Your own content is left exactly as you typed it. Event titles, notes, locations,
+and the names of calendars that come from your accounts are never translated or
+rewritten.
+
 ## Help improve a translation
 
 Translations are part of the open-source project. If you spot something that reads

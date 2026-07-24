@@ -15,6 +15,18 @@ Type an event the way you'd say it out loud, and KashCal sorts out the rest. As
 you type, it shows a live preview of what it understood (the title, date, time,
 and more), so you can watch it get things right before you save.
 
+## Turning it on
+
+Quick Add is off until you ask for it. Open Settings, find **Smart event add** under
+**Event preferences**, and turn it on. From then on, the **+** button opens the
+typing box instead of the full form in the month, agenda, and year views. In the day,
+3-day, and week views, **+** always opens the form, since you've already picked a
+spot on the grid by tapping there.
+
+The box suggests a different example each time it opens ("Coffee tomorrow at 3pm",
+"Standup every weekday at 9am"), which is the fastest way to get a feel for what it
+understands.
+
 Here's how KashCal breaks down what you type:
 
 <QuickAddDiagram />
@@ -116,8 +128,13 @@ While you type, KashCal shows what it parsed:
 - the **recurrence**, if any.
 
 If something looks off, keep editing and the preview updates instantly. When
-you're happy, save it. Need more control? Open the full
-[event form](./event-form.md) to fine-tune everything.
+you're happy, save it. Need more control? Tap **More options** to open the full
+[event form](./event-form.md) with everything you've typed already filled in.
+
+The box starts as a single line and grows to three as you type, then scrolls, so a
+long note after `//` never pushes the preview off screen. Entries are capped at 500
+characters; a counter appears as you approach the limit so the cap doesn't arrive as
+a surprise.
 
 ## Related
 

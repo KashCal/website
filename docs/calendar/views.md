@@ -14,7 +14,7 @@ navigation drawer.
 | View | What it shows |
 |------|---------------|
 | **Month** | A familiar month grid with dots marking days that have events. Tap a day to see its events in the panel below, then swipe that panel left or right to step day by day. Swipe the grid itself to move between months. |
-| **Agenda** | A scrolling list of the next 90 days of events, grouped by date with times. The top bar shows the month you're currently scrolled to and keeps pace as you move down the list. |
+| **Agenda** | A scrolling list of the next 90 days of events, grouped by date with times. Today and tomorrow are labelled **Today** and **Tomorrow** rather than by date. The top bar shows the month you're currently scrolled to and keeps pace as you move down the list. A week bar sits above the list, and you can collapse it when you want the extra room. |
 | **Day** | A single day as an hour-by-hour timeline. Overlapping events sit side by side. |
 | **3 Days** | Three days side by side as timelines, a good balance of detail and overview. |
 | **Week** | A full seven-day timeline. The header shows the month and week number. |
