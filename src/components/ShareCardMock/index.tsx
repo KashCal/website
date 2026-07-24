@@ -62,11 +62,11 @@ export default function ShareCardMock(): ReactNode {
       <Card
         numeral="31"
         month="MAY"
-        dow="FRI"
+        dow="SUN"
         title="Brunch at Sam's"
         time="11:30 AM to 1:00 PM"
         label="Standard"
-        aria="Standard share card with the date 31 May Friday, the title Brunch at Sam's, and the time 11:30 AM to 1:00 PM."
+        aria="Standard share card with the date 31 May Sunday, the title Brunch at Sam's, and the time 11:30 AM to 1:00 PM."
       />
       <Card
         celebration

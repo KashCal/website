@@ -33,7 +33,7 @@ All free, no account. Show off the one you like and dare a friend to match it.
 - **[Real CalDAV, out of the box.](/features/all-your-calendars-google-outlook-android)** Nextcloud, Radicale, Fastmail, Baikal, Zoho, SOGo, Stalwart, and more, syncing two ways with no middleware app, no relay server, and no second thing to install. Your phone's Google and Outlook calendars ride along too.
 - **[iCloud on Android.](/features/icloud-calendar-android)** Sign in once and your iCloud calendars sync both ways, shared family calendars included. No bridge, no export-import dance.
 - **[Time insights, on-device.](/features/calendar-insights-android)** Busiest day, meeting-free days, weekend load, your next free block. It works the numbers out on your phone, no work account and no cloud crunching your schedule.
-- **[Six views, your way.](/features/beautiful-calendar-android)** Month, agenda, three-day, week, month-full, and year. Pinch to zoom, drag to reschedule, and color any event from a curated palette or the full color wheel.
+- **[Seven views, your way.](/features/beautiful-calendar-android)** Month, month-full, agenda, day, three-day, week, and year. Pinch to zoom, drag to reschedule, and color any event from a curated palette or the full color wheel.
 - **Private and free.** No KashCal account, ever. No ads, no trackers, no analytics. Credentials are encrypted with the Android Keystore, and the whole thing works offline from first install. Free and open source under Apache-2.0.
 
 None of the above is a trial, a teaser, or a "pro" tier. It's the whole app. Found

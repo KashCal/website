@@ -62,7 +62,7 @@ const AGENDA: {d: number; dow: string; note?: string; kind?: string; cta?: boole
 ];
 
 const APPS = [
-  {name: 'KashCal', body: <>Settings &rarr; <b>Calendar Feeds (ICS)</b> &rarr; Add ICS Calendar. Paste the URL, pick a refresh interval, save.</>},
+  {name: 'KashCal', body: <>Settings &rarr; <b>Calendar feeds (ICS)</b> &rarr; Add ICS Calendar. Paste the URL, pick a refresh interval, save.</>},
   {name: 'iPhone', body: <>Settings &rarr; Calendar &rarr; Accounts &rarr; <b>Add Subscribed Calendar</b>, then paste the URL.</>},
   {name: 'Google', body: <>Other calendars &rarr; <b>+</b> &rarr; <b>From URL</b>, paste the URL, add.</>},
   {name: 'Outlook', body: <><b>Add calendar</b> &rarr; <b>Subscribe from web</b>, paste the URL, add.</>},
@@ -194,8 +194,8 @@ function Subscribe(): ReactNode {
             <Heading as="h2" id="subscribe">It updates itself. That is the only ambitious thing here.</Heading>
             <p style={{fontSize: '1.1rem', color: 'var(--ifm-color-emphasis-700)', maxWidth: '40rem'}}>
               Add the feed to any calendar app. New notes appear on their own
-              every few days and refresh quietly in the background. No account,
-              no app to install, no notifications yelling at you.
+              every few days and the feed refreshes in the background. No
+              account, no app to install, no notifications yelling at you.
             </p>
 
             <div className={styles.urlBox}>
@@ -230,7 +230,7 @@ function Subscribe(): ReactNode {
 export default function UnscheduledThoughts(): ReactNode {
   return (
     <Layout
-      title="Unscheduled Thoughts — a calendar feed that means well, mostly"
+      title="Unscheduled Thoughts: a calendar feed that means well, mostly"
       description="A free calendar feed you can subscribe to. Every few days Unscheduled Thoughts drops a bit of encouragement, a bit of snark, and the occasional calendar-nerd joke. No account, never blocks your day. Works in Google Calendar, Apple Calendar, Outlook, and KashCal.">
       <Head>
         <link rel="canonical" href="https://kashcal.onekash.org/unscheduled-thoughts" />
@@ -240,7 +240,7 @@ export default function UnscheduledThoughts(): ReactNode {
         <meta property="og:title" content="Unscheduled Thoughts" />
         <meta
           property="og:description"
-          content="A calendar feed that means well, mostly. One gently unhelpful note every few days."
+          content="A calendar feed that means well, mostly. One cheerfully unhelpful note every few days."
         />
       </Head>
       <Hero />

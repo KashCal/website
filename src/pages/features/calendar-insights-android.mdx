@@ -6,14 +6,22 @@ image: /img/social/calendar-insights-android.png
 
 import Screenshot from '@site/src/components/Screenshot';
 import Cards from '@site/src/components/Cards';
+import FaqSchema from '@site/src/components/FaqSchema';
+
+<FaqSchema items={[
+  {question: 'What does KashCal show me about my time?', answer: 'Which day of the week eats the most of your calendar, how many of your commitments run back-to-back, how many meeting-free days you have, how much of your weekend is already booked, how many days start before 8 AM or run past 7 PM, which calendar is taking up the most of your time, and when your next long stretch of open time is.'},
+  {question: 'Is my calendar data sent anywhere?', answer: 'No. Everything in Insights is computed on your phone. No KashCal server, no cloud analytics, no account. Your calendar never leaves your device for this feature.'},
+  {question: 'Do I need a work account?', answer: 'No. KashCal Insights works with any calendar you have switched on in the app: your personal Google account, iCloud, Nextcloud, your phone’s local calendar, or an ICS feed. There is no paid tier and no Workspace requirement.'},
+  {question: 'Can I see insights for only my personal calendar, or only work?', answer: 'Yes. Insights only looks at calendars you have made visible in the navigation drawer. Turn off your work calendar and Insights shows your personal time. Turn off personal and you get the work view. Leave everything on for the full picture.'},
+]} />
 
 # See where your time goes
 
 Most calendars show you the future. KashCal also shows you the past.
 
-You already know your Tuesdays are bad. KashCal will tell you how bad, and which days are giving you a break, and where your next long stretch of open time is hiding. Without a tracker. Without logging anything. Your calendar is already the log.
+You already know your Tuesdays are bad. KashCal will tell you how bad, which days are giving you a break, and where your next long stretch of open time is. Without a tracker. Without logging anything. Your calendar is already the log.
 
-<Screenshot src="/img/screenshots/Insights.png" alt="KashCal Insights weekly breakdown" align="right" caption="A quiet look at your week." />
+<Screenshot src="/img/screenshots/Insights.png" alt="KashCal Insights weekly breakdown" align="right" caption="A week of your time, worked out on the phone." />
 
 ## Aim it at whatever you want
 
@@ -23,12 +31,12 @@ Insights only looks at the calendars you have switched on. Turn off your work ca
 
 <Cards items={[
   {title: 'Weekend load', body: <>How much of your Saturday and Sunday is already spoken for.</>},
-  {title: 'Early and late', body: <>How early the earliest thing starts, how late the latest runs.</>},
-  {title: 'Calendar mix', body: <>Which calendar is eating the most hours, stacked so you can see the split at a glance.</>},
+  {title: 'Early and late', body: <>How many days start before 8 AM, and how many run past 7 PM.</>},
+  {title: 'Calendar mix', body: <>Which calendar is eating the most hours, as a share of your scheduled time.</>},
   {title: 'Busiest day', body: <>Which weekday takes the biggest bite out of your schedule.</>},
-  {title: 'Back-to-back', body: <>Your longest run with no gap between commitments.</>},
+  {title: 'Back-to-back', body: <>How many times one thing starts as the last one ends, with no real gap.</>},
   {title: 'Meeting-free days', body: <>Days with nothing on the calendar. Good for planning rest, or work, or neither.</>},
-  {title: 'Next free block', body: <>The next long stretch of open time. Not a statistic, a place to put something, or nothing.</>},
+  {title: 'Next free block', body: <>The next long stretch of open time, with the day and the hours it covers.</>},
 ]} />
 
 :::tip[Pick a period]
@@ -45,13 +53,13 @@ The math runs on your device. There's no KashCal server, no cloud, no account to
 
 Personal Google, iCloud, Nextcloud, Fastmail, Outlook, your phone's local calendar, an ICS feed of your kid's school year, whatever else is in your drawer. If it's switched on in KashCal, it counts. If it's off, it doesn't. You're the filter.
 
-A calendar that remembers what you did, not just what's coming, turns out to be more useful than you'd guess.
+A calendar that remembers what you did, not just what's coming, turns out to be the more useful half.
 
 ## Frequently asked questions
 
 **What does KashCal show me about my time?**
 
-Which day of the week eats the most of your calendar, the longest run of back-to-back commitments, how many meeting-free days you have, how much of your weekend is already booked, how early your earliest and how late your latest, which calendar is taking up the most of your time, and when your next long stretch of open time is.
+Which day of the week eats the most of your calendar, how many of your commitments run back-to-back, how many meeting-free days you have, how much of your weekend is already booked, how many days start before 8 AM or run past 7 PM, which calendar is taking up the most of your time, and when your next long stretch of open time is.
 
 **Is my calendar data sent anywhere?**
 

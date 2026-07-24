@@ -7,7 +7,7 @@ image: /img/social/share-event-as-card-android.png
 import Cards from '@site/src/components/Cards';
 import ShareCardMock from '@site/src/components/ShareCardMock';
 
-# Share an event the way you'd actually want to
+# Share an event the way you'd want to
 
 <ShareCardMock />
 
@@ -15,7 +15,7 @@ One tap. A designed card and a tap-to-add file, sent together.
 
 Sharing an event on a phone has always meant a typed-out chat message, a screenshot the recipient has to retype, or a calendar invite that drags in email accounts you didn't want involved. KashCal hands you something nicer to send, and saves your friend the trouble.
 
-**Standard** for the things on your week. **Celebration** for the things you actually want to talk about. Both go out in one tap.
+**Standard** for the things on your week. **Celebration** for birthdays, weddings, and the rest. Both go out in one tap.
 
 ## What the recipient gets
 
@@ -31,7 +31,7 @@ The file you send is a clean, single-occurrence copy of the event. It carries a 
 
 <Cards items={[
   {title: 'Two styles', body: <>Standard for everyday plans. Celebration for the kind you tell people about.</>},
-  {title: 'Multi-day events', body: <>A horizontal range chip ("MAY 31 to JUN 03"), with day-of-week in the body so the chip stays light.</>},
+  {title: 'Multi-day events', body: <>A horizontal range chip ("MAY 31 – JUN 03"), with day-of-week in the body so the chip stays light.</>},
   {title: 'Overnight events', body: <>Saturday 10 PM to Sunday 2 AM stays a single Saturday-night card. KashCal only treats an event as multi-day when it crosses a date and lasts at least 18 hours.</>},
   {title: 'All sources', body: <>Works for events from any calendar: iCloud, Nextcloud, Google (via Android), your phone's local calendar, an ICS feed, or a contact's birthday.</>},
 ]} />
@@ -42,7 +42,7 @@ Tap an event anywhere it appears: the day view, the agenda, the week. The quick 
 
 ## Frequently asked questions
 
-**What does share-as-card actually send?**
+**What does share-as-card send?**
 
 A designed PNG of the event and a single-occurrence iCalendar (.ics) file, attached to one share intent. The recipient sees a card inline in their messenger and can tap the file to add the event to their own calendar with one tap.
 

@@ -50,7 +50,7 @@ const GET = [
   },
   {
     title: '67 languages, ready',
-    body: '677 strings and 40 plurals, already translated. Per-brand strings translate incrementally without redoing the rest.',
+    body: 'Over 850 strings and 50 plurals, already translated. Per-brand strings translate incrementally without redoing the rest.',
   },
   {
     title: 'Source access',
@@ -78,9 +78,9 @@ export default function WorkWithUs(): ReactNode {
             The best calendar experience on Android. <em>Under your name.</em>
           </Heading>
           <p className="kc-hero__lead">
-            Building a polished Android calendar from scratch is a year and a half
-            of engineering, design, and edge-case grinding. We have already done
-            that part. License KashCal and put it in your customers' hands, under
+            Scoping a polished Android calendar from scratch means a year or more
+            of engineering, design, and edge-case grinding. That work is already
+            done. License KashCal and put it in your customers' hands, under
             your brand or on your hardware, in weeks, not quarters.
           </p>
           <div className="kc-hero__cta">

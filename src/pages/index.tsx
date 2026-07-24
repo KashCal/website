@@ -30,7 +30,7 @@ const FEATURES: Feature[] = [
   {
     icon: '📊',
     title: 'Where your time goes',
-    body: 'Insights finds your busiest days, free blocks, and back-to-back runs. None of it leaves your phone.',
+    body: 'Insights finds your busiest days, your free blocks, and how much of your week runs back-to-back. None of it leaves your phone.',
     to: '/features/calendar-insights-android',
   },
   {
@@ -58,7 +58,7 @@ const SHOTS = [
     img: '/img/screenshots/Insights.png',
     alt: 'KashCal Insights screen showing time analytics',
     title: 'See your week',
-    caption: 'Hours per day, busiest stretches, and your next free block.',
+    caption: 'Hours per day, your busiest and lightest days, and your next free block.',
   },
   {
     img: '/img/screenshots/Apple-Calendar-Connect.png',
