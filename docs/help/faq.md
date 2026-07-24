@@ -19,16 +19,16 @@ import FaqSchema from '@site/src/components/FaqSchema';
   {question: 'Why will my iCloud password not work?', answer: 'iCloud requires an app-specific password, not your normal Apple password. Create one at account.apple.com and use that to connect.'},
   {question: 'Can I use KashCal offline?', answer: 'Yes, it is offline-first. You can view and edit events with no connection, and changes sync automatically when you are back online.'},
   {question: 'Why is background sync not more frequent than 15 minutes?', answer: 'That is an Android system limit for background work. It is the shortest automatic interval the platform allows. You can always pull down to refresh for an immediate sync.'},
-  {question: 'What Android version do I need?', answer: 'Android 12 or newer.'},
+  {question: 'What Android version do I need?', answer: 'Android 12 or newer. KashCal targets Android 17, the current release.'},
   {question: 'How do I move to a new phone?', answer: 'Back up your settings, restore them on the new device, and re-add your calendar accounts (passwords are not transferred, by design). Your events come back via sync.'},
 ]} />
 
 ## Is KashCal free? Is there a catch?
 
 Yes, it's free and open source under the Apache-2.0 license. There's no paid tier, no
-ads, and no account to create. If you love the app and want to chip in, a
-[donation](/donate) is a lovely way to show it and to keep the releases coming. It's
-never required, and nothing in the app is locked behind it.
+ads, and no account to create. If you want to chip in, a [donation](/donate) helps
+keep the releases coming. It's never required, and nothing in the app is locked behind
+it.
 
 ## Do I need to create a KashCal account?
 
@@ -80,7 +80,8 @@ place to post.
 
 ## Is KashCal on the Google Play Store?
 
-Not yet.
+Not yet. KashCal is distributed through [F-Droid, IzzyOnDroid, and
+Obtainium](../getting-started/install.md).
 
 ## Why do F-Droid and GitHub APKs have different signatures?
 
@@ -127,11 +128,10 @@ the platform allows. You can always pull down to refresh for an immediate sync.
 
 ## What Android version do I need?
 
-Android 12 or newer. KashCal is built and tested against **Android 17**, the current
-release, so it picks up the newest platform behavior rather than running in a
-compatibility mode. One thing to know if you self-host: on Android 17, reaching a
-CalDAV server on your own network needs a
-[local network permission](../sync/providers/caldav.md#servers-on-your-home-network).
+Android 12 or newer. KashCal targets **Android 17**, the current release. If you
+self-host, note that reaching a CalDAV server on your own network needs a
+[local network permission](../sync/providers/caldav.md#servers-on-your-home-network)
+on Android 17.
 
 ## How do I get reminders to work?
 

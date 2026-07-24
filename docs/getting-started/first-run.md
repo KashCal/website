@@ -18,7 +18,7 @@ you just want a private calendar that never touches the internet.
 ## Add a calendar account (optional)
 
 To bring in calendars you already have (iCloud, Nextcloud, Fastmail, and so on), tap
-the round avatar in the top-right corner, then **Accounts & settings**, and add an
+the round avatar in the top-right corner, then **Accounts & Settings**, and add an
 account. (The navigation drawer also has a Settings entry, if you prefer swiping in
 from the left edge.) See [Sync & Accounts](../sync/index.md) for step-by-step guides.
 

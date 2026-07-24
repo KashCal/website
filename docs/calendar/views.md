@@ -28,11 +28,10 @@ analytics about how you spend your time. See [Insights](../features/insights.md)
 
 ## Gestures
 
-KashCal is built for touch, so the timeline views (Day, 3 Days, Week) feel good
-under your thumb:
+The timeline views (Day, 3 Days, Week) are built for touch:
 
-- **Pinch to zoom.** Pinch in or out on the timeline to make the hours shorter or taller. KashCal remembers the zoom level you set and reopens the timeline at the same density after you close and reopen the app.
-- **Drag to reschedule.** Press and hold a timed event, then drag it to a new time, or sideways to a different day. You'll feel a little buzz when the drag starts. (All-day and read-only events, such as those from a holiday feed, can't be dragged.)
+- **Pinch to zoom.** Pinch in or out on the timeline to make the hours shorter or taller. KashCal remembers the zoom level and reopens the timeline at the same density next time.
+- **Drag to reschedule.** Press and hold a timed event, then drag it to a new time, or sideways to a different day. A short vibration confirms the drag has started. (All-day and read-only events, such as those from a holiday feed, can't be dragged.)
 - **Tap an empty slot** to start a new event there, pre-filled to the nearest 15 minutes.
 - **Swipe left/right** to move through time. In Day and 3 Days views a swipe moves one day; in Week view it moves a whole week.
 - **Tap a "+N more" badge** when a day has more events than fit, to see the full list.

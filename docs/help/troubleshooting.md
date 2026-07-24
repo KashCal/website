@@ -16,8 +16,7 @@ see [Before you file a bug](./report-a-bug.md).
 **Check the basics:**
 
 - Are you online? KashCal queues changes while offline and sends them when you reconnect.
-- Is background sync set to **Manual only** in Settings? If so, it won't sync on its own.
-- Is sync limited to **Wi-Fi only**? If so, it won't sync on mobile data.
+- Is **Sync frequency** set to **Manual only** in Settings? If so, it won't sync on its own.
 
 **For iCloud:** make sure you used an **app-specific password**, not your normal Apple
 password. If you recently changed your Apple password, generate a new app-specific one.
@@ -29,8 +28,8 @@ your provider offers an **app password**, use that. See [CalDAV setup](../sync/p
 **Self-hosted server?** If it uses plain HTTP or a self-signed certificate, enable
 **Trust insecure connection** for that account.
 
-**Still off?** Try **Force Full Sync** in Settings to re-download everything (your
-local changes are preserved).
+**Still off?** Try **Force Full Sync** to re-download everything, keeping your local
+changes. It's in [Advanced options](./advanced-options.md).
 
 ## Some events are missing
 
@@ -41,12 +40,10 @@ local changes are preserved).
 
 - Grant **notification permission** to KashCal.
 - If asked, allow **exact alarms** so reminders arrive on time.
-- Some devices aggressively limit background apps. Check your phone's battery
-  settings and allow KashCal to run in the background, so reminders aren't delayed.
-- Aggressive battery optimizers on Samsung, Xiaomi, Oppo, OnePlus, and others can
-  kill background work and stop reminders from firing. Disable battery optimization
-  for KashCal in Android Settings > Apps > KashCal > Battery. See
-  [dontkillmyapp.com](https://dontkillmyapp.com) for vendor-specific guidance.
+- Turn off battery optimization for KashCal, in Android Settings > Apps > KashCal >
+  Battery. Samsung, Xiaomi, Oppo, and OnePlus phones cut off background work
+  aggressively, which stops reminders from firing.
+  [dontkillmyapp.com](https://dontkillmyapp.com) has per-vendor steps.
 - After a reboot, KashCal re-schedules reminders automatically; give it a moment after restart.
 
 ## Invitations aren't being sent

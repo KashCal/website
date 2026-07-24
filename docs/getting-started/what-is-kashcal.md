@@ -12,9 +12,8 @@ work on a CalDAV server, holidays from some link you subscribed to once, birthda
 hiding in your contacts. KashCal gathers them onto one screen and then gets out of
 your way.
 
-It's a **free, open-source calendar for Android** that's quietly serious about the
-small stuff: fast to open, easy on the eyes, and built to hold the most important
-parts of your day without making a fuss about it.
+It's a **free, open-source calendar for Android**: fast to open, easy on the eyes, and
+serious about the small stuff.
 
 And it's **private by default**. No account to create, no analytics, no tracking,
 and no KashCal servers. Your events stay on your device and sync only with the
@@ -35,9 +34,8 @@ calendars *you* choose to connect.
 
 ## Who it's for
 
-You, if you want the best-looking calendar on Android, one that lets you color your
-events from a palette of nearly a hundred and actually makes a busy week pleasant
-to look at.
+Anyone whose calendars live in more than one place, and anyone who'd rather their
+calendar app didn't have an account, an ad, or an opinion about their data.
 
 ## Requirements
 

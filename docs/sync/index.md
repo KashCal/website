@@ -27,7 +27,7 @@ standard behind most calendar services.
 
 ## Managing your accounts
 
-Tap the avatar in the top-right corner, then **Accounts & settings**, to manage
+Tap the avatar in the top-right corner, then **Accounts & Settings**, to manage
 connected accounts. (The navigation drawer has a Settings entry too.)
 
 - **See an account's status.** Each connected account shows how many calendars it syncs, and flags any sync trouble.

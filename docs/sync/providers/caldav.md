@@ -61,8 +61,7 @@ network, KashCal shows a banner in the sign-in screen:
 
 Tap **Allow access** and the connection goes through. It's a banner rather than a
 blocking dialog, so you can carry on filling in the form and grant it when you're
-ready. Without it, a server at an address like `192.168.1.10` can't be reached, which
-otherwise looks like an unexplained connection failure.
+ready. Without it, a server at an address like `192.168.1.10` can't be reached.
 
 ## Provider-specific tips
 

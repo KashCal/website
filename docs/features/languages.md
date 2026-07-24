@@ -24,9 +24,10 @@ closest available language, and ultimately to English.
 
 ## What gets translated
 
-Every part of KashCal's own interface is translated, including the built-in
-**Local** calendar that ships with the app: its name now appears in your language
-wherever a calendar is listed, rather than always reading "Local" in English.
+KashCal's own interface is translated, down to the name of the built-in **Local**
+calendar. That one used to read "Local" in English no matter your language; it now
+appears translated everywhere a calendar is named. Exported `.ics` files still use
+the English name, so other apps reading the file see a stable value.
 
 Your own content is left exactly as you typed it. Event titles, notes, locations,
 and the names of calendars that come from your accounts are never translated or

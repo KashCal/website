@@ -37,7 +37,10 @@ scattering of unrelated events.
 Files exported by other apps sometimes leave out the unique ID that identifies an
 event, or leave it empty. KashCal gives each of those events an ID of its own, so a
 file full of them imports as separate events rather than being folded together into
-one repeating series.
+one series.
+
+Imported events always get a fresh ID, so importing the same file twice adds a second
+copy rather than overwriting the first.
 
 ## Export to .ics
 

@@ -16,11 +16,11 @@ home screen, choose **Widgets**, and find KashCal.
 
 | Widget | What it shows |
 |--------|---------------|
-| **Today's Agenda** | Today's events in a list, with past events dimmed and upcoming ones highlighted. Includes an "add event" button and a friendly empty state when your day is clear. |
+| **Today's Agenda** | Today's events in a list, with past events dimmed and upcoming ones highlighted. Has an "add event" button, and says so when your day is clear. |
 | **Week View** | The next seven days at a glance. |
 | **Month View** | A full month grid with colored dots marking days that have events. Page through months with the ‹ › arrows, tap the title to jump back to the current month, and tap **+** to add an event, all without opening the app. |
 | **Date** | Today's date, styled like an app icon, for a clear at-a-glance day marker. |
-| **Upcoming** | The next ten days of events, skipping empty days so you only see what's actually scheduled. |
+| **Upcoming** | The next ten days of events, skipping days with nothing on them. |
 
 Tap any event on a widget to open it in KashCal, and use the **+** button on the
 agenda, month, and upcoming widgets to add one.

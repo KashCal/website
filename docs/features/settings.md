@@ -8,7 +8,7 @@ description: Where to change KashCal's appearance, event defaults, sync, and pri
 
 Most of KashCal works without touching a single setting. But when you want to change how the week starts, how times show up, or how far back sync reaches, it's all in one place.
 
-Tap the avatar in the top-right corner to open the [account hub](../calendar/navigation.md#the-account-hub), then tap **Accounts & settings**. The screen is grouped into sections, described below in the order they appear.
+Tap the avatar in the top-right corner to open the [account hub](../calendar/navigation.md#the-account-hub), then tap **Accounts & Settings**. The screen is grouped into sections, described below in the order they appear.
 
 ## How the Settings screen works
 
@@ -18,7 +18,7 @@ Three things make the screen quick to read:
 - **Tapping a row opens a picker from the bottom of the screen.** Choices slide up as a sheet rather than unfolding as a menu on top of everything, so you always see the full list of options.
 - **Search covers rows and section headers.** Type in **Search settings…** at the top. Matching rows are filtered down and the matched text is highlighted, in both the row's label and its value. Matching a section header surfaces that whole group, so "appearance" finds every setting under that header even when no individual row contains the word.
 
-With a screen reader, the options in each picker are announced as radio buttons, with their selected state and their position in the list.
+With a screen reader, each picker is announced as a group of radio buttons, so you hear which option is currently selected before you change it.
 
 ## Calendars & accounts
 
@@ -35,9 +35,9 @@ top-right of any calendar view and look under **Make it yours** for **Theme**,
 **Accent color**, and **App icon**. See [The account hub](../calendar/navigation.md#the-account-hub).
 :::
 
-- **Time format:** 12-hour, 24-hour, or follow the system. The row shows a live example of the current format.
+- **Time format:** 12-hour, 24-hour, or follow the system. Each choice in the picker shows a sample time in that format, so you can see the difference before committing to it.
 - **Start week on:** whether your week begins on the system default, Monday, Sunday, or Saturday. This changes every calendar grid at once.
-- **Widget event limit:** how many events each day shows in the home-screen widgets. The default is 5 per day.
+- **Widget event limit:** how many events each day shows in the home-screen widgets. Choose 3, 5, 8, 10, or 15. The default is 5 per day.
 - **Show week numbers:** show the ISO week number alongside the month grid.
 - **Show declined events:** keep events you've declined visible, shown dimmed with a strikethrough, instead of hiding them.
 - **Event emojis:** when on, KashCal shows an emoji next to an event based on its title (a cake for a birthday, a plane for a flight). On by default; turn it off for a plainer list.
@@ -67,9 +67,9 @@ synced from another app that doesn't line up with the wheel's steps.
 
 ## Notifications & sync
 
-- **Notifications:** tap to grant notification permission so your reminders can actually alert you. The row shows whether it's enabled. See [Reminders](../events/reminders.md).
+- **Notifications:** tap to grant notification permission, so your reminders can alert you. The row shows whether it's enabled. See [Reminders](../events/reminders.md).
 - **Sync frequency:** how often KashCal syncs in the background. Choose 15 or 30 minutes, 1, 6, 12, or 24 hours, or **Manual only** to sync only when you ask. The default is every hour, and 15 minutes is the shortest interval Android allows for background work.
-- **Sync lookback:** how far into the past to download events. The default is one year. Widen it if you need older history on the device.
+- **Sync lookback:** how far into the past to download events, from 3 months up to **All events**. The default is one year. Widen it if you need older history on the device.
 
 See [How sync works](../sync/how-sync-works.md) for what happens during a sync.
 

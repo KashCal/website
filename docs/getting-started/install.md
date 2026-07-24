@@ -44,9 +44,8 @@ manually. You may need to allow installing from unknown sources for your browser
 file manager.
 
 :::note
-The app's package name is `org.onekash.kashcal`. KashCal is published under the
-Apache-2.0 license, and the full source code is on
-[GitHub](https://github.com/KashCal/KashCal).
+The app's package name is `org.onekash.kashcal`. KashCal is Apache-2.0 licensed, and
+the source is on [GitHub](https://github.com/KashCal/KashCal).
 :::
 
 ## After installing

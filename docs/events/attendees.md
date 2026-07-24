@@ -54,7 +54,7 @@ every invitation still waiting on you into one list.
 Sending invitations needs a calendar account that supports scheduling. When yours
 doesn't, KashCal tells you instead of letting you add guests that would go nowhere.
 
-If the account can't schedule at all, the guest row simply reads:
+If the account can't schedule at all, the guest row reads:
 
 > Inviting people isn't available on this account
 

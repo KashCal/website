@@ -7,8 +7,8 @@ description: "KashCal is offline-first: everything you do lands instantly on you
 # How sync works
 
 KashCal is **offline-first**. Everything you do lands instantly on your device, and
-KashCal quietly catches up with your servers in the background. You rarely have to
-think about sync at all.
+KashCal catches up with your servers in the background. You rarely have to think about
+sync at all.
 
 ## What works offline
 

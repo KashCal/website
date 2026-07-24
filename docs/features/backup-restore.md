@@ -6,9 +6,8 @@ description: Save your KashCal settings to a JSON file and restore them later, h
 
 # Backup & restore settings
 
-KashCal can tuck your **settings** into a file and bring them back later. Handy for
-setting up a new phone, or for keeping a safety net before you experiment with
-options.
+KashCal can save your **settings** to a file and read them back later. Handy for
+setting up a new phone, or as a safety net before you experiment with options.
 
 ## What's in a backup
 

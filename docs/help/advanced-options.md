@@ -23,10 +23,11 @@ A sheet slides up (labeled **Developer Options** in the app).
 - **Force Full Sync.** Re-downloads all calendar data from your servers. Your local
   changes are preserved. Useful if something looks out of date or a calendar seems
   stuck.
-- **Sync History.** Shows your recent sync sessions from the last 48 hours: how long
-  each took, how many events were pushed, pulled, skipped, or failed, and any
-  warnings. This is the first place to look when sync isn't behaving, and the best
-  thing to attach (with personal details removed) when you [report a sync bug](./report-a-bug.md).
+- **Sync History.** Shows your most recent sync sessions: how long each took, how many
+  events were pushed, pulled, skipped, or failed, and any warnings. KashCal keeps a
+  week of history and shows the latest hundred sessions. This is the first place to
+  look when sync isn't behaving, and the best thing to attach (with personal details
+  removed) when you [report a sync bug](./report-a-bug.md).
 
 :::note[Sync frequency moved]
 Choosing how often background sync runs used to live here. It's now a regular

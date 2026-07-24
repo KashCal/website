@@ -49,8 +49,9 @@ occurrence, tagged with the date and time of the occurrence it replaces, so it
 doesn't turn into a duplicate or a separate new event the next time you sync.
 
 It works in the other direction too. If you delete that changed occurrence from
-another app or another device, KashCal removes its local copy on the next sync
-instead of leaving a stray event on your calendar.
+another app or another device, the next sync removes KashCal's copy as well, once the
+server marks the occurrence as excluded from the series, instead of leaving a stray
+event behind.
 :::
 
 ## Related

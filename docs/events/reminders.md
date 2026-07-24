@@ -6,8 +6,8 @@ description: Get a heads-up before an event starts. Add up to five reminders per
 
 # Reminders
 
-A reminder is the gentle nudge that keeps an event from slipping past you. KashCal
-gives you a heads-up before it starts, on your terms.
+Reminders are what keep an event from slipping past you. KashCal gives you a heads-up
+before it starts, on your terms.
 
 ## Adding reminders
 

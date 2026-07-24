@@ -17,15 +17,15 @@ and more), so you can watch it get things right before you save.
 
 ## Turning it on
 
-This is off until you ask for it. Open Settings, find **Smart event add** under
-**Event preferences**, and turn it on. From then on, the **+** button opens the
-typing box instead of the full form in the month, agenda, and year views. In the day,
-3-day, and week views, **+** always opens the form, since you've already picked a
-spot on the grid by tapping there.
+This is off until you turn it on. Open Settings, find **Smart event add** under
+**Event preferences**, and switch it on. From then on, the **+** button opens the
+typing box instead of the full form in the Month, Month (Full), Agenda, and Year
+views. In the Day, 3 Days, and Week timelines, **+** still opens the form, because
+those views place the event on the grid at a specific time.
 
-The box suggests a different example each time it opens ("Coffee tomorrow at 3pm",
-"Standup every weekday at 9am"), which is the fastest way to get a feel for what it
-understands.
+Each time the box opens it shows a different example as its placeholder ("Coffee
+tomorrow at 3pm", "Standup every weekday at 9am"), which is the fastest way to get a
+feel for what it understands.
 
 Here's how KashCal breaks down what you type:
 
@@ -133,8 +133,7 @@ you're happy, save it. Need more control? Tap **More options** to open the full
 
 The box starts as a single line and grows to three as you type, then scrolls, so a
 long note after `//` never pushes the preview off screen. Entries are capped at 500
-characters; a counter appears as you approach the limit so the cap doesn't arrive as
-a surprise.
+characters, and a counter appears once you're near the limit rather than only at it.
 
 ## Related
 

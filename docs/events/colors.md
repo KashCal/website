@@ -25,8 +25,8 @@ In the event form, tap **Choose Color**. You'll see:
   when you want something more specific. Adjust the color wheel there and tap **Done**
   to confirm.
 
-You can also leave an event on its **calendar default**, so it simply takes the
-color of the calendar it belongs to.
+You can also leave an event on its **calendar default**, so it takes the color of the
+calendar it belongs to.
 
 ## How colors sync
 
