@@ -15,7 +15,7 @@ Nextcloud, Fastmail, Radicale, Baikal, Zoho, mailbox.org, Stalwart, SOGo, and mo
 
 ## Add the account
 
-1. Open the navigation drawer → **Settings** → add an account → **CalDAV**.
+1. Open Settings → **Calendar accounts** → **Add CalDAV**.
 2. Fill in:
    - **Server URL**: for example, `nextcloud.example.com`. If you leave off
      `https://`, KashCal adds it for you.
@@ -73,7 +73,7 @@ otherwise looks like an unexplained connection failure.
 
 ## Managing or removing the account
 
-Tap the account in **Settings** → **Accounts** to open its details, where you can:
+Tap the account under Settings → **Calendar accounts** to open its details, where you can:
 
 - **Sync Now** to pull the latest changes immediately.
 - **Change Password** if you rotated your password or app password.

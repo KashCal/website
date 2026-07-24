@@ -50,7 +50,7 @@ See [Recurring events](./recurring.md) for the details.
 
 ## Related
 
-- [Quick Add](./quick-add.md): the faster way to create events
+- [Smart event add](./smart-event-add.md): the faster way to create events
 - [Recurring events](./recurring.md): make an event repeat
 - [Reminders](./reminders.md): get alerted before it starts
 - [Tags](./tags.md): label events with colored chips

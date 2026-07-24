@@ -65,7 +65,7 @@ const ICON_BY_PATH: Record<string, ReactNode> = {
   views: Icons.calendar,
   navigation: Icons.compass,
   // events
-  'quick-add': Icons.bolt,
+  'smart-event-add': Icons.bolt,
   'event-form': Icons.edit,
   recurring: Icons.repeat,
   reminders: Icons.bell,

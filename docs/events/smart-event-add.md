@@ -1,15 +1,15 @@
 ---
 sidebar_position: 1
-title: Quick Add (natural language)
-description: "Type an event the way you'd say it, and KashCal's natural-language Quick Add parses the title, date, time, recurrence, location, and #tags."
+title: Smart event add (natural language)
+description: "Type an event the way you'd say it, and KashCal's natural-language smart event add parses the title, date, time, recurrence, location, and #tags."
 ---
 
 import QuickAddDiagram from '@site/src/components/QuickAddDiagram';
 import Screenshot from '@site/src/components/Screenshot';
 
-# Quick Add
+# Smart event add
 
-<Screenshot src="/img/screenshots/Quick-Event-Add.png" alt="Typing a natural-language event in KashCal Quick Add" align="right" caption="Quick Add reads what you type." />
+<Screenshot src="/img/screenshots/Quick-Event-Add.png" alt="Typing a natural-language event in KashCal" align="right" caption="KashCal reads what you type." />
 
 Type an event the way you'd say it out loud, and KashCal sorts out the rest. As
 you type, it shows a live preview of what it understood (the title, date, time,
@@ -17,7 +17,7 @@ and more), so you can watch it get things right before you save.
 
 ## Turning it on
 
-Quick Add is off until you ask for it. Open Settings, find **Smart event add** under
+This is off until you ask for it. Open Settings, find **Smart event add** under
 **Event preferences**, and turn it on. From then on, the **+** button opens the
 typing box instead of the full form in the month, agenda, and year views. In the day,
 3-day, and week views, **+** always opens the form, since you've already picked a
@@ -33,7 +33,7 @@ Here's how KashCal breaks down what you type:
 
 ## What you can type
 
-Quick Add understands many kinds of phrases, and you can combine them freely in one
+KashCal understands many kinds of phrases, and you can combine them freely in one
 sentence.
 
 ### Dates

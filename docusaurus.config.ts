@@ -225,6 +225,8 @@ const config: Config = {
           {from: '/docs/getting-started/what-is-kashcal', to: '/docs'},
           // The feed page was renamed from "Reluctant Motivation".
           {from: '/reluctant-motivation', to: '/unscheduled-thoughts'},
+          // The feature is called "Smart event add" in the app now.
+          {from: '/docs/events/quick-add', to: '/docs/events/smart-event-add'},
         ],
       },
     ],
@@ -236,7 +238,7 @@ const config: Config = {
       {
         name: 'description',
         content:
-          'Free, open-source calendar for Android. Sync iCloud, CalDAV, holidays, and birthdays. Quick Add, Insights, Widgets. Private by default, no account required.',
+          'Free, open-source calendar for Android. Sync iCloud, CalDAV, holidays, and birthdays. Smart event add, Insights, Widgets. Private by default, no account required.',
       },
       {property: 'og:site_name', content: 'KashCal'},
       {name: 'apple-mobile-web-app-title', content: 'KashCal'},

@@ -11,19 +11,19 @@ keywords:
   - natural language event entry
   - fantastical alternative android
   - plain language calendar input
-description: "KashCal's Quick Add turns a plain sentence into a real event: date, time, location, recurrence, tags, and notes. Type 'lunch every 2nd Tuesday at noon' and skip the form entirely."
+description: "KashCal's smart event add turns a plain sentence into a real event: date, time, location, recurrence, tags, and notes. Type 'lunch every 2nd Tuesday at noon' and skip the form entirely."
 image: /img/social/blog/natural-language-calendar-events-android.png
 ---
 
 An event starts as a sentence. "Dentist next Thursday at ten." "Standup every weekday at nine." "Rent, last day of the month." You already have the whole thing in your head, in order, done.
 
-Then most calendar apps make you take it apart. Title in this box. Tap the date field. Spin a time wheel. Open a second screen labeled "Repeat" and hunt for the right radio button. You arrive knowing exactly what you meant and leave having filled out a form about it. KashCal's Quick Add just reads the sentence.
+Then most calendar apps make you take it apart. Title in this box. Tap the date field. Spin a time wheel. Open a second screen labeled "Repeat" and hunt for the right radio button. You arrive knowing exactly what you meant and leave having filled out a form about it. KashCal just reads the sentence.
 
 {/* truncate */}
 
 ## Type it the way you'd say it
 
-Open Quick Add and type one line. KashCal pulls the pieces out as you go and shows a live preview, so you watch it get things right before you save:
+Turn on **Smart event add** and type one line. KashCal pulls the pieces out as you go and shows a live preview, so you watch it get things right before you save:
 
 - **Dates**, however you phrase them: `tomorrow`, `next Friday`, `March 15`, `3/15/2027`.
 - **Times**, exact or spoken: `3pm`, `half past 3`, `2pm to 4pm`, or just `morning`.
@@ -55,6 +55,6 @@ KashCal only reads the part before the `//` for the schedule, so words in your n
 
 Typing your events instead of tapping through pickers is the trick a certain famous iPhone calendar showed off for years, and Android users have asked for it for about as long. KashCal does it, on Android, for free, with no account and nothing leaving your phone. Type a sentence, watch the preview, save. That is the whole feature, and it feels a little bit magic every time.
 
-Read the full list of phrases in the [Quick Add guide](/docs/events/quick-add), or see it in one picture on the [feature page](/features/natural-language-add-event-calendar).
+Read the full list of phrases in the [smart event add guide](/docs/events/smart-event-add), or see it in one picture on the [feature page](/features/natural-language-add-event-calendar).
 
 Say it once. We got it.

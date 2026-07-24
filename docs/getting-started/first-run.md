@@ -30,7 +30,7 @@ always available.
 If you'd rather type an event the way you'd say it, like *"Lunch with Sam Friday
 12:30 for 1 hour"*, turn on **Smart event add** in Settings under **Event
 preferences**. It's off until you enable it. After that, KashCal works out the date,
-time, and duration as you type. See [Quick Add](../events/quick-add.md).
+time, and duration as you type. See [Smart event add](../events/smart-event-add.md).
 
 ## Find your way around
 

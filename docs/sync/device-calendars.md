@@ -13,7 +13,7 @@ you bring **Google** and **Outlook** calendars into KashCal.
 
 ## Turn it on
 
-1. Open **Settings** → **Device Calendars**.
+1. Open Settings → **Device calendars**.
 2. Toggle it on. KashCal asks for calendar permission:
    > Calendar read permission required. Tap Enable to grant access.
 3. Enable the specific calendars you want using the switch on each row. The footer

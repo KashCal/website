@@ -19,7 +19,7 @@ links, not paid subscriptions.
 The quickest way to get started is the built-in holiday catalog, so you don't have to
 hunt for a URL:
 
-1. Open **Settings** → **Calendar Feeds**.
+1. Open Settings → **Calendar feeds (ICS)**.
 2. Tap **Add holiday calendar**.
 3. Search for your country and tap it to subscribe.
 
@@ -39,7 +39,7 @@ data itself.
 For a feed that isn't in the holiday catalog (a sports schedule, your school's term
 dates, and so on):
 
-1. Open **Settings** → **Calendar Feeds** → add a calendar.
+1. Open Settings → **Calendar feeds (ICS)** → add a calendar.
 2. Paste the feed's URL. It must start with `http://`, `https://`, or `webcal://`:
    > URL must start with http://, https://, or webcal://
 3. Choose how often it should refresh.

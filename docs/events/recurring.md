@@ -24,7 +24,7 @@ You can also set when the repeat **ends**:
 - **On a date** stops after a date you choose.
 - **After a number of times** stops after a set count of occurrences.
 
-You can also create recurring events directly with [Quick Add](./quick-add.md), for
+You can also create recurring events directly with [Smart event add](./smart-event-add.md), for
 example *"Standup every weekday at 9am"*.
 
 ## Editing or deleting one occurrence vs. the whole series

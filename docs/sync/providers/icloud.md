@@ -37,7 +37,7 @@ optional when you enter it.)
 
 ## Add the account in KashCal
 
-1. Open the navigation drawer → **Settings** → add an account → **iCloud**.
+1. Open Settings → **Calendar accounts** → **Add iCloud**.
 2. Enter your **Apple ID** (your `name@icloud.com` address).
 3. Paste the **app-specific password** you just created.
 4. Sign in.
@@ -48,7 +48,7 @@ have to worry about server addresses.
 
 ## Managing or removing the account
 
-Tap the account in **Settings** → **Accounts** to open its details, where you can:
+Tap the account under Settings → **Calendar accounts** to open its details, where you can:
 
 - **Sync Now** to pull the latest changes immediately.
 - **Change Password** if you generated a new app-specific password.

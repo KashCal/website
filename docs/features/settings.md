@@ -52,7 +52,7 @@ With **Accent color** set to **Automatic**, KashCal picks up your **Material You
 - **Default event length:** how long a new event runs before you change it. The default is 30 minutes.
 - **Timed event alert:** the reminder added automatically to a new event that has a start time. The default is 15 minutes before.
 - **All-day event alert:** the reminder added automatically to a new all-day event. All-day alerts fire at 9 AM (09:00), so this setting picks the day rather than the time: the day of the event, the day before, and so on. The sheet says so at the top.
-- **Smart event add:** turns on the natural-language capture box, so you can type "Coffee with Kash tomorrow 3pm" and get a real event. Off by default. See [Quick Add](../events/quick-add.md).
+- **Smart event add:** turns on the natural-language capture box, so you can type "Coffee with Kash tomorrow 3pm" and get a real event. Off by default. See [Smart event add](../events/smart-event-add.md).
 - **Suggest event titles:** offers title suggestions as you type in the event form, ranked by how often and how recently you've used them. On by default.
 
 :::note[Setting a custom alert]

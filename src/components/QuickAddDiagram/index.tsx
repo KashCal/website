@@ -18,7 +18,7 @@ const DEFAULT_EXAMPLE: QuickAddExample = {
 };
 
 /**
- * A schematic illustration of the Quick Add flow. This is a diagram,
+ * A schematic illustration of the smart event add flow. This is a diagram,
  * not a screenshot of the app. Pass an [example] to show a different phrase
  * and the fields KashCal parses out of it.
  */
@@ -31,7 +31,7 @@ export default function QuickAddDiagram({
     <div
       className={styles.wrap}
       role="img"
-      aria-label="Quick Add turns a typed sentence into a structured event preview">
+      aria-label="KashCal turns a typed sentence into a structured event preview">
       <div className={styles.input}>
         <span className={styles.caret}>›</span>
         <span className={styles.typed}>{example.typed}</span>
@@ -45,7 +45,7 @@ export default function QuickAddDiagram({
           </div>
         ))}
       </div>
-      <p className={styles.caption}>Schematic illustration of the Quick Add preview.</p>
+      <p className={styles.caption}>Schematic illustration of the smart event add preview.</p>
     </div>
   );
 }

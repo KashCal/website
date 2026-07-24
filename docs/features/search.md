@@ -33,4 +33,4 @@ This makes it easy to answer questions like "when's my next dentist appointment?
 ## Related
 
 - [Navigation](../calendar/navigation.md): get around the app
-- [Quick Add](../events/quick-add.md): add events by typing
+- [Smart event add](../events/smart-event-add.md): add events by typing

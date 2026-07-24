@@ -24,8 +24,8 @@ const FEATURES: Feature[] = [
   {
     icon: '⚡',
     title: 'Type it, do not tap it',
-    body: 'Write "Coffee with Kash tomorrow 3pm" and Quick Add fills in the date, time, and the rest.',
-    to: '/docs/events/quick-add',
+    body: 'Write "Coffee with Kash tomorrow 3pm" and KashCal fills in the date, time, and the rest.',
+    to: '/docs/events/smart-event-add',
   },
   {
     icon: '📊',
@@ -50,7 +50,7 @@ const FEATURES: Feature[] = [
 const SHOTS = [
   {
     img: '/img/screenshots/Quick-Event-Add.png',
-    alt: 'Typing a natural-language event in KashCal Quick Add',
+    alt: 'Typing a natural-language event in KashCal',
     title: 'Just type it',
     caption: '"Become a morning person Monday 5am" turns into an event.',
   },
@@ -155,7 +155,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title="A private calendar for Android with iCloud and CalDAV sync"
-      description="Free, open-source calendar for Android. Sync iCloud, CalDAV, holidays, and birthdays. Quick Add, Insights, widgets. Private by default, no account required.">
+      description="Free, open-source calendar for Android. Sync iCloud, CalDAV, holidays, and birthdays. Smart event add, Insights, widgets. Private by default, no account required.">
       <Hero />
       <main>
         <Screenshots />

@@ -10,7 +10,7 @@ keywords:
   - calendar event tags android
   - tag events quick add android
   - caldav calendar tags
-description: "KashCal 2026.07.15 adds event tags: colored #chips you set in the form or type into Quick Add, shown across the day, week, and agenda views."
+description: "KashCal 2026.07.15 adds event tags: colored #chips you set in the form or type in as you add an event, shown across the day, week, and agenda views."
 image: /img/social/blog/kashcal-event-tags.png
 ---
 
@@ -20,7 +20,7 @@ Since the beginning of KashCal, your events have been sorted the way a coat chec
 
 ## Type a #tag, get a chip
 
-Add a tag in the [event form](/docs/events/event-form), or fling a `#dentist` straight into [Quick Add](/docs/events/quick-add) and watch it land as a colored chip. That chip then follows the event around the [day, week, and agenda views](/docs/calendar/views) like it owns the place. Tap the event open and the tags are right there in quick view, quietly confirming that yes, this is a `#focus` block, and no, it is not the third `#standup` of the day you had every right to skip.
+Add a tag in the [event form](/docs/events/event-form), or fling a `#dentist` straight into [smart event add](/docs/events/smart-event-add) and watch it land as a colored chip. That chip then follows the event around the [day, week, and agenda views](/docs/calendar/views) like it owns the place. Tap the event open and the tags are right there in quick view, quietly confirming that yes, this is a `#focus` block, and no, it is not the third `#standup` of the day you had every right to skip.
 
 Start typing and KashCal hands back the tags you already use, ranked by how often you reach for them. It is the only known cure for "Errands" quietly fracturing into "errands," "ERRANDS," and one deeply confident "Errnads" by Thursday.
 

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Tags
-description: "Label events with colored tag chips in KashCal, add them in the form or by typing #tag in Quick Add, shown across day, week, and agenda views."
+description: "Label events with colored tag chips in KashCal, add them in the form or by typing #tag as you enter an event, shown across day, week, and agenda views."
 ---
 
 import Screenshot from '@site/src/components/Screenshot';
@@ -21,7 +21,7 @@ You can add a tag two ways:
   confirm it, or pick one from the suggestions. Suggestions are ranked by how
   often and how recently you've used each tag, so the ones you reach for most sit
   first.
-- **In [Quick Add](./quick-add.md).** Type `#` in front of a word anywhere in your
+- **In [Smart event add](./smart-event-add.md).** Type `#` in front of a word anywhere in your
   phrase, like `Lunch with Sam #social`, and KashCal peels the `#social` off as a
   tag while the rest becomes the event. You can add several, and a tags-only entry
   like `#work` is fine too.
@@ -64,5 +64,5 @@ the way.
 ## Related
 
 - [Creating & editing events](./event-form.md): the full event form
-- [Quick Add](./quick-add.md): type `#tag` inline
+- [Smart event add](./smart-event-add.md): type `#tag` inline
 - [Calendar views](../calendar/views.md): where chips appear

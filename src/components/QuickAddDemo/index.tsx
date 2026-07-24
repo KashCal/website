@@ -71,7 +71,7 @@ export default function QuickAddDemo(): ReactNode {
     <div
       className="kc-demo"
       data-typing={typing}
-      aria-label="Quick Add turns a typed sentence into an event">
+      aria-label="KashCal turns a typed sentence into an event">
       <div className="kc-demo__bar">
         <span className="kc-demo__prompt">›</span>
         <span className={done ? 'kc-demo__typed kc-demo__typed--done' : 'kc-demo__typed'}>

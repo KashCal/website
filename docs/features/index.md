@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: KashCal features
 slug: /features
-description: "Everything KashCal can do: seven calendar views, iCloud and CalDAV sync, Quick Add, reminders, widgets, search, insights, birthdays, and more."
+description: "Everything KashCal can do: seven calendar views, iCloud and CalDAV sync, smart event add, reminders, widgets, search, insights, birthdays, and more."
 ---
 
 # All features
@@ -17,7 +17,7 @@ Everything KashCal can do, in one place. Tap into any feature for the details.
 
 ## Creating events
 
-- **[Quick Add](../events/quick-add.md)**: type events in plain language.
+- **[Smart event add](../events/smart-event-add.md)**: type events in plain language.
 - **[The event form](../events/event-form.md)**: full control over every detail.
 - **[Recurring events](../events/recurring.md)**: repeating events and editing scopes.
 - **[Reminders](../events/reminders.md)**: alerts that survive reboots.
