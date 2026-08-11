@@ -51,13 +51,25 @@ The hub gathers:
     It comes two ways, one keeping the KashCal name and one showing a discreet
     **Calendar** name. Changing it may restart the app, and notifications always
     use the default icon and name.
-- **[Invites](../events/invites.md)**, every invitation still waiting on your reply.
-  A count appears on the row, and on the avatar itself, when something is owed.
-- **Go to date**, to jump anywhere in the calendar.
-- **[Share availability](../features/share-availability.md)**, to send someone your
-  free times as plain text.
-- **[Insights](../features/insights.md)**, analytics about how you spend your time.
-- **About** and a link to **Privacy & Security**.
+  - **Widget theme** and **Widget accent:** your [home-screen widgets](../features/widgets.md)
+    can follow the app or wear a look of their own. Leave both on **Follow app**, or
+    pin the widgets to Light/Dark and give them their own color. See
+    [Widgets](../features/widgets.md#colors-and-theme-together-or-apart).
+- **Own your calendar**, the things you do with your schedule:
+  - **[Invites](../events/invites.md)**, every invitation still waiting on your reply.
+    A count appears on the row, and on the avatar itself, when something is owed.
+  - **Go to date**, to jump anywhere in the calendar.
+  - **[Share availability](../features/share-availability.md)**, to send someone your
+    free times as plain text.
+  - **[Manage tags](../events/tags.md)**, where you recolor, rename, and remove the
+    [tags](../events/tags.md) you've used across your events.
+- **Privacy & Security**, everything about who can see your calendar and what it can reach:
+  - **[App lock](../features/app-lock.md)**, to require your fingerprint, face, or
+    screen lock before KashCal opens.
+  - **App permissions**, a single screen listing every permission KashCal uses, each
+    with the reason it needs it and a link to its system setting.
+  - A link to the full [Privacy & Security](../privacy/overview.md) page.
+- **About**, the version and app info.
 
 ## App shortcuts
 

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Settings
-description: Where to change KashCal's appearance, event defaults, sync, and privacy options, and what each setting does.
+description: Where to change KashCal's appearance, event defaults, sync, and backup options, and what each setting does.
 ---
 
 # Settings
@@ -38,6 +38,7 @@ top-right of any calendar view and look under **Make it yours** for **Theme**,
 - **Time format:** 12-hour, 24-hour, or follow the system. Each choice in the picker shows a sample time in that format, so you can see the difference before committing to it.
 - **Start week on:** whether your week begins on the system default, Monday, Sunday, or Saturday. This changes every calendar grid at once.
 - **Widget event limit:** how many events each day shows in the home-screen widgets. Choose 3, 5, 8, 10, or 15. The default is 5 per day.
+- **Detailed widget rows:** show each event on two lines in the list widgets, the title above its full start-to-end time, instead of one compact line. Off by default. See [Widgets](./widgets.md#two-lines-or-one).
 - **Show week numbers:** show the ISO week number alongside the month grid.
 - **Show declined events:** keep events you've declined visible, shown dimmed with a strikethrough, instead of hiding them.
 - **Event emojis:** when on, KashCal shows an emoji next to an event based on its title (a cake for a birthday, a plane for a flight). On by default; turn it off for a plainer list.
@@ -65,9 +66,15 @@ scrolling, your existing alert is kept exactly as it was, including an unusual v
 synced from another app that doesn't line up with the wheel's steps.
 :::
 
-## Notifications & sync
+## Sync
 
-- **Notifications:** tap to grant notification permission, so your reminders can alert you. The row shows whether it's enabled. See [Reminders](../events/reminders.md).
+:::note[Notification permission moved]
+Granting notification permission (so your reminders can alert you) now lives on the
+**App permissions** screen, reached from the account hub, alongside every other
+permission KashCal uses. See [Reminders](../events/reminders.md) and
+[The account hub](../calendar/navigation.md#the-account-hub).
+:::
+
 - **Sync frequency:** how often KashCal syncs in the background. Choose 15 or 30 minutes, 1, 6, 12, or 24 hours, or **Manual only** to sync only when you ask. The default is every hour, and 15 minutes is the shortest interval Android allows for background work.
 - **Sync lookback:** how far into the past to download events, from 3 months up to **All events**. The default is one year. Widen it if you need older history on the device.
 
@@ -82,9 +89,13 @@ See [How sync works](../sync/how-sync-works.md) for what happens during a sync.
 
 See [Backup & restore](./backup-restore.md) for what's included and what isn't.
 
-## Privacy
+## Privacy & Security
 
-- **App lock:** require your fingerprint, face, or screen lock to open KashCal. Off by default. See [App lock](./app-lock.md).
+:::note[App lock moved]
+The **App lock** toggle (require your fingerprint, face, or screen lock to open
+KashCal) now lives in the account hub, under **Privacy & Security**, rather than in
+Settings. See [App lock](./app-lock.md).
+:::
 
 ## Related
 

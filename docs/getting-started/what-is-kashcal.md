@@ -27,6 +27,8 @@ calendars *you* choose to connect.
 - **Get reminded.** Notifications that survive reboots, with snooze and dismiss.
 - **Subscribe to calendar feeds:** holidays, sports schedules, school terms via ICS links.
 - **Show birthdays from contacts** as yearly all-day events.
+- **[Mirror the contacts on your account](../sync/contacts.md)** onto your phone, names, numbers, and photos, from iCloud and CalDAV servers.
+- **[Label events with tags](../events/tags.md)** and manage their colors and names in one place.
 - **Put your day on the home screen:** agenda, week, month, date, and upcoming widgets.
 - **Search everything** with full-text search across titles, locations, and notes.
 - **See where your time goes** with on-device Insights that keep your data on your phone.

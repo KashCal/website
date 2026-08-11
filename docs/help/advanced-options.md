@@ -31,8 +31,8 @@ A sheet slides up (labeled **Developer Options** in the app).
 
 :::note[Sync frequency moved]
 Choosing how often background sync runs used to live here. It's now a regular
-**Sync frequency** row in Settings, under **Notifications & sync**. See
-[Settings](../features/settings.md#notifications--sync).
+**Sync frequency** row in Settings, under **Sync**. See
+[Settings](../features/settings.md#sync).
 :::
 
 ## When you'd use it

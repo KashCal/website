@@ -93,6 +93,11 @@ KashCal asks only for what its features require:
 You're asked for sensitive permissions (like Contacts and Notifications) in context,
 with a plain explanation, and you can decline. The rest of the app keeps working.
 
+To see them all in one place, open **App permissions** from the
+[account hub](../calendar/navigation.md#the-account-hub). It lists every permission
+KashCal uses, the reason for each, and a link straight to its system setting, so you
+can review or change any of them without hunting through Android's menus.
+
 ## Don't take our word for it
 
 Privacy claims are only as good as your ability to check them. KashCal is designed so

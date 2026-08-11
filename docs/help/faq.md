@@ -96,8 +96,12 @@ SHA-256 from the README.
 
 ## Does KashCal support CardDAV, tasks, or attachments?
 
-No. KashCal is events-only (VEVENT). It doesn't do CardDAV (contacts) or VTODO tasks
-and attachments. Calendars that contain only VTODO or VJOURNAL resources are skipped
+CardDAV (contacts): yes, one direction for now. KashCal can mirror the contacts on
+your iCloud or CalDAV account down onto your phone, names, numbers, emails, and photos,
+but it doesn't push changes back up yet. See [Contact sync](../sync/contacts.md).
+
+For calendars, KashCal is events-only (VEVENT). It doesn't do VTODO tasks, journals,
+or attachments. Calendars that contain only VTODO or VJOURNAL resources are skipped
 during sync.
 
 ## Can I use Syncthing instead of a CalDAV server?

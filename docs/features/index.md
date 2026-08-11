@@ -22,6 +22,7 @@ Everything KashCal can do, in one place. Tap into any feature for the details.
 - **[Recurring events](../events/recurring.md)**: repeating events and editing scopes.
 - **[Reminders](../events/reminders.md)**: alerts that survive reboots.
 - **[Event colors](../events/colors.md)**: color-code your schedule.
+- **[Tags](../events/tags.md)**: label events by what they are, and manage their colors and names in one place.
 - **[Scheduling & invitations](../events/attendees.md)**: invite people, send meeting invitations, and RSVP.
 - **[Invites](../events/invites.md)**: every invitation waiting on your reply, in one list.
 - **[Share an event as a card](./share-as-card.md)**: send an event as an image with a tappable calendar file.
@@ -30,6 +31,7 @@ Everything KashCal can do, in one place. Tap into any feature for the details.
 
 - **[Sync & accounts](../sync/index.md)**: iCloud, CalDAV, feeds, and device calendars.
 - **[Supported servers](../sync/supported-servers.md)**: the full compatibility list.
+- **[Contact sync](../sync/contacts.md)**: mirror the contacts on your account onto your phone.
 
 ## Getting more from your time
 

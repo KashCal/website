@@ -42,4 +42,5 @@ change a birthday, edit the contact.
 ## Related
 
 - [Reminders](../events/reminders.md): get nudged before the day
+- [Contact sync](../sync/contacts.md): mirror the full contacts from your account, not just their birthdays
 - [Settings](./settings.md): turn birthdays on or off

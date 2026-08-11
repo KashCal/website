@@ -52,20 +52,20 @@ refresh any time for an immediate sync.
 Events from an [ICS subscription](../sync/ics-subscriptions.md) can't be edited in
 KashCal. They belong to the source feed.
 
-## KashCal handles calendar events, not contacts or tasks
+## Contacts sync one way; tasks and journals aren't synced
 
-KashCal is an events app. It reads and writes calendar events (the `VEVENT` part of
-the calendar standard) and nothing else:
+KashCal is first an events app: it reads and writes calendar events (the `VEVENT` part
+of the calendar standard). It also mirrors contacts, but only in one direction for now:
 
-- **No contacts (CardDAV).** KashCal doesn't sync address books. It does read
-  birthdays and anniversaries from your phone's contacts, see
-  [Contact birthdays](../features/birthdays.md), but that's a one-way read, not
-  CardDAV.
+- **Contacts (CardDAV) are read-only.** KashCal can mirror the contacts on your iCloud
+  or CalDAV account down onto your phone, see [Contact sync](../sync/contacts.md), but
+  it doesn't push your phone-side edits back up to the server yet. Two-way editing may
+  come later. (Separately, it can read birthdays and anniversaries from your phone's
+  contacts, see [Contact birthdays](../features/birthdays.md).)
 - **No tasks or to-dos (VTODO), journals, or attachments.** Calendars that contain
   only tasks or journal entries are skipped during sync rather than shown as empty.
 
-This keeps the app focused and fast. A separate tasks or contacts app is the right
-tool for those.
+This keeps the app focused and fast.
 
 ## Google and Outlook connect through your phone, not directly
 

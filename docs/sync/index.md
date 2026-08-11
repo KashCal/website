@@ -15,6 +15,7 @@ standard behind most calendar services.
 
 - **iCloud**: connect your Apple calendars. See [iCloud setup](./providers/icloud.md).
 - **Any CalDAV server**: Nextcloud, Fastmail, Radicale, Baikal, Zoho, mailbox.org, Stalwart, SOGo, and more. See [CalDAV setup](./providers/caldav.md).
+- **Contacts (CardDAV)**: mirror the contacts on your iCloud or CalDAV account onto your phone. See [Contact sync](./contacts.md).
 - **Calendar feeds (ICS)**: subscribe to holidays, sports, or school calendars. See [Calendar feeds](./ics-subscriptions.md).
 - **Device calendars**: show calendars from other apps already on your phone. See [Device calendars](./device-calendars.md).
 - **Import/export files**: bring in or save out `.ics` files. See [Import & export](./import-export.md).
@@ -35,7 +36,7 @@ connected accounts. (The navigation drawer has a Settings entry too.)
 - **Choose your default calendar.** Under **Event preferences**, tap **Default calendar** to pick where new events go by default.
 - **Show or hide calendars.** Toggle individual calendars from the navigation drawer, where they're grouped by account.
 
-How far back sync downloads events applies to all accounts together, as does how often it runs. Both live in **Settings**, under **Notifications & sync** (**Sync lookback** and **Sync frequency**). See [Settings](../features/settings.md#notifications--sync) and [How sync works](./how-sync-works.md).
+How far back sync downloads events applies to all accounts together, as does how often it runs. Both live in **Settings**, under **Sync** (**Sync lookback** and **Sync frequency**). See [Settings](../features/settings.md#sync) and [How sync works](./how-sync-works.md).
 
 ## Quick links
 

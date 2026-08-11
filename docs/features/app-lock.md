@@ -15,13 +15,15 @@ When App lock is on, opening KashCal shows a lock screen that hides all your eve
 until you unlock. You unlock with whatever your device already uses: **fingerprint,
 face, or your screen lock** (PIN/pattern/password).
 
-In Settings you'll find it as **App lock**, described as "Require unlock to open
-KashCal" and "Unlock with fingerprint, face, or screen lock."
+You'll find it as **App lock** in the [account hub](../calendar/navigation.md#the-account-hub),
+under **Privacy & Security**. Tap the avatar in the top-right of any calendar view to
+open the hub.
 
 ## Turning it on
 
-App lock is **off by default**. Turn it on in Settings. You'll need a fingerprint,
-face, or screen lock already set up on your device:
+App lock is **off by default**. Turn it on from the account hub, under **Privacy &
+Security**. You'll need a fingerprint, face, or screen lock already set up on your
+device:
 
 > Set up a fingerprint, face, or screen lock in system settings to use App lock
 

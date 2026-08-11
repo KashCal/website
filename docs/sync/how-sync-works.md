@@ -29,7 +29,7 @@ make a change, you'll see:
 KashCal syncs in several ways:
 
 - **Pull to refresh**: pull down on any calendar view to sync immediately.
-- **In the background**: on a schedule you can adjust, from every 15 minutes up to once a day, or set to **Manual only**. The default is every hour, and 15 minutes is the shortest automatic interval Android allows. The **Sync frequency** row is in Settings, under [Notifications & sync](../features/settings.md#notifications--sync).
+- **In the background**: on a schedule you can adjust, from every 15 minutes up to once a day, or set to **Manual only**. The default is every hour, and 15 minutes is the shortest automatic interval Android allows. The **Sync frequency** row is in Settings, under [Sync](../features/settings.md#sync).
 - **When your connection returns**: pending changes go out as soon as you're back online.
 
 You control how far back in history to download, and how often background sync runs.
@@ -49,6 +49,9 @@ changes are preserved:
 
 > This will re-download all calendar data from the server. Local changes will be
 > preserved.
+
+The debug menu also holds the sync log and other diagnostics. See
+[Advanced options](../help/advanced-options.md).
 
 ## How far KashCal syncs
 

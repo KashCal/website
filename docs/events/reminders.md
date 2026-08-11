@@ -59,6 +59,9 @@ will ask:
 
 > KashCal needs notification permission to remind you about upcoming events.
 
+If you dismissed that ask, you can grant it later from the **App permissions** screen,
+reached from the [account hub](../calendar/navigation.md#the-account-hub).
+
 For reminders to arrive at the exact minute, KashCal also uses the precise-alarm
 capability. If your device asks about exact alarms, allowing it keeps reminders
 on time.

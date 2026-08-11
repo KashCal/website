@@ -16,8 +16,8 @@ navigation drawer.
 | **Month** | A familiar month grid with dots marking days that have events. Tap a day to see its events in the panel below, then swipe that panel left or right to step day by day. Swipe the grid itself to move between months. |
 | **Agenda** | A scrolling list of the next 90 days of events, grouped by date with times. Today and tomorrow are labelled **Today** and **Tomorrow** rather than by date. The top bar shows the month you're currently scrolled to and keeps pace as you move down the list. A week bar sits above the list, and you can collapse it when you want the extra room. |
 | **Day** | A single day as an hour-by-hour timeline. Overlapping events sit side by side. |
-| **3 Days** | Three days side by side as timelines, a good balance of detail and overview. |
-| **Week** | A full seven-day timeline. The header shows the month and week number. |
+| **3 Days** | Three days side by side as timelines, a good balance of detail and overview. Tap a day's header to open just that day in Day view; a back press returns you to the span you came from. |
+| **Week** | A full seven-day timeline. The header shows the month and week number. Tap a day's header to open just that day in Day view, then press back to return to the week. |
 | **Month (Full)** | A month grid where each day grows to show event titles stacked inside the cell, not just dots. |
 | **Year** | All twelve months at a glance. Tap any month to jump straight to it, or tap a year in the strip along the top. Swipe to move between years. |
 
@@ -35,6 +35,7 @@ The timeline views (Day, 3 Days, Week) are built for touch:
 - **Tap an empty slot** to start a new event there, pre-filled to the nearest 15 minutes.
 - **Swipe left/right** to move through time. In Day and 3 Days views a swipe moves one day; in Week view it moves a whole week.
 - **Tap a "+N more" badge** when a day has more events than fit, to see the full list.
+- **Expand the all-day row.** When a day has more all-day events than the strip shows, tap the chevron to expand it and see them all, and again to collapse. KashCal remembers the choice across restarts.
 
 In **Month** and **Year** views, swipe left and right to move between months or
 years, and tap a day or month to drill in.

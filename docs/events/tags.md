@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Tags
-description: "Label events with colored tag chips in KashCal, add them in the form or by typing #tag as you enter an event, shown across day, week, and agenda views."
+description: "Label events with colored tag chips in KashCal: add them in the form or by typing #tag, manage their color and name in one place, and carry them across your devices."
 ---
 
 import Screenshot from '@site/src/components/Screenshot';
@@ -38,6 +38,28 @@ the tags are listed there as well.
 If you'd rather the tag row sit above your notes than below, use the row's **⋮**
 menu in the form to move it. KashCal remembers your choice.
 
+## Managing your tags
+
+Tags have a home of their own. Open **Manage tags** from the
+[account hub](../calendar/navigation.md#the-account-hub) to see every tag you've used,
+each with:
+
+- **Change color:** pick the chip color from the palette.
+- **Rename:** fix a typo or reword a tag. Renaming rewrites the tag across every event
+  that carries it, not just the label on your screen, and on CalDAV accounts it pushes
+  the new name up to your server so your other devices catch up instead of drifting.
+  Rename a tag onto a name that already exists and the two **merge** into one.
+- **Delete:** remove a tag from the list. This only clears it from the manager; your
+  events keep their labels. A quick **Undo** appears in case you change your mind.
+
+## Tags on device-calendar events
+
+Tags aren't limited to KashCal's own calendars. Events from your
+[device calendars](../sync/device-calendars.md) (Google, Outlook, and the like) can
+carry tags too: add and remove them in the event form, and see them as chips on the
+card and in the quick view. They're stored in the standard **categories** field, so
+they travel with the event, though some device calendars may not preserve them.
+
 ## How tags are matched and stored
 
 - **Case-insensitive, first-casing wins.** `Work` and `work` are the same tag.
@@ -46,13 +68,6 @@ menu in the form to move it. KashCal remembers your choice.
 - **Up to 64 characters,** and no commas.
 - **Stored as standard calendar categories,** which is why they travel with the event
   when it syncs.
-
-## What tags don't do (yet)
-
-Tags work on the events KashCal syncs itself: your iCloud and other
-[CalDAV](../sync/supported-servers.md) calendars, plus local calendars. Events from
-[device calendars](../sync/device-calendars.md) can't carry tags, so KashCal hides the
-tag row on those rather than letting a tag you add quietly disappear.
 
 ## Related
 
