@@ -96,9 +96,6 @@ function Hero(): ReactNode {
               href="https://f-droid.org/packages/org.onekash.kashcal/">
               <img src={useBaseUrl('/img/badges/get-it-on-fdroid.png')} alt="Get it on F-Droid" />
             </Link>
-            <Link className="kc-btn kc-btn--ghost" to="/docs">
-              Read the docs
-            </Link>
           </div>
           <p className="kc-hero__note">Works on Android 12 and newer.</p>
         </div>
