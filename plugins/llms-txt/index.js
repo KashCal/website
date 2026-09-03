@@ -135,7 +135,7 @@ module.exports = function llmsTxtPlugin(context) {
         'Notes for readers:',
         `- For the entire documentation in one file, see ${SITE_URL}/llms-full.txt.`,
         '- KashCal is free and open source under Apache-2.0. No account, no tracking, no KashCal servers; your calendar data stays on your device and syncs directly with your own providers.',
-        '- Get it from F-Droid: https://f-droid.org/packages/org.onekash.kashcal/. Source: https://github.com/KashCal/KashCal.',
+        '- Get it on Google Play: https://play.google.com/store/apps/details?id=org.onekash.kashcal, or F-Droid: https://f-droid.org/packages/org.onekash.kashcal/. Source: https://github.com/KashCal/KashCal.',
         '- Runs on Android (API 31+). Syncs iCloud, CalDAV (Nextcloud, Fastmail, Radicale, Baikal, Zoho, mailbox.org, Stalwart, SOGo, and more), ICS feed subscriptions, and device calendars.',
         '',
       ];

@@ -14,7 +14,7 @@ import FaqSchema from '@site/src/components/FaqSchema';
   {question: 'Does KashCal track me or sell my data?', answer: 'No. There is no analytics, no telemetry, and no advertising. Your data stays on your device and your own calendar servers.'},
   {question: 'Which calendar services does it work with?', answer: 'iCloud and any CalDAV server: Nextcloud, Fastmail, Radicale, Baikal, Zoho, mailbox.org, Stalwart, SOGo, and more.'},
   {question: 'Does it work with Google Calendar or Outlook?', answer: 'Yes, through your phone. Google removed third-party CalDAV access and Outlook does not expose CalDAV, so both come in through the Device Calendar bridge: if the Google or Outlook app already syncs those calendars to your phone, KashCal shows them.'},
-  {question: 'Is KashCal on the Google Play Store?', answer: 'Not yet. KashCal is distributed through F-Droid, IzzyOnDroid, and Obtainium.'},
+  {question: 'Is KashCal on the Google Play Store?', answer: 'Yes. KashCal is on Google Play, and also on F-Droid, IzzyOnDroid, Obtainium, and GitHub Releases. It is the same free, open-source, no-account app on every channel.'},
   {question: 'Does KashCal support CardDAV, tasks, or attachments?', answer: 'No. KashCal is events-only (VEVENT). It does not do CardDAV (contacts) or VTODO tasks and attachments. Calendars that contain only VTODO or VJOURNAL resources are skipped during sync.'},
   {question: 'Why will my iCloud password not work?', answer: 'iCloud requires an app-specific password, not your normal Apple password. Create one at account.apple.com and use that to connect.'},
   {question: 'Can I use KashCal offline?', answer: 'Yes, it is offline-first. You can view and edit events with no connection, and changes sync automatically when you are back online.'},
@@ -80,17 +80,21 @@ place to post.
 
 ## Is KashCal on the Google Play Store?
 
-Not yet. KashCal is distributed through [F-Droid, IzzyOnDroid, and
-Obtainium](../getting-started/install.md).
+Yes. You can [get KashCal on Google
+Play](https://play.google.com/store/apps/details?id=org.onekash.kashcal), and it's
+also on [F-Droid, IzzyOnDroid, Obtainium, and GitHub
+Releases](../getting-started/install.md). It's the same free, open-source, no-account
+app on every channel, with no ads or trackers added anywhere.
 
-## Why do F-Droid and GitHub APKs have different signatures?
+## Why do builds from different sources have different signatures?
 
-F-Droid signs its builds with its own key, while GitHub Releases use the upstream key
-(the cert SHA-256 is published in the
-[README](https://github.com/KashCal/KashCal#readme)). The two signatures are not
-interchangeable, so you can't install one over the other. To switch sources you have
-to uninstall first, and uninstalling clears local-only data. Export your settings and
-any local events as ICS before you switch. To verify the GitHub APK, use
+Each channel signs with a different key. F-Droid signs its builds with its own key,
+Google Play re-signs with a Google-managed key (Play App Signing), and GitHub Releases
+use the upstream key (the cert SHA-256 is published in the
+[README](https://github.com/KashCal/KashCal#readme)). Those signatures are not
+interchangeable, so you can't install one over another. To switch sources you have to
+uninstall first, and uninstalling clears local-only data. Export your settings and any
+local events as ICS before you switch. To verify the GitHub APK, use
 [AppVerifier](https://github.com/soupslurpr/AppVerifier) or Obtainium with the cert
 SHA-256 from the README.
 

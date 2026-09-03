@@ -99,7 +99,15 @@ const config: Config = {
           'https://kashcal.onekash.org/img/screenshots/Quick-Event-Add.png',
         ],
         url: 'https://kashcal.onekash.org',
-        downloadUrl: 'https://f-droid.org/packages/org.onekash.kashcal/',
+        downloadUrl: 'https://play.google.com/store/apps/details?id=org.onekash.kashcal',
+        installUrl: 'https://play.google.com/store/apps/details?id=org.onekash.kashcal',
+        // Tie this web entity to the store listings and source so search
+        // engines connect the site, the Play listing, and the repo.
+        sameAs: [
+          'https://play.google.com/store/apps/details?id=org.onekash.kashcal',
+          'https://f-droid.org/packages/org.onekash.kashcal/',
+          'https://github.com/KashCal/KashCal',
+        ],
         license: 'https://www.apache.org/licenses/LICENSE-2.0',
         offers: {'@type': 'Offer', price: '0', priceCurrency: 'USD'},
         author: {
@@ -238,7 +246,7 @@ const config: Config = {
       {
         name: 'description',
         content:
-          'Free, open-source calendar for Android. Sync iCloud, CalDAV, holidays, and birthdays. Smart event add, Insights, Widgets. Private by default, no account required.',
+          'Free, open-source calendar for Android, now on Google Play. Sync iCloud, CalDAV, holidays, and birthdays. Smart event add, Insights, Widgets. Private by default, no account required.',
       },
       {property: 'og:site_name', content: 'KashCal'},
       {name: 'apple-mobile-web-app-title', content: 'KashCal'},
@@ -280,7 +288,7 @@ const config: Config = {
             {label: 'Privacy', to: '/docs/privacy/overview'},
             {label: 'Donate', to: '/donate'},
             {label: 'Work with us', to: '/work-with-us'},
-            {label: 'Get KashCal', href: 'https://f-droid.org/packages/org.onekash.kashcal/'},
+            {label: 'Get KashCal', to: '/docs/getting-started/install'},
             {label: 'Source', href: 'https://github.com/KashCal/KashCal'},
             {label: 'RSS', href: 'pathname:///blog/rss.xml'},
           ],

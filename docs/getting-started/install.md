@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Install KashCal
-description: Install KashCal on Android from F-Droid, IzzyOnDroid, Obtainium, or GitHub Releases. Free, open source, no account required.
+description: Install KashCal on Android from Google Play, F-Droid, IzzyOnDroid, Obtainium, or GitHub Releases. Free, open source, no account required.
 ---
 
 # Install KashCal
@@ -9,7 +9,15 @@ description: Install KashCal on Android from F-Droid, IzzyOnDroid, Obtainium, or
 KashCal lives in a few open, trusted places. Pick whichever you already use. They
 all install the same app.
 
-## F-Droid (recommended)
+## Google Play
+
+KashCal is on the
+[Google Play Store](https://play.google.com/store/apps/details?id=org.onekash.kashcal).
+Open Play, search for **KashCal**, and tap **Install**, the same one-tap update path
+you use for every other app on your phone. It's the same free, open-source,
+no-account app you'll find everywhere else, with no ads or trackers added.
+
+## F-Droid
 
 [F-Droid](https://f-droid.org/packages/org.onekash.kashcal/) is the open-source
 app store for Android. It builds KashCal from public source code, so you can trust

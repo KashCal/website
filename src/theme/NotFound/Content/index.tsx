@@ -15,9 +15,9 @@ const DESTINATIONS = [
   {to: '/docs/help/faq', label: 'FAQ', desc: 'Quick answers to common questions.'},
   {to: '/blog', label: 'Blog', desc: 'Release notes and deep-dives.'},
   {
-    href: 'https://f-droid.org/packages/org.onekash.kashcal/',
+    to: '/docs/getting-started/install',
     label: 'Get KashCal',
-    desc: 'Download from F-Droid.',
+    desc: 'Install from Google Play, F-Droid, and more.',
   },
 ];
 

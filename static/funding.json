@@ -15,7 +15,7 @@
     {
       "guid": "kashcal",
       "name": "KashCal",
-      "description": "Your calendars are everywhere. Family on iCloud. Work on the phone calendar. Holidays from some website. Birthdays buried in your contacts. KashCal pulls them into one app on Android.\n\nSync iCloud directly. No workaround needed. Connect any CalDAV server: Nextcloud, Fastmail, Radicale, Baikal, Zoho, mailbox.org, Posteo, Stalwart, SOGo, and others. Subscribe to ICS feeds for holidays, school terms, and sports seasons. See your phone's built-in calendar alongside everything else. Birthdays pull from contacts automatically.\n\nSmart event add turns 'Coffee with Kash tomorrow 3pm' into an event. Handles dates, times, recurrence, and locations. Insights show where your time goes. Busiest days, back-to-back streaks, free blocks. All computed on-device. Home-screen widgets put your day at a glance. Six views with pinch-to-zoom and drag-to-reschedule. Available in 67 languages.\n\nPrivate by default. Credentials encrypted with Android Keystore. No analytics. No telemetry. No KashCal account. Events stay in a secure database other apps can't read. We have no servers. There is nothing to collect.\n\nFunding goes to the work. CalDAV compatibility testing across iCloud, Nextcloud, Fastmail, Radicale, Baikal, Zoho, mailbox.org, Posteo, Stalwart, SOGo, and others. RFC 6638 scheduling so meeting invitations work end-to-end. Translation upkeep across 67 languages on every release. Faster background sync. Steady release cadence.\n\nFree and open source under Apache-2.0. Distributed via F-Droid, IzzyOnDroid, GitHub Releases, and Obtainium.",
+      "description": "Your calendars are everywhere. Family on iCloud. Work on the phone calendar. Holidays from some website. Birthdays buried in your contacts. KashCal pulls them into one app on Android.\n\nSync iCloud directly. No workaround needed. Connect any CalDAV server: Nextcloud, Fastmail, Radicale, Baikal, Zoho, mailbox.org, Posteo, Stalwart, SOGo, and others. Subscribe to ICS feeds for holidays, school terms, and sports seasons. See your phone's built-in calendar alongside everything else. Birthdays pull from contacts automatically.\n\nSmart event add turns 'Coffee with Kash tomorrow 3pm' into an event. Handles dates, times, recurrence, and locations. Insights show where your time goes. Busiest days, back-to-back streaks, free blocks. All computed on-device. Home-screen widgets put your day at a glance. Six views with pinch-to-zoom and drag-to-reschedule. Available in 67 languages.\n\nPrivate by default. Credentials encrypted with Android Keystore. No analytics. No telemetry. No KashCal account. Events stay in a secure database other apps can't read. We have no servers. There is nothing to collect.\n\nFunding goes to the work. CalDAV compatibility testing across iCloud, Nextcloud, Fastmail, Radicale, Baikal, Zoho, mailbox.org, Posteo, Stalwart, SOGo, and others. RFC 6638 scheduling so meeting invitations work end-to-end. Translation upkeep across 67 languages on every release. Faster background sync. Steady release cadence.\n\nFree and open source under Apache-2.0. Distributed via Google Play, F-Droid, IzzyOnDroid, GitHub Releases, and Obtainium.",
       "webpageUrl": {
         "url": "https://kashcal.onekash.org"
       },
@@ -40,7 +40,7 @@
         "guid": "annual-grant",
         "status": "active",
         "name": "Annual sustaining grant",
-        "description": "A year of focused maintenance and development as a one-time grant. Funds CalDAV server compatibility testing across nine providers, RFC 6638 scheduling work so meeting invitations interoperate, ongoing translation review for 67 languages, faster background sync, and a steady release cadence on F-Droid and IzzyOnDroid.",
+        "description": "A year of focused maintenance and development as a one-time grant. Funds CalDAV server compatibility testing across nine providers, RFC 6638 scheduling work so meeting invitations interoperate, ongoing translation review for 67 languages, faster background sync, and a steady release cadence on Google Play, F-Droid, and IzzyOnDroid.",
         "amount": 25000,
         "currency": "USD",
         "frequency": "one-time",
@@ -50,7 +50,7 @@
         "guid": "monthly-sustainer",
         "status": "active",
         "name": "Monthly sustainer",
-        "description": "Recurring monthly support via GitHub Sponsors. Funds ongoing CalDAV compatibility work, RFC 6638 scheduling, translation upkeep across 67 languages, and steady releases on F-Droid and IzzyOnDroid.",
+        "description": "Recurring monthly support via GitHub Sponsors. Funds ongoing CalDAV compatibility work, RFC 6638 scheduling, translation upkeep across 67 languages, and steady releases on Google Play, F-Droid, and IzzyOnDroid.",
         "amount": 3000,
         "currency": "USD",
         "frequency": "monthly",

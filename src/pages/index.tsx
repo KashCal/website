@@ -88,6 +88,11 @@ function Hero(): ReactNode {
           <div className="kc-hero__cta">
             <Link
               className="kc-btn kc-btn--accent"
+              href="https://play.google.com/store/apps/details?id=org.onekash.kashcal">
+              Get it on Google Play
+            </Link>
+            <Link
+              className="kc-btn kc-btn--solid"
               href="https://f-droid.org/packages/org.onekash.kashcal/">
               Get it on F-Droid
             </Link>
@@ -155,7 +160,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title="A private calendar for Android with iCloud and CalDAV sync"
-      description="Free, open-source calendar for Android. Sync iCloud, CalDAV, holidays, and birthdays. Smart event add, Insights, widgets. Private by default, no account required.">
+      description="Free, open-source calendar for Android, now on Google Play. Sync iCloud, CalDAV, holidays, and birthdays. Smart event add, Insights, widgets. Private by default, no account required.">
       <Hero />
       <main>
         <Screenshots />

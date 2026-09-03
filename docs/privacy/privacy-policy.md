@@ -19,8 +19,8 @@ This Privacy Policy describes how OneKash Labs ("we," "us," or "our") handles
 information in connection with the KashCal mobile application ("the App"). KashCal
 stores all data locally on your device. Nothing is sent to us.
 
-This policy applies to all versions of KashCal distributed via F-Droid, GitHub
-Releases, or direct APK download.
+This policy applies to all versions of KashCal distributed via Google Play, F-Droid,
+GitHub Releases, or direct APK download.
 
 ## Data Collection
 
