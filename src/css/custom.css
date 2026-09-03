@@ -287,6 +287,24 @@ h3 {
   color: #fff;
 }
 
+/* Official store badges. Both source assets share a 646x250 canvas with their
+   own built-in clear space, so a single fixed height matches them exactly. */
+.kc-store-badge {
+  display: inline-flex;
+  align-items: center;
+  transition: transform 0.12s ease;
+}
+
+.kc-store-badge:hover {
+  transform: translateY(-2px);
+}
+
+.kc-store-badge img {
+  height: 56px;
+  width: auto;
+  display: block;
+}
+
 /* ----------------------------------------------------------------------- */
 /* Quick Add demo (hero signature)                                         */
 /* ----------------------------------------------------------------------- */

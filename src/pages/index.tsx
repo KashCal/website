@@ -87,14 +87,14 @@ function Hero(): ReactNode {
           </p>
           <div className="kc-hero__cta">
             <Link
-              className="kc-btn kc-btn--accent"
+              className="kc-store-badge"
               href="https://play.google.com/store/apps/details?id=org.onekash.kashcal">
-              Get it on Google Play
+              <img src={useBaseUrl('/img/badges/get-it-on-google-play.png')} alt="Get it on Google Play" />
             </Link>
             <Link
-              className="kc-btn kc-btn--solid"
+              className="kc-store-badge"
               href="https://f-droid.org/packages/org.onekash.kashcal/">
-              Get it on F-Droid
+              <img src={useBaseUrl('/img/badges/get-it-on-fdroid.png')} alt="Get it on F-Droid" />
             </Link>
             <Link className="kc-btn kc-btn--ghost" to="/docs">
               Read the docs
