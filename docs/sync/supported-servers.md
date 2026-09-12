@@ -19,12 +19,15 @@ guides. Everything else connects through the general
 | **Nextcloud** | [CalDAV guide](./providers/caldav.md) | Server address, username, and an **app password** |
 | **Fastmail** | [CalDAV guide](./providers/caldav.md) | Server address, username, and an **app password** |
 | **Radicale** | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
-| **Baikal** | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
+| **Baikal** | [CalDAV guide](./providers/caldav.md) | Server address, username, password (Digest Auth supported) |
 | **Zoho** | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
 | **mailbox.org** | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
 | **Posteo** | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
 | **Stalwart** | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
 | **SOGo** | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
+| **Infomaniak** | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
+| **Davis** | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
+| **Purelymail** | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
 | **Any other CalDAV server** | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
 
 :::tip[Automatic discovery]

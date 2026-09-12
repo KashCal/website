@@ -56,6 +56,15 @@ and it opens with the URL already filled in, so you just pick a refresh interval
 and save. `webcal://` is the same feed as its `https://` version, just a
 different label, so pasting either one works and previews the same events.
 
+### Feeds on your home network
+
+On **Android 17 and newer**, apps need your permission before they can reach devices on
+your local network. If a feed's URL points to an address on your own network, KashCal
+shows a banner on the subscription screen asking you to allow local network access so it
+can fetch the feed. Tap to allow it and the feed loads. It's a banner rather than a
+blocking dialog, so you can carry on adding the feed and grant it when you're ready.
+Without it, a feed at an address like `192.168.1.10` can't be reached.
+
 ## How often feeds refresh
 
 Pick the refresh interval that suits the feed:

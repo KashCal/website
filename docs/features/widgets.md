@@ -18,8 +18,8 @@ home screen, choose **Widgets**, and find KashCal.
 |--------|---------------|
 | **Today's Agenda** | Today's events in a list, with past events dimmed and upcoming ones highlighted. Has an "add event" button, and says so when your day is clear. |
 | **Week View** | The next seven days at a glance. |
-| **Month View** | A full month grid with colored dots marking days that have events. Single-letter day names run across the top, today is marked with a filled circle, and you can add a week-number column. Page through months with the ‹ › arrows, tap the title to jump back to the current month, and tap **+** to add an event, all without opening the app. |
-| **Date** | Today's date, styled like an app icon, for a clear at-a-glance day marker. |
+| **Month View** | A full month grid marking the days that have events. Give it a little height and each day names its events, mirroring the in-app month view: a timed event shows as a color stripe with its title, an all-day event as a filled chip. Keep it slim and it falls back to colored dots. It switches between dots and titles on its own based on how tall you size it, with no setting to manage. Single-letter day names run across the top, today is marked with a filled circle, and you can add a week-number column. Page through months with the ‹ › arrows, tap the title to jump back to the current month, and tap **+** to add an event. Tap an event's title to open it (or, in dots mode, tap a day to open its first event), and tap the **+n** overflow marker to open that day, all without opening the app. |
+| **Date** | Today's date, styled like an app icon, for a clear at-a-glance day marker. It's resizable: it starts as a 1x1 icon and grows into a full date card as you make it bigger. |
 | **Upcoming** | The next ten days of events, skipping days with nothing on them. |
 
 Tap any event on a widget to open it in KashCal, and use the **+** button on the

@@ -11,8 +11,9 @@ Knowing them up front saves a surprise later.
 
 ## Invitations depend on your calendar account
 
-Sending and receiving meeting invitations works only with calendar accounts that
-support scheduling:
+Sending and receiving meeting invitations relies on your calendar account supporting
+scheduling (the CalDAV scheduling extension). Not every server does, and some do it only
+partway:
 
 - **Local-only calendars** can't send invitations. If you add guests, they're saved
   with the event but not notified:
@@ -26,6 +27,10 @@ support scheduling:
   in advance. The guests are on the event, but they aren't notified. This matches how
   other calendar apps behave: when a server won't deliver, sending the invite is up to
   you. Major services like iCloud generally deliver as expected.
+- **Your reply might not reach the organizer on some servers.** A few servers expect the
+  app to deliver RSVP replies itself rather than handling it server-side. On those,
+  KashCal saves your response but may not get it back to the organizer. Major services
+  like iCloud handle this for you.
 
 ## RSVP to a recurring event covers the whole series
 
@@ -52,16 +57,23 @@ refresh any time for an immediate sync.
 Events from an [ICS subscription](../sync/ics-subscriptions.md) can't be edited in
 KashCal. They belong to the source feed.
 
-## Contacts sync one way; tasks and journals aren't synced
+## Contact sync is two-way (beta); tasks and journals aren't synced
 
 KashCal is first an events app: it reads and writes calendar events (the `VEVENT` part
-of the calendar standard). It also mirrors contacts, but only in one direction for now:
+of the calendar standard). It also syncs contacts, now in both directions:
 
-- **Contacts (CardDAV) are read-only.** KashCal can mirror the contacts on your iCloud
-  or CalDAV account down onto your phone, see [Contact sync](../sync/contacts.md), but
-  it doesn't push your phone-side edits back up to the server yet. Two-way editing may
-  come later. (Separately, it can read birthdays and anniversaries from your phone's
-  contacts, see [Contact birthdays](../features/birthdays.md).)
+- **Contacts (CardDAV) sync both ways, in beta.** KashCal syncs the contacts on your
+  iCloud or CalDAV account with your phone, see [Contact sync](../sync/contacts.md):
+  edits, deletes, and photos now travel in both directions. It's a beta while it
+  settles, so expect the odd rough edge and report anything that looks off. (Separately,
+  it can read birthdays and anniversaries from your phone's contacts, see
+  [Contact birthdays](../features/birthdays.md).)
+- **Contact sync rides on a calendar account.** KashCal finds your address book from the
+  same account you added for your calendars, using standard CardDAV discovery (the
+  `/.well-known/carddav` path and your account's principal). If your provider keeps
+  contacts somewhere that can't be reached from your calendar account, or offers no
+  `/.well-known/carddav` and no CalDAV calendar to derive the location from, KashCal
+  won't find your contacts even when your calendars sync fine.
 - **No tasks or to-dos (VTODO), journals, or attachments.** Calendars that contain
   only tasks or journal entries are skipped during sync rather than shown as empty.
 
@@ -83,6 +95,16 @@ KashCal offers month, agenda, day, 3-day, week, full-month, and year views, plus
 Insights. There's no multi-month grid (like a 3- or 6-month view) and no
 non-Gregorian calendar system (such as Hijri or lunar). The Gregorian calendar is the
 only one available.
+
+## Updates can't cross install sources
+
+KashCal comes from several places, and they don't all sign the app with the same key.
+Google Play and F-Droid sign their builds with their own keys; the GitHub Releases,
+IzzyOnDroid, and Obtainium APKs share KashCal's own key. Android won't let a build with
+one signature update over a build with another, so to switch sources, say from F-Droid
+to the GitHub APK, you have to uninstall first, which clears the app's local data.
+[Back up](../features/backup-restore.md) before you switch and restore afterward.
+Staying on one source updates normally.
 
 ---
 

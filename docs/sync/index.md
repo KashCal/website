@@ -14,8 +14,8 @@ standard behind most calendar services.
 ## Ways to bring in calendars
 
 - **iCloud**: connect your Apple calendars. See [iCloud setup](./providers/icloud.md).
-- **Any CalDAV server**: Nextcloud, Fastmail, Radicale, Baikal, Zoho, mailbox.org, Stalwart, SOGo, and more. See [CalDAV setup](./providers/caldav.md).
-- **Contacts (CardDAV)**: mirror the contacts on your iCloud or CalDAV account onto your phone. See [Contact sync](./contacts.md).
+- **Any CalDAV server**: Nextcloud, Fastmail, Radicale, Baikal, Zoho, mailbox.org, Stalwart, SOGo, Infomaniak, Davis, Purelymail, and more. See [CalDAV setup](./providers/caldav.md).
+- **Contacts (CardDAV)**: sync the contacts on your iCloud or CalDAV account with your phone. See [Contact sync](./contacts.md).
 - **Calendar feeds (ICS)**: subscribe to holidays, sports, or school calendars. See [Calendar feeds](./ics-subscriptions.md).
 - **Device calendars**: show calendars from other apps already on your phone. See [Device calendars](./device-calendars.md).
 - **Import/export files**: bring in or save out `.ics` files. See [Import & export](./import-export.md).

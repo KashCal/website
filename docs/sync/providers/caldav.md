@@ -11,7 +11,8 @@ import Screenshot from '@site/src/components/Screenshot';
 <Screenshot src="/img/screenshots/CalDAV-Account.png" alt="KashCal CalDAV account sign-in screen" align="right" caption="Server address, username, and password." />
 
 This is the one path that connects just about any CalDAV calendar service, including
-Nextcloud, Fastmail, Radicale, Baikal, Zoho, mailbox.org, Stalwart, SOGo, and more.
+Nextcloud, Fastmail, Radicale, Baikal, Zoho, mailbox.org, Stalwart, SOGo, Infomaniak,
+Davis, Purelymail, and more.
 
 ## Add the account
 

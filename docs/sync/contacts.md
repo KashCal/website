@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: Contact sync (CardDAV)
-description: "Mirror the contacts on your iCloud or CalDAV account onto your phone with KashCal: names, numbers, emails, and photos, kept current every sync, read-only for now."
+description: "Sync the contacts on your iCloud or CalDAV account with your phone in KashCal: names, numbers, emails, and photos, kept current every sync, now with two-way sync in beta."
 ---
 
 # Contact sync
@@ -29,7 +29,8 @@ app, in the dialer, and anywhere else that reads them, not only inside KashCal.
 
 ## What comes across
 
-The mirror keeps the detail you filed a contact under, not just a name and number:
+Contact sync brings across the detail you filed a contact under, not just a name and
+number:
 
 - **Names**, including phonetic spellings, nicknames, and prefixes and suffixes
 - **Phone numbers and email addresses**, each with its label (home, work, mobile, or
@@ -40,16 +41,17 @@ The mirror keeps the detail you filed a contact under, not just a name and numbe
 - **Birthdays and anniversaries**
 - **Contact photos**
 
-## One direction, for now
+## Two-way sync, in beta
 
-Contact sync is a **one-way, read-only mirror**: it reads your server and writes to
-your phone, never the other way. Nothing you change in your phone's address book
-reaches back and edits the contacts on your account, so there's no risk of the app
-rewriting your server-side contacts. Two-way editing may come in a later release;
-read-only is the safe half to ship first.
+Contact sync now runs **both ways**, offered as a **beta** while it settles in. Edit a
+synced contact on your phone, delete one, or change a contact photo, and the change now
+travels back up to your server instead of staying on your device. Changes made on the
+server (or in its own app, like iCloud) still flow down to your phone at the next sync,
+just as they always have.
 
-Because the app doesn't sync contacts back, edit a synced contact on the server (or in
-its own app, like iCloud) and the change flows down at the next sync.
+It's marked beta in the app, on the **Contacts** toggle in each account's settings,
+because it's still stabilizing. If you'd like to help shape it, keep an eye on how your
+edits land on the server and report anything that looks off.
 
 ## Turning it off
 
