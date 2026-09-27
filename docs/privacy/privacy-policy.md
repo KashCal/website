@@ -6,7 +6,7 @@ description: KashCal's full privacy policy. No data is collected, and nothing is
 
 # Privacy Policy
 
-*Effective April 21, 2026*
+*Effective September 27, 2026*
 
 :::note
 This is the detailed policy. For a plainer walkthrough of how KashCal protects your
@@ -56,6 +56,15 @@ provide. No data passes through our infrastructure.
 **Contact birthdays.** With your permission, KashCal reads birthday dates from your
 contacts. This is processed entirely on-device and never transmitted.
 
+**Contact sync.** If you turn on contact sync, KashCal writes your account's contacts to
+Android's Contacts store, where other apps with Contacts permission can read them, and
+uploads contact changes you make on the phone to your account's server.
+
+**Other connections.** When you type a location, Android's address lookup (Geocoder, a
+network service run by Google or your phone's maker) suggests addresses. KashCal may
+download a missing intermediate certificate to complete a server's TLS certificate chain.
+The holiday calendar catalog fetches feeds from thunderbird.net.
+
 Third-party sync services you connect are governed by their own privacy policies.
 Review those policies before configuring sync.
 
@@ -73,7 +82,8 @@ plain-language breakdown of each permission, see
 - **Transport security:** Network connections use TLS/HTTPS by default. Plaintext HTTP
   is used only if you deliberately enter an `http://` address for a self-hosted server;
   addresses without a scheme default to HTTPS.
-- **Backup exclusion:** Credentials and sync logs are excluded from Android backup.
+- **Backup exclusion:** Credentials are excluded from Android backup. The rest of KashCal's
+  data, including sync logs, is included when Android backup is on.
 - **No remote access:** We cannot retrieve, view, or modify information on your
   device.
 

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Calendar feeds (ICS subscriptions)
-description: Subscribe to ICS calendar feeds in KashCal, public holidays, team schedules, sports fixtures, and pick how often each one refreshes.
+description: Subscribe to ICS calendar feeds in KashCal, such as public holidays, team schedules and sports fixtures, and set how often each one refreshes.
 ---
 
 import Screenshot from '@site/src/components/Screenshot';
@@ -10,95 +10,100 @@ import Screenshot from '@site/src/components/Screenshot';
 
 <Screenshot src="/img/screenshots/ICS-Subscription.png" alt="Adding a calendar feed subscription in KashCal" align="right" caption="Paste a feed URL and pick how often it refreshes." />
 
-Follow the calendars someone else keeps up to date: public holidays, your team's
-fixtures, school terms, release dates, and more. These are free, read-only ICS
-links, not paid subscriptions.
+A calendar feed is a calendar someone else keeps up to date: public holidays, your team's
+fixtures, school terms, release dates. Feeds are free, read-only ICS links, not paid
+subscriptions.
 
 ## Add a holiday calendar
 
-The quickest way to get started is the built-in holiday catalog, so you don't have to
-hunt for a URL:
+The holiday catalog saves you hunting for a URL:
 
 1. Open Settings → **Calendar feeds (ICS)**.
 2. Tap **Add holiday calendar**.
-3. Search for your country and tap it to subscribe.
+3. Search for your country and tap it.
 
-KashCal ships a catalog of national holiday calendars for many countries (some in
-more than one language). Countries you're already subscribed to are marked **Added**.
-Each one is a regular calendar feed, so it stays up to date on its own and follows all
-the behavior below.
+KashCal checks that the feed can be reached, then subscribes. The catalog has 86 feeds
+for 77 countries, and seven countries come in more than one language. Countries you
+already follow are marked **Added**. Each holiday calendar is a regular feed and follows
+the rules on this page.
 
 :::note[Where these come from]
 The holiday calendars come from Mozilla Thunderbird's public holiday feeds, licensed
-under CC BY-SA 3.0. KashCal only points at those feeds; it doesn't host the calendar
-data itself.
+under CC BY-SA 3.0. KashCal points at those feeds. It doesn't host the calendar data.
 :::
 
 ## Add any other feed
 
-For a feed that isn't in the holiday catalog (a sports schedule, your school's term
-dates, and so on):
+For a feed that isn't in the holiday catalog, such as a sports schedule or your school's
+term dates:
 
-1. Open Settings → **Calendar feeds (ICS)** → add a calendar.
-2. Paste the feed's URL. It must start with `http://`, `https://`, or `webcal://`:
-   > URL must start with http://, https://, or webcal://
-3. Choose how often it should refresh.
-4. Save.
+1. Open Settings → **Calendar feeds (ICS)**.
+2. Tap **Add ICS Calendar**.
+3. Paste the feed's address into **Calendar URL**. It starts with `http://`, `https://`,
+   `webcal://` or `webcals://`.
+4. Tap **Fetch Calendar**. KashCal downloads the feed and shows how many events it
+   found, for example "Found: 42 events". If the feed can't be read, it shows the error
+   instead.
+5. Check the name KashCal filled in from the feed. To change the color, tap **Color:**.
+6. Tap **Add**.
 
-KashCal checks for an existing subscription so you don't add the same feed twice.
+**Add** stays disabled until the fetch succeeds. Every feed starts with a daily
+refresh. To change that, edit the feed after you add it (see [How often feeds refresh](#how-often-feeds-refresh)).
 
-### webcal:// links work too
+If you already follow the same URL, KashCal doesn't add it again and shows "Already
+subscribed to this URL".
 
-Many sites offer a **Subscribe** or **Add to Calendar** button that hands your
-device a `webcal://` link (Google Calendar, Apple Calendar, and lots of holiday
-and sports feeds do this). KashCal is webcal compatible: tap one of those links
-and it opens with the URL already filled in, so you just pick a refresh interval
-and save. `webcal://` is the same feed as its `https://` version, just a
-different label, so pasting either one works and previews the same events.
+### webcal:// links
+
+Google Calendar, Apple Calendar and many holiday and sports sites have a Subscribe or
+Add to Calendar button that hands your phone a `webcal://` link. Tap one and open it
+with KashCal. The add sheet opens with the URL filled in. Tap
+**Fetch Calendar**, then **Add**. A `webcal://` address is the same feed as its
+`https://` version, so pasting either one gives the same events.
 
 ### Feeds on your home network
 
-On **Android 17 and newer**, apps need your permission before they can reach devices on
-your local network. If a feed's URL points to an address on your own network, KashCal
-shows a banner on the subscription screen asking you to allow local network access so it
-can fetch the feed. Tap to allow it and the feed loads. It's a banner rather than a
-blocking dialog, so you can carry on adding the feed and grant it when you're ready.
-Without it, a feed at an address like `192.168.1.10` can't be reached.
+On Android 17 and newer, apps need your permission to reach devices on your local
+network. When a feed's URL points to an address on your own network, or the fetch fails
+to connect, the add sheet shows a **Local network access needed** banner. Tap **Allow access** to
+grant it, or **Not now** to hide the banner. The banner doesn't block the form. Without
+the permission, KashCal can't reach a feed at an address like `192.168.1.10`.
 
 ## How often feeds refresh
 
-Pick the refresh interval that suits the feed:
+Each feed has its own refresh interval:
 
-- **Every hour**
-- **Every few hours**
-- **Daily**
-- **Weekly**
+- Every hour
+- Every 6 hours
+- Every 12 hours
+- Daily (the default)
+- Weekly
 
-A holiday calendar rarely changes, so **Weekly** is plenty; a frequently updated
-feed might warrant **Daily** or hourly.
+To change it, tap the feed's row, pick an interval under **Sync Interval:**, then tap
+**Save**.
+A holiday calendar rarely changes, so weekly is enough. A feed that changes during the
+day suits a shorter interval.
 
 ## Feeds are read-only
 
-Events from a subscription show up alongside your other calendars, but you can't
-edit them in KashCal. They belong to the source feed.
+Events from a feed show up alongside your other calendars. You can't edit them in
+KashCal, because they belong to the source feed.
 
 ## Manage or remove a feed
 
-Everything lives on the **Settings** → **Calendar Feeds** list, where each feed is a
-single row:
+Each feed is a row on the **Calendar Feeds** screen:
 
-- **Pause a feed** without deleting it: flip the switch on the row off. Its events
-  stay hidden until you turn it back on, and the row shows **Sync paused**.
-- **Refresh now:** tap the refresh button on the row to pull the latest events
-  straight away, instead of waiting for the next scheduled check.
-- **Edit a feed:** tap the row to change its name, color, or refresh interval.
-- **Remove a feed:** swipe the row left. If you change your mind, tap **Undo** on the
-  confirmation before it disappears:
-
-> Subscription removed
+- Pause a feed: turn off the switch on its row. The row shows **Sync paused**.
+  KashCal stops refreshing the feed. Its events stay on your calendar. To hide them, turn
+  the calendar off in the navigation drawer. Turn the switch back on to refresh the feed.
+- Refresh a feed: tap the refresh button on the row to fetch its events without
+  waiting for the next scheduled refresh.
+- Edit a feed: tap the row to change its name, color or refresh interval.
+- Remove a feed: swipe the row left. KashCal shows "Subscription removed". Tap **Undo**
+  to keep the feed. Otherwise, when the message closes, KashCal deletes the feed's
+  calendar and its events.
 
 ## Where to find feeds
 
-Many organizations publish ICS links: national holidays, your favorite team's
-fixtures, school district calendars, and so on. Copy the feed's link and paste it
-into KashCal.
+National holiday services, sports teams, school districts and event sites publish ICS
+links. Copy the feed's link and paste it into KashCal.

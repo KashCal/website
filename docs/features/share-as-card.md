@@ -1,39 +1,50 @@
 ---
 sidebar_position: 10
 title: Share an event as a card
-description: Turn any KashCal event into a good-looking image card with a tap-to-add calendar file attached, so anyone can add it in one tap, no app needed.
+description: Turn a KashCal event into an image card with a calendar file attached, so anyone can add it to their calendar in one tap, no app needed.
 ---
 
 # Share an event as a card
 
-Got plans worth sharing? Turn any event into a good-looking card and send it to
-anyone. The card goes out as an image with a tappable calendar file attached, so
-whoever you send it to can add the event to their own calendar in one tap. No app
-to install, no account to make.
+Turn an event into a card and send it to anyone. The card goes out as an image with a
+calendar file attached, so the person you send it to can add the event to their own
+calendar in one tap. They don't need KashCal or an account.
 
 ## How to share
 
-1. Open an event to see its quick-view.
+1. Tap an event to open its quick view. This works for device-calendar events too.
 2. Tap the **Share as card** icon in the top row.
 3. Pick a style:
    - **Standard** for everyday events.
-   - **Celebration** for birthdays, parties, and anything worth a little flair.
-4. Tap **Send** and choose where it goes (messages, email, anywhere you can share).
+   - **Celebration** for birthdays, parties and other occasions.
+
+   KashCal picks **Celebration** for you when the title has a word like birthday,
+   party, wedding, anniversary or graduation, or an emoji like 🎂 or 🎉. You can
+   switch styles before you send.
+4. Tap **Send** and choose where it goes: a message, an email, or any app that accepts shared files.
+
+For a repeating event, the card and the file describe only the occurrence you tapped.
 
 ## What the recipient gets
 
-- A **card image** showing the event's title, date, and time.
-- A **calendar file** (`.ics`) they can tap to add the event to whatever calendar
-  app they use.
+- A card image with the event's title, date, time, and location if it has one. Its
+  bottom line reads "Made with KashCal".
+- A calendar file (`.ics`) they can tap to add the event to their calendar app.
 
-If the calendar file can't be created for some reason, KashCal still sends the card
-image on its own, which is useful on its own.
+If KashCal can't create the calendar file, it sends the card image on its own.
 
-## Private by design
+## What the card shares
 
-The shared card is a clean, single copy of the event. It carries the title, date,
-and time, and nothing else. Guest lists and organizer details are not included, so
-sharing a card never leaks who else is involved.
+The calendar file is a single, standalone copy of the event. It keeps the title, date,
+time and time zone, notes, location, link, reminders, tags and color.
+
+It leaves out the guest list, the organizer and the repeat rule, so a card doesn't show
+who else is invited.
+
+:::caution[Check the notes before you send]
+The calendar file includes the event's notes. If the notes hold something private, such
+as a meeting link, a door code or a phone number, edit them out before you share the card.
+:::
 
 ## Related
 

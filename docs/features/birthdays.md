@@ -1,46 +1,61 @@
 ---
 sidebar_position: 6
 title: Contact birthdays
-description: Show the birthdays and anniversaries from your contacts right on your KashCal calendar, so you get a nudge before the day and never miss one.
+description: Show the birthdays and anniversaries saved in your phone contacts as yearly all-day events on your KashCal calendar, with a reminder.
 ---
 
 # Contact birthdays & anniversaries
 
-The birthdays and anniversaries you've saved in your contacts can show up right on
-your calendar, so you get a nudge before the day arrives and never miss one.
+KashCal can show the birthdays and anniversaries saved in your phone contacts on your
+calendar, each with a reminder.
 
 ## Turn it on
 
-Open Settings and tap **Birthdays & anniversaries**, under **Calendars & accounts**.
-Inside are two switches:
+Both switches are off by default.
 
-- **Contact Birthdays**: *Show birthdays from your phone contacts as all-day calendar events.*
-- **Contact Anniversaries**: *Show anniversaries from your phone contacts as all-day calendar events.*
+1. Open **Settings**. Under **Calendars & accounts**, tap
+   **Birthdays & anniversaries**.
+2. Turn on either switch, or both:
+   - **Contact Birthdays**: "Show birthdays from your phone contacts as all-day calendar
+     events."
+   - **Contact Anniversaries**: "Show anniversaries from your phone contacts as all-day
+     calendar events."
+3. If KashCal doesn't have Contacts permission yet, Android asks for it. Allow it, and
+   the switch turns on.
 
-Both need Contacts permission, since KashCal reads the dates from your device
-contacts:
+KashCal reads the dates from your device contacts:
 
 > Reads from your device contacts. Requires Contacts permission.
 
+If you turn off Contacts permission later, the screen shows
+**Contacts permission required**.
+
 ## What you get
 
-- Birthdays and anniversaries appear as **yearly, all-day events** that repeat every year.
-- They live in their own **Birthdays** and **Anniversaries** calendars, shown under the **Contacts** section of the navigation drawer.
-- Event titles read naturally, like *"Sam's Birthday"*, and include the age or number of years when the contact's year is known.
+- Each birthday and anniversary appears as an all-day event that repeats every year.
+- They live in their own calendars, **Contact Birthdays** and
+  **Contact Anniversaries**, under **Contacts** in the navigation drawer.
+- Titles read like "Sam's Birthday". When the contact's date includes the year, the
+  title adds the age or the number of years, as in "Sam's 30th Birthday".
+- Once a switch is on, the screen shows how many events it found.
 
 ## Color and reminders
 
-Each of the two sections has its own **calendar color** and its own reminder
-(**Birthday Reminder** and **Anniversary Reminder**), so you can give birthdays a
-different lead time from anniversaries. Both sit on the same screen as the switches.
+After you turn on a switch, two more rows appear under it:
+
+- **Calendar Color**: the color of that calendar. Tap **Change** to pick another.
+- **Default Reminder**: when you get reminded. It starts at 9 AM on the day. Tap
+  **Change** to pick another time.
+
+Birthdays and anniversaries each have their own color and reminder.
 
 :::note
-These calendars are read from your contacts and are shown read-only in KashCal. To
-change a birthday, edit the contact.
+These calendars come from your contacts and are read-only in KashCal. To change a
+birthday, edit the contact.
 :::
 
 ## Related
 
-- [Reminders](../events/reminders.md): get nudged before the day
-- [Contact sync](../sync/contacts.md): mirror the full contacts from your account, not just their birthdays
-- [Settings](./settings.md): turn birthdays on or off
+- [Reminders](../events/reminders.md): how reminders work
+- [Contact sync](../sync/contacts.md): sync contacts with your account both ways, including photos (beta)
+- [Settings](./settings.md): every setting and its default

@@ -4,12 +4,12 @@ import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 
 const PAGES = [
-  {to: '/features/natural-language-add-event-calendar', title: 'Add events in plain language', body: 'Type "lunch every 2nd Tuesday" and KashCal fills in the date, time, and repeat.'},
-  {to: '/features/all-your-calendars-google-outlook-android', title: 'All your calendars on Android', body: 'iCloud, CalDAV, Google, Outlook, and ICS feeds, on one phone.'},
-  {to: '/features/beautiful-calendar-android', title: 'The best-looking calendar on Android', body: 'Material You, seven views, a 92-color wheel.'},
-  {to: '/features/calendar-insights-android', title: 'See where your time goes', body: 'On-device insights into your week.'},
+  {to: '/features/natural-language-add-event-calendar', title: 'Add events in plain language', body: 'Type "lunch every 2nd Tuesday" and KashCal fills in the date, time and repeat.'},
+  {to: '/features/all-your-calendars-google-outlook-android', title: 'All your calendars on Android', body: 'iCloud, CalDAV, Google, Outlook and ICS feeds, on one phone.'},
+  {to: '/features/beautiful-calendar-android', title: 'The best-looking calendar on Android', body: 'Material You, seven views and 92 named event colors.'},
+  {to: '/features/calendar-insights-android', title: 'See where your time goes', body: 'On-device insights into your week and month.'},
   {to: '/features/icloud-calendar-android', title: 'iCloud calendar on Android', body: 'Two-way iCloud sync, family calendars included.'},
-  {to: '/features/share-event-as-card-android', title: 'Share an event as a card', body: 'One tap turns an event into a card plus a tap-to-add file.'},
+  {to: '/features/share-event-as-card-android', title: 'Share an event as a card', body: 'Turn an event into a card plus a tap-to-add calendar file.'},
   {to: '/features/accessible-calendar-android', title: 'Built to use with a screen reader', body: 'TalkBack support, event status read aloud, and color is never the only signal.'},
 ];
 

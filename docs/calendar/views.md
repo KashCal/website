@@ -6,59 +6,59 @@ description: "KashCal's seven Android calendar views: month, agenda, day, 3-day,
 
 # Calendar views
 
-Some days you want the big picture, some days you want the next hour. KashCal
-gives you seven ways to look at your schedule, so you can pick the one that fits.
-Switch between them using the **view picker** in the top bar, or from the
-navigation drawer.
+KashCal has seven calendar views. Switch between them in the navigation drawer.
+Open the drawer with the menu icon at the top left, or swipe in from the left edge.
 
 | View | What it shows |
 |------|---------------|
-| **Month** | A familiar month grid with dots marking days that have events. Tap a day to see its events in the panel below, then swipe that panel left or right to step day by day. Swipe the grid itself to move between months. |
-| **Agenda** | A scrolling list of the next 90 days of events, grouped by date with times. Today and tomorrow are labelled **Today** and **Tomorrow** rather than by date. The top bar shows the month you're currently scrolled to and keeps pace as you move down the list. A week bar sits above the list, and you can collapse it when you want the extra room. |
-| **Day** | A single day as an hour-by-hour timeline. Overlapping events sit side by side. |
-| **3 Days** | Three days side by side as timelines, a good balance of detail and overview. Tap a day's header to open just that day in Day view; a back press returns you to the span you came from. |
-| **Week** | A full seven-day timeline. The header shows the month and week number. Tap a day's header to open just that day in Day view, then press back to return to the week. |
-| **Month (Full)** | A month grid where each day grows to show event titles stacked inside the cell, not just dots. |
-| **Year** | All twelve months at a glance. Tap any month to jump straight to it, or tap a year in the strip along the top. Swipe to move between years. |
+| **Month** | A month grid with dots on days that have events. Tap a day to list its events below the grid. Swipe that list left or right to step one day at a time. Swipe the grid to change months. In landscape the list sits beside the grid, and on a short landscape screen the grid cells get smaller. |
+| **Agenda** | A list of the next 90 days of events, grouped by date. The headers for today and tomorrow add the word, as in "Today · Monday, September 28". The top bar shows the month you've scrolled to. A week bar sits above the list. Tap the month title to collapse or expand it. KashCal remembers the choice. |
+| **Day** | One day as an hour-by-hour timeline. Overlapping events sit side by side. A week bar sits above the timeline. Tap the date title to collapse or expand it. It starts expanded, and KashCal remembers the choice. |
+| **3 Days** | Three days side by side as timelines. Tap a day's header to open that day in Day view. Press back to return to the three days. |
+| **Week** | A seven-day timeline. The top bar shows the month, and the corner left of the day headers shows the week number. Tap a day's header to open that day in Day view. Press back to return to the week. |
+| **Month (Full)** | A month grid with event titles stacked inside each day cell, not only dots. Tap a day to open a sheet with its events. |
+| **Year** | All twelve months. Tap a month to open it in Month view. Tap a year in the strip at the top, or swipe, to change years. Press back to return to Month view. |
 
 :::tip
-There's also an **Insights** view, reachable from the navigation drawer, that shows
-analytics about how you spend your time. See [Insights](../features/insights.md).
+The drawer also has **Insights**, which shows how you spend your time. See [Insights](../features/insights.md).
 :::
 
 ## Gestures
 
-The timeline views (Day, 3 Days, Week) are built for touch:
+The timeline views (Day, 3 Days, Week) respond to these gestures:
 
-- **Pinch to zoom.** Pinch in or out on the timeline to make the hours shorter or taller. KashCal remembers the zoom level and reopens the timeline at the same density next time.
-- **Drag to reschedule.** Press and hold a timed event, then drag it to a new time, or sideways to a different day. A short vibration confirms the drag has started. (All-day and read-only events, such as those from a holiday feed, can't be dragged.)
-- **Tap an empty slot** to start a new event there, pre-filled to the nearest 15 minutes.
-- **Swipe left/right** to move through time. In Day and 3 Days views a swipe moves one day; in Week view it moves a whole week.
-- **Tap a "+N more" badge** when a day has more events than fit, to see the full list.
-- **Expand the all-day row.** When a day has more all-day events than the strip shows, tap the chevron to expand it and see them all, and again to collapse. KashCal remembers the choice across restarts.
+- Pinch to zoom. Pinch in or out on the timeline to make the hours shorter or taller. KashCal remembers the zoom level.
+- Drag to reschedule. Press and hold a timed event, then drag it to a new time, or sideways to another day. A short vibration tells you the drag has started. All-day events and read-only events, such as holiday feed events, can't be dragged. When you drop an occurrence of a repeating event, KashCal asks what to move: **This event**, **This and all future**, or **All events**. **This and all future** is greyed out on the first occurrence. Device-calendar events offer only the first two. An occurrence you changed on its own moves without asking.
+- Tap an empty slot to start a new event there. The start time snaps to the nearest 15 minutes.
+- Swipe left or right to move through time. In Day and 3 Days a swipe moves one day. In Week it moves a whole week.
+- Tap a "+N more" badge to see the full list. It shows when more events overlap than fit side by side.
+- Expand the all-day row. When a day has more all-day events than the strip shows, tap the chevron to see them all. Tap it again to collapse. KashCal remembers the choice.
 
-In **Month** and **Year** views, swipe left and right to move between months or
-years, and tap a day or month to drill in.
+Timed events that run past midnight show in the timed grid on each day they cover. To show those lasting 20 hours or more in the all-day strip instead, turn on **Multi-day events in all-day strip** in [Settings > Appearance](../features/settings.md#appearance).
 
 ## Tag chips
 
-Events you've labeled with [tags](../events/tags.md) show their colored chips in
-the Day, Week, and Agenda views, so you can pick out a `#focus` block or a
-`#travel` day at a glance without opening the event.
+Events you've labeled with [tags](../events/tags.md) show their colored chips in these places:
+
+- Timeline event blocks in Day, 3 Days and Week, when the block is tall enough. Short blocks hide them.
+- The selected day's event list in Month.
+- The day sheet in Month (Full).
+
+The Agenda list doesn't show tag chips.
 
 ## Moving around
 
-- **Today.** Tap the Today button to jump back to the current date in any view.
-- **Pick a month.** In Month view, tap the month and year in the header to open a quick month-and-year picker.
-- **Back where you were.** The Day, 3 Days, and Week timelines remember the hour you were looking at and reopen there after you close the app, instead of resetting to a default hour.
-- **Pull to refresh.** Once you've connected an account and are online, pull down on the calendar to sync with your servers right away.
+- Go to today. Tap the calendar icon next to the menu icon. It shows today's date.
+- Pick a date. Tap the title in the top bar. In Month and Month (Full) it opens **Go to month**. In 3 Days and Week it opens a date picker. In Agenda and Day it collapses or expands the week bar. **Go to date** in the account menu (tap the avatar at the top right) jumps to any date.
+- Add an event. Tap the + button. In Day, 3 Days and Week the event starts today at the next hour. With [Smart event add](../events/smart-event-add.md) on, the + button opens the typing box instead. Insights has no + button.
+- Reopen where you left off. KashCal opens in the last view you switched to. On first launch that's Month. Insights, and a day opened from a day header, aren't remembered. The Day, 3 Days and Week timelines reopen at the hour you were looking at.
+- Pull to refresh. With a connected account and a network connection, pull down on the calendar to sync right away.
 
-## Landscape and larger screens
+## Rotating the phone
 
-KashCal adapts to landscape orientation and larger displays, giving the timeline
-views more room to show day columns side by side. Rotate your phone while you're
-partway through filling in an event and KashCal keeps what you've typed, rather than
-starting the form over.
+Month shows the grid and the day's events side by side in landscape. The timeline
+views show the same number of day columns in any orientation. If you rotate while
+filling in an event, KashCal keeps what you've typed.
 
 ## Related
 

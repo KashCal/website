@@ -38,8 +38,7 @@ export default function NotFoundContent({className}: Props): ReactNode {
               <Link
                 key={d.label}
                 className={styles.card}
-                to={d.to}
-                href={d.href}>
+                to={d.to}>
                 <span className={styles.cardLabel}>{d.label}</span>
                 <span className={styles.cardDesc}>{d.desc}</span>
               </Link>

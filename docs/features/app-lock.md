@@ -1,49 +1,78 @@
 ---
 sidebar_position: 8
 title: App lock
-description: Keep your calendar for your eyes only. KashCal's app lock hides your events behind your device fingerprint, PIN, or pattern until you unlock.
+description: App lock hides your KashCal events until you confirm it's you with your fingerprint, face, or screen lock.
 ---
 
 # App lock
 
-Your calendar says a lot about your life. App lock keeps it for your eyes only,
-asking you to unlock KashCal before anything inside it shows.
+App lock hides your calendar until you confirm it's you. Anyone who picks up your
+phone while it's open sees a lock screen instead of your events.
 
 ## What it does
 
-When App lock is on, opening KashCal shows a lock screen that hides all your events
-until you unlock. You unlock with whatever your device already uses: **fingerprint,
-face, or your screen lock** (PIN/pattern/password).
+When App lock is on, KashCal opens to a **Locked** screen that covers all your events.
+Android's lock prompt appears right away. If you close the prompt, tap the button on
+the lock screen to bring it back.
 
-You'll find it as **App lock** in the [account hub](../calendar/navigation.md#the-account-hub),
-under **Privacy & Security**. Tap the avatar in the top-right of any calendar view to
-open the hub.
+You confirm with your fingerprint, your face, or your screen lock (PIN, pattern or
+password). KashCal accepts only biometrics that Android rates as strong. If your
+phone's face recognition isn't rated strong, the prompt offers your fingerprint or
+screen lock instead.
 
-## Turning it on
+While KashCal is locked, its preview in the Recents screen is hidden.
 
-App lock is **off by default**. Turn it on from the account hub, under **Privacy &
-Security**. You'll need a fingerprint, face, or screen lock already set up on your
-device:
+## When it locks
 
-> Set up a fingerprint, face, or screen lock in system settings to use App lock
+- Every time KashCal starts fresh.
+- When you come back after KashCal has been in the background for 30 seconds or more.
 
-Once enabled, KashCal confirms:
+A quick switch to another app and back, or rotating the phone, doesn't lock it again.
+Neither does a trip to KashCal's **Settings** or to an Android settings page that
+KashCal opens for you.
+
+## Turn it on
+
+App lock is off by default.
+
+1. Tap the avatar in the top-right of any calendar view to open the
+   [account hub](../calendar/navigation.md#the-account-hub).
+2. Under **Privacy & Security**, turn on **App lock**.
+
+KashCal confirms:
 
 > App lock on. KashCal will ask you to authenticate next time you open it.
 
-Turning App lock **off** asks you to authenticate first, so someone holding your
-already-unlocked phone can't quietly disable it. If you cancel that prompt, the lock
-stays on.
+The lock takes effect the next time KashCal starts, or when you come back after 30
+seconds or more away. It doesn't lock the screen you're on.
+
+If your phone has no fingerprint, face or screen lock set up, KashCal shows this message
+and opens Android's setup screen so you can add one:
+
+> Set up a fingerprint, face, or screen lock in system settings to use App lock.
+
+If your phone can't use any of them, KashCal shows:
+
+> This device can't use App lock.
+
+## Turn it off
+
+Turn off **App lock** in the account hub. Android asks you to confirm it's you first,
+so someone holding your phone while KashCal is open can't switch it off. If you
+cancel, the lock stays on.
+
+If you remove every fingerprint, face and screen lock from your phone, KashCal stops
+asking and opens without a prompt, so you're never locked out.
 
 ## Good to know
 
-- App lock is a **privacy screen for the app**. It controls who can open KashCal on
-  your phone. It's separate from how your calendar **passwords** are protected, which
-  happens automatically with strong encryption (see [Privacy & Security](../privacy/overview.md)).
-- Because it's tied to your specific device's biometric/lock, the App lock setting
-  isn't included in [settings backups](./backup-restore.md).
+- App lock controls who can open KashCal on your phone. Your account passwords are
+  stored encrypted whether App lock is on or off. See
+  [Privacy & Security](../privacy/overview.md).
+- The App lock setting isn't included in [settings backups](./backup-restore.md). Each
+  phone has its own lock, so you turn it on per phone.
 
 ## Related
 
-- [Privacy & Security](../privacy/overview.md): what leaves your device, and what doesn't
+- [Privacy & Security](../privacy/overview.md): what leaves your device and what doesn't
 - [Backup & restore](./backup-restore.md): move your settings to a new device

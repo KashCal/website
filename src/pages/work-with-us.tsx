@@ -11,15 +11,15 @@ const AUDIENCE = [
   },
   {
     title: 'Privacy product bundles',
-    body: 'You sell VPNs, password managers, or encrypted email, and you are extending into productivity. A calendar that ships with no trackers fits the rest of your suite.',
+    body: 'You sell VPNs, password managers, or encrypted email, and you are moving into productivity. A calendar with no trackers or analytics fits the rest of your suite.',
   },
   {
     title: 'De-Googled Android distros',
-    body: 'You ship a phone OS without Play Services. You need a default calendar that respects that and works offline on day one.',
+    body: 'You ship a phone OS without Play Services. KashCal needs no Google services and works offline from the first launch.',
   },
   {
     title: 'Self-hosting platforms',
-    body: 'You sell Nextcloud, Stalwart, Radicale, or your own CalDAV. Pointing customers at a polished, branded client is worth more than another support article.',
+    body: 'You sell Nextcloud, Stalwart, Radicale, or your own CalDAV. A branded client you can point customers to is worth more than another support article.',
   },
   {
     title: 'Vertical SaaS with a calendar gap',
@@ -27,7 +27,7 @@ const AUDIENCE = [
   },
   {
     title: 'Smart display & wall-calendar makers',
-    body: 'You build a family display, a fridge screen, or a digital wall calendar on Android. Bring the hardware; the calendar is done. It runs offline and syncs when it can.',
+    body: 'You build a family display, a fridge screen, or a digital wall calendar on Android. Bring the hardware; the calendar is done. It runs offline and syncs when the network is there.',
   },
   {
     title: 'Anyone allergic to building one',
@@ -38,19 +38,19 @@ const AUDIENCE = [
 const GET = [
   {
     title: 'Your brand',
-    body: 'Your icon, your name, your colors, swapped at build time. The customer never sees ours.',
+    body: 'We build a version of the app with your icon, your name and your colors. Your customers see your brand, not ours.',
   },
   {
     title: 'Your defaults',
-    body: 'Pre-configured CalDAV host, account hints, support links, and deep-link domains. The first launch already feels like yours.',
+    body: 'We preset your CalDAV host, account hints, support links and deep-link domains in your build, so the first launch points at your service.',
   },
   {
     title: 'Sync beaten in production',
-    body: 'iCloud, Nextcloud, Fastmail, Radicale, Baikal, Zoho, SOGo, Stalwart, and the rest of the CalDAV long tail, tested against the real RFCs.',
+    body: 'iCloud, Nextcloud, Fastmail, Radicale, Baikal, Zoho, SOGo, Stalwart, and the rest of the CalDAV long tail, tested against the RFCs and against live servers.',
   },
   {
     title: '67 languages, ready',
-    body: 'Over 850 strings and 50 plurals, already translated. Per-brand strings translate incrementally without redoing the rest.',
+    body: 'Over 900 strings and 50 plurals, translated into every language. Your brand’s own strings get translated on their own, without redoing the rest.',
   },
   {
     title: 'Source access',
@@ -58,11 +58,11 @@ const GET = [
   },
   {
     title: 'We sweat the sync',
-    body: 'iCloud tweaks a header, a CalDAV server bends a spec, and somewhere a recurring event goes sideways. We catch it so your users never feel it.',
+    body: 'iCloud changes a header, a CalDAV server bends a spec, and a recurring event goes wrong. We find it and fix it, so your users don’t have to.',
   },
   {
     title: 'Runs offline, on your screen',
-    body: 'Offline-first by design, so a wall display or kiosk shows the day even when the network blinks, then syncs when it returns. Built to sit on a screen, not just a phone.',
+    body: 'Events live on the device, so a wall display or kiosk shows the day when the network drops, then syncs when it returns. It fits a screen on the wall as well as a phone.',
   },
 ];
 
@@ -70,7 +70,7 @@ export default function WorkWithUs(): ReactNode {
   return (
     <Layout
       title="Work with us"
-      description="License KashCal and ship a calendar under your own brand, or on your own hardware. Years of engineering, ready now.">
+      description="License KashCal and ship a calendar under your own brand, or on your own hardware. Years of engineering, already done.">
       <header className="kc-hero">
         <div className="container">
           <p className="kc-eyebrow">For teams</p>
@@ -78,10 +78,10 @@ export default function WorkWithUs(): ReactNode {
             The best calendar experience on Android. <em>Under your name.</em>
           </Heading>
           <p className="kc-hero__lead">
-            Scoping a polished Android calendar from scratch means a year or more
-            of engineering, design, and edge-case grinding. That work is already
-            done. License KashCal and put it in your customers' hands, under
-            your brand or on your hardware, in weeks, not quarters.
+            Building an Android calendar from scratch takes a year or more of
+            engineering, design, and edge-case fixes. That work is done. License
+            KashCal and put it in your customers' hands, under your brand or on
+            your hardware, in weeks, not quarters.
           </p>
           <div className="kc-hero__cta">
             <Link
@@ -128,7 +128,7 @@ export default function WorkWithUs(): ReactNode {
                   You build the device, a wall calendar, a family display, a
                   kitchen screen, and you do not want to also become a software
                   company. You bring the hardware, we bring the calendar. It runs
-                  offline out of the box and syncs when it can.
+                  offline out of the box and syncs when the network is there.
                 </p>
               </div>
             </div>
@@ -156,7 +156,7 @@ export default function WorkWithUs(): ReactNode {
                 <div className={styles.colLabel}>License KashCal</div>
                 <p>
                   Your icon, your name, your colors. Weeks, not quarters. The hard
-                  parts are already paid for: sync, recurrence, and RFC compliance.
+                  parts are paid for: sync, recurrence, and RFC compliance.
                 </p>
               </div>
             </div>
@@ -171,7 +171,7 @@ export default function WorkWithUs(): ReactNode {
           <div className="container">
             <div className="kc-section__head">
               <p className="kc-eyebrow">Who this is for</p>
-              <Heading as="h2">If one of these is your team, let's talk.</Heading>
+              <Heading as="h2">If one of these is your team, talk to us.</Heading>
             </div>
             <div className="kc-grid">
               {AUDIENCE.map((a) => (

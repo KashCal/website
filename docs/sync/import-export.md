@@ -1,64 +1,81 @@
 ---
 sidebar_position: 8
 title: Import & export (.ics files)
-description: KashCal reads and writes standard .ics calendar files, so you can move events in or out and keep a portable copy of any calendar.
+description: KashCal reads and writes standard .ics calendar files, so you can move events in or out and keep a portable copy of a calendar.
 ---
 
 # Import & export
 
-Sometimes you just need a file. KashCal reads and writes standard `.ics` calendar
-files, which is handy for moving events in or out, or keeping a copy of a calendar.
+KashCal reads and writes standard `.ics` calendar files. Use them to move events in or
+out, or to keep a copy of a calendar.
 
 ## Import an .ics file
 
-1. Open **Settings** → **Import events from file** and pick an `.ics` file from your device.
-2. KashCal shows a preview of the events it found, with titles, dates, and locations.
-3. Choose which calendar to import into (it must be a writable calendar).
-4. Confirm the import.
+1. Open **Settings**. Under **Backup & restore**, tap **Import events from file**, and
+   pick an `.ics` file.
+2. KashCal shows a preview of the events it found, with titles, dates and locations.
+3. Choose the calendar to import into. The list shows only calendars you can write to.
+4. Tap **Import**. For a file with one event, the sheet is titled **Add Event** and the
+   button is **Add**.
 
-If some events can't be imported, KashCal tells you how many succeeded and how many
-failed:
+When the import finishes, KashCal shows how many events it added, for example
+"Imported 42 events".
 
-> Imported 42 events, 3 failed.
+Events in the file that have no reminder get your default alerts, the same as events
+you create in KashCal. Reminders set in the file are kept.
 
-Common reasons an import won't start:
+### Open or share a file into KashCal
 
-- **No writable calendars**: you need at least one calendar you can add to.
-- **File not found or cannot be read.**
-- **Invalid calendar file format.**
+Open an `.ics` file from your file manager or an email attachment and choose KashCal,
+or share the file to KashCal from another app. The same import preview opens.
+
+### Import into a device calendar
+
+The calendar list can also show writable calendars from other apps on your phone:
+
+- From Settings, it shows every writable device calendar once KashCal has calendar
+  permission.
+- From a file you open or share into KashCal, it shows only the device calendars you
+  turned on. See [Device calendars](./device-calendars.md).
+
+### When an import doesn't start
+
+KashCal shows an error instead of the preview when:
+
+- the file can't be read,
+- the file isn't a valid calendar file, or
+- the file has no events.
+
+If you have no calendar you can write to, the preview shows "No writable calendars
+available" and **Import** stays disabled.
 
 ### Repeating events and files from other apps
 
-A file containing a repeating event arrives as **one linked series**, including any
-occurrences that were changed individually. Those land as exceptions attached to the
-series, the same way they would if you'd edited them in KashCal, rather than as a
-scattering of unrelated events.
+A repeating event arrives as one linked series. Occurrences that were changed on their
+own land as exceptions attached to the series, the same way they would if you'd edited
+them in KashCal.
 
-Files exported by other apps sometimes leave out the unique ID that identifies an
-event, or leave it empty. KashCal gives each of those events an ID of its own, so a
-file full of them imports as separate events rather than being folded together into
-one series.
+Some apps export events with a missing or empty unique ID. KashCal gives each of those
+events its own ID, so they import as separate events and aren't folded into one series.
 
-Imported events always get a fresh ID, so importing the same file twice adds a second
-copy rather than overwriting the first.
+Every imported event gets a fresh ID. Importing the same file twice adds a second copy
+and doesn't overwrite the first.
 
 ## Export to .ics
 
 To export your whole local calendar:
 
-1. Open **Settings** and tap **Export Local calendar**.
-2. KashCal writes its events to an `.ics` file and opens the system share sheet, so
-   you can save it or send it anywhere.
+1. Open **Settings**. Under **Backup & restore**, tap **Export Local calendar**.
+2. KashCal writes the calendar's events to an `.ics` file and opens the system share
+   sheet, so you can save the file or send it.
 
-If the calendar has no events, there's nothing to export:
+If the calendar has no events, KashCal shows "No events to export" and writes no file.
 
-> No events to export.
-
-To export a single event instead, open the event and choose **Export as .ics** from
-its menu.
+To export one event, open it, tap the menu, and choose **Export as .ics**. This works
+for device calendar events too.
 
 ## Import vs. subscribe
 
-Importing copies events **once** into a calendar you can edit. If you instead want a
-feed that keeps updating itself (like holidays or sports), use a
+Importing copies events once into a calendar you can edit. For a feed that keeps
+updating itself, such as holidays or sports, use a
 [calendar feed subscription](./ics-subscriptions.md).

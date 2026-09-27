@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: Insights
-description: See where your week went. KashCal Insights breaks down how you spend your time in a handful of cards, computed entirely on-device.
+description: KashCal Insights shows how many hours your events take, split by calendar and by day, with up to 5 cards. It's computed on your phone.
 ---
 
 import Screenshot from '@site/src/components/Screenshot';
@@ -10,40 +10,60 @@ import Screenshot from '@site/src/components/Screenshot';
 
 <Screenshot src="/img/screenshots/Insights.png" alt="KashCal Insights screen with weekly time breakdown" align="right" caption="A week of your time, computed on-device." />
 
-Insights shows where your week went, as a handful of cards. It's all worked out on
-your device, with nothing sent anywhere. Open it from the navigation drawer.
+Insights shows how much time your events take and where it goes. KashCal works it all
+out on your phone and sends nothing anywhere. Open **Insights** from the navigation
+drawer.
 
 ## Pick a period
 
-Look at your time by:
+Tap a chip at the top:
 
-- **This week**
-- **Last week**
-- **This month**
+- **Week**: this week, from your first day of the week.
+- **Last week**: the week before.
+- **Month**: the whole calendar month, including the days still ahead.
 
-## What Insights tells you
+## The summary
 
-Insights surfaces the most interesting things about your schedule as cards, such as:
+The top of the screen shows:
 
-- **Busiest day** and **lightest day** in the period
-- **Longest free block**: your biggest uninterrupted stretch
-- **Weekend load**: how much you've scheduled on the weekend (or whether it's clear)
-- **Back-to-back meetings**: runs of meetings with no gap
-- **Calendar breakdown**: which calendar takes the largest share of your time
-- **Early starts and late nights**: days that begin before 8 AM or run past 7 PM
-- **Meeting-free days**: days with nothing scheduled
+- The total hours of timed events in the period.
+- How many all-day events it has. All-day events don't count toward the hours.
+- On **Week**, the change from last week, such as "+2h 30m", when there is one.
+- A bar split by calendar, with each calendar's hours below it.
+- A chart of hours per day.
 
-For the current and upcoming periods you'll also see forward-looking cards like
-**tomorrow's preview**, your **heaviest upcoming day**, and your **next free block**.
+Only calendars you've made visible in the drawer count, device calendars included. A
+period with no events shows "No events scheduled this week".
+
+## The cards
+
+Below the summary, KashCal shows up to 5 cards, the most notable first. The cards it
+can pick from:
+
+- Busiest day and lightest day, among the days that have events.
+- Longest free block: your longest gap of 30 minutes or more between 8 AM and 8 PM.
+- Weekend load: how much is scheduled on the weekend, or that it's clear.
+- Back-to-back meetings: how many events start less than 5 minutes after the previous
+  one ends.
+- Calendar share: shown when your events span two or more calendars and one of them
+  takes more than 60% of your time.
+- Early starts or late nights: how many days start before 8 AM, or how many run past 7 PM, whichever is more.
+- Meeting-free days: days with no timed events.
+
+When the period still has days ahead, you can also get:
+
+- Tomorrow: how much is scheduled tomorrow and when it starts.
+- Heaviest upcoming day: the fullest day still ahead.
+- Next free block: the longest gap of 30 minutes or more between 8 AM and 8 PM, from
+  today on.
 
 ## Private by design
 
-All of this is calculated locally from your calendar data. Insights never uploads
-your schedule or sends analytics anywhere, in keeping with KashCal's
-[privacy approach](../privacy/overview.md).
+Insights reads only the events already on your phone. It never uploads your schedule or
+sends analytics. See KashCal's [privacy approach](../privacy/overview.md).
 
 ## Related
 
 - [Share availability](./share-availability.md): send your free times to someone else
 - [Calendar views](../calendar/views.md): the seven ways to see your schedule
-- [Privacy & Security](../privacy/overview.md): insights are computed on your device
+- [Privacy & Security](../privacy/overview.md): what leaves your phone and what doesn't

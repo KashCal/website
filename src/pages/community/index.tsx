@@ -25,7 +25,7 @@ const ADDONS: Addon[] = [
     description: (
       <>
         Notification sound files that keep alerting at intervals until you
-        dismiss them, so a reminder effectively repeats until you act on it (
+        dismiss them, so a reminder repeats until you act on it (
         <Link href="https://github.com/KashCal/KashCal/issues/178">#178</Link>).
       </>
     ),
@@ -94,9 +94,8 @@ function Hero(): ReactNode {
         </Heading>
         <p className={styles.heroLead}>
           KashCal is free and open source, and people build on it: companion
-          add-ons that extend what it does, and a growing list of CalDAV servers
-          real users have verified. Here is what the community has made and
-          tested.
+          add-ons that extend what it does, and a list of CalDAV servers real
+          users have tested. Here is what the community has made and tested.
         </p>
         <div className="kc-hero__cta">
           <Link className="kc-btn kc-btn--accent" href={SIGNAL_GROUP}>
@@ -153,8 +152,9 @@ function Providers(): ReactNode {
           <p className="kc-eyebrow">Tested CalDAV providers</p>
           <Heading as="h2">Verified by real users.</Heading>
           <p>
-            CalDAV servers the community has confirmed working with KashCal. If
-            your server speaks CalDAV it will very likely work too. See the{' '}
+            CalDAV servers the community has confirmed working with KashCal.
+            KashCal speaks standard CalDAV, so a server not listed here can work
+            too. See the{' '}
             <Link to="/docs/sync/supported-servers">supported servers guide</Link>{' '}
             for how to connect.
           </p>

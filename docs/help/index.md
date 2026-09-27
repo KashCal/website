@@ -7,26 +7,26 @@ description: Start here for help with KashCal. FAQ, troubleshooting, known limit
 
 # Get Help
 
-Stuck on something, or wondering whether KashCal can do a thing? **Start here.** The
-pages below answer most questions, and you'll usually find what you need faster than
-waiting on a reply.
+Stuck on something, or not sure KashCal can do a thing? Start with the pages below.
+They answer most questions faster than a reply on GitHub. In the app, tap
+**Help & docs** in the navigation drawer to open these pages in your browser.
 
 ## Start here
 
-1. **[FAQ](./faq.md)**: quick answers to the most common questions.
-2. **[Troubleshooting](./troubleshooting.md)**: fixes for sync, reminders, and other issues.
-3. **[Known limitations](./known-limitations.md)**: things KashCal intentionally doesn't do (yet), so you know what to expect.
-4. **[Advanced options](./advanced-options.md)**: the hidden menu for force-sync and sync history.
+1. [FAQ](./faq.md): short answers to common questions.
+2. [Troubleshooting](./troubleshooting.md): fixes for sync, reminders and other problems.
+3. [Known limitations](./known-limitations.md): what KashCal doesn't do, so you know what to expect.
+4. [Advanced options](./advanced-options.md): the hidden menu for a full sync and sync history.
 
 ## Still stuck?
 
-Only after checking the pages above:
+If the pages above don't answer it:
 
-- **[Before you file a bug](./report-a-bug.md)**: what to include so it can actually be fixed.
-- **[Requesting a feature](./request-a-feature.md)**: how to suggest an idea, and what's already planned.
+- [Before you file a bug](./report-a-bug.md): what to include so the bug can be fixed.
+- [Requesting a feature](./request-a-feature.md): how to suggest an idea, and what's planned.
 
 :::tip[Why we ask]
 KashCal is a free, open-source project. When you check these pages first, your bug
-report or idea stands out instead of getting lost among duplicates, and it reaches
-someone who can act on it sooner. Thanks for taking the time.
+report or idea doesn't get lost among duplicates, and it reaches someone who can act
+on it sooner. Thanks for taking the time.
 :::

@@ -1,66 +1,68 @@
 ---
 sidebar_position: 3
 title: Supported servers
-description: KashCal connects to any CalDAV server, including iCloud, Nextcloud, Fastmail, Radicale, Baikal, SOGo, Zoho, and more, with guides for popular ones.
+description: KashCal connects to CalDAV servers, including iCloud, Nextcloud, Fastmail, Radicale, Baikal, SOGo and Zoho, and to Google and Outlook through your phone.
 ---
 
 # Supported servers
 
-If your calendar service speaks **CalDAV**, the open calendar standard, KashCal can
-connect to it. Popular services are recognized for you and have their own setup
-guides. Everything else connects through the general
-[CalDAV setup](./providers/caldav.md).
+KashCal connects to calendar services that speak CalDAV, the open calendar standard.
+iCloud has its own sign-in screen. Every other CalDAV service connects through the
+[CalDAV setup](./providers/caldav.md), which tries the usual paths of common
+servers.
 
 ## Compatibility at a glance
 
 | Service | How to connect | What you'll need |
 |---------|----------------|------------------|
-| **iCloud** | [iCloud guide](./providers/icloud.md) | Apple ID + an **app-specific password** (not your normal Apple password) |
-| **Nextcloud** | [CalDAV guide](./providers/caldav.md) | Server address, username, and an **app password** |
-| **Fastmail** | [CalDAV guide](./providers/caldav.md) | Server address, username, and an **app password** |
-| **Radicale** | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
-| **Baikal** | [CalDAV guide](./providers/caldav.md) | Server address, username, password (Digest Auth supported) |
-| **Zoho** | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
-| **mailbox.org** | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
-| **Posteo** | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
-| **Stalwart** | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
-| **SOGo** | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
-| **Infomaniak** | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
-| **Davis** | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
-| **Purelymail** | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
-| **Any other CalDAV server** | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
+| iCloud | [iCloud guide](./providers/icloud.md) | Apple ID and an app-specific password (not your Apple ID password) |
+| Nextcloud | [CalDAV guide](./providers/caldav.md) | Server address, username and an app password |
+| Fastmail | [CalDAV guide](./providers/caldav.md) | Server address, username and an app password |
+| Radicale | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
+| Baikal | [CalDAV guide](./providers/caldav.md) | Server address, username, password (Digest authentication supported) |
+| Zoho | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
+| mailbox.org | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
+| Posteo | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
+| Stalwart | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
+| SOGo | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
+| Infomaniak | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
+| Davis | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
+| Purelymail | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
+| Any other CalDAV server | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
 
 :::tip[Automatic discovery]
-For most servers you can enter the main address (like `nextcloud.example.com`)
-and KashCal finds the right calendar path for you. If a service offers
-**app-specific passwords** or **app passwords**, use one of those rather than your
-main account password. It's safer and often required.
+For most servers, enter the main server address, like `nextcloud.example.com`, and
+KashCal finds your calendars. If it doesn't, enter the full CalDAV URL from your
+provider. If your service offers app passwords, use one instead of your main
+password. You can revoke it without changing your main password.
 :::
 
 ## Google and Outlook
 
-Google Calendar and Outlook don't offer the kind of CalDAV access KashCal connects
-to directly. The good news: if the Google or Outlook app on your phone already syncs
-those calendars, KashCal can show them right alongside everything else through
-[Device calendars](./device-calendars.md). You see and manage them in one place,
-without a separate sign-in.
+KashCal doesn't sign in to Google or Outlook accounts. If the Google or Outlook app on
+your phone syncs those calendars, KashCal shows them next to your other calendars
+through [Device calendars](./device-calendars.md). Device calendars are off until you
+turn them on. You don't sign in again.
 
-## A note about meeting invitations
+## Meeting invitations
 
-Sending and receiving meeting invitations (iTIP scheduling) depends on your server.
-Most major CalDAV services support it. A few have quirks, and local-only calendars
-can't send invitations at all. See [Known limitations](../help/known-limitations.md)
-for the details before you rely on invitations for an important meeting.
+Sending and receiving meeting invitations depends on your server. Local calendars
+can't send invitations. Some servers, SOGo and mailbox.org among them, save your guests
+without sending them the invitation. See
+[Known limitations](../help/known-limitations.md#invitations-depend-on-your-calendar-account)
+before you rely on invitations for an important meeting.
 
 ## Self-hosted and local servers
 
-If you run your own server (such as Baikal or Radicale) over plain HTTP or with a
-self-signed certificate, KashCal has an option to **Trust insecure connection** for
-that account. It's meant for self-hosted and local setups, not for production services.
-See the [CalDAV setup guide](./providers/caldav.md).
+For a server you run yourself, such as Baikal or Radicale, type `http://` in the
+server address to use plain HTTP. For a self-signed certificate, turn on **Trust
+insecure connection** for that account. On Android 17 and later, a server on your
+home network also needs local network access. See the
+[CalDAV setup guide](./providers/caldav.md#self-hosted-servers-http-or-self-signed-certificates).
 
 ## Don't see your service?
 
-If your provider supports CalDAV, it will very likely work through the
-[general CalDAV setup](./providers/caldav.md). If you hit trouble, check
-[Sync troubleshooting](../help/troubleshooting.md) first.
+If your provider supports CalDAV, connect it through the
+[CalDAV setup](./providers/caldav.md). If it doesn't work, check
+[Sync troubleshooting](../help/troubleshooting.md), then
+[report it](../help/report-a-bug.md).

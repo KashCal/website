@@ -1,48 +1,57 @@
 ---
 sidebar_position: 8
 title: Invites
-description: One place for every meeting invitation waiting on your reply, with Yes, Maybe, and No on each card.
+description: One list of every meeting invitation waiting on your reply, with Yes, Maybe and No on each card.
 keywords: [invites, invitations, RSVP, pending invitations, meeting requests]
 ---
 
 # Invites
 
-Invitations scatter. One arrives by email, one you spotted in a week view and meant
-to answer, one you don't remember at all. **Invites** collects the ones still waiting
-on you into a single list.
+Invitations arrive in different places: one by email, one you saw in the week view and
+meant to answer, one you forgot. **Invites** puts every invitation still waiting on your
+reply into one list.
 
 Tap the avatar in the top-right corner to open the
-[account hub](../calendar/navigation.md#the-account-hub), then tap **Invites**. When
-something is waiting, a count sits next to the row, and on the avatar itself, so you
-can see there's a reply owed without opening anything. Past 99 it reads **99+**.
+[account hub](../calendar/navigation.md#the-account-hub), then tap **Invites**. When an
+invitation is waiting, a count shows on the row and on the avatar. Above 99 it reads
+99+.
 
-## What lands here
+## What shows up
 
-An event shows up when all of these are true:
+An event is on the list when all of these are true:
 
-- You're listed as a guest and haven't replied yet.
-- The event still has an occurrence in the future. Once the last one has passed, the
-  invitation drops off the list on its own.
-- You're not the organizer. Your own events don't ask you to RSVP.
+- You're a guest and haven't replied yet.
+- The event has an occurrence in the future. When the last one has passed, the
+  invitation leaves the list.
+- You're not the organizer. Your own events don't ask you to reply.
 
-If you have several accounts connected, each invitation is checked against the account
-whose calendar it lives in. An invitation in your work calendar is your work
-invitation, even if the same address is on your personal account too.
+With more than one account connected, each invitation is checked against the account
+whose calendar holds it. An invitation in your work calendar counts as a work
+invitation, even if the same address is also on your personal account.
 
-## Replying
+## Get notified
+
+When a sync brings in an invitation you haven't answered, KashCal posts a notification
+with the event title and "From" the organizer, followed by "Tap to respond". Tap it to
+open the event and reply there. The notification clears when you reply.
+
+These notifications use their own Android channel, **Event Invitations**. Turn that
+channel off in Android's notification settings to stop them without muting reminders.
+
+## Reply
 
 Each card shows the date and time, the event title, who invited you, and the location
-if there is one. A colored dot marks which calendar it came from. Today and tomorrow
-are named rather than dated.
+if there is one. A colored dot marks the calendar it's in. For events today or
+tomorrow, the card shows **Today** or **Tomorrow** in place of the date.
 
-Tap **Yes**, **Maybe**, or **No**. Your answer is recorded straight away and the card
-leaves the list; the reply itself goes to your calendar server on the next sync, which
-KashCal starts immediately. For a repeating event, your reply covers the whole series.
+Tap **Yes**, **Maybe** or **No**. KashCal records your answer and the card leaves the
+list. KashCal then starts a sync, which sends the reply to your calendar server. For a
+repeating event, your reply covers the whole series.
 
-Declining also clears any reminders that event had set, so a meeting you've said no to
-won't buzz your phone later.
+Tapping **No** also cancels the event's reminders, so a meeting you declined won't
+alert you later.
 
-When there's nothing left:
+When nothing is left, the list shows:
 
 > All caught up
 
@@ -50,6 +59,6 @@ Tap that message to close the list.
 
 ## Related
 
-- [Scheduling & invitations](./attendees.md): inviting people to your own events
-- [Reminders](./reminders.md): alerts once you've accepted
+- [Scheduling & invitations](./attendees.md): invite people to your own events
+- [Reminders](./reminders.md): alerts for the events you accept
 - [Known limitations](../help/known-limitations.md): which accounts support scheduling

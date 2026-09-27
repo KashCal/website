@@ -18,7 +18,7 @@ const FEATURES: Feature[] = [
   {
     icon: '🔄',
     title: 'Syncs with what you have',
-    body: 'iCloud and any CalDAV server: Nextcloud, Fastmail, Radicale, Baikal, Zoho, mailbox.org, and more.',
+    body: 'iCloud and CalDAV servers such as Nextcloud, Fastmail, Radicale, Baikal, Zoho and mailbox.org. Add holiday calendars in one tap, and sync your contacts too.',
     to: '/features/all-your-calendars-google-outlook-android',
   },
   {
@@ -30,7 +30,7 @@ const FEATURES: Feature[] = [
   {
     icon: '📊',
     title: 'Where your time goes',
-    body: 'Insights finds your busiest days, your free blocks, and how much of your week runs back-to-back. None of it leaves your phone.',
+    body: 'Insights finds your busiest days, your free blocks, and how many of your meetings run back-to-back. None of it leaves your phone.',
     to: '/features/calendar-insights-android',
   },
   {
@@ -42,7 +42,7 @@ const FEATURES: Feature[] = [
   {
     icon: '🔒',
     title: 'Nobody is watching',
-    body: 'No account, no analytics, no servers of ours. Your passwords are encrypted on your device.',
+    body: 'No account, no analytics, no servers of ours. Your passwords are encrypted on your device. Turn on App lock and KashCal asks for biometrics or your screen lock before it opens.',
     to: '/docs/privacy/overview',
   },
 ];
@@ -51,7 +51,7 @@ const SHOTS = [
   {
     img: '/img/screenshots/Quick-Event-Add.png',
     alt: 'Typing a natural-language event in KashCal',
-    title: 'Just type it',
+    title: 'Type it in',
     caption: '"Become a morning person Monday 5am" turns into an event.',
   },
   {
@@ -157,7 +157,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title="A private calendar for Android with iCloud and CalDAV sync"
-      description="Free, open-source calendar for Android, now on Google Play. Sync iCloud, CalDAV, holidays, and birthdays. Smart event add, Insights, widgets. Private by default, no account required.">
+      description="Free, open-source calendar for Android. Sync iCloud, CalDAV, holidays and birthdays. Smart event add, Insights, widgets. Private by default, no account needed.">
       <Hero />
       <main>
         <Screenshots />

@@ -1,43 +1,43 @@
 ---
 sidebar_position: 9
 title: Languages
-description: KashCal is translated into 67 languages and follows your device language automatically, or set a specific one for the app from Android settings.
+description: KashCal comes in English plus 67 translations. It follows your phone's language, or you can pick a language for KashCal alone in Android settings.
 ---
 
 # Languages
 
-KashCal speaks your language. It's translated into **67 languages**, covering most
-of the world's widely-spoken ones along with many regional variants.
+KashCal comes in English plus 67 translations. Those include regional variants, such as
+Brazilian and European Portuguese, and Simplified and Traditional Chinese.
 
 ## How the language is chosen
 
-By default, KashCal follows your **device language** automatically. Set your phone to
-your preferred language and KashCal matches it.
+KashCal follows your phone's language. Change your phone's language and KashCal
+changes with it.
 
-On **Android 13 and newer**, you can also give KashCal its own language, separate from
-the rest of your phone. KashCal advertises all 67 languages to Android, so it appears in
-the system **per-app language** picker (Settings, then Apps, then KashCal, then
-Language). Pick a language there and KashCal uses it regardless of your device language.
+On Android 13 and newer, you can give KashCal its own language:
 
-If KashCal doesn't yet have your exact regional variant, it falls back to the
-closest available language, and ultimately to English.
+1. Open Android Settings, then Apps, then KashCal.
+2. Tap Language and pick one.
+
+KashCal then uses that language, whatever your phone's language is. KashCal has no
+language setting of its own.
+
+If KashCal has no translation for your exact regional variant, Android uses the closest
+language KashCal has, and falls back to English.
 
 ## What gets translated
 
-KashCal's own interface is translated, down to the name of the built-in **Local**
-calendar. That one used to read "Local" in English no matter your language; it now
-appears translated everywhere a calendar is named. Exported `.ics` files still use
-the English name, so other apps reading the file see a stable value.
+KashCal's own screens are translated, including the name of the built-in Local
+calendar. Exported `.ics` files keep the English name "Local", so other apps that read
+the file always see the same value.
 
-Your own content is left exactly as you typed it. Event titles, notes, locations,
-and the names of calendars that come from your accounts are never translated or
-rewritten.
+Your own content stays as you typed it. KashCal never translates event titles, notes,
+locations, or the names of calendars from your accounts.
 
 ## Help improve a translation
 
-Translations are part of the open-source project. If you spot something that reads
-awkwardly in your language, contributions are welcome on
-[GitHub](https://github.com/KashCal/KashCal).
+Translations are part of the open-source project. If something reads awkwardly in your
+language, send a fix on [GitHub](https://github.com/KashCal/KashCal).
 
 ## Related
 

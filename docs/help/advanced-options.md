@@ -1,43 +1,50 @@
 ---
 sidebar_position: 5
 title: Advanced options
-description: Open KashCal's hidden advanced menu to force a full sync or view your recent sync history.
+description: Open KashCal's hidden advanced menu to force a full sync or view and copy your recent sync history.
 keywords: [advanced options, developer options, debug menu, sync history, force full sync, sync logs]
 ---
 
 # Advanced options
 
-KashCal keeps a few diagnostic tools tucked away so they don't clutter everyday
-use. They're handy when sync is misbehaving and you want to see what happened or
-give it a push.
+KashCal keeps two diagnostic tools out of the way of everyday use. Use them when sync
+misbehaves and you want to see what happened or start over.
 
 ## Opening the menu
 
-1. Open **Settings** and scroll to the very bottom.
-2. **Long-press the version number** (the "KashCal v..." line in the footer).
+1. Open **Settings** and scroll to the bottom.
+2. Long-press the version line ("KashCal v" followed by the version number) at the bottom.
 
-A sheet slides up (labeled **Developer Options** in the app).
+A sheet titled **Developer Options** opens. A short tap on the version line opens a
+short sheet about the app instead, with a **Keep it that way** donation button and a link to
+kashcal.onekash.org.
 
 ## What's in it
 
-- **Force Full Sync.** Re-downloads all calendar data from your servers. Your local
-  changes are preserved. Useful if something looks out of date or a calendar seems
-  stuck.
-- **Sync History.** Shows your most recent sync sessions: how long each took, how many
-  events were pushed, pulled, skipped, or failed, and any warnings. KashCal keeps a
-  week of history and shows the latest hundred sessions. This is the first place to
-  look when sync isn't behaving, and the best thing to attach (with personal details
-  removed) when you [report a sync bug](./report-a-bug.md).
+- **Force Full Sync** re-downloads all calendar data from your servers. KashCal first
+  asks **Force Full Sync?** Tap **Sync Now** to start, or **Cancel**. Your local changes
+  are kept.
+- **Sync History** lists the sync sessions of the last 48 hours, up to 200 of them. Each
+  session shows its calendar, how many events were pushed and pulled, and any
+  failures. Tap a session for details such as its duration, skipped events and
+  warnings.
 
-:::note[Sync frequency moved]
-Choosing how often background sync runs used to live here. It's now a regular
-**Sync frequency** row in Settings, under **Sync**. See
-[Settings](../features/settings.md#sync).
+## Copying or clearing the history
+
+The **Sync History** sheet has two icon buttons at the top:
+
+- The copy button (two overlapping pages) copies the history as text. Paste it into a
+  [bug report](./report-a-bug.md) for a sync problem. The text includes your calendar
+  names, so check it before you share it.
+- The trash can button clears all sessions right away, with no confirmation.
+
+:::note[Sync frequency]
+How often background sync runs is set in Settings, under **Sync**, with the
+**Sync frequency** row. See [Settings](../features/settings.md#sync).
 :::
 
 ## When you'd use it
 
-Most people never need this menu. Reach for it when:
-
-- A change isn't showing up and you want to force a fresh pull (**Force Full Sync**).
-- You're chasing a sync problem and want to see what actually happened (**Sync History**).
+- A change isn't showing up or a calendar seems stuck, and you want a fresh pull:
+  **Force Full Sync**.
+- You're chasing a sync problem and want to see what happened: **Sync History**.

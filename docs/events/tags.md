@@ -1,76 +1,81 @@
 ---
 sidebar_position: 6
 title: Tags
-description: "Label events with colored tag chips in KashCal: add them in the form or by typing #tag, manage their color and name in one place, and carry them across your devices."
+description: "Label events with colored tag chips in KashCal. Add them in the form or with #tag, and rename, recolor or remove them in one place."
 ---
 
 import Screenshot from '@site/src/components/Screenshot';
 
 # Tags
 
-Calendars sort your events by which account they live in. Tags let you label them
-by what they *are*: `#focus`, `#dentist`, `#standup`, `#travel`. A tag shows up as
-a small colored chip on the event, so you can spot a kind of event at a glance
-across your week.
+Calendars group your events by where they're stored. Tags label them by what they
+are: `#focus`, `#dentist`, `#standup`, `#travel`. A tag shows as a small colored chip
+on the event, so you can pick out one kind of event across your week.
 
 ## Adding tags
 
-You can add a tag two ways:
+You can add a tag three ways:
 
-- **In the [event form](./event-form.md).** Type a name into the tag field and
-  confirm it, or pick one from the suggestions. Suggestions are ranked by how
-  often and how recently you've used each tag, so the ones you reach for most sit
-  first.
-- **In [Smart event add](./smart-event-add.md).** Type `#` in front of a word anywhere in your
-  phrase, like `Lunch with Sam #social`, and KashCal takes the `#social` as a tag
-  while the rest becomes the event. You can add several, and a tags-only entry
-  like `#work` is fine too.
-
-The title field also offers an inline `#` autocomplete: start typing `#` in the
-title and KashCal suggests your existing tags.
+- In the [event form](./event-form.md): tap **New tag** (or the + after your
+  tags), then type a name or pick one from the list. The list shows your 20 most
+  recently used tags, newest first. Typing filters it, and the last row, Create "…",
+  adds the name you typed.
+- In the title field: type `#` at the end of the title and KashCal suggests your existing
+  tags, plus a Create "…" row for a name you haven't used. Pick one and it moves out of
+  the title into the event's tags.
+- In [Smart event add](./smart-event-add.md): put `#` in front of a word, like
+  `Lunch with Sam #social`. KashCal takes `#social` as a tag and the rest becomes the
+  event. You can add more than one tag, and a tags-only entry like `#work` works too. A
+  Smart event add tag is one word of letters, digits, `-` or `_`, and it has to come
+  before any `//` note.
 
 ## Where tags show up
 
-Once an event has tags, its chips appear in the **day**, **week**, and **agenda**
-views, and in the event's quick view when you tap it open. Open the full event and
-the tags are listed there as well.
+An event's tags show as chips in the quick view when you tap the event, and in the
+tag row of the event form. For the calendar views that show chips, see
+[Tag chips](../calendar/views.md#tag-chips).
 
-If you'd rather the tag row sit above your notes than below, use the row's **⋮**
-menu in the form to move it. KashCal remembers your choice.
+The tag row sits below the notes in the form. To move it above the notes, tap the
+⋮ at the end of the row and choose **Move above notes**. KashCal keeps that
+choice for every event.
 
 ## Managing your tags
 
-Tags have a home of their own. Open **Manage tags** from the
-[account hub](../calendar/navigation.md#the-account-hub) to see every tag you've used,
-each with:
+Open **Manage tags** from the [account hub](../calendar/navigation.md#the-account-hub)
+to see every tag you've used. Each tag has these actions:
 
-- **Change color:** pick the chip color from the palette.
-- **Rename:** fix a typo or reword a tag. Renaming rewrites the tag across every event
-  that carries it, not just the label on your screen, and on CalDAV accounts it pushes
-  the new name up to your server so your other devices catch up instead of drifting.
-  Rename a tag onto a name that already exists and the two **merge** into one.
-- **Delete:** remove a tag from the list. This only clears it from the manager; your
-  events keep their labels. A quick **Undo** appears in case you change your mind.
+- **Change color:** pick the chip color.
+- **Rename:** change the tag's name on every event in KashCal's own calendars that
+  carries it. On iCloud and CalDAV accounts, KashCal uploads the changed events so
+  your other devices get the new name. Renaming a tag to a name that already exists
+  merges the two into one tag.
+- **Delete:** removes the tag from this list only, and its custom color goes with it.
+  Your events keep the tag. An **Undo** button appears for a moment after you delete.
+
+Renaming doesn't change tags on device-calendar events.
 
 ## Tags on device-calendar events
 
-Tags aren't limited to KashCal's own calendars. Events from your
-[device calendars](../sync/device-calendars.md) (Google, Outlook, and the like) can
-carry tags too: add and remove them in the event form, and see them as chips on the
-card and in the quick view. They're stored in the standard **categories** field, so
-they travel with the event, though some device calendars may not preserve them.
+Events in your [device calendars](../sync/device-calendars.md) can carry tags too. Add
+and remove them in the event form, and see them as chips on the event and in the
+quick view.
+
+KashCal stores these tags in a field of the Android calendar that CalDAV sync apps on
+your phone read as the event's categories. On a calendar synced by such an app, the
+tags reach your server. Other device calendars, such as Google calendars, keep the
+tags on your phone only, and some don't keep them at all.
 
 ## How tags are matched and stored
 
-- **Case-insensitive, first-casing wins.** `Work` and `work` are the same tag.
-  Whichever spelling you used first is the one KashCal keeps and shows, so your
-  tag list doesn't fracture into near-duplicates.
-- **Up to 64 characters,** and no commas.
-- **Stored as standard calendar categories,** which is why they travel with the event
-  when it syncs.
+- Case doesn't matter. `Work` and `work` are the same tag. KashCal keeps the
+  spelling you used first, so your list doesn't fill up with near-duplicates.
+- Length and characters. A tag can be up to 64 characters and can't contain a
+  comma.
+- Standard format. On iCloud and CalDAV accounts, tags are stored as the event's
+  calendar categories, so they sync with the event.
 
 ## Related
 
 - [Creating & editing events](./event-form.md): the full event form
 - [Smart event add](./smart-event-add.md): type `#tag` inline
-- [Calendar views](../calendar/views.md): where chips appear
+- [Calendar views](../calendar/views.md#tag-chips): the views that show chips

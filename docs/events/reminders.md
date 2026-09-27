@@ -1,78 +1,89 @@
 ---
 sidebar_position: 4
 title: Reminders
-description: Get a heads-up before an event starts. Add up to five reminders per event in KashCal, with their own timing options for all-day events.
+description: Get an alert before an event starts. Add up to five reminders per event in KashCal, with separate timing for all-day events.
 ---
 
 # Reminders
 
-Reminders are what keep an event from slipping past you. KashCal gives you a heads-up
-before it starts, on your terms.
+A reminder is an Android notification that tells you an event is coming up.
 
-## Adding reminders
+## Add a reminder
 
-In the event form, tap **Add Alert**. You can add up to **five reminders** per
-event.
+In the event form, tap the alerts row (the bell). It lists the event's alerts, or
+**None**. Each event can have up to five alerts.
 
-For **timed events**, the options include:
+1. Tap **Add Alert**. KashCal adds an alert and opens a picker for it.
+2. Tap a preset chip. The picker closes with that lead time set.
+3. Or turn the **days**, **hrs** and **min** wheels to set any lead time, then tap
+   **Done**. The minute wheel moves in 5-minute steps.
 
-- At the time of the event
-- 5, 15, 30 minutes before
-- 1 hour, 4 hours before
-- 1 day, 1 week before
+On a timed event, the new alert starts at 15 minutes before, and the chips are 15m,
+30m, 1h and 1d. Set all wheels to 0 for an alert at the start time.
 
-Need something in between? Tap a reminder to open a days/hours/minutes picker and set
-any custom lead time. To remove a reminder, tap the **✕** on its row.
+All-day events have no start time, so their chips fire at 9 AM:
 
-For **all-day events**, reminders work a little differently because there's no
-specific start time. Options include:
+- 9AM: 9 AM on the day of the event
+- 1d: 9 AM the day before
+- 2d: 9 AM two days before
+- 1w: 9 AM a week before
 
-- 9 AM on the day of the event
-- 1 day before (at 9 AM)
-- 2 days before
-- 1 week before
+Tap an alert to change it. Tap the ✕ on its row to remove it. **Add Alert**
+disappears once an event has five.
+
+An event synced from another app can carry more than five alerts. The form shows the
+first five, and a line under them says how many aren't shown.
+
+## Alerts on invitations
+
+On an event you were invited to, you can't change the details, but you can set your
+own alerts. They stay on this phone and aren't sent to the organizer or your server.
 
 ## When a reminder fires
 
-Reminders arrive as Android notifications. Each one gives you quick actions:
+The notification shows the event title, its time, and its location if it has one. For
+an all-day event it shows Today, Tomorrow or "In 3 days" in place of a time. Tap
+it to open the event. It has two actions:
 
-- **Snooze** to remind you again shortly.
-- **Dismiss** to acknowledge and clear it.
+- **Snooze** reminds you again in 15 minutes.
+- **Dismiss** clears it.
 
-## Reminders survive reboots
-
-KashCal re-schedules your reminders after your device restarts, so a reboot won't
-make you miss an alert.
+KashCal schedules your reminders again after the phone restarts and after the app
+updates, so neither makes you miss an alert.
 
 ## Default reminders
 
-Settings has two defaults, so every new event starts with the alert you prefer:
-**Timed event alert** for events with a start time (15 minutes before, by default)
-and **All-day event alert** for all-day events. They're separate because "10 minutes
-before" and "the morning of" aren't the same request. Both are under **Event
-preferences**, and you can always change or remove the alert on an individual event.
+Each event you create starts with a default alert. **Timed event alert** sets it for events
+with a start time (15 minutes before, unless you change it). **All-day event alert**
+sets it for all-day events (9 AM the day before, unless you change it). Both are in
+Settings under **Event preferences**; see
+[Settings](../features/settings.md#event-preferences). You can change or remove the
+alert on any single event.
 
 ## Notification permission
 
-Reminders need Android's notification permission. If it isn't granted yet, KashCal
-will ask:
+On Android 13 and later, reminders need notification permission. When you save an
+event with an alert from the event form and the permission isn't granted, Android asks
+for it. If you said no once before, KashCal shows this first:
 
 > KashCal needs notification permission to remind you about upcoming events.
 
-If you dismissed that ask, you can grant it later from the **App permissions** screen,
-reached from the [account hub](../calendar/navigation.md#the-account-hub).
+To grant it later, open the [account hub](../calendar/navigation.md#the-account-hub),
+then **App permissions**.
 
-For reminders to arrive at the exact minute, KashCal also uses the precise-alarm
-capability. If your device asks about exact alarms, allowing it keeps reminders
-on time.
+On Android 13 and later, KashCal schedules reminders as exact alarms, so they arrive
+on the minute. Android grants this when you install KashCal. On Android 12,
+KashCal schedules reminders as inexact alarms, which Android can deliver a few minutes
+late.
 
 ## Device calendar reminders
 
 If you show calendars from other apps on your phone (see
-[Device calendars](../sync/device-calendars.md)), KashCal can deliver reminders for
-those events too, which you can toggle in Settings.
+[Device calendars](../sync/device-calendars.md)), KashCal also sends reminders for
+their events. To turn this off, open Settings, tap **Device calendars**, and turn off
+**Reminders**. It's on by default.
 
 ## Related
 
 - [Creating & editing events](./event-form.md): set a reminder while you edit
-- [Settings](../features/settings.md): the default reminder for new events
+- [Settings](../features/settings.md#event-preferences): the default reminders for new events

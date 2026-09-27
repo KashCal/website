@@ -61,8 +61,8 @@ export default function Donate(): ReactNode {
           A calendar for you, not your data.
         </Heading>
         <p className={styles.lede}>
-          If KashCal has earned a place in your day, donating helps it stay free,
-          private, and open source, for everyone.
+          If KashCal has earned a place in your day, a donation helps keep it free,
+          private and open source for everyone.
         </p>
 
         <div className={styles.options}>

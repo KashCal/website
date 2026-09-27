@@ -1,6 +1,6 @@
 ---
 title: iCloud calendar on Android
-description: Sync iCloud calendars to Android with KashCal. Two-way sync with iPhone and iPad, shared family calendars included, no middleman server. Open source and free.
+description: Sync iCloud calendars with Android in KashCal. Two-way sync with iPhone and iPad, shared calendars included, no middleman server. Free and open source.
 image: /img/social/icloud-calendar-android.png
 ---
 
@@ -17,61 +17,68 @@ import FaqSchema from '@site/src/components/FaqSchema';
 
 # iCloud calendar on Android
 
-Switched to Android but your family is still on Apple? KashCal syncs your iCloud calendars directly to your Android phone, in both directions. Free, open source, no workaround needed.
+Switched to Android, but your family is still on Apple? KashCal syncs your iCloud calendars with your Android phone, in both directions. It's free and open source, and you don't need a bridge app.
 
 <Screenshot src="/img/screenshots/Sync-with-iCloud.png" alt="KashCal iCloud sign-in" align="right" caption="Sign in once, sync both ways." />
 
 ## What syncs
 
-Events you add or edit on Android push to iCloud right away, which means your partner's iPhone or iPad picks them up within seconds. Inbound changes from Apple devices arrive in the background once an hour by default, and immediately when you open KashCal or pull down to refresh.
+When you add or edit an event on Android, KashCal sends it to iCloud right away if you're online. Your partner's iPhone or iPad picks it up from iCloud within seconds. Changes from Apple devices come in when you open KashCal, when you pull down to refresh, and in the background once an hour by default. You can change the interval in [Settings](/docs/features/settings#sync).
 
-- Personal calendars
-- Shared and family calendars
-- Calendar colors
-- Event titles, times, locations, and notes
-- Recurring events, including one-off changes to a single occurrence
-- Reminders and alerts
+- Your own calendars
+- Calendars shared with you, and Family Sharing calendars
+- Calendar names and colors, as set in iCloud
+- Event titles, times, locations and notes
+- Repeating events, including changes to a single occurrence
+- Reminders. On an invite someone else sent you, your reminders stay on this phone.
 - All-day and multi-day events
 - Time zones
-- Meeting invites, attendees, and responding to invitations
+- Meeting invites, guests, and your replies to invitations
+
+Your iCloud contacts can sync too, in both directions. Contact sync is in beta, and you turn it on per account. See [Contact sync](/docs/sync/contacts).
 
 ## What you need
 
-Apple requires an **app-specific password** to let third-party apps reach iCloud. Your regular Apple ID password won't work. Getting one is a 30-second detour:
+Apple requires an app-specific password for third-party apps that reach iCloud. Your regular Apple ID password doesn't work. Creating one takes about 30 seconds:
 
-1. Sign in to [account.apple.com](https://account.apple.com)
-2. Open [App-Specific Passwords](https://support.apple.com/102654) and create one named "KashCal"
-3. Copy the 16-character code
-4. In KashCal, tap Add Account, pick iCloud, and paste the code with your Apple ID
+1. Sign in to [account.apple.com](https://account.apple.com).
+2. Open Sign-In and Security, then [App-Specific Passwords](https://support.apple.com/102654). Create one named "KashCal".
+3. Copy the 16-character password.
+4. In KashCal, open **Settings**, tap **Calendar accounts**, then tap **Add iCloud**.
+5. Enter your **Apple ID**, paste the password into **App-Specific Password**, and tap **Sign In**.
 
-All your iCloud calendars show up right away, including ones shared with you. Hide any you don't want in view from Settings.
+KashCal finds all your iCloud calendars, including the ones shared with you, and starts the first sync. To hide a calendar, tap it in the navigation drawer. The full steps are in [Connecting iCloud](/docs/sync/providers/icloud).
+
+## Shared calendars
+
+A calendar someone shares with you works like your own if they gave you edit access. A view-only share is read-only: its events show, but it isn't offered when you pick a calendar for a new event.
 
 ## Material You
 
-KashCal picks up the [colors from your Android wallpaper](/features/beautiful-calendar-android) on Android 12 and newer, so the app feels at home on your phone instead of bolted on. Widgets pick up the same palette. Light and dark follow your system setting.
+By default, KashCal takes its [colors from your Android wallpaper](/features/beautiful-calendar-android), so the app fits in with the rest of your phone. You can pick an accent color instead. Widgets follow the app's colors unless you set them apart. Light and dark follow your system setting unless you choose one.
 
 ## No middleman
 
-Your phone talks to iCloud directly over HTTPS. There's no KashCal server in between, because there's no KashCal server at all. Credentials are stored encrypted in the Android Keystore and excluded from device backups. See the [privacy policy](/docs/privacy/privacy-policy) for details.
+Your phone talks to iCloud directly over HTTPS. There's no KashCal server in between, because there's no KashCal server at all. Your password is stored encrypted with a key in the Android Keystore, and it's left out of device backups. See [Privacy & Security](/docs/privacy/overview) for what leaves your phone.
 
 ## Common questions
 
-**Does KashCal sync iCloud both ways?**
+### Does KashCal sync iCloud both ways?
 
-Yes. Events you add or edit on Android push to iCloud right away, and iCloud pushes those changes on to iPhone and iPad. Inbound changes from Apple devices arrive in the background once an hour by default, and immediately when you open the app or pull down to refresh.
+Yes. When you add or edit an event on Android, KashCal sends it to iCloud right away if you're online, and iCloud passes it on to your iPhone and iPad. Changes from Apple devices come in when you open KashCal, when you pull down to refresh, and in the background once an hour by default.
 
-**Do shared family calendars work?**
+### Do shared family calendars work?
 
-Yes. Shared calendars and Family Sharing calendars show up alongside your personal ones, and you can add or edit events on them from Android.
+Yes. Calendars shared with you and Family Sharing calendars show up next to your own. If you have edit access, you can add and edit events on them. A view-only share is read-only in KashCal.
 
-**What do I need to connect iCloud?**
+### What do I need to connect iCloud?
 
-Your Apple ID and an app-specific password from account.apple.com. Your regular Apple ID password won't work because Apple requires app-specific passwords for third-party apps. It takes about 30 seconds to create one.
+Your Apple ID and an app-specific password from account.apple.com. Your regular Apple ID password doesn't work, because Apple requires app-specific passwords for third-party apps. Creating one takes about 30 seconds.
 
-**Is KashCal free?**
+### Is KashCal free?
 
-Yes. KashCal is free, open source, and has no ads, trackers, or accounts. The source is on GitHub and the app is on Google Play, F-Droid, IzzyOnDroid, GitHub Releases, and Obtainium.
+Yes. KashCal is free and open source, with no ads, no trackers and no KashCal account. The source is on GitHub, and the app is on Google Play, F-Droid, IzzyOnDroid, GitHub Releases and Obtainium.
 
-**Does KashCal send my calendar data to its own servers?**
+### Does KashCal send my calendar data to its own servers?
 
-No. There are no KashCal servers. Your phone talks to iCloud directly over HTTPS. Credentials are stored encrypted in the Android Keystore and excluded from device backups.
+No. There are no KashCal servers. Your phone talks to iCloud directly over HTTPS. Your password is stored encrypted with a key in the Android Keystore, and it's left out of device backups.

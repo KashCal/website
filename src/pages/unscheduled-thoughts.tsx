@@ -33,7 +33,7 @@ const SAMPLE: (Day | null)[] = [
   {n: 15, note: 'All-day. Forever.', kind: 'Calendar joke'},
   {n: 16, today: true},
   {n: 17},
-  {n: 18, note: "Don't peak early.", kind: 'Gentle ribbing'},
+  {n: 18, note: 'Stretch.', kind: 'Gentle ribbing'},
   {n: 19},
   {n: 20},
   {n: 21, note: 'Nothing today.', kind: 'Snark'},
@@ -56,17 +56,17 @@ const AGENDA: {d: number; dow: string; note?: string; kind?: string; cta?: boole
   {d: 6, dow: 'Mon', note: '"Gym" has repeated weekly since March. The event is the consistent part.', kind: 'Calendar joke'},
   {d: 9, dow: 'Thu', note: "You've got this. Statistically, someone has to.", kind: 'Snark'},
   {d: 15, dow: 'Wed', note: 'All-day event. Like your to-do list. Forever.', kind: 'Calendar joke'},
-  {d: 18, dow: 'Sat', note: "You woke up on time. Let's not peak too early.", kind: 'Gentle ribbing'},
+  {d: 18, dow: 'Sat', note: "Stretch. You're folded like a lawn chair again.", kind: 'Gentle ribbing'},
   {d: 23, dow: 'Thu', cta: true},
   {d: 31, dow: 'Fri', note: 'Made it to the end of the month. Low bar. Cleared it anyway. Proud of you.', kind: 'Sincere'},
 ];
 
 const APPS = [
-  {name: 'KashCal', body: <>Settings &rarr; <b>Calendar feeds (ICS)</b> &rarr; Add ICS Calendar. Paste the URL, pick a refresh interval, save.</>},
-  {name: 'iPhone', body: <>Settings &rarr; Calendar &rarr; Accounts &rarr; <b>Add Subscribed Calendar</b>, then paste the URL.</>},
-  {name: 'Google', body: <>Other calendars &rarr; <b>+</b> &rarr; <b>From URL</b>, paste the URL, add.</>},
-  {name: 'Outlook', body: <><b>Add calendar</b> &rarr; <b>Subscribe from web</b>, paste the URL, add.</>},
-  {name: 'Anything else', body: <>Look for <b>Subscribe to URL</b> or <b>Add by URL</b> and paste it in.</>},
+  {name: 'KashCal', body: <>On your phone, tap the Add to calendar button above and open it with KashCal. Or go to Settings &rarr; <b>Calendar feeds (ICS)</b> &rarr; <b>Add ICS Calendar</b> and paste the URL. Then tap <b>Fetch Calendar</b>, then <b>Add</b>. KashCal refreshes the feed once a day.</>},
+  {name: 'iPhone', body: <>Settings &rarr; Calendar &rarr; Accounts &rarr; Add Subscribed Calendar, then paste the URL.</>},
+  {name: 'Google', body: <>Other calendars &rarr; + &rarr; From URL, paste the URL, add.</>},
+  {name: 'Outlook', body: <>Add calendar &rarr; Subscribe from web, paste the URL, add.</>},
+  {name: 'Anything else', body: <>Look for Subscribe to URL or Add by URL and paste it in.</>},
 ];
 
 function Cell({day}: {day: Day | null}): ReactNode {
