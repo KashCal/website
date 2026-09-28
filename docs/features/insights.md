@@ -30,7 +30,9 @@ The top of the screen shows:
 - How many all-day events it has. All-day events don't count toward the hours.
 - On **Week**, the change from last week, such as "+2h 30m", when there is one.
 - A bar split by calendar, with each calendar's hours below it.
-- A chart of hours per day.
+- A chart of hours per day. Each day's bar is split into your calendars' colors, in the
+  same order as the bar above: from the left on **Week** and **Last week**, from the
+  bottom on **Month**.
 
 Only calendars you've made visible in the drawer count, device calendars included. A
 period with no events shows "No events scheduled this week".

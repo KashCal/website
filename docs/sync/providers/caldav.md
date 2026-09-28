@@ -92,5 +92,11 @@ server stay there.
 - Check that the server address is correct and your phone can reach it.
 - If your provider offers app passwords, use one.
 - For a self-signed certificate, turn on **Trust insecure connection**.
+- If KashCal says "The server redirected the connection somewhere KashCal won't follow",
+  the server sent KashCal from `https://` to a plain `http://` address, or through more
+  than five redirects in a row. KashCal stops before sending your password. The message
+  shows at sign-in, on **Change Password** and on **Discover New Calendars**. Check the
+  **Server URL**. KashCal uses plain HTTP only for an account whose address starts
+  with `http://`.
 - On Android 17 and later, for a server on your home network, allow local network access.
 - See [Sync troubleshooting](../../help/troubleshooting.md).

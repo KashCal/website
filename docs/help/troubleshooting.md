@@ -60,9 +60,9 @@ downloads everything again and keeps your local changes.
   Battery. Samsung, Xiaomi, Oppo and OnePlus phones cut off background work, which
   stops reminders from firing. [dontkillmyapp.com](https://dontkillmyapp.com) has steps
   for each brand.
-- On Android 13 and later, reminders are exact alarms and arrive on the minute. On
-  Android 12, KashCal uses inexact alarms, which Android can deliver late while the
-  phone is idle.
+- Reminders are exact alarms and arrive on the minute. On Android 12 and 12L, check
+  that "Alarms & reminders" is on for KashCal in Android's app settings; with it off,
+  KashCal uses inexact alarms, which Android can deliver late while the phone is idle.
 - After a restart, KashCal schedules your reminders again on its own.
 
 See [Reminders](../events/reminders.md).

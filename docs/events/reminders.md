@@ -71,10 +71,10 @@ for it. If you said no once before, KashCal shows this first:
 To grant it later, open the [account hub](../calendar/navigation.md#the-account-hub),
 then **App permissions**.
 
-On Android 13 and later, KashCal schedules reminders as exact alarms, so they arrive
-on the minute. Android grants this when you install KashCal. On Android 12,
-KashCal schedules reminders as inexact alarms, which Android can deliver a few minutes
-late.
+KashCal schedules reminders as exact alarms, so they arrive on the minute. Android
+grants this when you install KashCal. On Android 12 and 12L you can turn it off under
+"Alarms & reminders" in Android's app settings; KashCal then uses inexact alarms, which
+Android can deliver a few minutes late.
 
 ## Device calendar reminders
 

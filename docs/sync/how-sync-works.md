@@ -72,17 +72,24 @@ hours.
 
 KashCal downloads all future events, up to the year 2100. For the past, it keeps one year by default. Set
 this with **Sync lookback** in [Settings](../features/settings.md#sync). Widening the
-lookback starts a full sync to fetch the older events. Narrowing it clears events that
-ended before the new lookback from your phone's calendar views. This covers every
-calendar, local ones included, and the older dates of repeating events. The server
-keeps synced events.
+lookback starts a full sync to fetch the older events. Narrowing it removes one-time
+events from your accounts and calendar feeds that ended before the new lookback.
+Repeating events and their changed occurrences stay, as do events with changes not yet
+sent, events in local calendars, and birthdays and anniversaries. The server keeps its
+copies. A feed that lists changed occurrences without their repeating event is the
+exception: those occurrences go when the earliest original date among them is before the
+new lookback. A calendar feed adds its older events back the next time it downloads a
+changed feed, and an account adds an older event back if it changes on the server.
 
 ## When your change and the server's copy differ
 
 If the event changed on the server after your last sync, the server refuses your
-change. KashCal sends it once more, and if the server accepts it, your version
-replaces the server's. If the server refuses it again, KashCal replaces your change
-with the server's version. If KashCal can't get the server's
+change. KashCal then fetches the server's copy and applies your changes to it: each
+detail you changed (the time, the title, a guest you added or removed) takes your
+value, and everything else keeps the server's, such as a guest's reply or an edit made
+on another device. If the server refuses that version too, KashCal replaces your
+change with the server's version. If the event was deleted on the server, KashCal
+deletes it on your phone too. If KashCal can't get the server's
 version for three syncs, it drops your change and shows a notification. When one
 event is affected, the notification names it:
 
