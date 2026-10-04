@@ -72,3 +72,8 @@ Connecting an [iCloud](./providers/icloud.md) or [CalDAV](./providers/caldav.md)
 account makes KashCal sync those calendars with the server itself. **Device
 calendars** shows calendars that another app already syncs on your phone. You can
 use both at once, and pick whichever fits each calendar.
+
+Device calendars work in one direction. KashCal doesn't copy the events of its own
+calendars (Local, iCloud, CalDAV, feed and birthday calendars) into the phone's calendar storage, so other apps and launcher widgets
+that read that storage don't see them. Use [KashCal's widgets](../features/widgets.md)
+for those calendars.

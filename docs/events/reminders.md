@@ -48,8 +48,13 @@ it to open the event. It has two actions:
 - **Snooze** reminds you again in 15 minutes.
 - **Dismiss** clears it.
 
+You can't change the 15-minute snooze. If you turn on notification snoozing in
+Android's notification settings, Android adds its own snooze with other lengths.
+
 KashCal schedules your reminders again after the phone restarts and after the app
-updates, so neither makes you miss an alert.
+updates. A reminder that fired before a restart is gone: Android clears notifications
+when the phone restarts, and KashCal doesn't show a fired reminder again. To be
+reminded more than once, add more alerts to the event.
 
 ## Default reminders
 
@@ -57,8 +62,8 @@ Each event you create starts with a default alert. **Timed event alert** sets it
 with a start time (15 minutes before, unless you change it). **All-day event alert**
 sets it for all-day events (9 AM the day before, unless you change it). Both are in
 Settings under **Event preferences**; see
-[Settings](../features/settings.md#event-preferences). You can change or remove the
-alert on any single event.
+[Settings](../features/settings.md#event-preferences). Each setting holds one alert. You can
+change or remove the alert on any single event, or add more.
 
 ## Notification permission
 

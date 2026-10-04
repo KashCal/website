@@ -51,6 +51,10 @@ note.
 
 ## What you can type
 
+Smart event add reads English words only, whatever language KashCal shows. Numeric
+dates and times, such as `2027-01-15` and `15:30`, work in any language. Words it
+doesn't recognize as a date, time, repeat, location, tag or note stay in the title.
+
 Combine any of these in one sentence.
 
 ### Dates

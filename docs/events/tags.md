@@ -65,6 +65,15 @@ your phone read as the event's categories. On a calendar synced by such an app, 
 tags reach your server. Other device calendars, such as Google calendars, keep the
 tags on your phone only, and some don't keep them at all.
 
+A tag on a device-calendar event joins **Manage tags** only when you add it in KashCal
+and save the event. Tags that arrive from another app or your server show on their
+events but aren't listed. KashCal reads device calendars from the phone's calendar
+storage and keeps no copy of their events.
+
+If the account offers CalDAV, connect it [directly](../sync/providers/caldav.md). Then
+the tags on its synced events are listed in **Manage tags**, and you can rename and
+merge them.
+
 ## How tags are matched and stored
 
 - Case doesn't matter. `Work` and `work` are the same tag. KashCal keeps the

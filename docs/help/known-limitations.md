@@ -93,6 +93,46 @@ calendars are off until you turn them on in Settings. See
 [Device calendars](../sync/device-calendars.md) and the
 [FAQ](./faq.md#does-it-work-with-google-calendar-or-outlook).
 
+## Other services need CalDAV or an ICS link
+
+KashCal connects through two open standards: CalDAV for accounts and ICS for feeds.
+It can't connect to a service that offers neither. If a service, such as a school
+timetable system, offers an ICS link, add it as a
+[calendar feed](../sync/ics-subscriptions.md). If it has only its own app, and that
+app syncs to your phone's calendar, use [Device calendars](../sync/device-calendars.md).
+
+## KashCal's own calendars stay out of the phone's calendar storage
+
+Other apps and launcher widgets don't see events from KashCal's own calendars. See
+[Device calendars](../sync/device-calendars.md#how-this-differs-from-connecting-an-account).
+
+## Device-calendar tags aren't all in Manage tags
+
+**Manage tags** lists a device-calendar tag only after you add it in KashCal and save
+the event. See [Tags](../events/tags.md#tags-on-device-calendar-events).
+
+## Calendar colors are set where the calendar lives
+
+You can't recolor an iCloud, CalDAV, device or Local calendar in KashCal. Change it on
+the server or in the app that owns the calendar, or give events their own color. See
+[Calendar colors](../events/colors.md#calendar-colors).
+
+## One time zone per event
+
+The event form sets one time zone for both the start and the end. For a flight across
+zones, create one event per leg. See
+[Creating & editing events](../events/event-form.md#what-you-can-set).
+
+## Smart event add reads English
+
+[Smart event add](../events/smart-event-add.md#what-you-can-type) understands English
+words only. Numeric dates and times work in any language.
+
+## Snooze is 15 minutes, and a restart clears fired reminders
+
+KashCal's snooze length is fixed, and a reminder that has fired isn't shown again
+after the phone restarts. See [Reminders](../events/reminders.md#when-a-reminder-fires).
+
 ## Views are the seven built in
 
 KashCal has Month, Agenda, Day, 3 Days, Week, Month (Full) and Year views, plus

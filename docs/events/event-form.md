@@ -26,7 +26,7 @@ opens with a title already filled in, the keyboard stays down.
 - Notes. Free-form details for the event.
 - Calendar. Which calendar the event belongs to. New events go to your **Default calendar** unless you pick another.
 - Start and end. Pick the date and time, or switch on **All day**. The time wheel steps in 5-minute increments. To set an exact minute like 3:47, tap the keyboard button and type it. An event on an off-step minute shows its exact time as tappable text. A new event lasts your **Default event length**, 30 minutes unless you change it in [Settings](../features/settings.md#event-preferences).
-- Time zone. Events use your device time zone unless you set another one.
+- Time zone. Events use your device time zone unless you set another one. One time zone covers both the start and the end.
 - Repeat. Make the event recurring. See [Recurring events](./recurring.md).
 - Event color. Give the event its own color. See [Event colors](./colors.md).
 - Tags. Label the event with colored chips like `#focus` or `#dentist`, with suggestions from tags you've used before. See [Tags](./tags.md).

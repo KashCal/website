@@ -32,6 +32,16 @@ for any other color, or **Event color** when the event uses the calendar default
 
 You can't change the color of an event someone else organizes and invited you to.
 
+## Calendar colors
+
+iCloud and CalDAV calendars use the color set on the server and pick up changes when
+they sync. Device calendars use the color their sync app sets. The Local calendar is
+gray.
+
+To recolor one of these calendars, do it on the server or in the app that owns it. You
+set the colors of [calendar feeds](../sync/ics-subscriptions.md) and
+[contact birthdays](../features/birthdays.md#color-and-reminders) in KashCal.
+
 ## How colors sync
 
 KashCal sends an event's color to your CalDAV server as a standard web color

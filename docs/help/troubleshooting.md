@@ -51,6 +51,10 @@ downloads everything again and keeps your local changes.
 - Calendars from Google, Outlook and other apps on your phone come in through
   [Device calendars](../sync/device-calendars.md). They stay off until you turn them on
   and pick each calendar.
+- [Contact birthdays](../features/birthdays.md) missing? Some phones, Realme among
+  them, don't share with other apps the birthdays of contacts saved only on the phone,
+  even though their contacts app shows them. Save the contact to a synced account,
+  such as your Google account, and the birthday appears in KashCal.
 
 ## Reminders aren't firing
 
