@@ -70,6 +70,8 @@ The hub has these parts:
 - **Own your calendar**, the things you do with your schedule:
   - **[Invites](../events/invites.md)**: every invitation waiting on your reply. When
     one is waiting, a count shows on the row and on the top-bar avatar.
+  - **[Recent changes](../sync/how-sync-works.md#recent-changes)**: what sync changed in
+    your iCloud and CalDAV calendars over the last 7 days.
   - **Go to date**: jump to any date in the calendar.
   - **[Share availability](../features/share-availability.md)**: send someone your
     free times as plain text.

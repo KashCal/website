@@ -46,9 +46,39 @@ calendars fail, the strip shows "Sync complete with errors", even for a quiet sy
 
 ## What changed
 
-When a sync brings in changes from the server, a message at the bottom of the screen
-sums them up, for example "New event: Team lunch", "3 events updated" or "5 calendar
-updates". Tap **View** to open the **Sync Changes** sheet and see each change.
+When a sync records changes in [Recent changes](#recent-changes), a message at the
+bottom of the screen sums them up, for example "New event: Team lunch", "3 events
+updated", "1 occurrence cancelled" or "5 calendar updates". Tap **View** to open **Recent changes**.
+
+### Recent changes
+
+**Recent changes** lists what sync brought in from your iCloud and CalDAV calendars over
+the last 7 days: changes made outside KashCal on this phone, for example on another
+device, by someone you share a calendar with, or in an invitation an organizer sends or
+updates. Open it from the [account hub](../calendar/navigation.md#the-account-hub), or
+tap **View** on the sync message. Device calendars and ICS subscriptions aren't in it.
+
+- Rows are grouped by the day the change arrived: **Today**, **Yesterday**, then the
+  date, newest first.
+- Each row shows the event's title, when it takes place, a dot in its calendar's color,
+  and what changed: "Moved from" and the old time, **Time changed**,
+  **Location changed**, **Title changed** or **Repeat changed**. A change to anything
+  else, such as the notes, shows the row with no detail. One date of a repeating event
+  that was deleted shows as **Cancelled**.
+- Tap a row to open the event's details. A repeating event's row opens its next
+  occurrence, or the series start when none is left. A row for one changed date opens
+  that date. Removed events, cancelled dates and events deleted since don't open.
+- Swipe a row to the left to dismiss it (to the right in right-to-left languages). A
+  single row has no undo.
+- **Clear all** hides every row shown. Tap **Undo** in the row under the title to bring
+  them back. The row goes after 4 seconds, or longer if you've asked Android for more
+  time to take action, and closing the sheet ends it too.
+- A later change to an event updates its row, moves it under the day that change
+  arrived and starts its 7 days again. A row you dismissed comes back this way.
+
+Not listed: a calendar's first sync, events that a full sync from Force Full Sync or
+from widening Sync lookback downloads for the first time, and changes only to an
+event's alarms, busy status or guests.
 
 ## Incremental and full sync
 

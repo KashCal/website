@@ -19,6 +19,10 @@ The form opens full screen. For a new event with an empty title, the cursor
 starts in the title with the keyboard up. When you edit an event, or the form
 opens with a title already filled in, the keyboard stays down.
 
+Dragging the form to scroll it closes the keyboard. A drag that starts in the title,
+location or notes, in a tag name you're typing, or in the **After** count under Repeat
+leaves it open, so you can select and edit text.
+
 ## What you can set
 
 - Title. As you type, KashCal suggests titles you've used before (see [Title suggestions](#title-suggestions)).
