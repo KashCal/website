@@ -60,8 +60,16 @@ The hub has these parts:
     with a heart, to show you've chipped in (or
     [would like to](https://kashcal.onekash.org/donate)). One version keeps the KashCal
     name. The other, **Supporter, labeled Calendar**, shows the name Calendar on your
-    home screen. Changing the icon can restart the app. Notifications always use the
-    default icon and name.
+    home screen. **Today's date** shows the day of the month on the home-screen icon.
+    KashCal moves it to the current day at midnight, after a clock or time zone change,
+    after the phone restarts, after KashCal updates and a few seconds after you leave
+    KashCal. The move waits while KashCal is on screen or the phone is locked with
+    KashCal open. It also waits while another app's screen you opened from KashCal (a
+    share, for example) is open. If you leave from that screen, the icon moves at the
+    next midnight, clock change, restart or update. If you opened KashCal from its icon and left it in your recent apps, it
+    drops out of recent apps when the icon moves. Themed icons show the plain calendar
+    glyph without the date. Changing the icon can restart the app.
+    Notifications always use the default icon and name.
   - **Widget theme** and **Widget accent:** your
     [home-screen widgets](../features/widgets.md) can follow the app or have their
     own look. Leave both on **Follow app**, or pin the widgets to Light or Dark and

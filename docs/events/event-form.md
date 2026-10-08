@@ -25,7 +25,7 @@ leaves it open, so you can select and edit text.
 
 ## What you can set
 
-- Title. As you type, KashCal suggests titles you've used before (see [Title suggestions](#title-suggestions)).
+- Title. A long title wraps onto up to four lines, then scrolls inside the field. As you type, KashCal suggests titles you've used before (see [Title suggestions](#title-suggestions)).
 - Location. An address, room, or meeting link. After you type 5 characters, including a letter, KashCal lists up to 5 matching addresses from Android's address lookup. Phones without an address lookup service show no suggestions.
 - Notes. Free-form details for the event.
 - Calendar. Which calendar the event belongs to. New events go to your **Default calendar** unless you pick another.
@@ -72,7 +72,7 @@ Tap an event to open its details. From there you can:
 
 - Tap the edit button (a pencil) to change it. For an event someone else organizes, the same button opens the form, where you can change only your alerts and your reply.
 - Tap the delete button (a trash can). For a single event, or an occurrence changed on its own, tap **Confirm** to finish. For a repeating series, KashCal asks which occurrences to delete.
-- Open the three-dot menu for **Duplicate**, **Share as text** and **Export as .ics**.
+- Open the three-dot menu for **Duplicate**, **Share as text** and **Export as .ics**. **Duplicate** on a repeating event opens the form on the occurrence you tapped, with **Repeat** filled in from the series, so saving creates a separate series. Occurrences you deleted from the original show again in the copy. An occurrence changed on its own, or a date the series adds outside its repeat rule, duplicates as a single event.
 - Tap the location to open it in your maps app. If the location contains a link, the tap opens the link.
 
 Events in read-only calendars, such as holiday feeds, show only a duplicate button and a share button.
