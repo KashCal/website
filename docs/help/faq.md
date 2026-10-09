@@ -154,6 +154,11 @@ event form and the permission isn't granted, KashCal asks for it. KashCal doesn'
 for an alarm permission: Android grants exact alarms to it at install. See
 [Reminders](../events/reminders.md).
 
+Syncing a calendar doesn't ask. If you've only synced and haven't saved an event with a
+reminder yet, KashCal hasn't asked, and reminders on your synced events stay silent. To
+allow notifications, open the [account hub](../calendar/navigation.md#the-account-hub),
+then **App permissions**.
+
 ## Can I send meeting invitations?
 
 Yes, when your calendar account supports scheduling. Local-only calendars can't send
