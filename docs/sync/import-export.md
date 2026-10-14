@@ -18,8 +18,9 @@ out, or to keep a copy of a calendar.
 4. Tap **Import**. For a file with one event, the sheet is titled **Add Event** and the
    button is **Add**.
 
-When the import finishes, KashCal shows how many events it added, for example
-"Imported 42 events".
+When the import finishes, a message counts what happened, for example "3 added, 1
+updated". It also counts events cancelled, already up to date, skipped or failed, when
+there are any.
 
 Events in the file that have no reminder get your default alerts, the same as events
 you create in KashCal. Reminders set in the file are kept.
@@ -58,8 +59,35 @@ them in KashCal.
 Some apps export events with a missing or empty unique ID. KashCal gives each of those
 events its own ID, so they import as separate events and aren't folded into one series.
 
-Every imported event gets a fresh ID. Importing the same file twice adds a second copy
-and doesn't overwrite the first.
+### Invitations and files you import again
+
+KashCal matches each event in the file with the calendar you import into, by the
+event's unique ID:
+
+- An event the calendar doesn't have yet is added, unless the file marks it cancelled.
+  If another calendar of the same account already holds it, a plain file adds a copy
+  under a new ID, and an invitation is skipped.
+- In KashCal's Local calendar, a newer version of an event it holds (by the file's
+  sequence number, then its timestamp) from the same organizer updates it. The same or
+  an older version changes nothing.
+- In a synced or device calendar, an event it already holds stays as the calendar has
+  it.
+
+Importing the same file twice doesn't add a second copy.
+
+An invitation file, one an organizer sends, keeps its organizer and guests, so you can
+[reply to it](../events/invites.md) like an invitation that arrived by sync. A
+cancellation file cancels the meeting, or the one occurrence it names, when the calendar
+holds it. On a synced calendar, a cancellation of a meeting you organize is skipped:
+cancel it from the event instead. A reply to an invitation adds nothing.
+
+The preview lists what the import will change before you tap **Import**, for example
+"This updates Team lunch" or "This cancels Team lunch, organized by alex@example.com",
+how many events are already up to date, and what it skips and why. When you import an
+invitation into a calendar that syncs, a note warns that the sender of the file can't be
+verified. Other notes say when answering may notify the organizer, or when you're the
+organizer and guests may get the invitation again. KashCal's Local calendar and device
+calendars that stay on the phone get no notes, because nothing is sent from them.
 
 ## Export to .ics
 

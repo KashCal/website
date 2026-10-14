@@ -18,8 +18,8 @@ Device calendars are off until you turn them on.
 2. Turn on the **Enable** switch. Android asks for calendar permission. KashCal asks
    to read and to write calendars at the same time.
 3. Turn on each calendar you want with the switch on its row. Calendars are grouped
-   by account, and all of them start off. The footer counts them, for example
-   "2 / 5 enabled".
+   by account, and all of them start off. The **Device calendars** row in Settings
+   counts the ones you turned on, for example "2 enabled".
 4. To hide an enabled calendar from your views without turning it off, tap its entry
    in the navigation drawer.
 
@@ -61,9 +61,8 @@ calendar, such as Google Calendar sync, sends them to its server.
 
 ## Reminders for device events
 
-KashCal sends reminders for device-calendar events too. The **Reminders** switch
-("Get notified for device calendar events") is on the **Device calendars** screen,
-below the calendar list. It's on by default. See
+KashCal sends reminders for device-calendar events too. To silence all of them, or one
+calendar, open **Settings** and tap **Calendar notifications**. See
 [Reminders](../events/reminders.md#device-calendar-reminders).
 
 ## How this differs from connecting an account

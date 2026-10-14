@@ -73,9 +73,11 @@ account hub. Android 12 doesn't ask, because notifications are allowed by defaul
 
 ## What's new after an update
 
-After an update that comes with release notes, KashCal shows a sheet with those
-notes. Tap **Later** or swipe it away, and it stays closed until the next release
-with notes. It doesn't show on first launch.
+After an update that comes with release notes, KashCal shows a sheet with a page for
+each note. Swipe, or tap **Next** and **Back**, to move between pages; on the last page
+**Next** becomes **Done**. A page about a feature can show **Find it in** with where to
+find it. Tap **Skip**, swipe the sheet down or tap outside it to close it early. It stays
+closed until the next release with notes. It doesn't show on first launch.
 
 ## Next steps
 

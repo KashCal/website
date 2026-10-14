@@ -26,8 +26,8 @@ time. It holds:
 - Tag colors: each tag you gave a color, with its name.
 - Your calendar feeds: each ICS feed's address, name, color, refresh interval,
   whether it's paused, and its username if it has one.
-- The device calendars switches: whether device calendars and their reminders are
-  on.
+- The device calendars switches: whether device calendars are on, and the switch on the
+  **Device calendars** heading in **Calendar notifications**.
 
 ## What's not in a backup
 
@@ -36,6 +36,7 @@ time. It holds:
   [Privacy & Security](../privacy/overview.md).
 - Feed passwords. A feed's username comes back. On a new phone you enter its password again.
 - Which device calendars you picked. Those IDs belong to one phone.
+- Which calendars you muted, one by one, in **Calendar notifications**.
 - Your default calendar. It points to a calendar on this phone, so you pick it
   again after a restore.
 - The **App lock** setting. Each phone has its own lock.

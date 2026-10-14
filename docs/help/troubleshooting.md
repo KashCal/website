@@ -60,6 +60,8 @@ downloads everything again and keeps your local changes.
 
 - Grant notification permission. Open the
   [account hub](../calendar/navigation.md#the-account-hub), then **App permissions**.
+- Check that the event's calendar isn't muted. A muted calendar has a bell-off icon in
+  the navigation drawer. See [Mute a calendar](../events/reminders.md#mute-a-calendar).
 - Turn off battery optimization for KashCal, in Android Settings > Apps > KashCal >
   Battery. Samsung, Xiaomi, Oppo and OnePlus phones cut off background work, which
   stops reminders from firing. [dontkillmyapp.com](https://dontkillmyapp.com) has steps

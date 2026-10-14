@@ -37,6 +37,12 @@ open the event and reply there. The notification clears when you reply.
 
 These notifications use their own Android channel, **Event Invitations**. Turn that
 channel off in Android's notification settings to stop them without muting reminders.
+An invitation in a [muted calendar](./reminders.md#mute-a-calendar) doesn't notify, and
+unmuting the calendar doesn't bring that notification back.
+
+To add an invitation you received as a file, import it. An imported invitation doesn't
+post this notification. See
+[Import & export](../sync/import-export.md#invitations-and-files-you-import-again).
 
 ## Reply
 

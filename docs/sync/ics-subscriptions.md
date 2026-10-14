@@ -94,7 +94,9 @@ KashCal, because they belong to the source feed.
 Each feed is a row on the **Calendar Feeds** screen:
 
 - Pause a feed: turn off the switch on its row. The row shows **Sync paused**.
-  KashCal stops refreshing the feed. Its events stay on your calendar. To hide them, turn
+  KashCal stops refreshing the feed. Its events stay on your calendar, and their
+  reminders still fire. To silence them,
+  [mute the feed's calendar](../events/reminders.md#mute-a-calendar). To hide them, turn
   the calendar off in the navigation drawer. Turn the switch back on to refresh the feed.
 - Refresh a feed: tap the refresh button on the row to fetch its events without
   waiting for the next scheduled refresh.

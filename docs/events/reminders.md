@@ -81,14 +81,51 @@ grants this when you install KashCal. On Android 12 and 12L you can turn it off 
 "Alarms & reminders" in Android's app settings; KashCal then uses inexact alarms, which
 Android can deliver a few minutes late.
 
+## Mute a calendar
+
+To stop one calendar's notifications without hiding it, open **Settings** and tap
+**Calendar notifications**, the last row under **Calendars & accounts**. The sheet lists
+every calendar KashCal shows, each with a switch:
+
+- your accounts' calendars, grouped by account, and calendar feeds, under
+  **Calendar Feeds**,
+- birthdays and anniversaries, under **Contacts**,
+- the device calendars you turned on, under **Device calendars**, grouped by account,
+- KashCal's own calendars, under **Offline**, last.
+
+All switches start on. A calendar you turn off is muted: it still shows on your calendar
+and keeps syncing, but it sends no reminders, no invitation notifications and no change
+notifications. Changes to a muted iCloud or CalDAV calendar still appear in
+[Recent changes](../sync/how-sync-works.md#recent-changes). In the
+[navigation drawer](../calendar/navigation.md#the-navigation-drawer), a muted calendar has a
+bell-off icon after its name.
+
+The Settings row shows **All calendars**, or how many calendars are muted, for example
+"2 muted". Turn a calendar back on and its reminders that are still ahead come back. A
+reminder whose time passed while the calendar was muted doesn't arrive late.
+
+Hiding a calendar in the drawer doesn't stop its reminders. In the sheet, a hidden
+calendar's row says **Hidden**.
+
+If KashCal can't show notifications, a note at the top of the sheet says why, with a
+button to fix it: **Enable** when notification permission is missing, **Open Settings**
+when KashCal's notifications or its **Event Reminders** channel are off in Android's
+settings.
+
 ## Device calendar reminders
 
 If you show calendars from other apps on your phone (see
 [Device calendars](../sync/device-calendars.md)), KashCal also sends reminders for
-their events. To turn this off, open Settings, tap **Device calendars**, and turn off
-**Reminders**. It's on by default.
+their events. Reminders due at the same moment all show. If a reminder arrives late,
+KashCal also shows the others that came due in the meantime.
+
+In **Calendar notifications**, the **Device calendars** heading has its own switch. It
+shows once you've turned on at least one device calendar, and it's on by default. Turn it
+off to silence all device calendars, including ones you turn on later. Their rows grey out
+and keep their own switches, so turning it back on restores them.
 
 ## Related
 
 - [Creating & editing events](./event-form.md): set a reminder while you edit
 - [Settings](../features/settings.md#event-preferences): the default reminders for new events
+- [Calendar feeds](../sync/ics-subscriptions.md): a paused feed's reminders still fire

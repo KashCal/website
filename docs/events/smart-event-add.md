@@ -162,7 +162,9 @@ While you type, the preview shows:
 The preview updates as you type. Tap **Save**, or the keyboard's Done key, to
 create the event. KashCal saves it to your default calendar with your default alert
 and jumps to its date. If your default calendar is a device calendar, **Save** opens the
-full form instead. For more control, tap **More options** to open the full
+full form instead. If your default calendar is gone or you can no longer write to it,
+the event goes to the first KashCal calendar you can write to, not a device calendar.
+For more control, tap **More options** to open the full
 [event form](./event-form.md) with what you typed filled in.
 
 The box starts as one line and grows to three as you type, then scrolls, so a long

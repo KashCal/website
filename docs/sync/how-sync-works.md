@@ -49,6 +49,8 @@ calendars fail, the strip shows "Sync complete with errors", even for a quiet sy
 When a sync records changes in [Recent changes](#recent-changes), a message at the
 bottom of the screen sums them up, for example "New event: Team lunch", "3 events
 updated", "1 occurrence cancelled" or "5 calendar updates". Tap **View** to open **Recent changes**.
+A background sync that posts a [change notification](#change-notifications) shows no
+message.
 
 ### Recent changes
 
@@ -79,6 +81,27 @@ tap **View** on the sync message. Device calendars and ICS subscriptions aren't 
 Not listed: a calendar's first sync, events that a full sync from Force Full Sync or
 from widening Sync lookback downloads for the first time, and changes only to an
 event's alarms, busy status or guests.
+
+### Change notifications
+
+Turn on **Change notifications** in Settings, under **Sync**, to get a notification when
+a background sync finds changes. A background sync is the periodic one, or one a widget
+starts. It's off by default.
+Turning it on asks for notification permission if KashCal doesn't have it, and opens
+Android's settings if KashCal's notifications or its **Calendar updates** channel are off.
+
+The notification uses the wording of the Recent changes rows:
+
+- One change names the event and what changed. Tap it to open the event.
+- Two or three changes get one line each. Tap to open **Recent changes**.
+- More changes give the count and the calendars involved. Tap to open **Recent changes**.
+
+Other syncs, such as pull to refresh or the sync when you open KashCal, show the
+message at the bottom of the screen instead. Changes in a
+[muted calendar](../events/reminders.md#mute-a-calendar) and events that got an
+invitation notification in the same sync are left out of the notification. They still
+appear in **Recent changes**. When a background sync finds only those changes, KashCal
+shows neither a notification nor the message.
 
 ## Incremental and full sync
 

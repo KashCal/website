@@ -30,7 +30,12 @@ From here you can:
   calendars are grouped by account. **Contacts** (birthdays and anniversaries) and
   **Device calendars** (calendars from other apps on your phone) have their own
   sections. The device section appears only after you turn on
-  [device calendars](../sync/device-calendars.md).
+  [device calendars](../sync/device-calendars.md). **Offline**, KashCal's own
+  calendars, comes last.
+- See which calendars are muted. A muted calendar has a bell-off icon after its name.
+  While the switch on the **Device calendars** heading in **Calendar notifications** is
+  off, every device calendar has it. See
+  [Mute a calendar](../events/reminders.md#mute-a-calendar).
 - **Settings**: opens Settings.
 - **Help & docs**: opens the Get help section of this site in your browser.
 

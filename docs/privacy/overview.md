@@ -107,7 +107,7 @@ KashCal asks only for what its features require:
 |------------|-----|
 | Internet & network state | Sync your events with your calendar servers, and handle going offline and online |
 | Local network access | Reach self-hosted CalDAV servers on your home or office network (Android 17 and newer) |
-| Notifications | Show event reminders, invitations and sync status |
+| Notifications | Show event reminders, invitations, change notifications and sync status |
 | Exact alarms | Deliver reminders at the right minute |
 | Run after restart | Reschedule your reminders after a reboot |
 | Foreground service and wake lock | Let a sync finish in the background, with a progress notification while it runs |
