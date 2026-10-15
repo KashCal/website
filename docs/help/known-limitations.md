@@ -133,9 +133,9 @@ words only. Numeric dates and times work in any language.
 KashCal's snooze length is fixed, and a reminder that has fired isn't shown again
 after the phone restarts. See [Reminders](../events/reminders.md#when-a-reminder-fires).
 
-## Views are the seven built in
+## Views are the eight built in
 
-KashCal has Month, Agenda, Day, 3 Days, Week, Month (Full) and Year views, plus
+KashCal has Month, Agenda, Day, 3 Days, Week, Planner, Month (Full) and Year views, plus
 Insights. There's no multi-month grid (like a 3- or 6-month view). KashCal uses the
 Gregorian calendar only, with no other calendar systems (such as Hijri or lunar).
 

@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: KashCal features
 slug: /features
-description: "Everything KashCal does: seven calendar views, iCloud and CalDAV sync, smart event add, reminders, widgets, search, insights, birthdays, and more."
+description: "Everything KashCal does: eight calendar views, iCloud and CalDAV sync, smart event add, reminders, widgets, search, insights, birthdays, and more."
 ---
 
 # All features
@@ -11,7 +11,7 @@ Every KashCal feature, with a link to its page.
 
 ## Viewing your calendar
 
-- **[Calendar views](../calendar/views.md)**: month, agenda, day, 3-day, week, full-month, and year, with pinch-to-zoom and drag-to-reschedule.
+- **[Calendar views](../calendar/views.md)**: month, agenda, day, 3-day, week, planner, full-month, and year, with pinch-to-zoom and drag-to-reschedule.
 - **[Navigation & shortcuts](../calendar/navigation.md)**: the drawer, the account hub, and home-screen shortcuts.
 - **[Widgets](./widgets.md)**: agenda, week, month, date, and upcoming widgets for your home screen.
 

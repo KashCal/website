@@ -21,8 +21,8 @@ Smart event add is off until you turn it on. Tap **Accounts & Settings** in the
 **Smart event add** under **Event preferences**.
 
 With it on, the + button opens the typing box in every calendar view, including the
-Day, 3 Days and Week timelines. To open the full form at a set time in a timeline, tap an
-empty slot on the grid.
+Day, 3 Days and Week timelines and the Planner. To open the full form at a set time in a timeline, tap an
+empty slot on the grid. In the Planner, tap empty space in a day's box to open the full form on that day.
 
 The box shows a random example as its placeholder, such as "Coffee tomorrow at 3pm" or
 "Standup every weekday at 9am".
@@ -69,7 +69,7 @@ your phone's language and region: 5 October where the day comes first, May 10 wh
 the month does. A date with dots, such as `5.10.2026`, is always day first.
 
 If you don't type a date, the event goes on the day you have selected. In the Day,
-3 Days and Week views, and for text shared from another app, it goes on the current
+3 Days, Week and Planner views, and for text shared from another app, it goes on the current
 day.
 
 ### Times

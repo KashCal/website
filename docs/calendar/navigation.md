@@ -24,8 +24,8 @@ magnifier.
 Swipe in from the left edge of the screen, or tap the menu icon, to open the drawer.
 From here you can:
 
-- Switch views: Insights, then Agenda, Day, 3 Days, Week, Month, Month (Full) and
-  Year.
+- Switch views: Insights, then Agenda, Day, 3 Days, Week, Planner, Month, Month (Full)
+  and Year.
 - Show or hide calendars. Each calendar has a checkbox and a color dot. Your
   calendars are grouped by account. **Contacts** (birthdays and anniversaries) and
   **Device calendars** (calendars from other apps on your phone) have their own

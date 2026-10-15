@@ -37,7 +37,7 @@ Theme, accent color, app icon and widget colors live in the account hub, not her
 - **Widget event limit:** how many events each day shows in the home-screen widgets. Choose 3, 5, 8, 10 or 15. The default is 5 per day.
 - **Detailed widget rows:** show each event on two lines in the list widgets, the title above its start and end time, instead of one compact line. Off by default. See [Widgets](./widgets.md#two-lines-or-one).
 - **Show week numbers:** add a week-number column to the Month view and the month widget. Weeks are counted from your **Start week on** day, using your region's rule for the first week of the year. Off by default.
-- **Multi-day events in all-day strip:** in Day, 3 Days and Week, show a timed event that crosses midnight and lasts 20 hours or more in the all-day strip at the top, instead of in the timed grid. Off by default.
+- **Multi-day events in all-day strip:** in Day, 3 Days, Week and Planner, show a timed event that crosses midnight and lasts 20 hours or more in the all-day strip at the top (the bands at the top of a Planner box), instead of with the timed events. Off by default.
 - **Show declined events:** keep events you've declined on your calendar, dimmed with a strikethrough, instead of hiding them. Off by default.
 - **Event emojis:** put an emoji before an event's title based on its words, such as 🎂 for "Birthday" or ✈️ for "Flight", in the calendar views and in the agenda, week and upcoming widgets (the month widget shows plain titles). Titles that already contain an emoji stay plain. So do titles with words such as funeral, surgery, divorce or layoff. On by default.
 

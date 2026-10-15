@@ -67,5 +67,5 @@ sends analytics. See KashCal's [privacy approach](../privacy/overview.md).
 ## Related
 
 - [Share availability](./share-availability.md): send your free times to someone else
-- [Calendar views](../calendar/views.md): the seven ways to see your schedule
+- [Calendar views](../calendar/views.md): the eight ways to see your schedule
 - [Privacy & Security](../privacy/overview.md): what leaves your phone and what doesn't

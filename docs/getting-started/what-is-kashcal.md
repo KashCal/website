@@ -21,7 +21,7 @@ everything that leaves your phone.
 
 ## What you can do with it
 
-- See your schedule seven ways: Agenda, Day, 3 Days, Week, Month, Month (Full) and Year.
+- See your schedule eight ways: Agenda, Day, 3 Days, Week, Planner, Month, Month (Full) and Year.
 - Sync with the services you already use: iCloud, Nextcloud, Fastmail, Radicale, Baikal, Zoho, mailbox.org, Stalwart, SOGo, and any standard CalDAV server.
 - [Show your phone's other calendars](../sync/device-calendars.md), like Google or Outlook, once you turn on Device calendars.
 - Add events by typing. With Smart event add on, "Coffee with Kash tomorrow 3pm" becomes an event.
