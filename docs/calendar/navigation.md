@@ -72,8 +72,8 @@ The hub has these parts:
     KashCal open. It also waits while another app's screen you opened from KashCal (a
     share, for example) is open. If you leave from that screen, the icon moves at the
     next midnight, clock change, restart or update. If you opened KashCal from its icon and left it in your recent apps, it
-    drops out of recent apps when the icon moves. Themed icons show the plain calendar
-    glyph without the date. Changing the icon can restart the app.
+    drops out of recent apps when the icon moves. With themed icons on, it shows the day's
+    number on an outlined calendar card. Changing the icon can restart the app.
     Notifications always use the default icon and name.
   - **Widget theme** and **Widget accent:** your
     [home-screen widgets](../features/widgets.md) can follow the app or have their

@@ -42,7 +42,7 @@ time. It holds:
 - The **App lock** setting. Each phone has its own lock.
 - Events. They live on your accounts, or in the Local calendar. To move Local
   events, [export them to .ics](../sync/import-export.md#export-to-ics).
-- Internal state, such as last-sync times and which tips you've seen.
+- Internal state, such as last-sync times, zoom levels and which tips you've seen.
 
 ## Back up
 
