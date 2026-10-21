@@ -99,6 +99,12 @@ Because the key is specific to your device, your saved credentials can't be lift
 from a backup and used on another phone. The trade-off is that when you move to a
 new device, you re-enter your passwords. That's a deliberate security choice.
 
+If the key in the Android Keystore is lost or replaced, KashCal can't read the saved
+passwords any more. It deletes the encrypted password store, which holds the passwords of
+every account, and you sign in to each account again. Your calendars and events stay on
+the device, and signing in again reconnects the same account. See [signing in again to CalDAV](../sync/providers/caldav.md#signing-in-again)
+and [to iCloud](../sync/providers/icloud.md#signing-in-again).
+
 ## Permissions, and why each is needed
 
 KashCal asks only for what its features require:

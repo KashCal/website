@@ -80,12 +80,27 @@ the banner appears after a failed connection instead.
 
 Tap the account under **Settings** → **Calendar accounts** to open its sheet. It has
 rename, the **Calendar** and **Contacts** switches, **Sync Now**, **Discover New Calendars**,
-**Change Password** and **Sign Out**. See [Managing your accounts](../index.md#managing-your-accounts).
+**Change Password** (or **Sign In Again**) and **Sign Out**. See [Managing your accounts](../index.md#managing-your-accounts).
 Contact sync has [its own page](../contacts.md).
 
 Use **Change Password** after you change your password or create a new app password.
 Signing out removes the account's synced calendars from this device. Your events on the
 server stay there.
+
+### Signing in again
+
+If KashCal can no longer read an account's saved password, for example after Android lost
+the key that encrypts it, the account sheet shows **Sign In Again** instead of
+**Change Password**. Tap it. The **Sign In Again** screen opens with the account's
+username and name filled in. **Server URL** holds the server's address without a path, or is empty when KashCal doesn't know it; if
+you first connected with a full CalDAV URL, enter it again. **Trust insecure connection**
+starts off, so turn it on again if the account needs it. Enter the password, then tap
+**Connect**. The account keeps its calendars, events, name and **Calendar** switch. A name
+you type on this screen isn't applied; rename the account from its sheet.
+
+If the username or the server's calendar location doesn't match the account, KashCal shows
+"This is a different account. Sign in with the username and server this account uses."
+and changes nothing.
 
 ## Trouble connecting?
 

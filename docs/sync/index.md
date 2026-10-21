@@ -30,7 +30,10 @@ and other calendar services.
 
 Tap the avatar in the top-right corner, then **Accounts & Settings**, then
 **Calendar accounts**. The navigation drawer has a **Settings** entry too. Each account
-row shows how many calendars it syncs and flags sync trouble. Tap an account to open its
+row shows how many calendars it syncs and flags sync trouble with **Sync issue**. An account
+whose **Calendar** switch is off shows a **Sync off** badge after its name. An iCloud account
+whose saved password KashCal can no longer read isn't listed; see
+[iCloud setup](./providers/icloud.md#signing-in-again). Tap an account to open its
 sheet:
 
 - To rename the account, tap its name at the top of the sheet. The **Rename Account** sheet opens.
@@ -39,7 +42,9 @@ sheet:
 - To sync right away, tap **Sync Now**. While a sync runs, the sheet shows **Syncing…**.
 - To pick up calendars you added on the server, tap **Discover New Calendars**. If it
   finds any, the calendar count shows how many are new.
-- To update your password, tap **Change Password**.
+- To update your password, tap **Change Password**. If KashCal can no longer read a CalDAV
+  account's saved password, the sheet shows **Sign In Again** in its place. See
+  [CalDAV setup](./providers/caldav.md#signing-in-again).
 - To remove the account, tap **Sign Out**. KashCal asks first, because signing out removes that account's synced calendars from this device. Your events on the server stay there, and events in your local calendar stay on the device.
 
 After a failed sync, the sheet shows how many attempts failed and when the last

@@ -63,6 +63,14 @@ Contact sync has [its own page](../contacts.md).
 Use **Change Password** to enter a new app-specific password. Signing out removes the
 account's synced calendars from this device. Your events stay in iCloud.
 
+### Signing in again
+
+If KashCal can no longer read the saved password, for example after Android lost the key
+that encrypts it, **Calendar accounts** no longer lists the iCloud account and shows
+**Add iCloud** instead. Tap it. Your Apple ID is filled in. Enter an app-specific password
+and tap **Sign In**. With the same Apple ID, KashCal reconnects the same account, with its
+calendars and events, and turns its **Calendar** switch on.
+
 ## Trouble signing in?
 
 - Use an app-specific password, not your Apple ID password.
