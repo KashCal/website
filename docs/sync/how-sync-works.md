@@ -40,7 +40,7 @@ of these syncs.
 
 Sync on open runs quietly. Pull to refresh shows a spinner. The status strip at the
 top of the calendar ("Syncing calendars…") appears for the first sync of a new
-account and for a Force Full Sync, and ends with "Sync complete" or "Sync failed"
+account and for a sync you start with Force full sync, and ends with "Sync complete" or "Sync failed"
 and the reason. If any sync started while KashCal is open finishes but some
 calendars fail, the strip shows "Sync complete with errors", even for a quiet sync.
 
@@ -78,8 +78,8 @@ tap **View** on the sync message. Device calendars and ICS subscriptions aren't 
 - A later change to an event updates its row, moves it under the day that change
   arrived and starts its 7 days again. A row you dismissed comes back this way.
 
-Not listed: a calendar's first sync, events that a full sync from Force Full Sync or
-from widening Sync lookback downloads for the first time, and changes only to an
+Not listed: a calendar's first sync, events that Force full sync or
+widening Sync lookback downloads for the first time, and changes only to an
 event's alarms, busy status or guests.
 
 ### Change notifications
@@ -109,16 +109,16 @@ To save battery and data, KashCal fetches only what changed since the last sync.
 server can't answer that, KashCal compares the whole calendar with the server on its
 own.
 
-To force a full download, open the [Advanced options](../help/advanced-options.md)
-menu (long-press the version number at the bottom of Settings) and tap **Force Full
-Sync**. KashCal asks first:
+To force a full download, open Settings and tap **Force full sync** under
+**Troubleshooting** (see [Troubleshooting tools](../help/advanced-options.md#force-full-sync)).
+KashCal asks first:
 
 > This will re-download all calendar data from the server. Local changes will be
 > preserved.
 
 Tap **Sync Now** to start. When the sync ends, a notification reports the result.
 
-The same menu has **Sync History**, which lists the sync sessions of the last 48
+The same section has **Sync history**, which lists the sync sessions of the last 48
 hours.
 
 ## How far KashCal syncs

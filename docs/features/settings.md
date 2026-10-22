@@ -1,14 +1,14 @@
 ---
 sidebar_position: 2
 title: Settings
-description: Where to change KashCal's appearance, event defaults, sync and backup options, and what each setting does.
+description: Where to change KashCal's appearance, event defaults, sync and backup options, find troubleshooting tools, and what each setting does.
 ---
 
 # Settings
 
 KashCal works without changing any setting. When you want to change how the week starts, how times show, or how far back sync reaches, the options are on one screen.
 
-Tap the avatar in the top-right corner to open the [account hub](../calendar/navigation.md#the-account-hub), then tap **Accounts & Settings**. The screen has five sections, described below in the order they appear.
+Tap the avatar in the top-right corner to open the [account hub](../calendar/navigation.md#the-account-hub), then tap **Accounts & Settings**. The screen has six sections, described below in the order they appear.
 
 ## How the Settings screen works
 
@@ -83,6 +83,14 @@ See [How sync works](../sync/how-sync-works.md) for what happens during a sync.
 - **Restore settings:** read your configuration back from a backup file.
 
 See [Backup & restore](./backup-restore.md) for what's included and what isn't.
+
+## Troubleshooting
+
+- **Sync history:** the sync sessions of the last 48 hours.
+- **Force full sync:** download all calendar data from your servers again.
+- **Export debug report:** a text file of recent crashes, KashCal's own log, syncs, changes not yet sent and setup, to send with a bug report.
+
+See [Troubleshooting tools](../help/advanced-options.md) for how each one works.
 
 ## Settings in the account hub
 

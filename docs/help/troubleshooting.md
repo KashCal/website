@@ -36,11 +36,11 @@ For a self-hosted server:
 
 See [Self-hosted servers](../sync/providers/caldav.md#self-hosted-servers-http-or-self-signed-certificates).
 
-To see what happened, open **Sync History** in
-[Advanced options](./advanced-options.md). It lists the sync sessions of the last 48
-hours and any failures.
+To see what happened, tap **Sync history** under **Troubleshooting** in Settings
+([Troubleshooting tools](./advanced-options.md#sync-history)). It lists the sync
+sessions of the last 48 hours and any failures.
 
-Still wrong? Tap **Force Full Sync** in the same menu, then **Sync Now**. KashCal
+Still wrong? Tap **Force full sync** in the same section, then **Sync Now**. KashCal
 downloads everything again and keeps your local changes.
 
 ## Some events are missing
@@ -102,15 +102,21 @@ restore your settings and feeds, use a [settings backup](../features/backup-rest
 
 ## Capturing logs for a bug report
 
-For a sync problem, copy your Sync History:
+For a crash or a sync problem, export a debug report:
 
-1. Open Settings, scroll to the bottom and long-press the version line
-   (**KashCal v...**).
-2. Tap **Sync History**.
-3. Tap the copy button at the top of the sheet, then paste the text into your issue.
+1. Open Settings and scroll to **Troubleshooting**.
+2. Tap **Export debug report**, then **Share report**.
+3. Pick your email app in Android's share menu and send the file by email. Don't
+   attach it to a public issue.
 
-The text includes your calendar names, so check it before you post it. See
-[Advanced options](./advanced-options.md#copying-or-clearing-the-history).
+The report holds recent crashes, KashCal's own log, your sync history, changes not yet
+sent and your setup. Email addresses, web addresses, IP addresses and tokens are
+masked; event titles, calendar names and contact names aren't. See
+[Troubleshooting tools](./advanced-options.md#debug-report).
+
+To share only the sync history, tap **Sync history** and use the copy button at the top
+of the sheet. See
+[Copying or clearing the history](./advanced-options.md#copying-or-clearing-the-history).
 
 For a problem with device calendars, capture Android's logs with
 [Logcat Reader](https://f-droid.org/packages/com.dp.logcatapp) from F-Droid:

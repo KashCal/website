@@ -16,7 +16,7 @@ They answer most questions faster than a reply on GitHub. In the app, tap
 1. [FAQ](./faq.md): short answers to common questions.
 2. [Troubleshooting](./troubleshooting.md): fixes for sync, reminders and other problems.
 3. [Known limitations](./known-limitations.md): what KashCal doesn't do, so you know what to expect.
-4. [Advanced options](./advanced-options.md): the hidden menu for a full sync and sync history.
+4. [Troubleshooting tools](./advanced-options.md): sync history, a full sync and the debug report, in Settings.
 
 ## Still stuck?
 
