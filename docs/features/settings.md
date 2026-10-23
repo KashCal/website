@@ -24,7 +24,7 @@ With a screen reader, each picker is announced as a group of radio buttons, so y
 
 - **Calendar accounts:** connect iCloud or a CalDAV server, and manage the accounts you have. See [Sync & Accounts](../sync/index.md).
 - **Birthdays & anniversaries:** show birthdays and anniversaries from your contacts. See [Birthdays](./birthdays.md).
-- **Calendar feeds (ICS):** subscribe to holiday, sports or school calendars by URL. See [Calendar feeds](../sync/ics-subscriptions.md).
+- **Calendar feeds (ICS):** subscribe to holiday, sports or school calendars by URL, or add the feeds saved on your iCloud or CalDAV account. See [Calendar feeds](../sync/ics-subscriptions.md).
 - **Device calendars:** show calendars from other apps on your phone. Once you turn them on, the row shows how many are enabled. See [Device calendars](../sync/device-calendars.md).
 - **Calendar notifications:** turn each calendar's notifications on or off. The row shows **All calendars**, or how many calendars are muted. While the switch on the **Device calendars** heading is off, every device calendar counts as muted. See [Mute a calendar](../events/reminders.md#mute-a-calendar).
 

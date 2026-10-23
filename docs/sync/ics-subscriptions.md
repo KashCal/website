@@ -69,6 +69,35 @@ to connect, the add sheet shows a **Local network access needed** banner. Tap **
 grant it, or **Not now** to hide the banner. The banner doesn't block the form. Without
 the permission, KashCal can't reach a feed at an address like `192.168.1.10`.
 
+## Add a feed from your account
+
+Your iCloud or CalDAV account can hold calendar feeds you subscribed to in another app.
+KashCal lists them so you can add the ones you want:
+
+1. Open Settings → **Calendar feeds (ICS)**.
+2. Tap **Add from account**. The button shows when you have an iCloud or CalDAV account
+   in KashCal.
+3. The sheet has a section for each of those accounts, with its name and a shortened
+   email such as `s***@example.com`, and asks each server for its feeds. Each feed
+   shows its color, its name and the site that hosts it. A feed the server gave no name
+   shows the site instead.
+4. Turn on a feed's switch to add it.
+
+The feed is added with the server's name and color, or a color KashCal picks when the
+server gave none. It starts with a daily refresh and follows the rules on this page.
+KashCal adds it even when the first download fails; the feed's row then shows the error.
+
+A feed's switch is on whenever **Calendar Feeds** has a feed with the same address,
+however you added it. Turning the switch off removes every feed with that address at once, with
+its events; the sheet has no **Undo**.
+
+A section shows **No calendar feeds found** when the server lists no feed with a web
+address KashCal can use. It shows **Couldn't load calendar feeds** when the request fails,
+for example when the server can't be reached or refuses the sign-in, or when the server
+doesn't answer within 20 seconds. Tap **Retry** to ask that server again. KashCal asks
+every time you open the sheet. Feeds you add from it don't depend on the account
+afterwards: each one is fetched from its own URL, like any other feed.
+
 ## How often feeds refresh
 
 Each feed has its own refresh interval:
@@ -101,9 +130,13 @@ Each feed is a row on the **Calendar Feeds** screen:
 - Refresh a feed: tap the refresh button on the row to fetch its events without
   waiting for the next scheduled refresh.
 - Edit a feed: tap the row to change its name, color or refresh interval.
-- Remove a feed: swipe the row left. KashCal shows "Subscription removed". Tap **Undo**
-  to keep the feed. Otherwise, when the message closes, KashCal deletes the feed's
-  calendar and its events.
+- Remove a feed: swipe the row left (right in a right-to-left language) to show a red
+  **Delete** button, then tap it. KashCal shows "Subscription removed". Tap **Undo** to
+  keep the feed. Otherwise, when the message closes, KashCal deletes the feed's calendar
+  and its events. One row stays open at a time. Swiping it back or scrolling the list
+  closes it without deleting. While it's open, tapping a row, a switch or a refresh
+  button only closes it; an add button closes it and opens its sheet. With TalkBack,
+  **Delete** is an action on the feed's row.
 
 ## Where to find feeds
 

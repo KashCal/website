@@ -35,8 +35,10 @@ If you turn off Contacts permission later, the screen shows
 - Each birthday and anniversary appears as an all-day event that repeats every year.
 - They live in their own calendars, **Contact Birthdays** and
   **Contact Anniversaries**, under **Contacts** in the navigation drawer.
-- Titles read like "Sam's Birthday". When the contact's date includes the year, the
-  title adds the age or the number of years, as in "Sam's 30th Birthday".
+- Titles read like "Sam's Birthday". When the contact's date includes a year from 1900
+  to 2100, the title adds the age or the number of years, as in "Sam's 30th Birthday".
+  A date saved under another year, such as the placeholder 1604 that some apps store for
+  a date with no year, shows every year without an age.
 - Once a switch is on, the screen shows how many events it found.
 
 ## Color and reminders

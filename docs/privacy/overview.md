@@ -49,11 +49,14 @@ Your calendars and events are stored in a database inside KashCal's private app
 storage, which other apps can't read. KashCal connects only to these places:
 
 - Your calendar server (iCloud, Nextcloud, Fastmail, and so on). Your events go there:
-  titles, times, locations, notes and guests. Your RSVP answers go there too.
+  titles, times, locations, notes and guests. Your RSVP answers go there too. When you
+  open **Add from account** in Calendar Feeds, KashCal asks the server for the calendar
+  feeds saved on your account.
 - Your contact server, if you turn on [contact sync](../sync/contacts.md). KashCal
   downloads the account's contacts and sends back the changes you make to them on
   your phone. It fetches contact photos only from the same domain as that server.
-- The feeds you subscribe to, fetched from the URL you gave. A holiday calendar you add
+- The feeds you subscribe to, each fetched from its own URL: one you gave, or one your
+  calendar server listed when you used **Add from account**. A holiday calendar you add
   from the built-in list is fetched from thunderbird.net, which hosts those feeds.
 - A certificate authority's server, in one case: when your server's HTTPS certificate
   is missing an intermediate certificate, KashCal downloads that certificate from the
