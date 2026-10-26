@@ -40,8 +40,9 @@ time. It holds:
 - Your default calendar. It points to a calendar on this phone, so you pick it
   again after a restore.
 - The **App lock** setting. Each phone has its own lock.
-- Events. They live on your accounts, or in the Local calendar. To move Local
-  events, [export them to .ics](../sync/import-export.md#export-to-ics).
+- Events. They live on your accounts, or in your offline calendars.
+- Your offline calendars themselves, with their names and colors. To move them and their
+  events, [export each calendar to .ics](../sync/import-export.md#export-to-ics).
 - Internal state, such as last-sync times, zoom levels and which tips you've seen.
 
 ## Back up

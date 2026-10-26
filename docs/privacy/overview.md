@@ -46,7 +46,10 @@ in the same terms:
 ## What leaves your phone (and what doesn't)
 
 Your calendars and events are stored in a database inside KashCal's private app
-storage, which other apps can't read. KashCal connects only to these places:
+storage, which other apps can't read. That includes your
+[offline calendars](../sync/offline-calendars.md): KashCal doesn't put them in Android's
+shared calendar storage, where any app with calendar permission could read them.
+KashCal connects only to these places:
 
 - Your calendar server (iCloud, Nextcloud, Fastmail, and so on). Your events go there:
   titles, times, locations, notes and guests. Your RSVP answers go there too. When you

@@ -15,7 +15,7 @@ Sending and receiving meeting invitations needs a calendar account that supports
 scheduling (the CalDAV scheduling extension). Not every server supports it, and some
 support only part of it:
 
-- KashCal's own Local calendar can't invite people. Neither can an account when
+- KashCal's own [offline calendars](../sync/offline-calendars.md) can't invite people. Neither can an account when
   KashCal finds no email address for you on it, such as a server login like `alice`
   on a server that reports no address. In place of the guest list, the event form
   shows this, except when you edit a repeating event:
@@ -103,8 +103,17 @@ app syncs to your phone's calendar, use [Device calendars](../sync/device-calend
 
 ## KashCal's own calendars stay out of the phone's calendar storage
 
-Other apps and launcher widgets don't see events from KashCal's own calendars. See
+KashCal keeps its own calendars (synced, feed, birthday and [offline calendars](../sync/offline-calendars.md))
+in its own private storage, so other apps on your phone can't read them. The other side of
+that: other apps and launcher widgets don't see events from KashCal's own calendars. See
 [Device calendars](../sync/device-calendars.md#how-this-differs-from-connecting-an-account).
+
+## Device calendars export one event at a time
+
+**Export calendars** in Settings lists the calendars KashCal keeps, not device calendars. To
+save a device calendar to an `.ics` file, export it from the app that owns it, or export its
+events one at a time with **Export as .ics**. A device event exports without its guests. See
+[Export to .ics](../sync/import-export.md#export-to-ics).
 
 ## Device-calendar tags aren't all in Manage tags
 
@@ -113,8 +122,9 @@ the event. See [Tags](../events/tags.md#tags-on-device-calendar-events).
 
 ## Calendar colors are set where the calendar lives
 
-You can't recolor an iCloud, CalDAV, device or Local calendar in KashCal. Change it on
-the server or in the app that owns the calendar, or give events their own color. See
+You can't recolor an iCloud, CalDAV or device calendar in KashCal. Change it on the
+server or in the app that owns the calendar, or give events their own color. Offline
+calendars, calendar feeds and contact birthdays are recolored in KashCal. See
 [Calendar colors](../events/colors.md#calendar-colors).
 
 ## One time zone per event
@@ -151,11 +161,12 @@ APK, you have to uninstall first, which deletes the app's data on your phone.
 Before you switch:
 
 1. [Back up your settings](../features/backup-restore.md).
-2. Events in the Local calendar aren't on a server or in a settings backup.
-   [Export them to .ics](../sync/import-export.md#export-to-ics).
+2. Events in offline calendars aren't on a server or in a settings backup.
+   [Export each calendar to .ics](../sync/import-export.md#export-to-ics).
 
-After you install from the other source, restore the backup, import the .ics file and
-add your accounts again. If you use device calendars, pick them again.
+After you install from the other source, restore the backup, create your offline
+calendars again, import each .ics file into its calendar, and add your accounts again.
+If you use device calendars, pick them again.
 
 Staying on one source updates normally.
 

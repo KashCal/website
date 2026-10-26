@@ -16,16 +16,18 @@ deadlines.
 
 ## Choosing a color
 
-In the event form, tap the **Event color** row. A grid opens:
+In the event form, tap the **Event color** row. A grid opens below the row, inside the
+form, and any other open picker closes:
 
 - The first swatch is the calendar default. Pick it to make the event follow its calendar's color.
 - The other 11 swatches cover red, orange, yellow, two greens, teal, two blues, purple, pink and gray.
 - Tap a swatch to apply it. The grid closes.
 
 For more choices, tap **More colors**. It opens a browser of 92 named colors on
-two wheels: turn the left wheel to pick a color family and the right wheel to pick
-a color. The top shows a preview with the color's name and hex code. Tap **Done**
-to apply it, or **Back** to return to the grid.
+two wheels in the same place: turn the left wheel to pick a color family and the right
+wheel to pick a color. The top shows a preview with the color's name and hex code. Tap
+**Done** to apply it, or **Back** to return to the grid. The phone's Back closes the
+wheels first, then the grid, without changing the color.
 
 The row then shows the color's name for a grid color or **Saddle Brown**, **Custom**
 for any other color, or **Event color** when the event uses the calendar default.
@@ -35,12 +37,14 @@ You can't change the color of an event someone else organizes and invited you to
 ## Calendar colors
 
 iCloud and CalDAV calendars use the color set on the server and pick up changes when
-they sync. Device calendars use the color their sync app sets. The Local calendar is
-gray.
+they sync. Device calendars use the color their sync app sets.
 
 To recolor one of these calendars, do it on the server or in the app that owns it. You
-set the colors of [calendar feeds](../sync/ics-subscriptions.md) and
-[contact birthdays](../features/birthdays.md#color-and-reminders) in KashCal.
+set the colors of [offline calendars](../sync/offline-calendars.md#rename-recolor-or-export-a-calendar),
+[calendar feeds](../sync/ics-subscriptions.md) and
+[contact birthdays](../features/birthdays.md#color-and-reminders) in KashCal. The
+built-in **Local** calendar starts gray, and a calendar you create starts with a color
+KashCal picks.
 
 ## How colors sync
 

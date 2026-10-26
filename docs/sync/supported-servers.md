@@ -46,7 +46,7 @@ turn them on. You don't sign in again.
 
 ## Meeting invitations
 
-Sending and receiving meeting invitations depends on your server. Local calendars
+Sending and receiving meeting invitations depends on your server. Offline calendars
 can't send invitations. Some servers, SOGo and mailbox.org among them, save your guests
 without sending them the invitation. See
 [Known limitations](../help/known-limitations.md#invitations-depend-on-your-calendar-account)

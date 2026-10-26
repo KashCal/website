@@ -14,7 +14,8 @@ KashCal comes with a calendar stored on your device. It shows as **Local** in th
 navigation drawer. You can create events in it without connecting an account.
 
 KashCal doesn't sync the local calendar anywhere. If Android backup is on for your
-phone, Android's backup includes KashCal's data.
+phone, Android's backup includes KashCal's data. To add more calendars like it, open
+**Settings** and tap **Offline calendars**. See [Offline calendars](../sync/offline-calendars.md).
 
 ## The iCloud prompt
 

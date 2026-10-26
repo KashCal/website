@@ -29,12 +29,12 @@ Every KashCal feature, with a link to its page.
 
 ## Connecting calendars
 
-- **[The Local calendar](../getting-started/first-run.md#you-start-with-a-local-calendar)**: a calendar on your phone that works offline, with no account.
+- **[Offline calendars](../sync/offline-calendars.md)**: calendars on your phone that work with no account. Start with Local and add, rename, recolor or delete more.
 - **[Sync & accounts](../sync/index.md)**: iCloud, CalDAV, feeds, and device calendars.
 - **[Supported servers](../sync/supported-servers.md)**: the full compatibility list.
 - **[Device calendars](../sync/device-calendars.md)**: show and edit the calendars already on your phone, such as Google or Outlook.
 - **[Calendar feeds](../sync/ics-subscriptions.md)**: subscribe to ICS feeds, or add a holiday calendar from the built-in list.
-- **[Import & export](../sync/import-export.md)**: open .ics files, and export your Local calendar or a single event.
+- **[Import & export](../sync/import-export.md)**: open .ics files, and export any calendar KashCal keeps on the phone, or a single event.
 - **[Contact sync](../sync/contacts.md)**: sync contacts with your account both ways, including photos (beta).
 
 KashCal also opens .ics files and webcal:// links, and handles "Add to calendar" from other apps.

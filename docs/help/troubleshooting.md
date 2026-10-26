@@ -75,7 +75,7 @@ See [Reminders](../events/reminders.md).
 
 ## Invitations aren't being sent
 
-Sending invitations needs an account that supports scheduling. The Local calendar,
+Sending invitations needs an account that supports scheduling. Offline calendars,
 and an account with no email address for you, can't invite people. A local device
 calendar keeps guests but can't notify them. Some servers, SOGo and mailbox.org among
 them, save your guests without notifying them. See
@@ -96,8 +96,8 @@ See [Calendar feeds](../sync/ics-subscriptions.md).
 ## I lost my events after reinstalling
 
 Events from your accounts live on your servers. After you reinstall, add your accounts
-again and the events sync back. Events in the Local calendar aren't on a server or in a settings backup.
-[Export them to .ics](../sync/import-export.md#export-to-ics) before you uninstall. To
+again and the events sync back. Events in offline calendars aren't on a server or in a settings backup.
+[Export each calendar to .ics](../sync/import-export.md#export-to-ics) before you uninstall. To
 restore your settings and feeds, use a [settings backup](../features/backup-restore.md).
 
 ## Capturing logs for a bug report

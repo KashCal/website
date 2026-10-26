@@ -128,7 +128,7 @@ this with **Sync lookback** in [Settings](../features/settings.md#sync). Widenin
 lookback starts a full sync to fetch the older events. Narrowing it removes one-time
 events from your accounts and calendar feeds that ended before the new lookback.
 Repeating events and their changed occurrences stay, as do events with changes not yet
-sent, events in local calendars, and birthdays and anniversaries. The server keeps its
+sent, events in offline calendars, and birthdays and anniversaries. The server keeps its
 copies. A feed that lists changed occurrences without their repeating event is the
 exception: those occurrences go when the earliest original date among them is before the
 new lookback. A calendar feed adds its older events back the next time it downloads a

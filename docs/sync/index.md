@@ -45,7 +45,7 @@ sheet:
 - To update your password, tap **Change Password**. If KashCal can no longer read a CalDAV
   account's saved password, the sheet shows **Sign In Again** in its place. See
   [CalDAV setup](./providers/caldav.md#signing-in-again).
-- To remove the account, tap **Sign Out**. KashCal asks first, because signing out removes that account's synced calendars from this device. Your events on the server stay there, and events in your local calendar stay on the device.
+- To remove the account, tap **Sign Out**. KashCal asks first, because signing out removes that account's synced calendars from this device. Your events on the server stay there, and events in your offline calendars stay on the device.
 
 After a failed sync, the sheet shows how many attempts failed and when the last
 successful sync was, or "Never synced".

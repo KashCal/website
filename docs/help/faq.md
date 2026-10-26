@@ -10,7 +10,7 @@ import FaqSchema from '@site/src/components/FaqSchema';
 
 <FaqSchema items={[
   {question: 'Is KashCal free? Is there a catch?', answer: "Yes, it's free and open source under the Apache-2.0 license. There's no paid tier, no ads, and no account to create. A donation is optional and never required, and nothing in the app is locked behind it."},
-  {question: 'Do I need to create a KashCal account?', answer: 'No. KashCal has no accounts and no servers. You connect your own calendar accounts (like iCloud or Nextcloud), and you can use the app fully offline with a local calendar even without connecting anything.'},
+  {question: 'Do I need to create a KashCal account?', answer: 'No. KashCal has no accounts and no servers. You connect your own calendar accounts (like iCloud or Nextcloud), and you can use the app fully offline with offline calendars even without connecting anything.'},
   {question: 'Does KashCal track me or sell my data?', answer: "No. KashCal has no analytics, no telemetry and no advertising. KashCal itself sends your events only to the calendar servers you connect. Android's own backup can include KashCal's database."},
   {question: 'Which calendar services does it work with?', answer: 'iCloud and any CalDAV server: Nextcloud, Fastmail, Radicale, Baikal, Zoho, mailbox.org, Stalwart, SOGo, and more.'},
   {question: 'Does it work with Google Calendar or Outlook?', answer: 'Yes, through your phone. Google removed third-party CalDAV access and Outlook does not expose CalDAV, so both come in as device calendars: let the Google or Outlook app sync those calendars to your phone, then turn on device calendars in KashCal settings.'},
@@ -20,7 +20,7 @@ import FaqSchema from '@site/src/components/FaqSchema';
   {question: 'Can I use KashCal offline?', answer: 'Yes, it is offline-first. You can view and edit events with no connection, and your changes sync when the phone is back online.'},
   {question: 'Why is background sync not more frequent than 15 minutes?', answer: 'That is an Android system limit for background work. It is the shortest automatic interval the platform allows. You can always pull down to refresh for an immediate sync.'},
   {question: 'What Android version do I need?', answer: 'Android 12 or newer. KashCal targets Android 17.'},
-  {question: 'How do I move to a new phone?', answer: "Back up your settings and restore them on the new phone. Add your calendar accounts again: the backup doesn't hold accounts or passwords, by design. Your events come back with sync. Export your Local calendar and import the file on the new phone, and select your device calendars again if you use them."},
+  {question: 'How do I move to a new phone?', answer: "Back up your settings and restore them on the new phone. Add your calendar accounts again: the backup doesn't hold accounts or passwords, by design. Your events come back with sync. Export each offline calendar, create the same calendars on the new phone and import each file into its calendar, and select your device calendars again if you use them."},
 ]} />
 
 ## Is KashCal free? Is there a catch?
@@ -33,8 +33,8 @@ it.
 ## Do I need to create a KashCal account?
 
 No. KashCal has no accounts and no servers of its own. You connect your *own* calendar
-accounts, such as iCloud or Nextcloud. Or you use the Local calendar offline without
-connecting anything.
+accounts, such as iCloud or Nextcloud. Or you use [offline calendars](../sync/offline-calendars.md)
+without connecting anything.
 
 ## Does KashCal track me or sell my data?
 
@@ -98,8 +98,8 @@ Google Play re-signs with a Google-managed key (Play App Signing), and GitHub Re
 use the upstream key (the cert SHA-256 is published in the
 [README](https://github.com/KashCal/KashCal#readme)). Android won't install a build
 over one signed with another key. To switch sources, uninstall first, and uninstalling
-clears everything stored only on the phone. Back up your settings and export your
-Local calendar as .ics before you switch. To verify the GitHub APK, use
+clears everything stored only on the phone. Back up your settings and export each
+offline calendar as .ics before you switch. To verify the GitHub APK, use
 [AppVerifier](https://github.com/soupslurpr/AppVerifier) or Obtainium with the cert
 SHA-256 from the README.
 
@@ -116,8 +116,8 @@ during sync.
 ## Can I use Syncthing instead of a CalDAV server?
 
 No. To carry your setup to another phone, [back up your settings](../features/backup-restore.md),
-which include your ICS feeds, and restore them there. To bring Local events along,
-[export them as .ics](../sync/import-export.md#export-to-ics) and import the file.
+which include your ICS feeds, and restore them there. To bring offline calendars along,
+[export each one as .ics](../sync/import-export.md#export-to-ics) and import it there.
 
 ## Why won't my iCloud password work?
 
@@ -161,7 +161,7 @@ then **App permissions**.
 
 ## Can I send meeting invitations?
 
-Yes, when your calendar account supports scheduling. Local-only calendars can't send
+Yes, when your calendar account supports scheduling. Offline calendars can't send
 them, and some accounts don't support inviting people at all. Some servers, SOGo and
 mailbox.org among them, save your guests without notifying them. See
 [Known limitations](./known-limitations.md).
@@ -172,6 +172,6 @@ mailbox.org among them, save your guests without notifying them. See
    phone.
 2. Add your calendar accounts again. The backup doesn't hold accounts or passwords, by
    design. Your events come back with sync.
-3. [Export your Local calendar](../sync/import-export.md#export-to-ics) and import the
-   file on the new phone.
+3. [Export each offline calendar](../sync/import-export.md#export-to-ics). On the new
+   phone, create the same offline calendars and import each file into its calendar.
 4. If you use device calendars, select them again.
