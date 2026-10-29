@@ -94,9 +94,9 @@ const config: Config = {
         description:
           'Free, open-source calendar for Android. Sync iCloud, CalDAV, holidays, and birthdays. Private by default, no account required.',
         screenshot: [
-          'https://kashcal.onekash.org/img/screenshots/NewEvent.png',
-          'https://kashcal.onekash.org/img/screenshots/Insights.png',
-          'https://kashcal.onekash.org/img/screenshots/Quick-Event-Add.png',
+          'https://kashcal.onekash.org/img/screenshots/event-form.png',
+          'https://kashcal.onekash.org/img/screenshots/insights-week.png',
+          'https://kashcal.onekash.org/img/screenshots/quick-add.png',
         ],
         url: 'https://kashcal.onekash.org',
         downloadUrl: 'https://play.google.com/store/apps/details?id=org.onekash.kashcal',
