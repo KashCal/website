@@ -49,19 +49,19 @@ const FEATURES: Feature[] = [
 
 const SHOTS = [
   {
-    img: '/img/screenshots/Quick-Event-Add.png',
+    img: '/img/screenshots/quick-add.png',
     alt: 'Typing a natural-language event in KashCal',
     title: 'Type it in',
     caption: '"Become a morning person Monday 5am" turns into an event.',
   },
   {
-    img: '/img/screenshots/Insights.png',
+    img: '/img/screenshots/insights-week.png',
     alt: 'KashCal Insights screen showing time analytics',
     title: 'See your week',
     caption: 'Hours per day, your busiest and lightest days, and your next free block.',
   },
   {
-    img: '/img/screenshots/Apple-Calendar-Connect.png',
+    img: '/img/screenshots/icloud-connect.png',
     alt: 'KashCal iCloud connect prompt',
     title: 'Bring in iCloud',
     caption: 'Connect your Apple calendars and see your events here.',

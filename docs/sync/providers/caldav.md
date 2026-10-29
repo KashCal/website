@@ -8,7 +8,7 @@ import Screenshot from '@site/src/components/Screenshot';
 
 # Connecting a CalDAV server
 
-<Screenshot src="/img/screenshots/CalDAV-Account.png" alt="KashCal CalDAV account sign-in screen" align="right" caption="Server address, username, and password." />
+<Screenshot src="/img/screenshots/caldav-sign-in.png" alt="KashCal CalDAV account sign-in screen" align="right" caption="Server address, username, and password." />
 
 Use this path for any CalDAV calendar service other than iCloud. That includes
 Nextcloud, Fastmail, Radicale, Baikal, Zoho, mailbox.org, Stalwart, SOGo, Infomaniak,

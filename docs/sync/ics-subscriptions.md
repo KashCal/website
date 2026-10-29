@@ -8,7 +8,7 @@ import Screenshot from '@site/src/components/Screenshot';
 
 # Calendar feeds (ICS subscriptions)
 
-<Screenshot src="/img/screenshots/ICS-Subscription.png" alt="Adding a calendar feed subscription in KashCal" align="right" caption="Paste a feed URL and pick how often it refreshes." />
+<Screenshot src="/img/screenshots/add-feed.png" alt="Adding a calendar feed subscription in KashCal" align="right" caption="Paste a feed URL, then set how often it refreshes." />
 
 A calendar feed is a calendar someone else keeps up to date: public holidays, your team's
 fixtures, school terms, release dates. Feeds are free, read-only ICS links, not paid

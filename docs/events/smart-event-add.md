@@ -9,7 +9,7 @@ import Screenshot from '@site/src/components/Screenshot';
 
 # Smart event add
 
-<Screenshot src="/img/screenshots/Quick-Event-Add.png" alt="Typing a natural-language event in KashCal" align="right" caption="KashCal reads what you type." />
+<Screenshot src="/img/screenshots/quick-add.png" alt="Typing a natural-language event in KashCal" align="right" caption="KashCal reads what you type." />
 
 Type an event the way you'd say it, and KashCal fills in the details. As you type, a
 preview shows what it understood: the title, date, time and more. Check it, then save.

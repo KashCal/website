@@ -8,7 +8,7 @@ import Screenshot from '@site/src/components/Screenshot';
 
 # Insights
 
-<Screenshot src="/img/screenshots/Insights.png" alt="KashCal Insights screen with weekly time breakdown" align="right" caption="A week of your time, computed on-device." />
+<Screenshot src="/img/screenshots/insights-week.png" alt="KashCal Insights screen with weekly time breakdown" align="right" caption="A week of your time, computed on-device." />
 
 Insights shows how much time your events take and where it goes. KashCal works it all
 out on your phone and sends nothing anywhere. Open **Insights** from the navigation

@@ -8,7 +8,7 @@ import Screenshot from '@site/src/components/Screenshot';
 
 # Creating & editing events
 
-<Screenshot src="/img/screenshots/NewEvent.png" alt="KashCal new event form" align="right" caption="The event form, with everything in one place." />
+<Screenshot src="/img/screenshots/event-form.png" alt="KashCal new event form" align="right" caption="The event form, with everything in one place." />
 
 The event form sets every detail of an event on one screen. To create an event,
 tap the + button, or tap an empty slot in a Day, 3 Days or Week timeline. With
