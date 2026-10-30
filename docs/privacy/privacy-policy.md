@@ -6,7 +6,7 @@ description: KashCal's full privacy policy. No data is collected, and nothing is
 
 # Privacy Policy
 
-*Effective September 27, 2026*
+*Effective October 30, 2026*
 
 :::note
 This is the detailed policy. For a plainer walkthrough of how KashCal protects your
@@ -41,7 +41,10 @@ The following data may exist locally on your device when using KashCal:
 - App preferences and, if you enable them, calendar feed subscriptions.
 - Sync logs used for diagnostics.
 
-All of it stays on your device. You can remove any of it at any time (see
+It stays on your device unless you choose to send it elsewhere: by syncing, by exporting,
+sharing or printing, or by turning on automatic calendar backup (off by default), which saves
+your offline calendars as files in a folder you pick. If that folder belongs to a cloud
+storage app, that app uploads them under its own terms. You can remove any of it at any time (see
 [Retention & Deletion](#retention--deletion)).
 
 ## Calendar Sync
@@ -82,8 +85,9 @@ plain-language breakdown of each permission, see
 - **Transport security:** Network connections use TLS/HTTPS by default. Plaintext HTTP
   is used only if you deliberately enter an `http://` address for a self-hosted server;
   addresses without a scheme default to HTTPS.
-- **Backup exclusion:** Credentials are excluded from Android backup. The rest of KashCal's
-  data, including sync logs, is included when Android backup is on.
+- **Backup exclusion:** Credentials and automatic calendar backup settings are excluded from
+  Android backup and device-to-device transfer. The rest of KashCal's data, including sync
+  logs, is included when Android backup is on.
 - **No remote access:** We cannot retrieve, view, or modify information on your
   device.
 
@@ -99,6 +103,9 @@ your data at any time by:
 - Removing sync accounts from App settings.
 - Clearing App data via Android system settings.
 - Uninstalling the App.
+
+Files you export or back up stay in the folder you chose after you uninstall the App; delete
+them there.
 
 Sync logs are subject to automatic rotation. Because we do not store your data on our
 servers, there is no residual data on our end after uninstallation.

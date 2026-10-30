@@ -118,6 +118,26 @@ day suits a shorter interval.
 Events from a feed show up alongside your other calendars. You can't edit them in
 KashCal, because they belong to the source feed.
 
+## What a refresh changes
+
+Each refresh makes the feed's calendar match the feed. Events the feed added show up,
+changed ones update, and ones it removed leave your calendar. A feed whose events were
+all removed is cleared on its next refresh.
+
+When a refresh fails, the events from the last good refresh stay, and the feed's row
+shows why in red, in the language KashCal uses. For example:
+
+- "That URL doesn't look like a calendar feed."
+- "The server didn't send a valid feed."
+- "This feed's server refused access."
+- "Server returned an error (404). Please check the URL."
+- "This calendar feed is too large to download."
+- "This feed's events couldn't be shown." The feed has events, but none KashCal can
+  show, for example when every one is cancelled.
+- "Connection failed. Please try again."
+
+Any other error shows in English, as KashCal recorded it.
+
 ## Manage or remove a feed
 
 Each feed is a row on the **Calendar Feeds** screen:

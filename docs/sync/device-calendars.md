@@ -15,28 +15,28 @@ Device calendars are off until you turn them on.
 ## Turn it on
 
 1. Open **Settings**, then tap **Device calendars**.
-2. Turn on the **Enable** switch. Android asks for calendar permission. KashCal asks
-   to read and to write calendars at the same time.
+2. Turn on **Show device calendars**. Android asks for calendar permission. KashCal asks
+   to read and to edit your calendars in the same request.
 3. Turn on each calendar you want with the switch on its row. Calendars are grouped
-   by account, and all of them start off. The **Device calendars** row in Settings
-   counts the ones you turned on, for example "2 enabled".
+   by account, and all of them start off. Until you turn one on, the screen says "Pick
+   calendars to show." The **Device calendars** row in Settings counts the ones you
+   turned on, for example "2 enabled".
 4. To hide an enabled calendar from your views without turning it off, tap its entry
    in the navigation drawer.
 
-If the permission is missing, the screen shows "Calendar permission required. Tap
-Enable to grant access." To look for calendars another app has added since, tap the
-refresh icon next to the heading.
+The switch stays off while KashCal doesn't have the permission. If you refuse and
+Android won't ask again, turning the switch on opens KashCal's page in Android
+settings instead. Allow calendar access there and go back: the switch turns on.
 
-## Read and write access
+To look for calendars another app has added since, tap the refresh icon next to the
+heading. When the phone holds no calendars, the screen says "No calendars found."
 
-With read permission only, KashCal shows the events but can't change them. The screen
-shows **Read-only access** with "Grant write permission to edit device calendar
-events" and **Grant**. Tap it to ask for write permission.
+## Read-only calendars
 
-Some calendars are read-only whatever you grant, because the app that owns them
-allows no changes. Each read-only calendar says why on its row: "Read only (no write
-permission)" or "Read only (calendar is read-only)". The quick view of a read-only event offers
-**Duplicate** and **Share** instead of **Edit** and **Delete**.
+A calendar is read-only when the app that owns it allows no changes. Its row says
+"Read only (calendar is read-only)". The quick view of a read-only event offers
+**Duplicate** and **Share** instead of **Edit** and **Delete**. So does every device
+event when KashCal can read your calendars but not edit them.
 
 ## What you can do with device events
 

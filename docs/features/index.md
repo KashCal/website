@@ -49,7 +49,7 @@ KashCal also opens .ics files and webcal:// links, and handles "Add to calendar"
 ## Settings and privacy
 
 - **[Settings](./settings.md)**: every setting and its default.
-- **[Backup & restore](./backup-restore.md)**: save your settings to a file and restore them.
+- **[Backup & restore](./backup-restore.md)**: back up your offline calendars to a folder, and save your settings to a file and restore them.
 - **[App lock](./app-lock.md)**: hide your calendar behind your fingerprint, face, or screen lock.
 - **[Languages](./languages.md)**: English plus 67 translations.
 - **[Privacy & Security](../privacy/overview.md)**: no tracking, no accounts, no KashCal servers.

@@ -53,16 +53,23 @@ note.
 
 Smart event add reads English words only, whatever language KashCal shows. Numeric
 dates and times, such as `2027-01-15` and `15:30`, work in any language. Words it
-doesn't recognize as a date, time, repeat, location, tag or note stay in the title.
+doesn't recognize as a date, time, repeat, location, tag or note stay in the title,
+as you typed them: capitals, punctuation, emoji and number words stay, so
+`Become a morning person Monday 5am` keeps the title "Become a morning person".
+Time zone abbreviations such as `EST` or `pst` aren't read: they stay in the title, and
+the time is in your phone's time zone.
 
 Combine any of these in one sentence.
 
 ### Dates
 
 - Relative: `today`, `tomorrow`, `yesterday`, `day after tomorrow`
-- Weekdays: `Monday`, `next Friday`, `this Wednesday`, `last Tuesday`
+- Weekdays: `Monday`, `next Friday`, `this Wednesday`, `last Tuesday`, `Tuesday next week`,
+  `Friday this week`. `next week` follows your first-day-of-week setting.
 - Specific dates: `March 15`, `15 January`, `15 of March 2027`
 - Numeric dates: `3/15/2027`, `2027-01-15`
+- Date ranges, which make an all-day event over those days: `Aug 23 to 28`, `Aug 23-28`,
+  `23-28 August`, `Aug 30 to Sep 2`. An en or em dash (`Aug 23–28`) works like a hyphen.
 
 A numeric date such as `5/10/2026`, where either number could be the month, follows
 your phone's language and region: 5 October where the day comes first, May 10 where
@@ -75,13 +82,25 @@ day.
 ### Times
 
 - Exact: `3pm`, `3:30 PM`, `15:30`, `at 10 15`
-- Ranges: `2pm to 4pm`
+- A bare hour after `at`, read as typed: `Dinner at 8` is 8:00 AM and `Review at 13` is
+  1:00 PM. With `tonight`, `this evening` or `tomorrow afternoon`, the hour is PM:
+  `party tomorrow evening at 9` is 9:00 PM.
+- Ranges: `2pm to 4pm`, `3pm - 5pm`, `15:00-16:30`, with a hyphen, en dash or em dash.
+  A start without AM or PM takes the end's: `from 3 to 5pm` is 3:00 to 5:00 PM.
+  Without AM or PM on either, the end comes after the start: `from 9 to 5` is 9:00 AM to
+  5:00 PM.
 - Parts of the day: `morning`, `afternoon`, `evening`, `night`, `tonight`
 - Spoken: `quarter past 10`, `half past 3`, `quarter to 5`
 
 ### Duration
 
-- `for 30 minutes`, `for 2 hours`, `for 1.5 hours`
+- `for 30 minutes`, `for 2 hours`, `for 1.5 hours`, `for an hour and a half`,
+  `for 2 hours 30 minutes`
+- Short forms: `2h`, `45m`, `2h45m`, `1.5h`, `90min`. When you give a start time, the
+  ones with hours or `min` work without `for`: `2pm 2h`. Without a start time they need
+  `for`: on its own, a whole hour such as `2h` is read as a start time (2:00 AM), and the
+  others stay in the title. Minutes alone always need `for` (`for 45m`), so
+  `Swim 400m tomorrow 6am` keeps "Swim 400m" as its title.
 
 ### "In" and "ago" offsets
 
@@ -90,14 +109,19 @@ day.
 
 ### Recurrence
 
-- `daily`, `weekly`, `biweekly`, `monthly`, `yearly`
-- `every day`, `every 2 weeks`, `every 3 months`
-- `every Monday`, `every weekday`, `every weekend`
+- `daily`, `weekly`, `biweekly`, `monthly`, `yearly`, `everyday`
+- `every day`, `every 2 weeks`, `every 3 months`, `once a week`, `each day`
+- `every Monday`, `each Tuesday`, `every weekday`, `every weekend`,
+  `on Mondays and Wednesdays`
+- `every morning at 7` or `every evening`, which repeat daily
+- A day of the month: `every 1st`, `every 15th`. A date each year: `every 25th December`
 - A weekday of the month: `every 2nd Tuesday`, `first Monday of every month`, or
   `last Friday of the month`, which lands on the last Friday whether that's the 4th or
   the 5th
 - The last day of the month: `last day of the month`, `last day of every month`
-- An end: `until December` or `5 times`
+- An end: `until December`, `until June 15 2027`, `until the end of the month` or `5 times`.
+  A date range with a repeat ends the series on the range's last day:
+  `Camp every day Aug 3 to 7 at 9am` repeats daily at 9:00 AM through August 7.
 
 `the 2nd Tuesday of this month` (this month, not every month) creates one event on that
 date, not a repeat.
@@ -106,6 +130,9 @@ date, not a repeat.
 
 - Words after `at` that aren't a date or time become the location:
   `Lunch at Olive Garden`, `Meeting at Conference Room B`
+- A number after `at` with a word after it is part of the place, not a time:
+  `Party at 10 Downing Street`, `Dinner at 21 Club`. `o'clock`, `sharp` or a date word
+  after the number keeps it a time: `Dinner at 8 tomorrow` is 8:00 AM tomorrow.
 
 ### Tags
 
@@ -139,6 +166,8 @@ date, not a repeat.
 | `Coffee with Kash tomorrow 3pm` | "Coffee with Kash", tomorrow at 3:00 PM |
 | `Standup every weekday at 9am` | "Standup", repeating every weekday at 9:00 AM |
 | `Lunch with Sam Friday 12:30 for 1 hour` | "Lunch with Sam", this Friday 12:30-1:30 PM |
+| `Party tomorrow evening at 9` | "Party", tomorrow at 9:00 PM |
+| `Conference Aug 23-28` | "Conference", all day from August 23 to 28 |
 | `Book club every Tuesday until December` | "Book club", weekly on Tuesday, ending in December |
 | `Dentist in 2 weeks at 10am` | "Dentist", two weeks out at 10:00 AM |
 | `Deep work 2pm #focus` | "Deep work", 2:00 PM on the selected day, tagged #focus |

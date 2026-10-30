@@ -25,7 +25,7 @@ With a screen reader, each picker is announced as a group of radio buttons, so y
 - **Calendar accounts:** connect iCloud or a CalDAV server, and manage the accounts you have. See [Sync & Accounts](../sync/index.md).
 - **Birthdays & anniversaries:** show birthdays and anniversaries from your contacts. See [Birthdays](./birthdays.md).
 - **Calendar feeds (ICS):** subscribe to holiday, sports or school calendars by URL, or add the feeds saved on your iCloud or CalDAV account. See [Calendar feeds](../sync/ics-subscriptions.md).
-- **Device calendars:** show calendars from other apps on your phone. Once you turn them on, the row shows how many are enabled. See [Device calendars](../sync/device-calendars.md).
+- **Device calendars:** show calendars from other apps on your phone, with the **Show device calendars** switch on its screen. Once you turn them on, the row shows how many are enabled. See [Device calendars](../sync/device-calendars.md).
 - **Offline calendars:** create, rename, recolor, delete and export KashCal's calendars that stay on your phone. Once you have more than one, the row counts them. See [Offline calendars](../sync/offline-calendars.md).
 - **Calendar notifications:** turn each calendar's notifications on or off. The row shows **All calendars**, or how many calendars are muted. While the switch on the **Device calendars** heading is off, every device calendar counts as muted. See [Mute a calendar](../events/reminders.md#mute-a-calendar).
 
@@ -79,11 +79,12 @@ See [How sync works](../sync/how-sync-works.md) for what happens during a sync.
 ## Backup & restore
 
 - **Export calendars:** save any calendar KashCal keeps on the phone to an `.ics` file. See [Export to .ics](../sync/import-export.md#export-to-ics).
+- **Automatic calendar backup:** save each offline calendar as an `.ics` file in a folder you choose, on a schedule. The row shows **Off**, or how often and to which folder. Off until you choose a folder. Once it's on, it runs every 12 hours by default and keeps 3 copies of each calendar. See [Automatic calendar backup](./backup-restore.md#automatic-calendar-backup).
 - **Back up settings:** save your KashCal configuration to a JSON file.
 - **Import events from file:** add events from an `.ics` file to a calendar you can write to.
 - **Restore settings:** read your configuration back from a backup file.
 
-See [Backup & restore](./backup-restore.md) for what's included and what isn't.
+See [Backup & restore](./backup-restore.md) for what each backup includes and what it doesn't.
 
 ## Troubleshooting
 
@@ -111,4 +112,4 @@ At the bottom of the Settings screen, tap the KashCal version line to open a sho
 - [App lock](./app-lock.md): put a curtain over your calendar
 - [Reminders](../events/reminders.md): notifications that survive a reboot
 - [Sync & Accounts](../sync/index.md): connect and manage your calendars
-- [Backup & restore](./backup-restore.md): move to a new device
+- [Backup & restore](./backup-restore.md): back up your offline calendars, or move your settings to a new device

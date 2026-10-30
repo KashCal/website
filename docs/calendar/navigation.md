@@ -88,6 +88,8 @@ The hub has these parts:
   - **Go to date**: jump to any date in the calendar.
   - **[Share availability](../features/share-availability.md)**: send someone your
     free times as plain text.
+  - **[Print your week](./views.md#print-your-week)**: print a week of your calendar,
+    as a grid, a list of every event, or both.
   - **[Manage tags](../events/tags.md)**: recolor, rename and remove the tags you've
     used across your events.
 - **Privacy & Security**, who can see your calendar and what it can reach:
@@ -97,7 +99,10 @@ The hub has these parts:
     the reason it needs it and a link to its system setting.
   - **How your data stays yours**: opens the [Privacy & Security](../privacy/overview.md)
     page in your browser.
-- **About**: the version and app info.
+- **About**: opens a full-height sheet about KashCal, with the version at the bottom.
+  **Help and guides** opens the Get help section of this site, **Source code** opens
+  KashCal's code on GitHub, and **Support KashCal** opens the donate page, each in your
+  browser. If no app can open the link, the sheet says "No app can open this link."
 
 ## App shortcuts
 

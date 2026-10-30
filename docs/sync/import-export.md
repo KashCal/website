@@ -113,6 +113,10 @@ or export its events one at a time.
 You can also export an offline calendar from its own sheet. See
 [Offline calendars](./offline-calendars.md#rename-recolor-or-export-a-calendar).
 
+To save your offline calendars on a schedule, turn on
+[automatic calendar backup](../features/backup-restore.md#automatic-calendar-backup). It
+writes the same file **Export calendars** makes, into a folder you choose.
+
 To export one event, open it, tap the menu, and choose **Export as .ics**. This works
 for device calendar events too.
 

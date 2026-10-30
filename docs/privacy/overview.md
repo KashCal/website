@@ -31,9 +31,9 @@ in the same terms:
 | Data collected | None. KashCal collects no personal data. |
 | Data shared with third parties | None. |
 | Data sent to KashCal | None. There are no KashCal servers. |
-| Where your data is stored | On your device, and on the calendar and contact servers you connect. |
+| Where your data is stored | On your device, on the calendar and contact servers you connect, and in files you export or back up to a folder you choose. |
 | Is data encrypted in transit? | Yes, over HTTPS, unless you type an `http://` address yourself (see [below](#everything-travels-encrypted)). |
-| Can you delete your data? | Yes. Remove an account to delete its data from your phone, or uninstall KashCal to delete all of it. Data on your own servers stays under your control there. |
+| Can you delete your data? | Yes. Remove an account to delete its data from your phone, or uninstall KashCal to delete all of it. Files you exported or backed up stay where you saved them. Data on your own servers stays under your control there. |
 
 ## No accounts, no tracking, no KashCal servers
 
@@ -74,11 +74,21 @@ Other paths are Android's, not KashCal's own connections:
   a Google, Outlook or work calendar are synced by the app that owns that calendar.
 - Contacts you sync go into your phone's address book, where other apps with
   Contacts permission can read them.
-- Android's own backup includes KashCal's event database and settings. Your passwords
-  are left out.
+- Android's own backup and phone-to-phone transfer include KashCal's event database and
+  settings. Both leave out your passwords and your automatic calendar backup settings.
+- When you share or export an event or a calendar, Android hands the file to the app you
+  pick.
+- If you turn on [automatic calendar backup](../features/backup-restore.md#automatic-calendar-backup),
+  KashCal writes your offline calendars as `.ics` files into the folder you pick in
+  Android's folder picker. Other apps that can open that folder can read the files. If the
+  folder belongs to a cloud storage app, that app uploads them.
+- Print your week hands the printout to Android's print system and the printer or service
+  you pick there. The printout has event titles, times, locations and calendar names, not
+  notes. The page KashCal prints loads nothing from the network.
 - Tapping a link opens your browser. KashCal's help, privacy and donate links go to
   kashcal.onekash.org, the license link under the holiday list goes to
-  creativecommons.org, and the report button on a database error goes to GitHub.
+  creativecommons.org, and the **Source code** row (account hub, then **About**) and the
+  report button on a database error go to GitHub.
   Tapping an address with no maps app installed opens openstreetmap.org.
 
 Contact birthdays, search, Insights and reminders are all computed on your device.

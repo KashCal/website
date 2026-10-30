@@ -29,10 +29,10 @@ leaves it open, so you can select and edit text.
 - Location. An address, room, or meeting link. After you type 5 characters, including a letter, KashCal lists up to 5 matching addresses from Android's address lookup. Phones without an address lookup service show no suggestions.
 - Notes. Free-form details for the event.
 - Calendar. Which calendar the event belongs to. New events go to your **Default calendar** unless you pick another. The list ends with the **Offline** group and **New offline calendar**, which opens a sheet to create an offline calendar and puts the event in it. While you edit a device-calendar event, the list shows only device calendars. See [Offline calendars](../sync/offline-calendars.md#create-a-calendar).
-- Start and end. Pick the date and time, or switch on **All day**. The time wheel steps in 5-minute increments. To set an exact minute like 3:47, tap the keyboard button and type it. An event on an off-step minute shows its exact time as tappable text. A new event lasts your **Default event length**, 30 minutes unless you change it in [Settings](../features/settings.md#event-preferences).
+- Start and end. Tap either one to open the date and time sheet (see [Setting the date and time](#setting-the-date-and-time)), or switch on **All day**. A new event lasts your **Default event length**, 30 minutes unless you change it in [Settings](../features/settings.md#event-preferences).
 - Time zone. Events use your device time zone unless you set another one. One time zone covers both the start and the end.
 - Repeat. Make the event recurring. See [Recurring events](./recurring.md).
-- Event color. Give the event its own color. See [Event colors](./colors.md).
+- Event color. Give the event its own color. Tapping the row opens the colors below it, in the form. See [Event colors](./colors.md).
 - Tags. Label the event with colored chips like `#focus` or `#dentist`, with suggestions from tags you've used before. See [Tags](./tags.md).
 - Alerts. Add reminders. See [Reminders](./reminders.md).
 - Availability. Mark the event **Busy** or **Free**. Free events don't count as busy time, for example when you [share your availability](../features/share-availability.md).
@@ -45,6 +45,31 @@ time shows this error and the save button stays off until you fix it:
 > End time must be after start time
 
 KashCal doesn't correct the end time for you.
+
+## Setting the date and time
+
+Tap the start or the end in the form. A full-height sheet opens on the end you tapped. The
+switch at the top shows both ends, **Starts** and **Ends**; tap a half to edit that end.
+
+- Date. Tap a day in the month grid. Swipe the grid or use the arrows to change month, or tap
+  the month name to pick a month and year from a wheel. If you pick an end date before the
+  start date, KashCal swaps the two dates.
+- Time. Below the grid, the time wheel steps in 5-minute increments. To set an exact minute like
+  3:47, tap the keyboard button and type it. A time on an off-step minute shows as text with
+  **Tap to edit** under it; tap it to type a new time.
+- Length. The chips below set the end that long after the start: 30m, 1h or 2h for a timed
+  event. The chip that matches the event's length is selected. On a short screen a timed
+  event's sheet has no chips; on a narrow screen, KashCal leaves out the chips that don't fit.
+
+For an all-day event the sheet has no time wheel. The grid shades the days the event covers,
+and the chips read 2 days, 5 days and 7 days. When you tap a start date, the event keeps its
+number of days and the sheet moves to the end, with the hint "Tap a day to change the end".
+Tap a day to set the end, or leave it as it is.
+
+Tap **Done**, press back, or swipe the sheet down by its top strip to keep your changes. If
+the month and year wheel is open, **Done** closes the wheel first. The grid, wheel and chips
+don't move the sheet. To throw the changes away, use the form's
+**Cancel** (see [Leaving without saving](#leaving-without-saving)).
 
 ## Title suggestions
 
