@@ -74,7 +74,9 @@ The hub has these parts:
     next midnight, clock change, restart or update. If you opened KashCal from its icon and left it in your recent apps, it
     drops out of recent apps when the icon moves. With themed icons on, it shows the day's
     number on an outlined calendar card. Changing the icon can restart the app.
-    Notifications always use the default icon and name.
+    Notifications always use the default icon and name. On some launchers, such as
+    Pear Launcher, the date icon drops off the home screen each day; see
+    [Known limitations](../help/known-limitations.md#the-date-icon-is-a-different-icon-each-day).
   - **Widget theme** and **Widget accent:** your
     [home-screen widgets](../features/widgets.md) can follow the app or have their
     own look. Leave both on **Follow app**, or pin the widgets to Light or Dark and

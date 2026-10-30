@@ -149,6 +149,20 @@ KashCal has Month, Agenda, Day, 3 Days, Week, Planner, Month (Full) and Year vie
 Insights. There's no multi-month grid (like a 3- or 6-month view). KashCal uses the
 Gregorian calendar only, with no other calendar systems (such as Hijri or lunar).
 
+## The date icon is a different icon each day
+
+Android doesn't let an app redraw its launcher icon. So **Today's date** keeps 31 icons in
+the app, one per day, and switches to the day's icon at midnight. To your launcher, each switch
+is a different app entry, with side effects that depend on the launcher:
+
+- On some launchers, such as Pear Launcher, the KashCal shortcut drops off the home screen
+  when the day changes. Add it
+  again from the app drawer, or keep the **Default** icon.
+- A name you give the icon in your launcher resets when the day changes.
+
+The other icons don't change by themselves, so they don't have these side effects. See
+[App Icon](../calendar/navigation.md).
+
 ## Updates can't cross install sources
 
 KashCal comes from Google Play, F-Droid, IzzyOnDroid, Obtainium and GitHub Releases,
