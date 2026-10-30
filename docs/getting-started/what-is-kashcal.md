@@ -33,7 +33,7 @@ everything that leaves your phone.
 - Put your day on the home screen: agenda, week, month, date and upcoming widgets.
 - Search titles, locations and notes with full-text search.
 - See where your time goes with Insights, worked out on your phone.
-- Use it in your language: 67 languages, following your device setting.
+- Use it in your language: 63 languages, following your device setting.
 
 ## Who it's for
 
