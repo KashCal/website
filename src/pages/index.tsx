@@ -99,7 +99,17 @@ function Hero(): ReactNode {
           </div>
           <p className="kc-hero__note">Works on Android 12 and newer.</p>
         </div>
-        <QuickAddDemo />
+        {/* Kash, the app's mascot, stands on the demo that types "Coffee with Kash". */}
+        <div className="kc-hero__demo">
+          <img
+            className="kc-hero__kash"
+            src={useBaseUrl('/img/kash/kash-hello-dark.svg')}
+            alt=""
+            width={220}
+            height={210}
+          />
+          <QuickAddDemo />
+        </div>
       </div>
     </header>
   );

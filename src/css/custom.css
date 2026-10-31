@@ -309,6 +309,22 @@ h3 {
 /* Quick Add demo (hero signature)                                         */
 /* ----------------------------------------------------------------------- */
 
+/* Room above the demo for Kash, whose feet overlap the demo's top edge. */
+.kc-hero__demo {
+  position: relative;
+  padding-top: 9rem;
+}
+
+.kc-hero__kash {
+  position: absolute;
+  top: 0;
+  right: 2rem;
+  z-index: 1;
+  width: 170px;
+  height: auto;
+  pointer-events: none;
+}
+
 .kc-demo {
   background: rgba(251, 252, 251, 0.04);
   border: 1px solid rgba(255, 255, 255, 0.12);
@@ -591,6 +607,13 @@ a.kc-chip--more:hover {
 @media (max-width: 600px) {
   .kc-grid {
     grid-template-columns: 1fr;
+  }
+  .kc-hero__demo {
+    padding-top: 6.75rem;
+  }
+  .kc-hero__kash {
+    width: 128px;
+    right: 1rem;
   }
   .kc-section {
     padding: 3.5rem 0;
