@@ -28,23 +28,25 @@ export default function NotFoundContent({className}: Props): ReactNode {
     <main className={clsx('container margin-vert--xl', className)}>
       <div className="row">
         <div className="col col--8 col--offset-2">
-          <ThemedImage
-            className={styles.kash}
-            alt=""
-            width={220}
-            height={210}
-            sources={{
-              light: useBaseUrl('/img/kash/kash-oops.svg'),
-              dark: useBaseUrl('/img/kash/kash-oops-dark.svg'),
-            }}
-          />
-          <Heading as="h1" className="hero__title">
-            Page not found
-          </Heading>
-          <p className={styles.lead}>
-            That page has moved or never existed. No harm done, here is where
-            most people are headed:
-          </p>
+          <div className={styles.top}>
+            <ThemedImage
+              className={styles.kash}
+              alt=""
+              width={220}
+              height={210}
+              sources={{
+                light: useBaseUrl('/img/kash/kash-oops.svg'),
+                dark: useBaseUrl('/img/kash/kash-oops-dark.svg'),
+              }}
+            />
+            <Heading as="h1" className="hero__title">
+              Page not found
+            </Heading>
+            <p className={styles.lead}>
+              That page has moved or never existed. No harm done, here is where
+              most people are headed:
+            </p>
+          </div>
           <div className={styles.grid}>
             {DESTINATIONS.map((d) => (
               <Link
@@ -56,7 +58,7 @@ export default function NotFoundContent({className}: Props): ReactNode {
               </Link>
             ))}
           </div>
-          <p className={styles.searchHint}>
+          <p className={clsx(styles.searchHint, styles.centered)}>
             Still stuck? Try the search box up top, or{' '}
             <Link to="/docs/help/report-a-bug">let us know what broke</Link>.
           </p>

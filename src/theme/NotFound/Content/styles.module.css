@@ -1,9 +1,22 @@
-/* Kash, the app's mascot; its drawing has side margin, so pull it back to the text edge. */
+/* Kash, the heading and the lead form one centered block above the link cards. */
+.top {
+  text-align: center;
+}
+
+.top p {
+  text-wrap: balance;
+}
+
+/* Kash, the app's mascot. */
 .kash {
   display: block;
   width: 150px;
   height: auto;
-  margin: 0 0 0.25rem -14px;
+  margin: 0 auto 0.25rem;
+}
+
+.centered {
+  text-align: center;
 }
 
 .lead {
