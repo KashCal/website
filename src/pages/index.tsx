@@ -61,10 +61,10 @@ const SHOTS = [
     caption: 'Hours per day, your busiest and lightest days, and your next free block.',
   },
   {
-    img: '/img/screenshots/icloud-connect.png',
-    alt: 'KashCal iCloud connect prompt',
-    title: 'Bring in iCloud',
-    caption: 'Connect your Apple calendars and see your events here.',
+    img: '/img/screenshots/connect-calendars.png',
+    alt: 'KashCal asking where your calendars are: iCloud, a CalDAV server, or this device',
+    title: 'Bring them all in',
+    caption: 'iCloud, Google, Outlook, and CalDAV servers like Nextcloud and Fastmail.',
   },
 ];
 
