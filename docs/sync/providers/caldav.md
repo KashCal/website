@@ -2,13 +2,14 @@
 sidebar_position: 2
 title: CalDAV (Nextcloud, Fastmail & more)
 description: "Connect a CalDAV server to KashCal on Android: Nextcloud, Fastmail, Radicale, Baikal, Zoho and more. Enter the server address and KashCal finds your calendars."
+image: /img/social/docs/sync-providers-caldav.png
 ---
 
 import Screenshot from '@site/src/components/Screenshot';
 
 # Connecting a CalDAV server
 
-<Screenshot src="/img/screenshots/CalDAV-Account.png" alt="KashCal CalDAV account sign-in screen" align="right" caption="Server address, username, and password." />
+<Screenshot src="/img/screenshots/caldav-sign-in.png" alt="KashCal CalDAV account sign-in screen" align="right" caption="Server address, username, and password." />
 
 Use this path for any CalDAV calendar service other than iCloud. That includes
 Nextcloud, Fastmail, Radicale, Baikal, Zoho, mailbox.org, Stalwart, SOGo, Infomaniak,

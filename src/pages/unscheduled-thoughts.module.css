@@ -259,6 +259,13 @@
   align-items: start;
 }
 
+/* Grid items default to their content's width; the feed URL never wraps, so
+   without this the column grows past a phone screen instead of letting the
+   URL scroll inside its box. */
+.subGrid > * {
+  min-width: 0;
+}
+
 .urlBox {
   display: flex;
   align-items: stretch;

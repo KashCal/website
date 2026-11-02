@@ -3,6 +3,7 @@ sidebar_position: 1
 title: Get Help
 slug: /help
 description: Start here for help with KashCal. FAQ, troubleshooting, known limitations, and how to file a bug or request a feature.
+image: /img/social/docs/help-index.png
 ---
 
 # Get Help

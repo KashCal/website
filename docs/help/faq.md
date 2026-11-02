@@ -2,6 +2,7 @@
 sidebar_position: 2
 title: FAQ
 description: Short answers to common KashCal questions, from whether it's free to how sync, accounts, contacts and privacy work.
+image: /img/social/docs/help-faq.png
 ---
 
 import FaqSchema from '@site/src/components/FaqSchema';
@@ -57,7 +58,7 @@ device calendars:
 
 1. Let the Google or Outlook app sync your calendars to the phone.
 2. In KashCal, open **Settings**, then tap **Device calendars**.
-3. Turn on **Enable** and allow calendar access.
+3. Turn on **Show device calendars** and allow calendar access.
 4. Turn on the calendars you want.
 
 Device calendars are off until you do this. See [Device calendars](../sync/device-calendars.md).

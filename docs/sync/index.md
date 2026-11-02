@@ -3,7 +3,10 @@ sidebar_position: 1
 title: Sync & accounts
 slug: /sync
 description: Connect KashCal to the calendar servers you already use. It speaks CalDAV, the open standard behind iCloud, Nextcloud, Fastmail, and most services.
+image: /img/social/docs/sync-index.png
 ---
+
+import Screenshot from '@site/src/components/Screenshot';
 
 # Sync & Accounts
 
@@ -27,6 +30,8 @@ and other calendar services.
 - For a CalDAV account you enter a server address, username and password. KashCal finds the calendars on the server itself. See [CalDAV setup](./providers/caldav.md).
 
 ## Managing your accounts
+
+<Screenshot src="/img/screenshots/accounts.webp" alt="The Accounts screen with an iCloud, a Nextcloud and a Fastmail account" align="right" caption="Each account with its calendar count." />
 
 Tap the avatar in the top-right corner, then **Accounts & Settings**, then
 **Calendar accounts**. The navigation drawer has a **Settings** entry too. Each account

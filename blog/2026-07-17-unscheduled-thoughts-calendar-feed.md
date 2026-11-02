@@ -10,7 +10,7 @@ keywords:
   - webcal feed
   - free calendar subscription
   - motivational calendar feed
-description: "Unscheduled Thoughts is a free calendar feed from the people who make KashCal. Every few days it adds a short, kind, sometimes snarky note to your calendar. It never blocks your day and asks for nothing. Here is how it started and how to subscribe."
+description: "Unscheduled Thoughts is a free calendar feed from KashCal's makers. Every few days it adds a short, kind, sometimes snarky note. Here's how to subscribe."
 image: /img/social/blog/unscheduled-thoughts-calendar-feed.png
 ---
 
@@ -44,6 +44,6 @@ Point any calendar app that does subscriptions at this address:
 https://kashcal.onekash.org/unscheduled-thoughts.ics
 ```
 
-In KashCal it is one tap. Our latest release opens `webcal://` links straight from the [feed's page](https://kashcal.onekash.org/unscheduled-thoughts), which is a fancy way of saying the button finally works. New notes arrive on their own every few days. No push notifications, no badge, no "you have not opened Unscheduled Thoughts in a while."
+In KashCal it is one tap. Our latest release opens `webcal://` links straight from the [feed's page](https://kashcal.onekash.org/unscheduled-thoughts/), which is a fancy way of saying the button finally works. New notes arrive on their own every few days. No push notifications, no badge, no "you have not opened Unscheduled Thoughts in a while."
 
-It is the only calendar invite you will never have to decline, reschedule, or pretend you did not see. [Add Unscheduled Thoughts to your calendar.](https://kashcal.onekash.org/unscheduled-thoughts) It asks you for nothing, which by the standards of your calendar makes it the kindest thing on there.
+It is the only calendar invite you will never have to decline, reschedule, or pretend you did not see. [Add Unscheduled Thoughts to your calendar.](https://kashcal.onekash.org/unscheduled-thoughts/) It asks you for nothing, which by the standards of your calendar makes it the kindest thing on there.

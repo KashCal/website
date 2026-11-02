@@ -231,11 +231,9 @@ export default function UnscheduledThoughts(): ReactNode {
   return (
     <Layout
       title="Unscheduled Thoughts: a calendar feed that means well, mostly"
-      description="A free calendar feed you can subscribe to. Every few days Unscheduled Thoughts drops a bit of encouragement, a bit of snark, and the occasional calendar-nerd joke. No account, never blocks your day. Works in Google Calendar, Apple Calendar, Outlook, and KashCal.">
+      description="A free calendar feed. Every few days it drops in a bit of encouragement, a bit of snark, or a calendar-nerd joke. Works in Google, Apple, Outlook, and KashCal.">
       <Head>
-        <link rel="canonical" href="https://kashcal.onekash.org/unscheduled-thoughts" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://kashcal.onekash.org/unscheduled-thoughts" />
         <meta property="og:image" content="https://kashcal.onekash.org/img/social/unscheduled-thoughts.png" />
         <meta property="og:title" content="Unscheduled Thoughts" />
         <meta

@@ -2,7 +2,10 @@
 sidebar_position: 6
 title: Contact birthdays
 description: Show the birthdays and anniversaries saved in your phone contacts as yearly all-day events on your KashCal calendar, with a reminder.
+image: /img/social/docs/features-birthdays.png
 ---
+
+import Screenshot from '@site/src/components/Screenshot';
 
 # Contact birthdays & anniversaries
 
@@ -10,6 +13,8 @@ KashCal can show the birthdays and anniversaries saved in your phone contacts on
 calendar, each with a reminder.
 
 ## Turn it on
+
+<Screenshot src="/img/screenshots/birthdays.webp" alt="The Birthdays & anniversaries screen with both switches on" align="right" caption="Each switch has its own color and reminder." />
 
 Both switches are off by default.
 

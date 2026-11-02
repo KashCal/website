@@ -2,6 +2,7 @@
 sidebar_position: 3
 title: Recurring events
 description: Set daily, weekly, monthly, yearly or custom repeats in KashCal, and change or delete one occurrence, this and future, or the whole series.
+image: /img/social/docs/events-recurring.png
 ---
 
 # Recurring events

@@ -2,16 +2,21 @@
 sidebar_position: 1
 title: Calendar views
 description: "KashCal's eight Android calendar views: month, agenda, day, 3-day, week, planner, full-month and year, with pinch-to-zoom and drag-to-reschedule."
+image: /img/social/docs/calendar-views.png
 ---
 
+import Screenshot from '@site/src/components/Screenshot';
+
 # Calendar views
+
+<Screenshot src="/img/screenshots/views-drawer.webp" alt="KashCal's navigation drawer listing Insights and the eight views, with 3 Days selected" align="right" caption="Switch views in the drawer." />
 
 KashCal has eight calendar views. Switch between them in the navigation drawer.
 Open the drawer with the menu icon at the top left, or swipe in from the left edge.
 
 | View | What it shows |
 |------|---------------|
-| **Month** | A month grid with dots on days that have events. Tap a day to list its events below the grid. Swipe that list left or right to step one day at a time. Swipe the grid to change months. In landscape the list sits beside the grid, and on a short landscape screen the grid cells get smaller. |
+| **Month** | A month grid with dots on days that have events. Tap a day to list its events below the grid. Swipe that list left or right to step one day at a time. Swipe the grid to change months. In landscape the list sits beside the grid, and on a short landscape screen the grid cells get smaller. A day with no events shows Kash, KashCal's mascot, above one of five short lines, such as "No plans. That's the plan." Each line comes with its own pose of Kash, and a date always shows the same line. When the space for the list is short, Kash gets smaller or is left out. |
 | **Agenda** | A list of the next 90 days of events, grouped by date. The headers for today and tomorrow add the word, as in "Today · Monday, September 28". The top bar shows the month you've scrolled to. A week bar sits above the list. Tap the month title to collapse or expand it. KashCal remembers the choice. |
 | **Day** | One day as an hour-by-hour timeline. A week bar sits above the timeline, with its dates in the same places as the Week view's day headers. Tap the date title to collapse or expand it. It starts expanded, and KashCal remembers the choice. |
 | **3 Days** | Three days side by side as timelines. Tap a day's header to open that day in Day view. Press back to return to the three days. |
@@ -23,6 +28,11 @@ Open the drawer with the menu icon at the top left, or swipe in from the left ed
 :::tip
 The drawer also has **Insights**, which shows how you spend your time. See [Insights](../features/insights.md).
 :::
+
+On Android 13 and later, a **Reminders are off** banner shows above the calendar when
+reminders are due in the next 7 days and KashCal has never asked for notification
+permission. Insights and search results don't show it. See
+[The "Reminders are off" banner](../events/reminders.md#the-reminders-are-off-banner).
 
 ## Planner
 
@@ -95,6 +105,36 @@ Month shows the grid and the day's events side by side in landscape. The timelin
 views show the same number of day columns in any orientation. On a phone, the Planner
 shows its boxes in four columns in landscape instead of two. If you rotate while
 filling in an event, KashCal keeps what you've typed.
+
+## Print your week
+
+To print a week, open the account hub (tap the avatar at the top right), then tap
+**Print your week**. The **Choose print options** sheet opens on the week that holds the
+date on screen:
+
+- Week and Planner: the week you're looking at.
+- Day and 3 Days: the first day shown.
+- Agenda: the week in the week bar.
+- Month and Month (Full): the selected day, or the first of the month when the selected
+  day is in another month.
+- Year and Insights: today.
+
+Weeks start on your **Start week on** day. Use the arrows beside the dates to move a
+week back or ahead. Then pick what to print:
+
+- Under **Pages**, **Week calendar** prints the week as a grid and **Details** lists
+  every event in full. Both start ticked. With both, each event gets a number that
+  matches its line in the details.
+- Below that, your calendars are listed in the drawer's order. The ones visible in
+  KashCal start ticked. A calendar you've hidden shows **Hidden** and starts unticked.
+
+Tap **Print** to open Android's print screen, set to landscape paper. **Print** is
+greyed out until at least one page and one calendar are ticked. The details page shows
+each event's time, title, calendar and location, and whether it repeats. The printout
+never shows an event's notes. Declined events follow **Show declined events** in
+[Settings > Appearance](../features/settings.md#appearance). Times are in your phone's
+time zone, which the week calendar page names at the bottom. If printing fails,
+KashCal shows "Couldn't print. Try again."
 
 ## Related
 

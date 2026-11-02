@@ -2,7 +2,10 @@
 sidebar_position: 2
 title: Navigation & shortcuts
 description: Get around KashCal with the navigation drawer, the account hub, home-screen shortcuts, the Add event tile, search, and pull to sync.
+image: /img/social/docs/calendar-navigation.png
 ---
+
+import Screenshot from '@site/src/components/Screenshot';
 
 # Navigation & shortcuts
 
@@ -20,6 +23,8 @@ When you're offline and have a synced account, a cloud-off icon shows beside the
 magnifier.
 
 ## The navigation drawer
+
+<Screenshot src="/img/screenshots/navigation-drawer.webp" alt="The navigation drawer with the views, then calendars grouped by iCloud, Nextcloud, Fastmail, Calendar Feeds and Contacts" align="right" caption="Views first, then your calendars by account." />
 
 Swipe in from the left edge of the screen, or tap the menu icon, to open the drawer.
 From here you can:
@@ -40,6 +45,8 @@ From here you can:
 - **Help & docs**: opens the Get help section of this site in your browser.
 
 ## The account hub
+
+<Screenshot src="/img/screenshots/account-hub.webp" alt="The account hub's Own your calendar and Privacy & Security sections" align="right" caption="Two of the hub's sections." />
 
 Tap the round avatar in the top-right corner of any calendar view to open the account
 hub. It's a full-screen page for your accounts, the app's look and your privacy
@@ -63,7 +70,7 @@ The hub has these parts:
     they stay visible with a pale or dark accent.
   - **App Icon:** keep **Default**, or switch to the **Supporter** icon, a gold card
     with a heart, to show you've chipped in (or
-    [would like to](https://kashcal.onekash.org/donate)). One version keeps the KashCal
+    [would like to](https://kashcal.onekash.org/donate/)). One version keeps the KashCal
     name. The other, **Supporter, labeled Calendar**, shows the name Calendar on your
     home screen. **Today's date** shows the day of the month on the home-screen icon.
     KashCal moves it to the current day at midnight, after a clock or time zone change,
@@ -74,7 +81,9 @@ The hub has these parts:
     next midnight, clock change, restart or update. If you opened KashCal from its icon and left it in your recent apps, it
     drops out of recent apps when the icon moves. With themed icons on, it shows the day's
     number on an outlined calendar card. Changing the icon can restart the app.
-    Notifications always use the default icon and name.
+    Notifications always use the default icon and name. On some launchers, such as
+    Pear Launcher, the date icon drops off the home screen each day; see
+    [Known limitations](../help/known-limitations.md#the-date-icon-is-a-different-icon-each-day).
   - **Widget theme** and **Widget accent:** your
     [home-screen widgets](../features/widgets.md) can follow the app or have their
     own look. Leave both on **Follow app**, or pin the widgets to Light or Dark and
@@ -88,6 +97,8 @@ The hub has these parts:
   - **Go to date**: jump to any date in the calendar.
   - **[Share availability](../features/share-availability.md)**: send someone your
     free times as plain text.
+  - **[Print your week](./views.md#print-your-week)**: print a week of your calendar,
+    as a grid, a list of every event, or both.
   - **[Manage tags](../events/tags.md)**: recolor, rename and remove the tags you've
     used across your events.
 - **Privacy & Security**, who can see your calendar and what it can reach:
@@ -97,7 +108,11 @@ The hub has these parts:
     the reason it needs it and a link to its system setting.
   - **How your data stays yours**: opens the [Privacy & Security](../privacy/overview.md)
     page in your browser.
-- **About**: the version and app info.
+- **About**: opens a full-height sheet about KashCal, with Kash holding an armful of
+  calendars above KashCal's name and the version at the bottom.
+  **Help and guides** opens the Get help section of this site, **Source code** opens
+  KashCal's code on GitHub, and **Support KashCal** opens the donate page, each in your
+  browser. If no app can open the link, the sheet says "No app can open this link."
 
 ## App shortcuts
 

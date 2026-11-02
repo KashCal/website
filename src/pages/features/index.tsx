@@ -15,12 +15,12 @@ const PAGES = [
 
 export default function Features(): ReactNode {
   return (
-    <Layout title="Features" description="A closer look at what KashCal can do.">
+    <Layout title="Features" description="What KashCal can do on Android: add events in plain language, sync iCloud and CalDAV, eight views, on-device insights, event cards and TalkBack support.">
       <main className="kc-section">
         <div className="container">
           <div className="kc-section__head">
             <p className="kc-eyebrow">Features</p>
-            <Heading as="h2">A closer look at KashCal.</Heading>
+            <Heading as="h1">A closer look at KashCal.</Heading>
           </div>
           <div className="kc-grid">
             {PAGES.map((p) => (

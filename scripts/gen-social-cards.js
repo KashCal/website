@@ -9,7 +9,12 @@
 // how the hand-made feature cards are committed. Run this whenever a post is
 // added or its title changes:  node scripts/gen-social-cards.js
 //
-// It also rewrites each post's `image:` front matter to point at its own card.
+// Docs pages get one too, with their sidebar section where a post shows its date,
+// written to static/img/social/docs/<path>.png (sync/offline-calendars.md becomes
+// sync-offline-calendars.png).
+//
+// It also rewrites each post's and doc's `image:` front matter to point at its
+// own card.
 // If rsvg-convert is unavailable (e.g. a minimal CI image), it logs and skips
 // PNG rendering; the committed cards still serve. This is deliberately NOT a
 // build hook: cards are source assets, regenerated on demand, not per build.
@@ -81,7 +86,8 @@ function humanDate(iso) {
   return `${MONTHS[Number(mo) - 1]} ${Number(d)}, ${y}`;
 }
 
-function buildSvg(title, dateStr, iconDataUri) {
+// `footer` is the post's date or the doc's section, shown before the domain.
+function buildSvg(title, footer, iconDataUri) {
   // Longer titles get a smaller font and more lines so they still fit.
   let fontSize;
   let maxChars;
@@ -129,7 +135,7 @@ function buildSvg(title, dateStr, iconDataUri) {
   <image href="${iconDataUri}" x="90" y="70" width="84" height="84"/>
   <text x="196" y="128" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="46" font-weight="700" fill="#ffffff">KashCal</text>
   <text font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="${fontSize}" font-weight="700" fill="#ffffff">${titleTspans}</text>
-  <text x="90" y="574" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="30" font-weight="500" fill="#b9e6dd">${esc(dateStr)}  ·  kashcal.onekash.org</text>
+  <text x="90" y="574" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="30" font-weight="500" fill="#b9e6dd">${esc(footer)}  ·  kashcal.onekash.org</text>
 </svg>`;
 }
 
@@ -210,8 +216,54 @@ function main() {
     }
   }
 
+  // Docs: one card per page, footer naming its sidebar section.
+  const docsDir = path.join(ROOT, 'docs');
+  const docsOut = path.join(ROOT, 'static', 'img', 'social', 'docs');
+  fs.mkdirSync(docsOut, {recursive: true});
+  const sectionLabel = (dir) => {
+    try {
+      return JSON.parse(fs.readFileSync(path.join(docsDir, dir, '_category_.json'), 'utf8')).label;
+    } catch {
+      return 'Docs';
+    }
+  };
+  const walk = (dir) =>
+    fs.readdirSync(dir, {withFileTypes: true}).flatMap((e) =>
+      e.isDirectory() ? walk(path.join(dir, e.name)) : /\.mdx?$/.test(e.name) ? [path.join(dir, e.name)] : [],
+    );
+  let docsRendered = 0;
+  let docsRewritten = 0;
+  for (const full of walk(docsDir).sort()) {
+    const rel = path.relative(docsDir, full).split(path.sep).join('/');
+    const raw = fs.readFileSync(full, 'utf-8');
+    const {data: fm, content} = matter(raw);
+    const title = fm.title || (content.match(/^#\s+(.+)$/m) || [])[1] || rel;
+    const top = rel.includes('/') ? rel.split('/')[0] : null;
+    const footer = top ? `Docs: ${sectionLabel(top)}` : 'Docs';
+    const name = rel.replace(/\.mdx?$/, '').replace(/\//g, '-');
+    const pngRel = `/img/social/docs/${name}.png`;
+    if (rsvg) {
+      const svgTmp = path.join(docsOut, `${name}.svg`);
+      fs.writeFileSync(svgTmp, buildSvg(title, footer, iconDataUri));
+      execFileSync('rsvg-convert', [svgTmp, '-w', String(WIDTH), '-h', String(HEIGHT), '-o', path.join(docsOut, `${name}.png`)]);
+      fs.unlinkSync(svgTmp);
+      docsRendered++;
+    }
+    if (fm.image !== pngRel) {
+      // Every doc opens with front matter; add or replace only the image line.
+      const next = /^image:.*$/m.test(raw)
+        ? raw.replace(/^image:.*$/m, `image: ${pngRel}`)
+        : raw.replace(/^(---\n[\s\S]*?\n)---\n/, `$1image: ${pngRel}\n---\n`);
+      if (next !== raw) {
+        fs.writeFileSync(full, next);
+        docsRewritten++;
+      }
+    }
+  }
+
   console.log(
-    `[gen-social-cards] ${rendered} card(s) rendered, ${rewritten} post(s) re-pointed.`,
+    `[gen-social-cards] ${rendered} card(s) rendered, ${rewritten} post(s) re-pointed; ` +
+      `${docsRendered} doc card(s) rendered, ${docsRewritten} doc(s) re-pointed.`,
   );
 }
 

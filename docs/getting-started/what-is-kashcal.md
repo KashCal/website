@@ -3,6 +3,7 @@ sidebar_position: 1
 title: What is KashCal?
 slug: /
 description: KashCal is a free, open-source Android calendar that puts iCloud, CalDAV, holiday and birthday calendars on one screen. No account, no tracking.
+image: /img/social/docs/getting-started-what-is-kashcal.png
 ---
 
 # What is KashCal?
@@ -33,7 +34,7 @@ everything that leaves your phone.
 - Put your day on the home screen: agenda, week, month, date and upcoming widgets.
 - Search titles, locations and notes with full-text search.
 - See where your time goes with Insights, worked out on your phone.
-- Use it in your language: 67 languages, following your device setting.
+- Use it in your language: 63 languages, following your device setting.
 
 ## Who it's for
 

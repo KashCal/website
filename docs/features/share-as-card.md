@@ -2,6 +2,7 @@
 sidebar_position: 10
 title: Share an event as a card
 description: Turn a KashCal event into an image card with a calendar file attached, so anyone can add it to their calendar in one tap, no app needed.
+image: /img/social/docs/features-share-as-card.png
 ---
 
 # Share an event as a card

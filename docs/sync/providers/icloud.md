@@ -2,13 +2,14 @@
 sidebar_position: 1
 title: iCloud
 description: Connect your iCloud calendars to KashCal on Android. Two-way sync with your Apple ID and an app-specific password, shared calendars included.
+image: /img/social/docs/sync-providers-icloud.png
 ---
 
 import Screenshot from '@site/src/components/Screenshot';
 
 # Connecting iCloud
 
-<Screenshot src="/img/screenshots/Sync-with-iCloud.png" alt="KashCal iCloud sign-in screen" align="right" caption="Sign in with your Apple ID and an app-specific password." />
+<Screenshot src="/img/screenshots/icloud-sign-in.png" alt="KashCal iCloud sign-in screen" align="right" caption="Sign in with your Apple ID and an app-specific password." />
 
 KashCal connects to iCloud's calendar server directly. You don't need a bridge app.
 

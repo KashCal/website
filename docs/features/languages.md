@@ -2,7 +2,10 @@
 sidebar_position: 9
 title: Languages
 description: KashCal comes in English plus 67 translations. It follows your phone's language, or you can pick a language for KashCal alone in Android settings.
+image: /img/social/docs/features-languages.png
 ---
+
+import Screenshot from '@site/src/components/Screenshot';
 
 # Languages
 
@@ -10,6 +13,8 @@ KashCal comes in English plus 67 translations. Those include regional variants, 
 Brazilian and European Portuguese, and Simplified and Traditional Chinese.
 
 ## How the language is chosen
+
+<Screenshot src="/img/screenshots/accounts-japanese.webp" alt="KashCal's Accounts screen in Japanese" align="right" caption="Accounts, in Japanese." />
 
 KashCal follows your phone's language. Change your phone's language and KashCal
 changes with it.

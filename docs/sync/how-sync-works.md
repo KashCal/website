@@ -2,6 +2,7 @@
 sidebar_position: 2
 title: How sync works
 description: "KashCal is offline-first: your changes save on the phone at once and sync with your CalDAV servers in the background. Here's when and how."
+image: /img/social/docs/sync-how-sync-works.png
 ---
 
 # How sync works

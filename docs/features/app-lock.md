@@ -2,7 +2,10 @@
 sidebar_position: 8
 title: App lock
 description: App lock hides your KashCal events until you confirm it's you with your fingerprint, face, or screen lock.
+image: /img/social/docs/features-app-lock.png
 ---
+
+import Screenshot from '@site/src/components/Screenshot';
 
 # App lock
 
@@ -10,6 +13,8 @@ App lock hides your calendar until you confirm it's you. Anyone who picks up you
 phone while it's open sees a lock screen instead of your events.
 
 ## What it does
+
+<Screenshot src="/img/screenshots/app-lock.webp" alt="KashCal's Locked screen with an Unlock button" align="right" caption="The Locked screen." />
 
 When App lock is on, KashCal opens to a **Locked** screen that covers all your events.
 Android's lock prompt appears right away. If you close the prompt, tap the button on

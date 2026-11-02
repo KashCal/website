@@ -3,6 +3,7 @@ sidebar_position: 5
 title: Troubleshooting tools
 description: Use the Troubleshooting section in Settings to view sync history, force a full sync, or export a debug report for a bug report.
 keywords: [troubleshooting, debug report, sync history, force full sync, sync logs, bug report]
+image: /img/social/docs/help-advanced-options.png
 ---
 
 # Troubleshooting tools

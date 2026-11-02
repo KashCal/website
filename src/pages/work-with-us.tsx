@@ -49,7 +49,7 @@ const GET = [
     body: 'iCloud, Nextcloud, Fastmail, Radicale, Baikal, Zoho, SOGo, Stalwart, and the rest of the CalDAV long tail, tested against the RFCs and against live servers.',
   },
   {
-    title: '67 languages, ready',
+    title: '63 languages, ready',
     body: 'Over 900 strings and 50 plurals, translated into every language. Your brand’s own strings get translated on their own, without redoing the rest.',
   },
   {

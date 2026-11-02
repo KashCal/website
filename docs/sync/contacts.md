@@ -2,6 +2,7 @@
 sidebar_position: 5
 title: Contact sync (CardDAV)
 description: "Sync the contacts on your iCloud or CalDAV account with your phone in KashCal, both ways: names, numbers, emails and photos. Two-way sync is in beta."
+image: /img/social/docs/sync-contacts.png
 ---
 
 # Contact sync

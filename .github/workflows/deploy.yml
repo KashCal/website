@@ -20,6 +20,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Full history, so each doc's last-updated date (shown on the page and
+          # sent as the sitemap's lastmod) comes from its own last commit.
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 20

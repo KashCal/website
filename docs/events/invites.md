@@ -3,7 +3,10 @@ sidebar_position: 8
 title: Invites
 description: One list of every meeting invitation waiting on your reply, with Yes, Maybe and No on each card.
 keywords: [invites, invitations, RSVP, pending invitations, meeting requests]
+image: /img/social/docs/events-invites.png
 ---
+
+import Screenshot from '@site/src/components/Screenshot';
 
 # Invites
 
@@ -46,6 +49,8 @@ post this notification. See
 
 ## Reply
 
+<Screenshot src="/img/screenshots/invites.webp" alt="Invites listing three invitations, each with its date and time, title, organizer, place, and Yes, Maybe and No" align="right" caption="Every invitation waiting on you." />
+
 Each card shows the date and time, the event title, who invited you, and the location
 if there is one. A colored dot marks the calendar it's in. For events today or
 tomorrow, the card shows **Today** or **Tomorrow** in place of the date.
@@ -53,6 +58,9 @@ tomorrow, the card shows **Today** or **Tomorrow** in place of the date.
 Tap **Yes**, **Maybe** or **No**. KashCal records your answer and the card leaves the
 list. KashCal then starts a sync, which sends the reply to your calendar server. For a
 repeating event, your reply covers the whole series.
+
+You can also reply from the event itself, where it asks **Going?** See
+[Scheduling & invitations](./attendees.md#responding-to-invitations).
 
 Tapping **No** also cancels the event's reminders, so a meeting you declined won't
 alert you later.

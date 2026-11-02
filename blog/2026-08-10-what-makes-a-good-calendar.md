@@ -13,7 +13,7 @@ keywords:
   - private calendar app android
   - caldav calendar app
   - google calendar alternative
-description: "Someone asked us what makes a calendar good. Not a feature list: a good calendar is a pleasure to open, gathers all your calendars in one place, and stays yours."
+description: "What makes a calendar good? Not a feature list: a good calendar is a pleasure to open, gathers all your calendars in one place, and stays yours."
 image: /img/social/blog/what-makes-a-good-calendar.png
 ---
 

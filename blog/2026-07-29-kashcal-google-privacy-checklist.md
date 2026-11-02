@@ -14,7 +14,7 @@ keywords:
   - offline calendar app android
   - calendar app no google account
   - f-droid calendar app
-description: "We ran KashCal against Google's Android privacy and security checklist, all five parts, item by item, and found nothing to fix. A private, open source, offline-first calendar app with no trackers, no accounts, and encrypted credentials. Here's the full walk-through."
+description: "We ran KashCal through all five parts of Google's Android privacy and security checklist, item by item, and found nothing to fix. Here's the full walk-through."
 image: /img/social/blog/kashcal-google-android-privacy-checklist.png
 ---
 

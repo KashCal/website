@@ -2,13 +2,14 @@
 sidebar_position: 6
 title: Calendar feeds (ICS subscriptions)
 description: Subscribe to ICS calendar feeds in KashCal, such as public holidays, team schedules and sports fixtures, and set how often each one refreshes.
+image: /img/social/docs/sync-ics-subscriptions.png
 ---
 
 import Screenshot from '@site/src/components/Screenshot';
 
 # Calendar feeds (ICS subscriptions)
 
-<Screenshot src="/img/screenshots/ICS-Subscription.png" alt="Adding a calendar feed subscription in KashCal" align="right" caption="Paste a feed URL and pick how often it refreshes." />
+<Screenshot src="/img/screenshots/add-feed.png" alt="Adding a calendar feed subscription in KashCal" align="right" caption="Paste a feed URL, then set how often it refreshes." />
 
 A calendar feed is a calendar someone else keeps up to date: public holidays, your team's
 fixtures, school terms, release dates. Feeds are free, read-only ICS links, not paid
@@ -118,7 +119,29 @@ day suits a shorter interval.
 Events from a feed show up alongside your other calendars. You can't edit them in
 KashCal, because they belong to the source feed.
 
+## What a refresh changes
+
+Each refresh makes the feed's calendar match the feed. Events the feed added show up,
+changed ones update, and ones it removed leave your calendar. A feed whose events were
+all removed is cleared on its next refresh.
+
+When a refresh fails, the events from the last good refresh stay, and the feed's row
+shows why in red, in the language KashCal uses. For example:
+
+- "That URL doesn't look like a calendar feed."
+- "The server didn't send a valid feed."
+- "This feed's server refused access."
+- "Server returned an error (404). Please check the URL."
+- "This calendar feed is too large to download."
+- "This feed's events couldn't be shown." The feed has events, but none KashCal can
+  show, for example when every one is cancelled.
+- "Connection failed. Please try again."
+
+Any other error shows in English, as KashCal recorded it.
+
 ## Manage or remove a feed
+
+<Screenshot src="/img/screenshots/calendar-feeds.webp" alt="The Calendar Feeds screen with four feeds, each with its last refresh and a switch" align="right" caption="Each feed with its last refresh and a switch." />
 
 Each feed is a row on the **Calendar Feeds** screen:
 

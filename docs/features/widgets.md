@@ -2,6 +2,7 @@
 sidebar_position: 3
 title: Home-screen widgets
 description: KashCal's five home-screen widgets (agenda, week, month, date and upcoming) show your events without opening the app, with their own theme and accent.
+image: /img/social/docs/features-widgets.png
 ---
 
 import WidgetMock from '@site/src/components/WidgetMock';

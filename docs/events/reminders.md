@@ -2,7 +2,10 @@
 sidebar_position: 4
 title: Reminders
 description: Get an alert before an event starts. Add up to five reminders per event in KashCal, with separate timing for all-day events.
+image: /img/social/docs/events-reminders.png
 ---
+
+import Screenshot from '@site/src/components/Screenshot';
 
 # Reminders
 
@@ -73,8 +76,36 @@ for it. If you said no once before, KashCal shows this first:
 
 > KashCal needs notification permission to remind you about upcoming events.
 
-To grant it later, open the [account hub](../calendar/navigation.md#the-account-hub),
-then **App permissions**.
+KashCal also asks for it from:
+
+- **Turn on** on the "Reminders are off" banner (see below),
+- **Allow** on the **Notifications** row of **App permissions**, in the
+  [account hub](../calendar/navigation.md#the-account-hub),
+- the **Change notifications** switch in Settings (see
+  [Change notifications](../sync/how-sync-works.md#change-notifications)),
+- **Enable** on the note in **Calendar notifications** (see [Mute a calendar](#mute-a-calendar)).
+
+Smart event add doesn't ask.
+
+### The "Reminders are off" banner
+
+<Screenshot src="/img/screenshots/reminders-off-banner.webp" alt="The Reminders are off banner above the agenda, with Turn on" align="right" caption="The banner counts this week's events with reminders." />
+
+If KashCal has never asked for notification permission and reminders are due in the
+next 7 days, a banner shows at the top of the calendar: **Reminders are off**, with how
+many events have them, for example "3 events this week have reminders." It counts events
+in calendars that aren't muted, and device calendars' events unless the
+**Device calendars** switch in **Calendar notifications** is off. It shows on Android 13
+and later, in the calendar views, not in Insights or search results.
+
+- Tap **Turn on** to see Android's prompt. If you allow it, KashCal shows "Reminders on".
+  If you don't allow it and Android won't ask again, KashCal opens Android's notification
+  settings for KashCal.
+- Tap the ✕ to close the banner.
+
+The banner shows each time you open KashCal until you tap either button or answer
+Android's prompt anywhere in KashCal. Then it doesn't come back. Once KashCal has had
+the permission, the banner doesn't show, even if you turn notifications off later.
 
 KashCal schedules reminders as exact alarms, so they arrive on the minute. Android
 grants this when you install KashCal. On Android 12 and 12L you can turn it off under
@@ -82,6 +113,8 @@ grants this when you install KashCal. On Android 12 and 12L you can turn it off 
 Android can deliver a few minutes late.
 
 ## Mute a calendar
+
+<Screenshot src="/img/screenshots/calendar-notifications.webp" alt="The Calendar notifications sheet listing calendars by account, with Public holidays switched off" align="right" caption="Public holidays is muted." />
 
 To stop one calendar's notifications without hiding it, open **Settings** and tap
 **Calendar notifications**, the last row under **Calendars & accounts**. The sheet lists
@@ -118,6 +151,12 @@ If you show calendars from other apps on your phone (see
 [Device calendars](../sync/device-calendars.md)), KashCal also sends reminders for
 their events. Reminders due at the same moment all show. If a reminder arrives late,
 KashCal also shows the others that came due in the meantime.
+
+When a device calendar changes while KashCal isn't running, for example when another app
+or its sync adds an event, Android starts KashCal to set the next reminder. It does so
+within about a minute of the change, as Android schedules it. Turning **Show device
+calendars** off in Settings stops these reminders, and turning it back on sets the next
+one again.
 
 In **Calendar notifications**, the **Device calendars** heading has its own switch. It
 shows once you've turned on at least one device calendar, and it's on by default. Turn it

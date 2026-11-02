@@ -25,7 +25,7 @@ const crypto = require('crypto');
 
 const FEED_HOST = 'kashcal.onekash.org';
 const FEED_URL = `https://${FEED_HOST}/unscheduled-thoughts.ics`;
-const PAGE_URL = `https://${FEED_HOST}/unscheduled-thoughts`;
+const PAGE_URL = `https://${FEED_HOST}/unscheduled-thoughts/`;
 const CAL_NAME = 'Unscheduled Thoughts';
 const CAL_DESC =
   'A little encouragement, a little snark, every few days. Means well, mostly.';

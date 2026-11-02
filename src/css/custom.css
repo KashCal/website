@@ -1,3 +1,11 @@
+/* The site's fonts, served from the site itself instead of Google Fonts, so a
+   visit makes no request to a third party and the first paint doesn't wait on
+   another host. Their family names carry a "Variable" suffix. */
+@import '@fontsource-variable/bricolage-grotesque/opsz.css';
+@import '@fontsource-variable/figtree';
+@import '@fontsource-variable/jetbrains-mono';
+@import '@fontsource-variable/roboto';
+
 /**
  * KashCal site theme.
  *
@@ -35,9 +43,9 @@
   --ifm-background-surface-color: #ffffff;
   --ifm-font-color-base: #16221f;
 
-  --ifm-font-family-base: 'Figtree', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-  --ifm-heading-font-family: 'Bricolage Grotesque', 'Figtree', system-ui, sans-serif;
-  --ifm-font-family-monospace: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+  --ifm-font-family-base: 'Figtree Variable', 'Figtree', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --ifm-heading-font-family: 'Bricolage Grotesque Variable', 'Bricolage Grotesque', 'Figtree Variable', system-ui, sans-serif;
+  --ifm-font-family-monospace: 'JetBrains Mono Variable', 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
   --ifm-heading-font-weight: 700;
   --ifm-h1-font-size: 2.4rem;
   --ifm-code-font-size: 92%;
@@ -140,6 +148,7 @@ h3 {
   margin: 0 0 3rem;
 }
 
+.kc-section__head h1,
 .kc-section__head h2 {
   font-size: clamp(1.9rem, 4vw, 2.75rem);
   margin: 0 0 0.75rem;
@@ -196,6 +205,7 @@ h3 {
   color: var(--kc-accent);
 }
 
+
 .kc-hero__titleLink {
   text-decoration: none;
   border-bottom: 3px solid transparent;
@@ -232,10 +242,8 @@ h3 {
 
 .kc-hero__note {
   margin-top: 1.5rem;
-  font-family: var(--ifm-font-family-monospace);
-  font-size: 0.8rem;
-  letter-spacing: 0.04em;
-  color: rgba(238, 243, 241, 0.6);
+  font-size: 0.95rem;
+  color: rgba(238, 243, 241, 0.78);
 }
 
 /* Buttons */
@@ -306,48 +314,88 @@ h3 {
 }
 
 /* ----------------------------------------------------------------------- */
-/* Quick Add demo (hero signature)                                         */
+/* Hero art: the Quick Add dialog beside the Planner phone                 */
 /* ----------------------------------------------------------------------- */
 
-.kc-demo {
-  background: rgba(251, 252, 251, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 18px;
-  padding: 1.25rem;
-  box-shadow: 0 30px 60px -25px rgba(0, 0, 0, 0.6);
-  backdrop-filter: blur(6px);
+/* The home hero: the art column takes the width its dialog and phone need, and
+   the title is sized so its second line fits beside it at the default font
+   size. It can still wrap, so a larger font in the browser wraps the line
+   instead of cutting it off. */
+.kc-hero__inner--art {
+  grid-template-columns: minmax(0, 1fr) auto;
 }
 
-.kc-demo__bar {
+.kc-hero__inner--art .kc-hero__title {
+  font-size: clamp(2.6rem, 3.9vw, 4.2rem);
+}
+
+.kc-hero__art {
   display: flex;
-  align-items: center;
-  gap: 0.6rem;
-  font-family: var(--ifm-font-family-monospace);
-  font-size: 0.92rem;
-  background: rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-  padding: 0.7rem 0.9rem;
-  color: #eef3f1;
-  min-height: 2.6rem;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 1.5rem;
 }
 
-.kc-demo__prompt {
-  color: var(--kc-accent);
-  font-weight: 700;
+.kc-hero__chat {
+  position: relative;
+  width: 320px;
+  margin-bottom: 2.5rem;
 }
 
-.kc-demo__typed::after {
+/* Kash sits on the dialog's top edge. */
+.kc-hero__kash {
+  position: absolute;
+  top: -88px;
+  right: 10px;
+  width: 112px;
+  height: auto;
+  pointer-events: none;
+}
+
+.kc-hero__phone {
+  flex: none;
+  width: 255px;
+  margin: 0;
+}
+
+.kc-hero__hint {
+  margin: 0.8rem 0 0;
+  font-size: 0.95rem;
+  color: rgba(238, 243, 241, 0.78);
+}
+
+/* The app's Quick Add dialog, in the app's font and light-theme colors, so it
+   reads as a phone screen beside the captures. */
+.kc-qa {
+  font-family: 'Roboto Variable', Roboto, system-ui, sans-serif;
+  background: #f6f9f8;
+  color: #191c1b;
+  border-radius: 22px;
+  padding: 18px 18px 14px;
+  box-shadow: 0 24px 50px -20px rgba(0, 0, 0, 0.6);
+}
+
+.kc-qa__field {
+  border: 1.5px solid #6f7976;
+  border-radius: 6px;
+  padding: 13px 12px;
+  font-size: 1rem;
+  white-space: nowrap;
+  min-height: 3.1rem;
+}
+
+.kc-qa__typed::after {
   content: '';
   display: inline-block;
-  width: 0.55ch;
-  height: 1.05em;
-  background: var(--kc-accent);
+  width: 2px;
+  height: 1.15em;
+  background: #0e6e62;
   margin-left: 1px;
   vertical-align: text-bottom;
   animation: kc-blink 1s steps(1) infinite;
 }
 
-.kc-demo__typed--done::after {
+.kc-qa__typed--done::after {
   animation: none;
   opacity: 0;
 }
@@ -358,55 +406,150 @@ h3 {
   }
 }
 
-.kc-demo__arrow {
-  text-align: center;
-  font-family: var(--ifm-font-family-monospace);
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: rgba(238, 243, 241, 0.55);
-  margin: 0.85rem 0;
+.kc-qa__result {
+  padding: 16px 12px 6px;
+  opacity: 0;
+  transition: opacity 0.35s ease;
 }
 
-.kc-demo__card {
-  background: #fbfcfb;
-  /* The card background is always light, so its text is always dark,
-     regardless of the page theme. (Using --kc-ink would flip to light
-     text in dark mode and vanish.) */
-  color: #14201e;
+.kc-qa__result--shown {
+  opacity: 1;
+}
+
+.kc-qa__result b {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.kc-qa__result > span {
+  font-size: 0.95rem;
+  color: #3f4946;
+}
+
+.kc-qa__time {
+  margin-left: 0.3rem;
+}
+
+.kc-qa__actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 6px 0;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #006a60;
+}
+
+.kc-qa__save {
+  background: #0e6e62;
+  color: #ffffff;
+  padding: 10px 22px;
+  border-radius: 22px;
+}
+
+/* ----------------------------------------------------------------------- */
+/* Home page sections                                                      */
+/* ----------------------------------------------------------------------- */
+
+.kc-home-heading {
+  font-size: clamp(1.9rem, 4vw, 2.6rem);
+  max-width: 40rem;
+  margin: 0 0 2.5rem;
+}
+
+.kc-home-privacy {
+  padding: 3rem 0;
+  border-bottom: 1px solid var(--kc-line);
+}
+
+.kc-home-privacy h2 {
+  font-size: clamp(1.6rem, 3vw, 2rem);
+  margin: 0 0 0.5rem;
+}
+
+.kc-home-privacy p {
+  font-size: 1.15rem;
+  color: var(--ifm-color-emphasis-700);
+  margin: 0 0 0.5rem;
+}
+
+.kc-home-privacy a {
+  font-weight: 600;
+}
+
+.kc-home-tinted {
+  background: var(--kc-mist);
+}
+
+/* Feature tiles drawn as the app's event cards: a tint of the calendar color
+   with a solid bar of it down the leading edge. */
+.kc-tiles {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.kc-tile {
+  display: block;
   border-radius: 12px;
-  border-left: 5px solid var(--kc-accent);
-  padding: 1rem 1.1rem;
-  /* Visible by default so the card never depends on JS to be readable.
-     The reveal is a non-destructive enhancement layered on top. */
-  transition: opacity 0.4s ease, transform 0.4s ease;
+  padding: 1.15rem 1.3rem 1.2rem;
+  border-inline-start: 8px solid var(--kc-tile);
+  background: color-mix(in srgb, var(--kc-tile) 14%, #ffffff);
+  color: var(--kc-ink);
+  text-decoration: none;
 }
 
-.kc-demo__card-title {
-  color: #14201e;
+.kc-tile:hover {
+  text-decoration: none;
+  color: var(--kc-ink);
+  background: color-mix(in srgb, var(--kc-tile) 22%, #ffffff);
 }
 
-/* Before the typing finishes, soften the card in. If JS never runs, the
-   card simply stays fully visible (no opacity:0 trap). */
-.kc-demo[data-typing='true'] .kc-demo__card {
-  opacity: 0.35;
-  transform: translateY(6px);
+[data-theme='dark'] .kc-tile {
+  background: color-mix(in srgb, var(--kc-tile) 16%, #151d1b);
 }
 
-.kc-demo__card-title {
+[data-theme='dark'] .kc-tile:hover {
+  background: color-mix(in srgb, var(--kc-tile) 24%, #151d1b);
+}
+
+.kc-tile h3 {
+  font-size: 1.3rem;
+  margin: 0 0 0.3rem;
+}
+
+.kc-tile p {
+  margin: 0;
+  font-size: 1.02rem;
+  color: var(--ifm-color-emphasis-800);
+}
+
+.kc-latest {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 1.25rem;
+  max-width: 46rem;
+}
+
+.kc-latest a {
+  display: block;
   font-family: var(--ifm-heading-font-family);
   font-weight: 700;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
 }
 
-.kc-demo__card-row {
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
-  margin-top: 0.4rem;
-  font-family: var(--ifm-font-family-monospace);
-  font-size: 0.85rem;
-  color: #5d574c;
+.kc-latest time {
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.kc-latest p {
+  margin: 0.2rem 0 0;
+  color: var(--ifm-color-emphasis-700);
 }
 
 /* ----------------------------------------------------------------------- */
@@ -503,6 +646,7 @@ a.kc-chip--more:hover {
 }
 
 .kc-shot {
+  margin: 0;
   text-align: center;
 }
 
@@ -532,12 +676,17 @@ a.kc-chip--more:hover {
 .kc-phone img {
   display: block;
   width: 100%;
+  height: auto;
   border-radius: 22px;
 }
 
 .kc-shot h3 {
   font-size: 1.1rem;
   margin: 0 0 0.25rem;
+}
+
+.kc-shot h3 a {
+  color: inherit;
 }
 
 .kc-shot p {
@@ -574,6 +723,19 @@ a.kc-chip--more:hover {
 /* Responsive                                                              */
 /* ----------------------------------------------------------------------- */
 
+/* Below 1200px the hero art narrows to leave the title its room. */
+@media (max-width: 1200px) and (min-width: 997px) {
+  .kc-hero__chat {
+    width: 280px;
+  }
+  .kc-hero__phone {
+    width: 215px;
+  }
+  .kc-qa__field {
+    font-size: 0.9rem;
+  }
+}
+
 @media (max-width: 996px) {
   .kc-hero__inner {
     grid-template-columns: 1fr;
@@ -586,9 +748,16 @@ a.kc-chip--more:hover {
     grid-template-columns: 1fr;
     gap: 2.5rem;
   }
+  .kc-tiles {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 600px) {
+  /* Scales with the screen so "All your calendars." fits on one line. */
+  .kc-hero__inner--art .kc-hero__title {
+    font-size: clamp(1.9rem, 10vw, 2.6rem);
+  }
   .kc-grid {
     grid-template-columns: 1fr;
   }
@@ -597,17 +766,32 @@ a.kc-chip--more:hover {
   }
 }
 
+/* The dialog (320px) and phone (255px) sit side by side down to 640px; below
+   that they would run past the page, so they stack. */
+@media (max-width: 640px) {
+  .kc-hero__art {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .kc-hero__chat {
+    width: auto;
+    margin: 4.5rem 0 1rem;
+  }
+  .kc-hero__phone {
+    width: 250px;
+    margin: 0 auto;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
   }
-  .kc-demo__typed::after,
-  .kc-demo__card {
+  .kc-qa__typed::after {
     animation: none;
   }
-  .kc-demo__card {
-    opacity: 1;
-    transform: none;
+  .kc-qa__result {
+    transition: none;
   }
   .kc-btn:hover,
   .kc-card:hover {
@@ -737,9 +921,26 @@ button:focus-visible,
   outline-color: var(--ifm-color-primary-lighter);
 }
 
+/* The home page's light-background links: the tile keeps its corners, and the
+   ring is ink, since the marigold ring is too faint against white. */
+.kc-tile:focus-visible {
+  border-radius: 12px;
+}
+
+.kc-tile:focus-visible,
+.kc-home-privacy a:focus-visible,
+.kc-latest a:focus-visible {
+  outline-color: var(--kc-ink);
+}
+
 /* On the dark hero, the focus ring needs to read against teal */
 .kc-hero a:focus-visible,
 .kc-privacy a:focus-visible {
   outline-color: #fbfcfb;
 }
 
+/* A screenshot floated beside a section ends before the next section starts,
+   so the next heading never wraps beside it. */
+.markdown h2 {
+  clear: both;
+}

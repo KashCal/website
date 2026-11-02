@@ -24,7 +24,7 @@ KashCal now has a proper theme picker. Stay on System, pin Light or Dark, or swi
 
 ## Wear your support
 
-The second choice is the icon on your home screen. If you've chipped in to keep KashCal free and ad-free ([or you'd like to](https://kashcal.onekash.org/donate)), you can now wear it: a gold **Supporter** icon with a little heart on the calendar card. Pick it under Settings, then App Icon, in whichever flavor you like. Keep the KashCal name, or go incognito with the same icon labeled simply "Calendar."
+The second choice is the icon on your home screen. If you've chipped in to keep KashCal free and ad-free ([or you'd like to](https://kashcal.onekash.org/donate/)), you can now wear it: a gold **Supporter** icon with a little heart on the calendar card. Pick it under Settings, then App Icon, in whichever flavor you like. Keep the KashCal name, or go incognito with the same icon labeled simply "Calendar."
 
 Whether you're already a supporter or about to become one, here's a thank you from us.
 
@@ -37,4 +37,4 @@ Whether you're already a supporter or about to become one, here's a thank you fr
 
 KashCal, the calendar you already love, now in your colors and wearing your badge.
 
-Supporting open source has always felt good. Now it looks good too, right there on your home screen. Not a supporter yet? [Join in](https://kashcal.onekash.org/donate). It's quicker than your coffee order.
+Supporting open source has always felt good. Now it looks good too, right there on your home screen. Not a supporter yet? [Join in](https://kashcal.onekash.org/donate/). It's quicker than your coffee order.

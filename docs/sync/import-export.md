@@ -2,6 +2,7 @@
 sidebar_position: 8
 title: Import & export (.ics files)
 description: KashCal reads and writes standard .ics calendar files, so you can move events in or out and keep a portable copy of a calendar.
+image: /img/social/docs/sync-import-export.png
 ---
 
 # Import & export
@@ -38,6 +39,10 @@ The calendar list can also show writable calendars from other apps on your phone
   permission.
 - From a file you open or share into KashCal, it shows only the device calendars you
   turned on. See [Device calendars](./device-calendars.md).
+
+A repeating event whose start the file gives in UTC keeps its UTC time in the device
+calendar, as it does in a KashCal calendar. Every occurrence falls at the same UTC time,
+so after a clock change it shows an hour earlier or later on your phone.
 
 ### When an import doesn't start
 
@@ -112,6 +117,10 @@ or export its events one at a time.
 
 You can also export an offline calendar from its own sheet. See
 [Offline calendars](./offline-calendars.md#rename-recolor-or-export-a-calendar).
+
+To save your offline calendars on a schedule, turn on
+[automatic calendar backup](../features/backup-restore.md#automatic-calendar-backup). It
+writes the same file **Export calendars** makes, into a folder you choose.
 
 To export one event, open it, tap the menu, and choose **Export as .ics**. This works
 for device calendar events too.

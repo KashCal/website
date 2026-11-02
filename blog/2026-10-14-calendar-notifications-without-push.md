@@ -43,6 +43,6 @@ Push is instant, and this isn't. A change shows up on the next background sync, 
 
 The other half shipped the same week. Settings has a **Calendar notifications** page, under **Calendars & accounts**, with a switch for every calendar KashCal shows. Mute the school newsletter feed and it stops sending reminders, invitation alerts and change notifications, while it still shows and syncs. Calendars from your phone's other apps get one switch on their heading that covers all of them, including ones you add later.
 
-![The Calendar notifications screen with a switch for each calendar, the school newsletter and a work calendar muted](/img/blog/calendar-notifications-screen.png)
+![The Calendar notifications screen with a switch for each calendar, the school newsletter and a work calendar muted](/img/blog/calendar-notifications.webp)
 
 So the swimming lesson that moved gets through, and the newsletter about next term's bake sale waits until you open the calendar yourself.

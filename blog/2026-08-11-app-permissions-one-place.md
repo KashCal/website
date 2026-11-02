@@ -14,7 +14,7 @@ keywords:
   - material you calendar android
   - caldav local network sync
   - permission manager calendar app
-description: "Android 17 made reaching your local network its own permission. Implementing that, we noticed KashCal's permissions were scattered across the app, so we added one screen that lists them all: what each is for, and whether it is on."
+description: "Android 17 made local network access its own permission. That showed us KashCal's permissions were scattered, so now one screen lists them all."
 image: /img/social/blog/app-permissions-one-place.png
 ---
 

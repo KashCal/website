@@ -3,7 +3,10 @@ sidebar_position: 7
 title: Scheduling & invitations
 description: Invite people, send meeting invitations, RSVP, and use CalDAV scheduling in KashCal.
 keywords: [scheduling, meeting invitations, attendees, RSVP, iTIP, invite]
+image: /img/social/docs/events-attendees.png
 ---
+
+import Screenshot from '@site/src/components/Screenshot';
 
 # Scheduling & invitations
 
@@ -50,6 +53,8 @@ The guest list groups people by their response:
 - **Delegated:** passed it to someone else
 
 ## Responding to invitations
+
+<Screenshot src="/img/screenshots/event-reply.webp" alt="An event invitation asking Going?, with Yes, Maybe and No" align="right" caption="Reply from the event." />
 
 When someone invites you, the event asks **Going?** and you reply **Yes**,
 **Maybe**, or **No**. For a repeating event, your reply applies to the whole series:

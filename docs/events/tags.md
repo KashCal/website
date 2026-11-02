@@ -2,6 +2,7 @@
 sidebar_position: 6
 title: Tags
 description: "Label events with colored tag chips in KashCal. Add them in the form or with #tag, and rename, recolor or remove them in one place."
+image: /img/social/docs/events-tags.png
 ---
 
 import Screenshot from '@site/src/components/Screenshot';
@@ -40,6 +41,8 @@ The tag row sits below the notes in the form. To move it above the notes, tap th
 choice for every event.
 
 ## Managing your tags
+
+<Screenshot src="/img/screenshots/tags.webp" alt="The Tags screen listing five tags, each with its color" align="right" caption="Every tag in one place." />
 
 Open **Manage tags** from the [account hub](../calendar/navigation.md#the-account-hub)
 to see every tag you've used. Each tag has these actions:

@@ -2,6 +2,7 @@
 sidebar_position: 4
 title: Search
 description: Search your KashCal events by title, location, or notes from the top bar or the app-icon shortcut, and filter results by date.
+image: /img/social/docs/features-search.png
 ---
 
 # Search

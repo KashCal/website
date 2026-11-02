@@ -2,7 +2,10 @@
 sidebar_position: 7.5
 title: Offline calendars
 description: Calendars that stay on your phone and never sync. Create, rename, recolor, delete and export them in KashCal, with no account.
+image: /img/social/docs/sync-offline-calendars.png
 ---
+
+import Screenshot from '@site/src/components/Screenshot';
 
 # Offline calendars
 
@@ -17,20 +20,25 @@ KashCal keeps offline calendars in its own private storage, not in Android's sha
 storage. Other apps on your phone can't read them, even apps with calendar permission, and
 they don't show in other calendar apps or their widgets. They leave the phone only in
 Android's own backup and phone-to-phone transfer, when you share or export an event or a
-calendar, or when you move or copy an event to a calendar that syncs.
+calendar, when you move or copy an event to a calendar that syncs, or when
+[automatic calendar backup](../features/backup-restore.md#automatic-calendar-backup) saves
+them to a folder in a cloud storage app. The files that backup saves sit in the folder you
+chose, where other apps that can open that folder can read them.
 
 ## Open the list
 
+<Screenshot src="/img/screenshots/offline-calendars.webp" alt="The Offline calendars screen listing Gift ideas, Health, Journal and Local with their event counts, with Local, the default, tinted" align="right" caption="Each calendar with its event count." />
+
 Open **Settings**, then tap **Offline calendars** under **Calendars & accounts**. The row's
-subtitle reads "Calendars that stay on this phone" until you add a calendar, then it counts
+subtitle reads "Calendars that stay on this device" until you add a calendar, then it counts
 them.
 
 The screen lists each offline calendar in alphabetical order, with its color and how many
 events it holds. A repeating event counts once. The calendar new events go to by default has a tinted row,
 and TalkBack reads "Default" for it.
 
-Tap the ⓘ next to "Add, rename, recolor or remove your offline calendars." to read why to
-export: offline calendars aren't on a server, and a settings backup doesn't include events.
+Above the list, a line reads "Swipe a calendar to delete it." Tap the ⓘ next to it to read
+"Kept on this device and never synced."
 
 ## Create a calendar
 
@@ -44,6 +52,12 @@ Each offline calendar needs its own name. Case and spaces at either end don't co
 "trips" and "Trips " both match "Trips". KashCal then says, with the name you typed, "An
 offline calendar named "trips" already exists" under the field and keeps the
 sheet open. The built-in calendar's name counts in the language your phone shows it in.
+
+Two names also can't differ only in characters a file name leaves out, because each
+calendar has its own [backup file](../features/backup-restore.md#files-and-copies). KashCal
+keeps letters, numbers and hyphens and treats spaces as hyphens, so "Work!" and "Work-" both
+clash with "Work". It then says "Too similar to "Work". Choose a different name." with the
+other calendar's name. A name made only of other characters, such as emoji, is allowed.
 
 You can also create one while you edit an event: tap the calendar row in the event form, then
 **New offline calendar** at the end of the **Offline** group. The new calendar becomes the
@@ -80,15 +94,17 @@ Deleting removes the calendar and its events for good, with no undo, and cancels
 reminders. If it was your default calendar, **Local** becomes the default. TalkBack announces
 the deletion. Tap **Cancel** to keep the calendar.
 
-To keep a copy first, export the calendar.
+To keep a copy first, export the calendar. Files that automatic calendar backup saved for it
+stay in the backup folder.
 
 ## What offline calendars can't do
 
 - They can't send meeting invitations. See
   [Known limitations](../help/known-limitations.md).
-- A KashCal settings backup doesn't include them. To move them to another phone, export each
-  one, create the calendars there, and import each file into its calendar. See
-  [Backup & restore](../features/backup-restore.md).
+- A KashCal settings backup doesn't include them. To keep a copy, turn on
+  [automatic calendar backup](../features/backup-restore.md#automatic-calendar-backup). To
+  move them to another phone, export each one, or copy the backup files, create the
+  calendars there, and import each file into its calendar.
 
 ## Related
 

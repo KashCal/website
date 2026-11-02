@@ -10,7 +10,7 @@ keywords:
   - kashcal github
   - ai assisted open source contribution
   - open source caldav calendar
-description: "KashCal has always been built for the people who use it. Now we have turned that same care toward the people who want to help build it: a browsable map of the code, and a workflow for AI-assisted contributions."
+description: "KashCal is built with care for the people who use it. Now that care reaches people who want to help build it: a code map and a workflow for AI-assisted work."
 image: /img/social/blog/contribute-to-kashcal.png
 ---
 

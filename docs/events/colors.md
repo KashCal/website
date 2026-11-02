@@ -2,13 +2,14 @@
 sidebar_position: 5
 title: Event colors
 description: Give individual events their own color in KashCal, blue for work, green for personal, red for deadlines, so your week reads at a glance.
+image: /img/social/docs/events-colors.png
 ---
 
 import Screenshot from '@site/src/components/Screenshot';
 
 # Event colors
 
-<Screenshot src="/img/screenshots/Event-Color-Picker.png" alt="KashCal event color picker" align="right" caption="The quick palette, plus a full color browser." />
+<Screenshot src="/img/screenshots/event-colors.png" alt="KashCal event color picker" align="right" caption="The quick palette, plus a full color browser." />
 
 An event takes its calendar's color unless you give it its own. Use colors to
 sort your week by type, for example blue for work, green for personal and red for

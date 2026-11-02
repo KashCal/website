@@ -3,9 +3,14 @@ sidebar_position: 11
 title: Share availability
 description: Send someone your free times as plain text. Pick a window and your working hours, and KashCal works out the gaps from your visible calendars.
 keywords: [share availability, free times, when are you free, scheduling, free busy]
+image: /img/social/docs/features-share-availability.png
 ---
 
+import Screenshot from '@site/src/components/Screenshot';
+
 # Share availability
+
+<Screenshot src="/img/screenshots/share-availability.webp" alt="Share availability with a 7-day window, working hours 9 AM to 5 PM, and the free blocks as text" align="right" caption="Your free blocks as text to paste." />
 
 Answering "when are you free?" means reading your calendar and typing out the gaps
 by hand. KashCal does that part. Pick how far ahead to look and what counts as your

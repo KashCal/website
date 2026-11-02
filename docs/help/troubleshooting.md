@@ -2,6 +2,7 @@
 sidebar_position: 3
 title: Troubleshooting
 description: Fixes for common problems in KashCal, from sync and reminders to accounts and missing events.
+image: /img/social/docs/help-troubleshooting.png
 ---
 
 # Troubleshooting

@@ -21,9 +21,10 @@ const config: Config = {
 
   organizationName: 'KashCal',
   projectName: 'website',
-  // Default (undefined) emits both /path and /path/ forms, so visitors who
-  // type a trailing slash (e.g. /docs/) never hit a 404 on GitHub Pages.
-  trailingSlash: undefined,
+  // GitHub Pages serves /path/index.html at /path/ and 301-redirects /path to
+  // it, so canonical URLs, the sitemap and internal links use the slash form.
+  // Without the slash every one of them would point at a redirect.
+  trailingSlash: true,
 
   onBrokenLinks: 'throw',
   markdown: {
@@ -33,25 +34,6 @@ const config: Config = {
   },
 
   headTags: [
-    {
-      tagName: 'link',
-      attributes: {rel: 'preconnect', href: 'https://fonts.googleapis.com'},
-    },
-    {
-      tagName: 'link',
-      attributes: {
-        rel: 'preconnect',
-        href: 'https://fonts.gstatic.com',
-        crossorigin: 'anonymous',
-      },
-    },
-    {
-      tagName: 'link',
-      attributes: {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap',
-      },
-    },
     // PWA manifest: lets browsers offer "Add to Home Screen" and gives the
     // installed shortcut a proper name, icon, and theme color.
     {
@@ -94,9 +76,9 @@ const config: Config = {
         description:
           'Free, open-source calendar for Android. Sync iCloud, CalDAV, holidays, and birthdays. Private by default, no account required.',
         screenshot: [
-          'https://kashcal.onekash.org/img/screenshots/NewEvent.png',
-          'https://kashcal.onekash.org/img/screenshots/Insights.png',
-          'https://kashcal.onekash.org/img/screenshots/Quick-Event-Add.png',
+          'https://kashcal.onekash.org/img/screenshots/event-form.png',
+          'https://kashcal.onekash.org/img/screenshots/insights-week.png',
+          'https://kashcal.onekash.org/img/screenshots/quick-add.png',
         ],
         url: 'https://kashcal.onekash.org',
         downloadUrl: 'https://play.google.com/store/apps/details?id=org.onekash.kashcal',
@@ -127,7 +109,7 @@ const config: Config = {
         url: 'https://kashcal.onekash.org',
         potentialAction: {
           '@type': 'SearchAction',
-          target: 'https://kashcal.onekash.org/search?q={search_term_string}',
+          target: 'https://kashcal.onekash.org/search/?q={search_term_string}',
           'query-input': 'required name=search_term_string',
         },
       }),
@@ -146,6 +128,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           routeBasePath: '/docs',
+          showLastUpdateTime: true,
           editUrl: 'https://github.com/KashCal/website/tree/main/',
         },
         blog: {
@@ -168,6 +151,7 @@ const config: Config = {
           customCss: './src/css/custom.css',
         },
         sitemap: {
+          lastmod: 'date',
           changefreq: 'weekly',
           priority: 0.5,
           createSitemapItems: async (params) => {
@@ -178,7 +162,8 @@ const config: Config = {
               // The local-search page has no indexable content; keep it out.
               .filter((item) => !item.url.replace(base, '').startsWith('/search'))
               .map((item) => {
-                const path = item.url.replace(base, '') || '/';
+                // Sitemap URLs end in a slash (trailingSlash: true); compare without it.
+                const path = item.url.replace(base, '').replace(/(.)\/$/, '$1') || '/';
                 // Boost the pages we most want crawled and ranked.
                 if (path === '/') return {...item, priority: 1.0};
                 if (path.startsWith('/features')) return {...item, priority: 0.8};
@@ -214,6 +199,8 @@ const config: Config = {
   plugins: [
     // Emits /llms.txt and /llms-full.txt at build time (llmstxt.org convention).
     './plugins/llms-txt',
+    // The home page's New in KashCal row: the newest blog posts.
+    './plugins/latest-posts',
     [
       // Preserve the old site's URLs so existing Google results and inbound
       // links keep working after the domain moves to this site.
@@ -235,6 +222,10 @@ const config: Config = {
           {from: '/reluctant-motivation', to: '/unscheduled-thoughts'},
           // The feature is called "Smart event add" in the app now.
           {from: '/docs/events/quick-add', to: '/docs/events/smart-event-add'},
+          // Get Help and Privacy & Security were generated category pages before
+          // each pointed at its own doc, which had the same title.
+          {from: '/docs/category/get-help', to: '/docs/help'},
+          {from: '/docs/category/privacy--security', to: '/docs/privacy/overview'},
         ],
       },
     ],
@@ -246,7 +237,7 @@ const config: Config = {
       {
         name: 'description',
         content:
-          'Free, open-source calendar for Android, now on Google Play. Sync iCloud, CalDAV, holidays, and birthdays. Smart event add, Insights, Widgets. Private by default, no account required.',
+          'Free, open-source calendar for Android. Sync iCloud, CalDAV, holidays, and birthdays. Smart event add, Insights, widgets. Private, no account required.',
       },
       {property: 'og:site_name', content: 'KashCal'},
       {name: 'apple-mobile-web-app-title', content: 'KashCal'},
