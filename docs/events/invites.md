@@ -43,8 +43,9 @@ channel off in Android's notification settings to stop them without muting remin
 An invitation in a [muted calendar](./reminders.md#mute-a-calendar) doesn't notify, and
 unmuting the calendar doesn't bring that notification back.
 
-To add an invitation you received as a file, import it. An imported invitation doesn't
-post this notification. See
+To add an invitation you received as a file, import it. In an offline, iCloud or CalDAV
+calendar, importing a newer invitation, such as a rescheduled one, updates the event. An
+imported invitation doesn't post this notification. See
 [Import & export](../sync/import-export.md#invitations-and-files-you-import-again).
 
 ## Reply

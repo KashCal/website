@@ -112,12 +112,9 @@ own.
 
 To force a full download, open Settings and tap **Force full sync** under
 **Troubleshooting** (see [Troubleshooting tools](../help/advanced-options.md#force-full-sync)).
-KashCal asks first:
-
-> This will re-download all calendar data from the server. Local changes will be
-> preserved.
-
-Tap **Sync Now** to start. When the sync ends, a notification reports the result.
+A line with a checkbox opens in place of the row, for example "Re-download 6 calendars
+from 2 accounts. Changes not yet synced are kept." Tick the box, then tap **Start**. When
+the sync ends, a notification reports the result.
 
 The same section has **Sync history**, which lists the sync sessions of the last 48
 hours.
@@ -157,5 +154,7 @@ notification tells you.
 
 KashCal retries a failed sync on its own and waits longer between each try. If some
 events can't be read from the server, a notification says "Some events couldn't be
-synced" and names the calendar. For a connection that won't sync, see
+synced" and names the calendar. The rest of the calendar's events still sync. A change
+that fails to upload doesn't hold back your other changes. For a connection that won't
+sync, see
 [Sync troubleshooting](../help/troubleshooting.md).

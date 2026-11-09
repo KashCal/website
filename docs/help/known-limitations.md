@@ -79,7 +79,9 @@ of the calendar standard). It also syncs contacts in both directions:
   account's principal. If your provider keeps contacts on a server that none of these
   lead to, KashCal won't find your contacts, even when your calendars sync.
 - No tasks or to-dos (VTODO), journals or attachments. KashCal skips calendars that
-  hold only tasks or journal entries when it syncs, so they don't show up empty.
+  hold only tasks or journal entries when it syncs, so they don't show up empty. An
+  attachment added in another app to an iCloud or CalDAV event stays on the event when
+  you edit it in KashCal. This holds for events up to about 2 MB, attachments included.
 
 This keeps the app focused and fast.
 

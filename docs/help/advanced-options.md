@@ -18,6 +18,11 @@ corner, tap **Accounts & Settings**, then scroll to **Troubleshooting**.
 session shows its calendar, how many events were pushed and pulled, and any failures.
 Tap a session for details such as its duration, skipped events and warnings.
 
+The list holds iCloud and CalDAV syncs only. With no iCloud or CalDAV account set up, or
+every account's **Calendar** switch off, an empty list says: "No sync account set up.
+Offline calendars stay on this device; device calendars sync through their own account."
+Sessions from before stay listed until they're 48 hours old.
+
 ## Copying or clearing the history
 
 The **Sync History** sheet has two icon buttons at the top:
@@ -33,9 +38,15 @@ How often background sync runs is set in Settings, under **Sync**, with the
 
 ## Force full sync
 
-**Force full sync** downloads all calendar data from your servers again. KashCal first
-asks **Force Full Sync?** Tap **Sync Now** to start, or **Cancel**. Your local changes
-are kept.
+**Force full sync** downloads all calendar data from your iCloud and CalDAV accounts
+again. Tap it and a line with a checkbox opens in its place, naming how many calendars
+from how many accounts it re-downloads. Tick the box, then tap **Start**, or tap
+**Cancel**. Changes not yet synced are kept.
+
+Offline calendars, device calendars, calendar feeds and accounts whose **Calendar**
+switch is off aren't part of it. With no iCloud or CalDAV account set up, or every
+account's **Calendar** switch off, the row is greyed out and reads **No sync account set
+up**.
 
 ## Debug report
 

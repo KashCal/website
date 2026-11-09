@@ -34,8 +34,13 @@ All-day events have no start time, so their chips fire at 9 AM:
 Tap an alert to change it. Tap the ✕ on its row to remove it. **Add Alert**
 disappears once an event has five.
 
+The alerts row sums up the alerts in days, hours and minutes, such as 15m, 1h 30m or
+5d 1h 10m, and a whole number of weeks as 1w. Each alert's own row spells it out, such
+as "1 hour 30 min before". Two alerts at the same time are listed once when you open an
+event, and saved once.
+
 An event synced from another app can carry more than five alerts. The form shows the
-first five, and a line under them says how many aren't shown.
+five with the shortest lead time, and a line under them says how many aren't shown.
 
 ## Alerts on invitations
 

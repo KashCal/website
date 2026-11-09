@@ -75,15 +75,22 @@ event's unique ID:
 - In an [offline calendar](./offline-calendars.md), a newer version of an event it holds (by the file's
   sequence number, then its timestamp) from the same organizer updates it. The same or
   an older version changes nothing.
-- In a synced or device calendar, an event it already holds stays as the calendar has
-  it.
+- In an iCloud or CalDAV calendar, a newer invitation from the same organizer, compared
+  the same way, updates the event and KashCal uploads the change. If the invitation
+  changes the meeting's time or how it repeats, your reply is cleared and the event goes
+  back on [Invites](../events/invites.md). Otherwise your reply is kept.
+- The iCloud or CalDAV calendar keeps its copy, and the preview says why, when the file
+  is a plain file and not an invitation, when you organize the meeting (change it from
+  the event), or when the event has a change waiting to sync (import again after it
+  syncs).
+- In a device calendar, an event it already holds stays as the calendar has it.
 
 Importing the same file twice doesn't add a second copy.
 
 An invitation file, one an organizer sends, keeps its organizer and guests, so you can
 [reply to it](../events/invites.md) like an invitation that arrived by sync. A
 cancellation file cancels the meeting, or the one occurrence it names, when the calendar
-holds it. On a synced calendar, a cancellation of a meeting you organize is skipped:
+holds it. On an iCloud or CalDAV calendar, a cancellation of a meeting you organize is skipped:
 cancel it from the event instead. A reply to an invitation adds nothing.
 
 The preview lists what the import will change before you tap **Import**, for example

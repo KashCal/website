@@ -90,7 +90,7 @@ See [Backup & restore](./backup-restore.md) for what each backup includes and wh
 ## Troubleshooting
 
 - **Sync history:** the sync sessions of the last 48 hours.
-- **Force full sync:** download all calendar data from your servers again.
+- **Force full sync:** download your iCloud and CalDAV calendars again. Greyed out when no iCloud or CalDAV account syncs.
 - **Export debug report:** a text file of recent crashes, KashCal's own log, syncs, changes not yet sent and setup, to send with a bug report.
 
 See [Troubleshooting tools](../help/advanced-options.md) for how each one works.

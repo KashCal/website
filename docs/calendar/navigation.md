@@ -68,11 +68,12 @@ The hub has these parts:
     the fallback when Material You isn't available. The hub avatar, the **Accounts &
     Settings** button and today's date in the calendar grid keep a thin outline, so
     they stay visible with a pale or dark accent.
-  - **App Icon:** keep **Default**, or switch to the **Supporter** icon, a gold card
-    with a heart, to show you've chipped in (or
-    [would like to](https://kashcal.onekash.org/donate/)). One version keeps the KashCal
-    name. The other, **Supporter, labeled Calendar**, shows the name Calendar on your
-    home screen. **Today's date** shows the day of the month on the home-screen icon.
+  - **App Icon:** keep **Default**, pick **Kash**, the KashCal mascot, or switch to the
+    **Supporter** icon, a gold card with a heart, to show you've chipped in (or
+    [would like to](https://kashcal.onekash.org/donate/)). **Default**, **Kash** and
+    **Supporter** keep the name KashCal on your home screen. **Supporter, labeled
+    Calendar** shows the name Calendar. **Today's date** shows the day of the month on the
+    home-screen icon, also named Calendar.
     KashCal moves it to the current day at midnight, after a clock or time zone change,
     after the phone restarts, after KashCal updates and a few seconds after you leave
     KashCal. The move waits while KashCal is on screen or the phone is locked with

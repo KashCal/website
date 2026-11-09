@@ -23,7 +23,7 @@ Open the drawer with the menu icon at the top left, or swipe in from the left ed
 | **Week** | A seven-day timeline. The top bar shows the month, and the corner left of the day headers shows the week number. Tap a day's header to open that day in Day view. Press back to return to the week. |
 | **Planner** | One week as seven day boxes plus a **Different this week** box, two columns on a phone held upright and four in landscape or on a wide screen. The top bar shows the month of the week's first day. See [Planner](#planner). |
 | **Month (Full)** | A month grid with each day's events listed inside its cell, one line each, as many as the cell fits. Multi-day events run as one bar across their days. Titles are cut at the cell's edge, and a count such as +2 in the corner stands for the rest. Tap anywhere in a day to open a full-height sheet with its events. Pinch to make everything in the cells bigger or smaller; KashCal remembers the size. Past events are faded, and so are the numbers of past days other than the selected one. |
-| **Year** | All twelve months. Tap a month to open it in Month view. Tap a year in the strip at the top, or swipe, to change years. Press back to return to Month view. |
+| **Year** | All twelve months. With a larger font size, the days grow with the text and the page scrolls when the year no longer fits. Tap a month to open it in Month view. Tap a year in the strip at the top, or swipe, to change years. Press back to return to Month view. |
 
 :::tip
 The drawer also has **Insights**, which shows how you spend your time. See [Insights](../features/insights.md).

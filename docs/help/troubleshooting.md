@@ -41,8 +41,9 @@ To see what happened, tap **Sync history** under **Troubleshooting** in Settings
 ([Troubleshooting tools](./advanced-options.md#sync-history)). It lists the sync
 sessions of the last 48 hours and any failures.
 
-Still wrong? Tap **Force full sync** in the same section, then **Sync Now**. KashCal
-downloads everything again and keeps your local changes.
+Still wrong? Tap **Force full sync** in the same section, tick the box that opens, then
+tap **Start**. KashCal downloads your iCloud and CalDAV calendars again and keeps changes
+not yet synced.
 
 ## Some events are missing
 
