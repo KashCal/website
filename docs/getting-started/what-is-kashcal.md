@@ -32,7 +32,7 @@ everything that leaves your phone.
 - [Sync contacts with your account both ways](../sync/contacts.md), including photos, from iCloud and other CardDAV servers (beta).
 - [Label events with tags](../events/tags.md) and manage their colors and names in one place.
 - Put your day on the home screen: agenda, week, month, date and upcoming widgets.
-- Search titles, locations and notes with full-text search.
+- Search titles, locations, notes and guests, in upcoming and past lists.
 - See where your time goes with Insights, worked out on your phone.
 - Use it in your language: 63 languages, following your device setting.
 

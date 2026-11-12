@@ -22,7 +22,7 @@ Open the drawer with the menu icon at the top left, or swipe in from the left ed
 | **3 Days** | Three days side by side as timelines. Tap a day's header to open that day in Day view. Press back to return to the three days. |
 | **Week** | A seven-day timeline. The top bar shows the month, and the corner left of the day headers shows the week number. Tap a day's header to open that day in Day view. Press back to return to the week. |
 | **Planner** | One week as seven day boxes plus a **Different this week** box, two columns on a phone held upright and four in landscape or on a wide screen. The top bar shows the month of the week's first day. See [Planner](#planner). |
-| **Month (Full)** | A month grid with each day's events listed inside its cell, one line each, as many as the cell fits. Multi-day events run as one bar across their days. Titles are cut at the cell's edge, and a count such as +2 in the corner stands for the rest. Tap anywhere in a day to open a full-height sheet with its events. Pinch to make everything in the cells bigger or smaller; KashCal remembers the size. Past events are faded, and so are the numbers of past days other than the selected one. |
+| **Month (Full)** | A month grid with each day's events listed inside its cell, one line each, as many as the cell fits. Multi-day events run as one bar across their days. Titles are cut at the cell's edge, and a count such as +2 in the corner stands for the rest. Tap anywhere in a day to open a full-height sheet with its events; the arrows beside its date, or a sideways swipe, move it one day. Pinch to make everything in the cells bigger or smaller; KashCal remembers the size. Past events are faded, and so are the numbers of past days other than the selected one. |
 | **Year** | All twelve months. With a larger font size, the days grow with the text and the page scrolls when the year no longer fits. Tap a month to open it in Month view. Tap a year in the strip at the top, or swipe, to change years. Press back to return to Month view. |
 
 :::tip
@@ -42,7 +42,7 @@ The Planner shows a week the way a paper weekly planner does: a box for each day
 - A box shows the events that fit and counts the rest, such as +3 in its corner. When the next event is a timed one and one more line fits, it shows on that line as its start time and title.
 - A moved occurrence of a repeating timed event shows where it was next to its time, such as "was 5 pm", "was Tue", or a date when it came from another week.
 - Today or a later day with no events shows **Free day**, with a sun above it when the box has room.
-- Tap an event, or the count, to open a sheet with all of that day's events. Tap empty space in a box to open the event form on that day, starting at the top of the current hour. In a box showing a count, the space around the events opens the sheet too.
+- Tap an event, or the count, to open a sheet with all of that day's events. The arrows beside its date, or a sideways swipe, move the sheet one day. Tap empty space in a box to open the event form on that day, starting at the top of the current hour. In a box showing a count, the space around the events opens the sheet too.
 - Tap a day's header to open that day in Day view. Press back to return to the same week.
 - Swipe left or right to change weeks. Tap the title in the top bar to pick a date.
 - Pinch to make everything in the boxes bigger or smaller. KashCal remembers the size.
@@ -139,5 +139,5 @@ KashCal shows "Couldn't print. Try again."
 ## Related
 
 - [Widgets](../features/widgets.md): put your calendar on the home screen
-- [Search](../features/search.md): find any event fast
+- [Search](../features/search.md): find events by title, location, notes or guests
 - [Tags](../events/tags.md): label events with colored chips

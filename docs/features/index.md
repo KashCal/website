@@ -42,7 +42,7 @@ KashCal also opens .ics files and webcal:// links, and handles "Add to calendar"
 
 ## Getting more from your time
 
-- **[Search](./search.md)**: search titles, locations, and notes, with date filters.
+- **[Search](./search.md)**: search titles, locations, notes and guests, in upcoming and past lists, with a date filter.
 - **[Insights](./insights.md)**: on-device figures on how you spend your time.
 - **[Share availability](./share-availability.md)**: send someone your free times as plain text.
 - **[Contact birthdays](./birthdays.md)**: birthdays and anniversaries from your contacts.

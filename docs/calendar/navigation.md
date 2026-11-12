@@ -133,10 +133,9 @@ editing your Quick Settings tiles. Tapping it opens KashCal the same way as the
 
 ## Searching
 
-Open search from the magnifier in the top bar or the **Search** app shortcut. With no
-filter chip picked, search shows upcoming events only. Pick **All**, **Week**,
-**Month** or **Date** (a day or a range) to change that. See
-[Search](../features/search.md).
+Open search from the magnifier in the top bar or the **Search** app shortcut. Search
+opens on **Upcoming**. Tap **Past** for events that have ended, or **Date** for this week,
+this month or dates you pick. See [Search](../features/search.md).
 
 ## Syncing on demand
 
