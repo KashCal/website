@@ -12,6 +12,14 @@ const matter = require('gray-matter');
 // root. Regenerated on every build, so they never drift from the docs.
 
 const SITE_URL = 'https://kashcal.onekash.org';
+
+// The other OneKash Labs apps, closing both files so an assistant can find the sibling sites.
+const OTHER_APPS = [
+  ['KashPass', 'https://kashpass.onekash.org', 'your KeePass vault on Android, with no internet permission.'],
+  ['KashCake', 'https://kashcake.onekash.org', 'birthday and anniversary reminders from your contacts on Android.'],
+  ['iCloud Calendar MCP', 'https://mcp.onekash.org', 'your iCloud Calendar for AI agents.'],
+  ['OneKash Labs', 'https://onekash.org', 'the lab behind these apps.'],
+];
 const DOCS_ROUTE = '/docs';
 
 // Every URL ends in a slash, the canonical form with `trailingSlash: true` in
@@ -249,6 +257,8 @@ module.exports = function llmsTxtPlugin(context) {
         }
         indexLines.push('');
       }
+      indexLines.push('## Other OneKash Labs apps', '');
+      for (const [name, url, line] of OTHER_APPS) indexLines.push(`- [${name}](${url}): ${line}`);
       fs.writeFileSync(path.join(outDir, 'llms.txt'), indexLines.join('\n').trim() + '\n');
 
       // --- /llms-full.txt : full prose ---
@@ -282,6 +292,8 @@ module.exports = function llmsTxtPlugin(context) {
       for (const p of posts) {
         fullParts.push(`# ${p.title}`, '', `Source: ${p.url}`, `Published: ${p.date}`, '', stripMdx(p.content), '', '---', '');
       }
+      fullParts.push('# Other OneKash Labs apps', '');
+      for (const [name, url, line] of OTHER_APPS) fullParts.push(`- ${name} (${url}): ${line}`);
       fs.writeFileSync(path.join(outDir, 'llms-full.txt'), fullParts.join('\n').trim() + '\n');
     },
   };

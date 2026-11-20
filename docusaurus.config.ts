@@ -4,6 +4,14 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
+// The one organization every OneKash Labs site points to, defined on onekash.org.
+const ORG = {
+  '@type': 'Organization',
+  '@id': 'https://onekash.org/#org',
+  name: 'OneKash Labs',
+  url: 'https://onekash.org',
+};
+
 const config: Config = {
   title: 'KashCal',
   tagline: 'One App. All Your Calendars.',
@@ -88,15 +96,13 @@ const config: Config = {
         sameAs: [
           'https://play.google.com/store/apps/details?id=org.onekash.kashcal',
           'https://f-droid.org/packages/org.onekash.kashcal/',
+          'https://apt.izzysoft.de/fdroid/index/apk/org.onekash.kashcal',
           'https://github.com/KashCal/KashCal',
         ],
         license: 'https://www.apache.org/licenses/LICENSE-2.0',
         offers: {'@type': 'Offer', price: '0', priceCurrency: 'USD'},
-        author: {
-          '@type': 'Organization',
-          name: 'OneKash Labs',
-          url: 'https://onekash.org',
-        },
+        author: ORG,
+        publisher: ORG,
       }),
     },
     {
@@ -107,6 +113,7 @@ const config: Config = {
         '@type': 'WebSite',
         name: 'KashCal',
         url: 'https://kashcal.onekash.org',
+        publisher: ORG,
         potentialAction: {
           '@type': 'SearchAction',
           target: 'https://kashcal.onekash.org/search/?q={search_term_string}',
