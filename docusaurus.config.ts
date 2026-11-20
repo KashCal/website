@@ -4,6 +4,12 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
+// Dark-mode code on the site's own dark teal, so blocks read as part of the page.
+const darkCodeTheme = {
+  ...prismThemes.palenight,
+  plain: {...prismThemes.palenight.plain, backgroundColor: '#15201e'},
+};
+
 // The one organization every OneKash Labs site points to, defined on onekash.org.
 const ORG = {
   '@type': 'Organization',
@@ -296,7 +302,7 @@ const config: Config = {
     },
     prism: {
       theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+      darkTheme: darkCodeTheme,
     },
   } satisfies Preset.ThemeConfig,
 };
