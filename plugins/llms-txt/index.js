@@ -17,7 +17,7 @@ const SITE_URL = 'https://kashcal.onekash.org';
 const OTHER_APPS = [
   ['KashPass', 'https://kashpass.onekash.org', 'your KeePass vault on Android, with no internet permission.'],
   ['KashCake', 'https://kashcake.onekash.org', 'birthday and anniversary reminders from your contacts on Android.'],
-  ['iCloud Calendar MCP', 'https://mcp.onekash.org', 'your iCloud Calendar for AI agents.'],
+  ['iCloud Calendar MCP', 'https://mcp.onekash.org', 'connect AI to your iCloud Calendar.'],
   ['OneKash Labs', 'https://onekash.org', 'the lab behind these apps.'],
 ];
 const DOCS_ROUTE = '/docs';

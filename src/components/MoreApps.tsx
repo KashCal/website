@@ -11,7 +11,7 @@ const APPS: App[] = [
   {
     id: 'mcp',
     name: 'iCloud Calendar MCP',
-    line: 'Your iCloud Calendar for AI agents.',
+    line: 'Connect AI to your iCloud Calendar.',
     href: 'https://mcp.onekash.org',
     icon: '/img/apps/mcp.webp',
   },
