@@ -737,8 +737,10 @@ a.kc-chip--more:hover {
 }
 
 @media (max-width: 996px) {
-  .kc-hero__inner {
-    grid-template-columns: 1fr;
+  /* minmax(0, 1fr): a plain 1fr column grows to the art's width and the hero cuts off its right side. */
+  .kc-hero__inner,
+  .kc-hero__inner--art {
+    grid-template-columns: minmax(0, 1fr);
     gap: 2.5rem;
   }
   .kc-grid {
@@ -778,7 +780,7 @@ a.kc-chip--more:hover {
     margin: 4.5rem 0 1rem;
   }
   .kc-hero__phone {
-    width: 250px;
+    width: min(250px, 100%);
     margin: 0 auto;
   }
 }
