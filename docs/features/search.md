@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Search
-description: Search your KashCal events by title, location, notes or guests, in upcoming and past lists, and narrow them to dates.
+description: Search your KashCal events by title, location, notes, or guests, in upcoming and past lists, and narrow them to dates.
 image: /img/social/docs/features-search.png
 ---
 
@@ -24,7 +24,7 @@ and Korean, one character is enough.
   "Team meeting" but not "Meeting with the team".
 
 Matched words are highlighted. When the title doesn't explain a result, it shows where
-the match is, after **Location:**, **Notes:** or **Guest:**. Each result also says how far
+the match is, after **Location:**, **Notes:**, or **Guest:**. Each result also says how far
 away it is, such as "in 3 weeks" or "2 months ago".
 
 ## Upcoming and past
@@ -42,7 +42,7 @@ matches when there are any.
 
 ## Filter by date
 
-Tap **Date** and pick **This week**, **This month** or **Pick dates…**. To pick dates,
+Tap **Date** and pick **This week**, **This month**, or **Pick dates…**. To pick dates,
 tap a day, then tap it again for that day alone, or tap another day for the range
 between them. Tap **Upcoming** or **Past** to go back.
 

@@ -190,7 +190,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title="A private calendar for Android with iCloud and CalDAV sync"
-      description="Free, open-source calendar for Android. Sync iCloud, CalDAV, holidays and birthdays. Smart event add, Insights, widgets. Private by default, no account needed.">
+      description="Free, open-source calendar for Android. Sync iCloud, CalDAV, holidays, and birthdays. Smart event add, Insights, widgets. Private by default, no account needed.">
       <Hero />
       <main>
         <Privacy />

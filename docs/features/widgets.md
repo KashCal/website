@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Home-screen widgets
-description: KashCal's five home-screen widgets (agenda, week, month, date and upcoming) show your events without opening the app, with their own theme and accent.
+description: KashCal's five home-screen widgets (agenda, week, month, date, and upcoming) show your events without opening the app, with their own theme and accent.
 image: /img/social/docs/features-widgets.png
 ---
 
@@ -29,13 +29,13 @@ you've turned on in KashCal.
 
 ## Tapping a widget
 
-- Tap an event in the agenda, week or upcoming widget to open it in KashCal.
-- Tap + on the agenda, week, month or upcoming widget to add an event. It opens
+- Tap an event in the agenda, week, or upcoming widget to open it in KashCal.
+- Tap + on the agenda, week, month, or upcoming widget to add an event. It opens
   the event form at the next full hour, or Smart event add when you've turned on
   **Smart event add** in Settings.
-- Tap the refresh button on the agenda, week or upcoming widget to start a sync. The
+- Tap the refresh button on the agenda, week, or upcoming widget to start a sync. The
   button dims for a moment to show KashCal took the tap.
-- Tap the header title on the agenda, week or upcoming widget to open today in KashCal.
+- Tap the header title on the agenda, week, or upcoming widget to open today in KashCal.
 - Tap a day's header in the week or upcoming widget to open that day in KashCal.
 
 ## Using the month widget
@@ -63,11 +63,11 @@ apart before you place one.
 
 Widgets redraw:
 
-- when you add, change or delete an event in one of KashCal's calendars
+- when you add, change, or delete an event in one of KashCal's calendars
 - after an account sync that brings changes
 - at midnight
 - when the time zone or the phone's clock changes
-- when you change a widget setting, the app's accent, the time format or the week settings
+- when you change a widget setting, the app's accent, the time format, or the week settings
 - about every 30 minutes, as Android schedules it
 
 ## Colors and theme, together or apart
@@ -86,19 +86,19 @@ settings. Both are in the [account hub](../calendar/navigation.md#the-account-hu
 
 ## Two lines, or one
 
-By default the list widgets fit each event on one line: a color bar, the start time
+By default the list widgets fit each event on one line: a color bar, the start time,
 and the title. To see when events end, turn on **Detailed widget rows** in Settings,
 under **Appearance**. Each event then takes two lines: the title on top and its start
 and end time below. The time follows your 12- or 24-hour setting. This applies to the
-agenda, week and upcoming widgets.
+agenda, week, and upcoming widgets.
 
 ## How many events show
 
 **Widget event limit** in Settings, under **Appearance**, sets how many events the
-agenda and week widgets show per day: 3, 5, 8, 10 or 15. The default is 5. Extra
+agenda and week widgets show per day: 3, 5, 8, 10, or 15. The default is 5. Extra
 events collapse into a "more" line. The upcoming widget doesn't use this limit.
 
 ## Related
 
 - [Calendar views](../calendar/views.md): the same views, in the app
-- [Settings](./settings.md): widget event limit, detailed rows and week settings
+- [Settings](./settings.md): widget event limit, detailed rows, and week settings

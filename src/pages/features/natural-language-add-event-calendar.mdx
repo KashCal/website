@@ -1,6 +1,6 @@
 ---
 title: Add events in plain language
-description: Type an event the way you'd say it, and KashCal's smart event add fills in the date, time, repeat, location and tags.
+description: Type an event the way you'd say it, and KashCal's smart event add fills in the date, time, repeat, location, and tags.
 ---
 
 import Cards from '@site/src/components/Cards';
@@ -14,7 +14,7 @@ thing in one line, the way you'd say it out loud. "Dinner with Kash next Friday
 7pm" becomes an event on that Friday at 7:00 PM, without a single dropdown.
 
 As you type, a live preview shows what KashCal understood, so you can check the
-date, time and repeat before you save.
+date, time, and repeat before you save.
 
 <QuickAddDiagram example={{
   typed: 'Dinner with Kash next Friday 7pm at Olive Garden',
@@ -31,8 +31,8 @@ date, time and repeat before you save.
 <Cards items={[
   {title: 'Dates, however you say them', body: <>"tomorrow", "next Friday", "March 15", "3/15/2027" all land on the right day.</>},
   {title: 'Times, spoken or exact', body: <>"3pm", "half past 3", "2pm to 4pm", or "morning" if you're not precise yet.</>},
-  {title: 'Repeats without a dialog', body: <>"every weekday", "every 2 weeks", "every Monday until December" or "last Thursday of the month" sets the repeat.</>},
-  {title: 'Duration and offsets', body: <>"for 90 minutes", "in 2 weeks" and "3 days ago" set the length or the day.</>},
+  {title: 'Repeats without a dialog', body: <>"every weekday", "every 2 weeks", "every Monday until December", or "last Thursday of the month" sets the repeat.</>},
+  {title: 'Duration and offsets', body: <>"for 90 minutes", "in 2 weeks", and "3 days ago" set the length or the day.</>},
   {title: 'Location after "at"', body: <>"Lunch at Olive Garden" files the place in the location field, not the title.</>},
   {title: 'Tags with #', body: <>"Deep work #focus" adds a tag and keeps the rest as the event.</>},
 ]} />
@@ -47,7 +47,7 @@ After that, the + button opens the typing box in every calendar view. The
 ## It shows its work
 
 While you type, the preview shows the title, the date (Today, Tomorrow,
-Yesterday or the date), the time range, the location, the note, any repeat and
+Yesterday, or the date), the time range, the location, the note, any repeat, and
 your tags. If something looks off, keep typing and the preview updates. For
 more control, tap **More options** to open the full event form with what you
 typed filled in.
@@ -69,13 +69,13 @@ characters opens the full event form instead.
 | `Team sync last Thursday of the month` | "Team sync", the last Thursday of each month |
 | `Deep work 2pm #focus` | "Deep work", 2:00 PM on the selected day, tagged #focus |
 
-Without a date, the event goes on the day you have selected. In the Day, 3 Days
+Without a date, the event goes on the day you have selected. In the Day, 3 Days,
 and Week views, it goes on today.
 
 ## Learn the full vocabulary
 
 The docs list every phrase KashCal understands, with examples: dates, times,
-durations, offsets, repeats, locations, tags and notes.
+durations, offsets, repeats, locations, tags, and notes.
 
 <Cards items={[
   {title: 'Smart event add reference', body: <>The complete list of what you can type, with a live-preview walkthrough. <a href="/docs/events/smart-event-add">Read the guide</a>.</>},

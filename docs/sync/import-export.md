@@ -14,13 +14,13 @@ out, or to keep a copy of a calendar.
 
 1. Open **Settings**. Under **Backup & restore**, tap **Import events from file**, and
    pick an `.ics` file.
-2. KashCal shows a preview of the events it found, with titles, dates and locations.
+2. KashCal shows a preview of the events it found, with titles, dates, and locations.
 3. Choose the calendar to import into. The list shows only calendars you can write to.
 4. Tap **Import**. For a file with one event, the sheet is titled **Add Event** and the
    button is **Add**.
 
 When the import finishes, a message counts what happened, for example "3 added, 1
-updated". It also counts events cancelled, already up to date, skipped or failed, when
+updated". It also counts events cancelled, already up to date, skipped, or failed, when
 there are any.
 
 Events in the file that have no reminder get your default alerts, the same as events
@@ -135,7 +135,7 @@ for device calendar events too.
 ### What an exported file holds
 
 Each event goes into the file with its repeat rule, its changed and deleted
-occurrences, its reminders and its guests. An invitation keeps its organizer, each guest
+occurrences, its reminders, and its guests. An invitation keeps its organizer, each guest,
 and each guest's answer, yours included, on the series and on every changed occurrence,
 so importing the file again brings them back. Event details KashCal doesn't show, such
 as a structured location or meeting data from the app that made the event, are written

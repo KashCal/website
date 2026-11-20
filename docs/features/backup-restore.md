@@ -1,7 +1,7 @@
 ---
 sidebar_position: 7
 title: Backup & restore
-description: Back up your offline calendars to a folder on a schedule, and save your KashCal settings, feeds and tag colors to a JSON file.
+description: Back up your offline calendars to a folder on a schedule, and save your KashCal settings, feeds, and tag colors to a JSON file.
 image: /img/social/docs/features-backup-restore.png
 ---
 
@@ -13,7 +13,7 @@ KashCal has two kinds of backup:
 
 - Automatic calendar backup saves each offline calendar as an `.ics` file in a folder you
   choose, on a schedule you set.
-- A settings backup saves your settings, feeds and tag colors to one JSON file when you ask.
+- A settings backup saves your settings, feeds, and tag colors to one JSON file when you ask.
   It holds no events. Use it to set up a new phone, or to keep a copy before you change a
   lot of options.
 
@@ -26,7 +26,7 @@ add your accounts again.
 
 Automatic calendar backup copies your [offline calendars](../sync/offline-calendars.md)
 into a folder on your phone. It saves every offline calendar, the built-in **Local** one
-included, whether it's shown or hidden. Synced calendars, feeds, birthdays and device
+included, whether it's shown or hidden. Synced calendars, feeds, birthdays, and device
 calendars aren't saved. It's off until you choose a folder.
 
 ### Turn it on
@@ -50,7 +50,7 @@ app stores the files, and its own sync uploads them.
 from 1 hour to 30 days.
 
 1. Tap **Frequency**. A picker opens in the sheet.
-2. Tap 12 hours, 1 day or 7 days, or turn the days and hours wheels.
+2. Tap 12 hours, 1 day, or 7 days, or turn the days and hours wheels.
 3. Tap **Done**.
 
 **Done** is greyed out below 1 hour ("Choose at least 1 hour.") and above 30 days
@@ -65,8 +65,8 @@ is on.
 ### Files and copies
 
 Each calendar has its own file, named after the calendar: `Trips.ics` for a calendar named
-Trips. KashCal keeps letters, numbers and hyphens, turns spaces into hyphens, leaves out
-other characters and stops at 50 characters, so "Trips 2027!" becomes `Trips-2027.ics`. The
+Trips. KashCal keeps letters, numbers, and hyphens, turns spaces into hyphens, leaves out
+other characters, and stops at 50 characters, so "Trips 2027!" becomes `Trips-2027.ics`. The
 built-in calendar is always `Local.ics`, in every language. A name with nothing left, such
 as one made only of emoji, becomes `calendar-` followed by a number. When two names would
 give the same file name, ignoring capitals, each gets a hyphen and a number added, such as
@@ -121,7 +121,7 @@ shows **Off**, or how often and to which folder, such as "Every 12 hours · Docu
 
 The sheet and the Settings row show the problem:
 
-- The folder can't be reached, for example after it was moved, deleted or disconnected,
+- The folder can't be reached, for example after it was moved, deleted, or disconnected,
   or KashCal lost access to it. The sheet says "Can't reach" with the folder name.
 - The folder doesn't take files: "Can't save files in" with the folder name.
 - A calendar couldn't be saved. Its line reads "Couldn't save. Will try again at the next
@@ -146,7 +146,7 @@ notifications on again when you open the sheet.
 ### Not carried to another phone
 
 The folder access KashCal holds belongs to this phone. Android backup, phone-to-phone
-transfer and a settings backup all leave out the automatic backup settings. On a new phone,
+transfer, and a settings backup all leave out the automatic backup settings. On a new phone,
 automatic backup starts off until you choose a folder.
 
 ## Settings backup
@@ -188,7 +188,7 @@ time. It holds:
   events, [export each calendar to .ics](../sync/import-export.md#export-to-ics), or use
   the files [automatic calendar backup](#automatic-calendar-backup) saves.
 - Your automatic calendar backup settings.
-- Internal state, such as last-sync times, zoom levels and which tips you've seen.
+- Internal state, such as last-sync times, zoom levels, and which tips you've seen.
 
 ### Back up your settings
 

@@ -25,30 +25,30 @@ With a screen reader, each picker is announced as a group of radio buttons, so y
 
 - **Calendar accounts:** connect iCloud or a CalDAV server, and manage the accounts you have. See [Sync & Accounts](../sync/index.md).
 - **Birthdays & anniversaries:** show birthdays and anniversaries from your contacts. See [Birthdays](./birthdays.md).
-- **Calendar feeds (ICS):** subscribe to holiday, sports or school calendars by URL, or add the feeds saved on your iCloud or CalDAV account. See [Calendar feeds](../sync/ics-subscriptions.md).
+- **Calendar feeds (ICS):** subscribe to holiday, sports, or school calendars by URL, or add the feeds saved on your iCloud or CalDAV account. See [Calendar feeds](../sync/ics-subscriptions.md).
 - **Device calendars:** show calendars from other apps on your phone, with the **Show device calendars** switch on its screen. Once you turn them on, the row shows how many are enabled. See [Device calendars](../sync/device-calendars.md).
-- **Offline calendars:** create, rename, recolor, delete and export KashCal's calendars that stay on your phone. Once you have more than one, the row counts them. See [Offline calendars](../sync/offline-calendars.md).
+- **Offline calendars:** create, rename, recolor, delete, and export KashCal's calendars that stay on your phone. Once you have more than one, the row counts them. See [Offline calendars](../sync/offline-calendars.md).
 - **Calendar notifications:** turn each calendar's notifications on or off. The row shows **All calendars**, or how many calendars are muted. While the switch on the **Device calendars** heading is off, every device calendar counts as muted. See [Mute a calendar](../events/reminders.md#mute-a-calendar).
 
 ## Appearance
 
-Theme, accent color, app icon and widget colors live in the account hub, not here. See [Settings in the account hub](#settings-in-the-account-hub).
+Theme, accent color, app icon, and widget colors live in the account hub, not here. See [Settings in the account hub](#settings-in-the-account-hub).
 
-- **Time format:** **System default**, **12-hour** or **24-hour**. Each choice shows the current time in that format. The default is **System default**.
-- **Start week on:** **System default**, **Sunday**, **Monday** or **Saturday**. This changes every calendar grid. The default is **System default**, which follows your phone's region.
-- **Widget event limit:** how many events each day shows in the home-screen widgets. Choose 3, 5, 8, 10 or 15. The default is 5 per day.
+- **Time format:** **System default**, **12-hour**, or **24-hour**. Each choice shows the current time in that format. The default is **System default**.
+- **Start week on:** **System default**, **Sunday**, **Monday**, or **Saturday**. This changes every calendar grid. The default is **System default**, which follows your phone's region.
+- **Widget event limit:** how many events each day shows in the home-screen widgets. Choose 3, 5, 8, 10, or 15. The default is 5 per day.
 - **Detailed widget rows:** show each event on two lines in the list widgets, the title above its start and end time, instead of one compact line. Off by default. See [Widgets](./widgets.md#two-lines-or-one).
 - **Show week numbers:** add a week-number column to the Month view and the month widget. Weeks are counted from your **Start week on** day, using your region's rule for the first week of the year. Off by default.
-- **Multi-day events in all-day strip:** in Day, 3 Days, Week and Planner, show a timed event that crosses midnight and lasts 20 hours or more in the all-day strip at the top (the bands at the top of a Planner box), instead of with the timed events. Off by default.
+- **Multi-day events in all-day strip:** in Day, 3 Days, Week, and Planner, show a timed event that crosses midnight and lasts 20 hours or more in the all-day strip at the top (the bands at the top of a Planner box), instead of with the timed events. Off by default.
 - **Show declined events:** keep events you've declined on your calendar, dimmed with a strikethrough, instead of hiding them. Off by default.
-- **Event emojis:** put an emoji before an event's title based on its words, such as 🎂 for "Birthday" or ✈️ for "Flight", in the calendar views and in the agenda, week and upcoming widgets (the month widget shows plain titles). Titles that already contain an emoji stay plain. So do titles with words such as funeral, surgery, divorce or layoff. On by default.
+- **Event emojis:** put an emoji before an event's title based on its words, such as 🎂 for "Birthday" or ✈️ for "Flight", in the calendar views and in the agenda, week, and upcoming widgets (the month widget shows plain titles). Titles that already contain an emoji stay plain. So do titles with words such as funeral, surgery, divorce, or layoff. On by default.
 
 ## Event preferences
 
 - **Default calendar:** where new events go unless you pick another. Tap to choose from the calendars you can write to, grouped by account. Read-only calendars, such as feeds, aren't listed.
-- **Default event length:** how long a new event runs. Choose 15 minutes, 30 minutes, 1 hour or 2 hours. The default is 30 minutes.
+- **Default event length:** how long a new event runs. Choose 15 minutes, 30 minutes, 1 hour, or 2 hours. The default is 30 minutes.
 - **Timed event alert:** the reminder added to a new event that has a start time. The default is 15 minutes before.
-- **All-day event alert:** the reminder added to a new all-day event. The presets are **No reminder**, **Day of event**, 1 day before, 2 days before and 1 week before. Each preset alert fires at 9 AM (09:00). The sheet says so at the top. The default is 1 day before, at 9 AM.
+- **All-day event alert:** the reminder added to a new all-day event. The presets are **No reminder**, **Day of event**, 1 day before, 2 days before, and 1 week before. Each preset alert fires at 9 AM (09:00). The sheet says so at the top. The default is 1 day before, at 9 AM.
 - **Smart event add:** turns on the natural-language capture box, so you can type "Coffee with Kash tomorrow 3pm" and get an event. Off by default. See [Smart event add](../events/smart-event-add.md).
 - **Suggest event titles:** as you type a title in the event form, suggests titles you've used before, ranked by how often and how recently you used them. On by default.
 
@@ -71,8 +71,8 @@ custom all-day alert can fire at a time other than 9 AM.
 
 Notification permission, which reminders need, is on the **App permissions** screen in the account hub. See [Reminders](../events/reminders.md).
 
-- **Sync frequency:** how often KashCal syncs in the background. Choose 15 or 30 minutes, 1, 6, 12 or 24 hours, or **Manual only** to sync only when you ask. The default is every hour. 15 minutes is the shortest interval Android allows for background work.
-- **Sync lookback:** how far into the past to sync events. Choose 3 months, 6 months, 1 year, 2 years, 5 years or **All events**. The default is one year. Widen it if you need older history on the phone.
+- **Sync frequency:** how often KashCal syncs in the background. Choose 15 or 30 minutes, 1, 6, 12, or 24 hours, or **Manual only** to sync only when you ask. The default is every hour. 15 minutes is the shortest interval Android allows for background work.
+- **Sync lookback:** how far into the past to sync events. Choose 3 months, 6 months, 1 year, 2 years, 5 years, or **All events**. The default is one year. Widen it if you need older history on the phone.
 - **Change notifications:** post a notification when a background sync finds changes to your iCloud or CalDAV events. Off by default. See [Change notifications](../sync/how-sync-works.md#change-notifications).
 
 See [How sync works](../sync/how-sync-works.md) for what happens during a sync.
@@ -91,7 +91,7 @@ See [Backup & restore](./backup-restore.md) for what each backup includes and wh
 
 - **Sync history:** the sync sessions of the last 48 hours.
 - **Force full sync:** download your iCloud and CalDAV calendars again. Greyed out when no iCloud or CalDAV account syncs.
-- **Export debug report:** a text file of recent crashes, KashCal's own log, syncs, changes not yet sent and setup, to send with a bug report.
+- **Export debug report:** a text file of recent crashes, KashCal's own log, syncs, changes not yet sent, and setup, to send with a bug report.
 
 See [Troubleshooting tools](../help/advanced-options.md) for how each one works.
 
@@ -99,7 +99,7 @@ See [Troubleshooting tools](../help/advanced-options.md) for how each one works.
 
 These settings are in the [account hub](../calendar/navigation.md#the-account-hub), not on the Settings screen:
 
-- Under **Make it yours**: **Theme**, **Accent color**, **App Icon**, **Widget theme** and **Widget accent**. See [Widgets](./widgets.md#colors-and-theme-together-or-apart) for the widget colors.
+- Under **Make it yours**: **Theme**, **Accent color**, **App Icon**, **Widget theme**, and **Widget accent**. See [Widgets](./widgets.md#colors-and-theme-together-or-apart) for the widget colors.
 - Under **Privacy & Security**: the **App lock** switch and the **App permissions** screen. See [App lock](./app-lock.md).
 
 :::note[Material You colors]

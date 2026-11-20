@@ -9,18 +9,18 @@ import Cards from '@site/src/components/Cards';
 import FaqSchema from '@site/src/components/FaqSchema';
 
 <FaqSchema items={[
-  {question: 'Can KashCal show my Google Calendar on Android?', answer: "Yes. Add your Google account in Android's system settings and let it sync. Then open KashCal Settings, tap Device calendars, turn on Show device calendars, allow calendar access and turn on the calendars you want. Your Google events show up alongside everything else, in the colors set in Google Calendar."},
+  {question: 'Can KashCal show my Google Calendar on Android?', answer: "Yes. Add your Google account in Android's system settings and let it sync. Then open KashCal Settings, tap Device calendars, turn on Show device calendars, allow calendar access, and turn on the calendars you want. Your Google events show up alongside everything else, in the colors set in Google Calendar."},
   {question: 'Does KashCal sync with Outlook?', answer: "Through your phone. Microsoft doesn't offer CalDAV. Install Outlook for Android and turn on Sync calendars in its settings, then turn on those calendars under Device calendars in KashCal Settings. You can also subscribe to an Outlook .ics share link as a calendar feed."},
   {question: 'What is the difference between CalDAV, calendar feeds, and device calendars?', answer: "CalDAV is two-way sync over an open standard. A calendar feed is a one-way subscription to a calendar's web address that refreshes on a schedule. Device calendars are accounts already set up on your Android phone, like Google or Outlook. Android keeps them in sync, and KashCal shows the ones you turn on."},
-  {question: 'Will calendars from different sources show up together?', answer: 'Yes. iCloud, CalDAV, feed, device, offline and birthday events appear in the same views. Uncheck any calendar in the navigation drawer to hide it.'},
-  {question: 'Where do birthdays and anniversaries come from?', answer: 'From your phone\'s contacts. Open Settings, tap Birthdays & anniversaries, turn on Contact Birthdays or Contact Anniversaries and allow contacts access. KashCal turns each date into a yearly all-day event on its own calendar.'},
+  {question: 'Will calendars from different sources show up together?', answer: 'Yes. iCloud, CalDAV, feed, device, offline, and birthday events appear in the same views. Uncheck any calendar in the navigation drawer to hide it.'},
+  {question: 'Where do birthdays and anniversaries come from?', answer: 'From your phone\'s contacts. Open Settings, tap Birthdays & anniversaries, turn on Contact Birthdays or Contact Anniversaries, and allow contacts access. KashCal turns each date into a yearly all-day event on its own calendar.'},
 ]} />
 
 # All your calendars on Android
 
 The family calendar lives in iCloud, work lives in Google, and your Nextcloud hums away in a closet next to the router. The school publishes its terms on a website, and the birthdays are buried in your contacts. KashCal shows all of it in one app.
 
-<Screenshot src="/img/screenshots/all-calendars.png" alt="KashCal's calendar list with iCloud, calendar feeds, birthdays and device calendars" align="right" caption="Every calendar, one screen." />
+<Screenshot src="/img/screenshots/all-calendars.png" alt="KashCal's calendar list with iCloud, calendar feeds, birthdays, and device calendars" align="right" caption="Every calendar, one screen." />
 
 ## How calendars get in
 
@@ -44,11 +44,11 @@ iCloud is a CalDAV server with a few rules of its own, so it has its own setup:
 - You don't type a server address. KashCal finds your calendars after you sign in.
 - Family Sharing calendars keep their own permission rules.
 
-For Nextcloud, Fastmail, Radicale and the rest, open **Settings**, tap **Calendar accounts**, then **Add CalDAV**, and enter the server address, username and password. The providers people have tested are listed in the [README](https://github.com/KashCal/KashCal#tested-caldav-providers).
+For Nextcloud, Fastmail, Radicale, and the rest, open **Settings**, tap **Calendar accounts**, then **Add CalDAV**, and enter the server address, username, and password. The providers people have tested are listed in the [README](https://github.com/KashCal/KashCal#tested-caldav-providers).
 
 ## Google and Outlook come in through your phone
 
-Microsoft doesn't offer CalDAV, and Google points apps to its own API. Building a separate connection for each would mean OAuth, token refresh and each vendor's policies. Android already keeps those accounts in sync, so KashCal reads them from there. These are device calendars.
+Microsoft doesn't offer CalDAV, and Google points apps to its own API. Building a separate connection for each would mean OAuth, token refresh, and each vendor's policies. Android already keeps those accounts in sync, so KashCal reads them from there. These are device calendars.
 
 - Google: calendar sync is on for your Google account in Android's account settings.
 - Outlook or Microsoft 365: install Outlook for Android and turn on **Sync calendars**.
@@ -59,9 +59,9 @@ Then, in KashCal:
 2. Turn on **Show device calendars** and allow calendar access.
 3. Turn on each calendar you want to see.
 
-People pair KashCal with Google Calendar, Outlook for Android, Microsoft 365 and Samsung Calendar this way. Others subscribe to the `.ics` address Outlook or Google publishes, as a one-way feed.
+People pair KashCal with Google Calendar, Outlook for Android, Microsoft 365, and Samsung Calendar this way. Others subscribe to the `.ics` address Outlook or Google publishes, as a one-way feed.
 
-You can add, edit and delete events on device calendars. The account's own app syncs the change, and a calendar the account marks read-only stays read-only. KashCal rings their reminders; to silence them, turn off the **Device calendars** heading in **Settings** > **Calendar notifications**. Colors come through when the account sets them: change a Google calendar's color in Google Calendar and KashCal picks it up within minutes. Some accounts, such as Outlook, set none. To make one event stand out, give it one of the [92 named colors](/features/beautiful-calendar-android).
+You can add, edit, and delete events on device calendars. The account's own app syncs the change, and a calendar the account marks read-only stays read-only. KashCal rings their reminders; to silence them, turn off the **Device calendars** heading in **Settings** > **Calendar notifications**. Colors come through when the account sets them: change a Google calendar's color in Google Calendar and KashCal picks it up within minutes. Some accounts, such as Outlook, set none. To make one event stand out, give it one of the [92 named colors](/features/beautiful-calendar-android).
 
 | Provider | How it gets in |
 | --- | --- |
@@ -74,7 +74,7 @@ You can add, edit and delete events on device calendars. The account's own app s
 
 ## Calendar feeds
 
-A calendar feed is one-way. You paste its address, and KashCal refreshes it once a day, or as often as you set. Holidays, school terms, sports seasons and conference schedules are the usual ones. Most Outlook calendars and any public Google Calendar publish one too.
+A calendar feed is one-way. You paste its address, and KashCal refreshes it once a day, or as often as you set. Holidays, school terms, sports seasons, and conference schedules are the usual ones. Most Outlook calendars and any public Google Calendar publish one too.
 
 - Public holidays: open **Calendar feeds (ICS)** in Settings, tap **Add holiday calendar**, and pick your country. No address needed.
 - Feeds you already have: if you subscribed to feeds in another app, they may be saved on your iCloud or CalDAV account. Tap **Add from account** to see them and turn on the ones you want.
@@ -97,7 +97,7 @@ There's no KashCal server. iCloud and CalDAV traffic goes from your phone to you
 ## Where to start
 
 - iPhone family, Android phone: connect [iCloud](/docs/sync/providers/icloud).
-- Nextcloud, Fastmail or another CalDAV provider: **Settings** > **Calendar accounts** > **Add CalDAV**.
+- Nextcloud, Fastmail, or another CalDAV provider: **Settings** > **Calendar accounts** > **Add CalDAV**.
 - Google Calendar or Google Workspace: sign in to Google in Android with calendar sync on, then turn on its calendars under **Device calendars**.
 - Outlook or Microsoft 365: install Outlook for Android, turn on **Sync calendars**, then turn on its calendars under **Device calendars**. Or add its `.ics` address as a feed.
 - Holidays, school, sports: **Calendar feeds (ICS)** > **Add holiday calendar**, or paste the feed's address.
@@ -108,7 +108,7 @@ There's no KashCal server. iCloud and CalDAV traffic goes from your phone to you
 
 ### Can KashCal show my Google Calendar on Android?
 
-Yes. Add your Google account in Android's system settings and let it sync. Then open KashCal **Settings**, tap **Device calendars**, turn on **Show device calendars**, allow calendar access and turn on the calendars you want. Your Google events show up alongside everything else, in the colors set in Google Calendar.
+Yes. Add your Google account in Android's system settings and let it sync. Then open KashCal **Settings**, tap **Device calendars**, turn on **Show device calendars**, allow calendar access, and turn on the calendars you want. Your Google events show up alongside everything else, in the colors set in Google Calendar.
 
 ### Does KashCal sync with Outlook?
 
@@ -120,8 +120,8 @@ CalDAV is two-way sync over an open standard. A calendar feed is a one-way subsc
 
 ### Will calendars from different sources show up together?
 
-Yes. iCloud, CalDAV, feed, device, offline and birthday events appear in the same views. Uncheck any calendar in the navigation drawer to hide it.
+Yes. iCloud, CalDAV, feed, device, offline, and birthday events appear in the same views. Uncheck any calendar in the navigation drawer to hide it.
 
 ### Where do birthdays and anniversaries come from?
 
-From your phone's contacts. Open **Settings**, tap **Birthdays & anniversaries**, turn on **Contact Birthdays** or **Contact Anniversaries** and allow contacts access. KashCal turns each date into a yearly all-day event on its own calendar.
+From your phone's contacts. Open **Settings**, tap **Birthdays & anniversaries**, turn on **Contact Birthdays** or **Contact Anniversaries**, and allow contacts access. KashCal turns each date into a yearly all-day event on its own calendar.

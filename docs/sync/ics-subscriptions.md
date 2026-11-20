@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Calendar feeds (ICS subscriptions)
-description: Subscribe to ICS calendar feeds in KashCal, such as public holidays, team schedules and sports fixtures, and set how often each one refreshes.
+description: Subscribe to ICS calendar feeds in KashCal, such as public holidays, team schedules, and sports fixtures, and set how often each one refreshes.
 image: /img/social/docs/sync-ics-subscriptions.png
 ---
 
@@ -41,7 +41,7 @@ term dates:
 1. Open Settings → **Calendar feeds (ICS)**.
 2. Tap **Add ICS Calendar**.
 3. Paste the feed's address into **Calendar URL**. It starts with `http://`, `https://`,
-   `webcal://` or `webcals://`.
+   `webcal://`, or `webcals://`.
 4. Tap **Fetch Calendar**. KashCal downloads the feed and shows how many events it
    found, for example "Found: 42 events". If the feed can't be read, it shows the error
    instead.
@@ -56,7 +56,7 @@ subscribed to this URL".
 
 ### webcal:// links
 
-Google Calendar, Apple Calendar and many holiday and sports sites have a Subscribe or
+Google Calendar, Apple Calendar, and many holiday and sports sites have a Subscribe or
 Add to Calendar button that hands your phone a `webcal://` link. Tap one and open it
 with KashCal. The add sheet opens with the URL filled in. Tap
 **Fetch Calendar**, then **Add**. A `webcal://` address is the same feed as its
@@ -80,7 +80,7 @@ KashCal lists them so you can add the ones you want:
    in KashCal.
 3. The sheet has a section for each of those accounts, with its name and a shortened
    email such as `s***@example.com`, and asks each server for its feeds. Each feed
-   shows its color, its name and the site that hosts it. A feed the server gave no name
+   shows its color, its name, and the site that hosts it. A feed the server gave no name
    shows the site instead.
 4. Turn on a feed's switch to add it.
 
@@ -152,16 +152,16 @@ Each feed is a row on the **Calendar Feeds** screen:
   the calendar off in the navigation drawer. Turn the switch back on to refresh the feed.
 - Refresh a feed: tap the refresh button on the row to fetch its events without
   waiting for the next scheduled refresh.
-- Edit a feed: tap the row to change its name, color or refresh interval.
+- Edit a feed: tap the row to change its name, color, or refresh interval.
 - Remove a feed: swipe the row left (right in a right-to-left language) to show a red
   **Delete** button, then tap it. KashCal shows "Subscription removed". Tap **Undo** to
   keep the feed. Otherwise, when the message closes, KashCal deletes the feed's calendar
   and its events. One row stays open at a time. Swiping it back or scrolling the list
-  closes it without deleting. While it's open, tapping a row, a switch or a refresh
+  closes it without deleting. While it's open, tapping a row, a switch, or a refresh
   button only closes it; an add button closes it and opens its sheet. With TalkBack,
   **Delete** is an action on the feed's row.
 
 ## Where to find feeds
 
-National holiday services, sports teams, school districts and event sites publish ICS
+National holiday services, sports teams, school districts, and event sites publish ICS
 links. Copy the feed's link and paste it into KashCal.

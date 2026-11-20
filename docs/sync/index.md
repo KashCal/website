@@ -11,15 +11,15 @@ import Screenshot from '@site/src/components/Screenshot';
 # Sync & Accounts
 
 KashCal connects to the calendar servers you already use and shows their calendars on
-one screen. It speaks CalDAV, the open standard behind iCloud, Nextcloud, Fastmail
+one screen. It speaks CalDAV, the open standard behind iCloud, Nextcloud, Fastmail,
 and other calendar services.
 
 ## Ways to bring in calendars
 
 - iCloud: connect your Apple calendars. See [iCloud setup](./providers/icloud.md).
-- Any CalDAV server: Nextcloud, Fastmail, Radicale, Baikal, Zoho, mailbox.org, Stalwart, SOGo, Infomaniak, Davis, Purelymail and others. See [CalDAV setup](./providers/caldav.md).
+- Any CalDAV server: Nextcloud, Fastmail, Radicale, Baikal, Zoho, mailbox.org, Stalwart, SOGo, Infomaniak, Davis, Purelymail, and others. See [CalDAV setup](./providers/caldav.md).
 - Contacts (CardDAV, beta): sync the contacts on your iCloud or CalDAV account with your phone, both ways. See [Contact sync](./contacts.md).
-- Calendar feeds (ICS): subscribe to holiday, sports or school calendars. See [Calendar feeds](./ics-subscriptions.md).
+- Calendar feeds (ICS): subscribe to holiday, sports, or school calendars. See [Calendar feeds](./ics-subscriptions.md).
 - Device calendars: show calendars from other apps on your phone. See [Device calendars](./device-calendars.md).
 - Import/export files: bring in or save out `.ics` files. See [Import & export](./import-export.md).
 
@@ -27,11 +27,11 @@ and other calendar services.
 
 - KashCal is offline-first. You can use it fully before you connect anything.
 - Your password is encrypted on your device and never sent to KashCal. There are no KashCal servers. See [Privacy & Security](../privacy/overview.md).
-- For a CalDAV account you enter a server address, username and password. KashCal finds the calendars on the server itself. See [CalDAV setup](./providers/caldav.md).
+- For a CalDAV account you enter a server address, username, and password. KashCal finds the calendars on the server itself. See [CalDAV setup](./providers/caldav.md).
 
 ## Managing your accounts
 
-<Screenshot src="/img/screenshots/accounts.webp" alt="The Accounts screen with an iCloud, a Nextcloud and a Fastmail account" align="right" caption="Each account with its calendar count." />
+<Screenshot src="/img/screenshots/accounts.webp" alt="The Accounts screen with an iCloud, a Nextcloud, and a Fastmail account" align="right" caption="Each account with its calendar count." />
 
 Tap the avatar in the top-right corner, then **Accounts & Settings**, then
 **Calendar accounts**. The navigation drawer has a **Settings** entry too. Each account

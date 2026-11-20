@@ -14,11 +14,11 @@ keywords:
 description: "KashCal 2026.10.30 lets you make as many offline calendars as you like: kept on your phone, never synced, and backed up to a folder you choose."
 image: /img/social/blog/offline-calendars-android.png
 ---
-Your partner can see your shared calendar, which is a problem when one of the things on it is their birthday present. Some plans belong on a server, where the family can see them. Others, like gift ideas, a health log or a journal, are better kept to yourself. KashCal 2026.10.30 gives those their own place: as many offline calendars as you like.
+Your partner can see your shared calendar, which is a problem when one of the things on it is their birthday present. Some plans belong on a server, where the family can see them. Others, like gift ideas, a health log, or a journal, are better kept to yourself. KashCal 2026.10.30 gives those their own place: as many offline calendars as you like.
 
 {/* truncate */}
 
-![The KashCal drawer with an Offline group holding Local, Gift ideas, Health and Journal, next to the Offline calendars screen listing them with their event counts](/img/blog/offline-calendars.webp)
+![The KashCal drawer with an Offline group holding Local, Gift ideas, Health, and Journal, next to the Offline calendars screen listing them with their event counts](/img/blog/offline-calendars.webp)
 
 ## Make as many as you like
 
@@ -42,11 +42,11 @@ Open **Settings**, and under **Backup & restore** tap **Automatic calendar backu
 
 Backup is off until you choose a folder, and the files stay where you put them. Other apps that can open that folder can read them, and if you pick a folder from a cloud storage app, that app stores the files and uploads them, so choose one you trust with them. [Backup & restore](/docs/features/backup-restore#automatic-calendar-backup) has the details.
 
-You can also export a calendar on its own as an `.ics` file. For an offline calendar, tap it in **Offline calendars** and choose **Export calendar**. For your iCloud and CalDAV calendars, feeds and birthdays, open **Settings** and tap **Export calendars** under **Backup & restore**.
+You can also export a calendar on its own as an `.ics` file. For an offline calendar, tap it in **Offline calendars** and choose **Export calendar**. For your iCloud and CalDAV calendars, feeds, and birthdays, open **Settings** and tap **Export calendars** under **Backup & restore**.
 
 ## Tidying up
 
-Tap a calendar to rename it, recolor it or export it. Its events that have no color of their own follow the new color.
+Tap a calendar to rename it, recolor it, or export it. Its events that have no color of their own follow the new color.
 
 To delete one, swipe its row. Deleting removes the calendar and its events for good, and there's no server to bring them back, so KashCal asks first, right in the row: tick "Also delete 12 events", then tap **Delete**. The built-in **Local** calendar can't be deleted. [Offline calendars](/docs/sync/offline-calendars) covers every option.
 
@@ -54,6 +54,6 @@ To delete one, swipe its row. Deleting removes the calendar and its events for g
 
 - **A new date and time sheet.** Start and end share one sheet, chips set the length in one tap, and the sheet holds still while you spin the wheel.
 - **Print your week.** Account hub > **Print your week** gives you a page for the fridge. Your notes stay off the paper.
-- **Smart event add** reads "party tomorrow evening at 9", "Aug 23-28" and "an hour and a half".
+- **Smart event add** reads "party tomorrow evening at 9", "Aug 23-28", and "an hour and a half".
 
 The gift ideas are safe. What you buy is still up to you.

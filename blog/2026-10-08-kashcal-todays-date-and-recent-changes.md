@@ -21,7 +21,7 @@ A calendar should know two things without being asked: what day it is, and what 
 
 ## Today's date, right on your home screen
 
-![Five KashCal app icons showing the dates 1, 8, 15, 22 and 31](/img/blog/todays-date-icons.png)
+![Five KashCal app icons showing the dates 1, 8, 15, 22, and 31](/img/blog/todays-date-icons.png)
 
 KashCal's icon has said 31 since the day it shipped, which is right about seven days a year. Now you can have it show the real date. Open the account hub, tap **App Icon**, and pick **Today's date**.
 

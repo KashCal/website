@@ -9,7 +9,7 @@ import Screenshot from '@site/src/components/Screenshot';
 
 # Navigation & shortcuts
 
-This page covers the navigation drawer, the account hub, home-screen shortcuts, search
+This page covers the navigation drawer, the account hub, home-screen shortcuts, search,
 and syncing on demand.
 
 ## The top bar
@@ -24,12 +24,12 @@ magnifier.
 
 ## The navigation drawer
 
-<Screenshot src="/img/screenshots/navigation-drawer.webp" alt="The navigation drawer with the views, then calendars grouped by iCloud, Nextcloud, Fastmail, Calendar Feeds and Contacts" align="right" caption="Views first, then your calendars by account." />
+<Screenshot src="/img/screenshots/navigation-drawer.webp" alt="The navigation drawer with the views, then calendars grouped by iCloud, Nextcloud, Fastmail, Calendar Feeds, and Contacts" align="right" caption="Views first, then your calendars by account." />
 
 Swipe in from the left edge of the screen, or tap the menu icon, to open the drawer.
 From here you can:
 
-- Switch views: Insights, then Agenda, Day, 3 Days, Week, Planner, Month, Month (Full)
+- Switch views: Insights, then Agenda, Day, 3 Days, Week, Planner, Month, Month (Full),
   and Year.
 - Show or hide calendars. Each calendar has a checkbox and a color dot. Your
   calendars are grouped by account. **Contacts** (birthdays and anniversaries) and
@@ -49,7 +49,7 @@ From here you can:
 <Screenshot src="/img/screenshots/account-hub.webp" alt="The account hub's Own your calendar and Privacy & Security sections" align="right" caption="Two of the hub's sections." />
 
 Tap the round avatar in the top-right corner of any calendar view to open the account
-hub. It's a full-screen page for your accounts, the app's look and your privacy
+hub. It's a full-screen page for your accounts, the app's look, and your privacy
 settings.
 
 At the top is a large avatar. Tap it, or the pencil on it, to set up to two initials.
@@ -70,16 +70,16 @@ The hub has these parts:
     they stay visible with a pale or dark accent.
   - **App Icon:** keep **Default**, pick **Kash**, the KashCal mascot, or switch to the
     **Supporter** icon, a gold card with a heart, to show you've chipped in (or
-    [would like to](https://kashcal.onekash.org/donate/)). **Default**, **Kash** and
+    [would like to](https://kashcal.onekash.org/donate/)). **Default**, **Kash**, and
     **Supporter** keep the name KashCal on your home screen. **Supporter, labeled
     Calendar** shows the name Calendar. **Today's date** shows the day of the month on the
     home-screen icon, also named Calendar.
     KashCal moves it to the current day at midnight, after a clock or time zone change,
-    after the phone restarts, after KashCal updates and a few seconds after you leave
+    after the phone restarts, after KashCal updates, and a few seconds after you leave
     KashCal. The move waits while KashCal is on screen or the phone is locked with
     KashCal open. It also waits while another app's screen you opened from KashCal (a
     share, for example) is open. If you leave from that screen, the icon moves at the
-    next midnight, clock change, restart or update. If you opened KashCal from its icon and left it in your recent apps, it
+    next midnight, clock change, restart, or update. If you opened KashCal from its icon and left it in your recent apps, it
     drops out of recent apps when the icon moves. With themed icons on, it shows the day's
     number on an outlined calendar card. Changing the icon can restart the app.
     Notifications always use the default icon and name. On some launchers, such as
@@ -100,7 +100,7 @@ The hub has these parts:
     free times as plain text.
   - **[Print your week](./views.md#print-your-week)**: print a week of your calendar,
     as a grid, a list of every event, or both.
-  - **[Manage tags](../events/tags.md)**: recolor, rename and remove the tags you've
+  - **[Manage tags](../events/tags.md)**: recolor, rename, and remove the tags you've
     used across your events.
 - **Privacy & Security**, who can see your calendar and what it can reach:
   - **[App lock](../features/app-lock.md)**: a switch that makes KashCal ask for a
@@ -135,7 +135,7 @@ editing your Quick Settings tiles. Tapping it opens KashCal the same way as the
 
 Open search from the magnifier in the top bar or the **Search** app shortcut. Search
 opens on **Upcoming**. Tap **Past** for events that have ended, or **Date** for this week,
-this month or dates you pick. See [Search](../features/search.md).
+this month, or dates you pick. See [Search](../features/search.md).
 
 ## Syncing on demand
 

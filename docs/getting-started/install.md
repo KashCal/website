@@ -15,7 +15,7 @@ all install the same app.
 KashCal is on the
 [Google Play Store](https://play.google.com/store/apps/details?id=org.onekash.kashcal).
 Open Play, search for KashCal, and tap Install. Play then updates it like your other
-apps. It's the same free, open-source app as everywhere else, with no account, ads or
+apps. It's the same free, open-source app as everywhere else, with no account, ads, or
 trackers.
 
 ## F-Droid

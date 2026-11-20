@@ -4,9 +4,9 @@ import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 
 const PAGES = [
-  {to: '/features/natural-language-add-event-calendar', title: 'Add events in plain language', body: 'Type "lunch every 2nd Tuesday" and KashCal fills in the date, time and repeat.'},
-  {to: '/features/all-your-calendars-google-outlook-android', title: 'All your calendars on Android', body: 'iCloud, CalDAV, Google, Outlook and ICS feeds, on one phone.'},
-  {to: '/features/beautiful-calendar-android', title: 'The best-looking calendar on Android', body: 'Material You, eight views and 92 named event colors.'},
+  {to: '/features/natural-language-add-event-calendar', title: 'Add events in plain language', body: 'Type "lunch every 2nd Tuesday" and KashCal fills in the date, time, and repeat.'},
+  {to: '/features/all-your-calendars-google-outlook-android', title: 'All your calendars on Android', body: 'iCloud, CalDAV, Google, Outlook, and ICS feeds, on one phone.'},
+  {to: '/features/beautiful-calendar-android', title: 'The best-looking calendar on Android', body: 'Material You, eight views, and 92 named event colors.'},
   {to: '/features/calendar-insights-android', title: 'See where your time goes', body: 'On-device insights into your week and month.'},
   {to: '/features/icloud-calendar-android', title: 'iCloud calendar on Android', body: 'Two-way iCloud sync, family calendars included.'},
   {to: '/features/share-event-as-card-android', title: 'Share an event as a card', body: 'Turn an event into a card plus a tap-to-add calendar file.'},
@@ -15,7 +15,7 @@ const PAGES = [
 
 export default function Features(): ReactNode {
   return (
-    <Layout title="Features" description="What KashCal can do on Android: add events in plain language, sync iCloud and CalDAV, eight views, on-device insights, event cards and TalkBack support.">
+    <Layout title="Features" description="What KashCal can do on Android: add events in plain language, sync iCloud and CalDAV, eight views, on-device insights, event cards, and TalkBack support.">
       <main className="kc-section">
         <div className="container">
           <div className="kc-section__head">

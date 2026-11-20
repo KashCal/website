@@ -20,7 +20,7 @@ When App lock is on, KashCal opens to a **Locked** screen that covers all your e
 Android's lock prompt appears right away. If you close the prompt, tap the button on
 the lock screen to bring it back.
 
-You confirm with your fingerprint, your face, or your screen lock (PIN, pattern or
+You confirm with your fingerprint, your face, or your screen lock (PIN, pattern, or
 password). KashCal accepts only biometrics that Android rates as strong. If your
 phone's face recognition isn't rated strong, the prompt offers your fingerprint or
 screen lock instead.
@@ -51,7 +51,7 @@ KashCal confirms:
 The lock takes effect the next time KashCal starts, or when you come back after 30
 seconds or more away. It doesn't lock the screen you're on.
 
-If your phone has no fingerprint, face or screen lock set up, KashCal shows this message
+If your phone has no fingerprint, face, or screen lock set up, KashCal shows this message
 and opens Android's setup screen so you can add one:
 
 > Set up a fingerprint, face, or screen lock in system settings to use App lock.
@@ -66,7 +66,7 @@ Turn off **App lock** in the account hub. Android asks you to confirm it's you f
 so someone holding your phone while KashCal is open can't switch it off. If you
 cancel, the lock stays on.
 
-If you remove every fingerprint, face and screen lock from your phone, KashCal stops
+If you remove every fingerprint, face, and screen lock from your phone, KashCal stops
 asking and opens without a prompt, so you're never locked out.
 
 ## Good to know

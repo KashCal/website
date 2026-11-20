@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: Contact sync (CardDAV)
-description: "Sync the contacts on your iCloud or CalDAV account with your phone in KashCal, both ways: names, numbers, emails and photos. Two-way sync is in beta."
+description: "Sync the contacts on your iCloud or CalDAV account with your phone in KashCal, both ways: names, numbers, emails, and photos. Two-way sync is in beta."
 image: /img/social/docs/sync-contacts.png
 ---
 
@@ -25,27 +25,27 @@ counterpart to CalDAV. iCloud offers it, and so do CalDAV servers such as Nextcl
    _account_" in the account sheet.
 
 The contacts go into your phone's own address book. They show up in your Contacts
-app, in the dialer and in other apps that read contacts, not only inside KashCal.
+app, in the dialer, and in other apps that read contacts, not only inside KashCal.
 
 ## What comes across
 
 Contact sync carries these parts of a contact:
 
-- Names, including phonetic spellings, nicknames, prefixes and suffixes
+- Names, including phonetic spellings, nicknames, prefixes, and suffixes
 - Phone numbers and email addresses, each with its label (home, work, mobile, or a
   custom one)
 - Postal addresses
-- Job title, role, company and department
+- Job title, role, company, and department
 - Instant-messaging handles
-- Related people, such as a spouse, parent or friend
-- Websites, notes and the groups a contact belongs to
+- Related people, such as a spouse, parent, or friend
+- Websites, notes, and the groups a contact belongs to
 - Birthdays and anniversaries
 - Contact photos
 
 ## Two-way sync (beta)
 
 Contact sync runs both ways and is marked **Beta** in the app. On your phone, edit a
-synced contact, delete one or change its photo, and KashCal sends the change to your
+synced contact, delete one, or change its photo, and KashCal sends the change to your
 server at the next sync. Changes made on the server, or in another app signed in to
 the same account, come down to your phone at the next sync.
 

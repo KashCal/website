@@ -28,7 +28,7 @@ Ideas are welcome. Here's how to share one so it's most likely to land.
 Open an issue on the
 [KashCal GitHub issue tracker](https://github.com/KashCal/KashCal/issues) and choose
 the Feature Request form. It asks for the problem, your proposed solution, the area of
-the app and any alternatives you considered.
+the app, and any alternatives you considered.
 
 ## A note on scope
 

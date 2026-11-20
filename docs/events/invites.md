@@ -1,7 +1,7 @@
 ---
 sidebar_position: 8
 title: Invites
-description: One list of every meeting invitation waiting on your reply, with Yes, Maybe and No on each card.
+description: One list of every meeting invitation waiting on your reply, with Yes, Maybe, and No on each card.
 keywords: [invites, invitations, RSVP, pending invitations, meeting requests]
 image: /img/social/docs/events-invites.png
 ---
@@ -43,7 +43,7 @@ channel off in Android's notification settings to stop them without muting remin
 An invitation in a [muted calendar](./reminders.md#mute-a-calendar) doesn't notify, and
 unmuting the calendar doesn't bring that notification back.
 
-To add an invitation you received as a file, import it. In an offline, iCloud or CalDAV
+To add an invitation you received as a file, import it. In an offline, iCloud, or CalDAV
 calendar, importing a newer invitation, such as a rescheduled one, updates the event. An
 imported invitation doesn't post this notification. See
 [Import & export](../sync/import-export.md#invitations-and-files-you-import-again).
@@ -56,7 +56,7 @@ Each card shows the date and time, the event title, who invited you, and the loc
 if there is one. A colored dot marks the calendar it's in. For events today or
 tomorrow, the card shows **Today** or **Tomorrow** in place of the date.
 
-Tap **Yes**, **Maybe** or **No**. KashCal records your answer and the card leaves the
+Tap **Yes**, **Maybe**, or **No**. KashCal records your answer and the card leaves the
 list. KashCal then starts a sync, which sends the reply to your calendar server. For a
 repeating event, your reply covers the whole series.
 

@@ -12,7 +12,7 @@ keywords:
   - mute calendar notifications
   - open source calendar app android
   - private calendar app android
-description: "KashCal tells you when a shared calendar changes, close to how push would, with no relay server, no extra account access and no Google Play services."
+description: "KashCal tells you when a shared calendar changes, close to how push would, with no relay server, no extra account access, and no Google Play services."
 image: /img/social/blog/calendar-notifications-without-push.png
 ---
 When someone moves the swimming lesson on the family calendar, you want to know before you're standing at the pool. The usual answer is push notifications: the calendar server taps your phone on the shoulder the moment something changes. KashCal gets you most of the way there, without any of the machinery push needs.
@@ -27,7 +27,7 @@ That's a lot to ask of a calendar whose whole point is that your events go betwe
 
 ## What KashCal does instead
 
-KashCal already syncs in the background, on the schedule you pick in **Sync frequency**: every 15 or 30 minutes, every 1, 6, 12 or 24 hours, or **Manual only**. The default is every hour. Each sync compares what your iCloud or CalDAV server sends with what was there before, and writes the differences into Recent changes.
+KashCal already syncs in the background, on the schedule you pick in **Sync frequency**: every 15 or 30 minutes, every 1, 6, 12, or 24 hours, or **Manual only**. The default is every hour. Each sync compares what your iCloud or CalDAV server sends with what was there before, and writes the differences into Recent changes.
 
 Turn on **Change notifications** in Settings, under **Sync**, and a background sync that finds something also posts a notification, worded the way Recent changes reads. One change names the event and what happened to it, and a tap opens the event. Two or three get a line each. More get a count and the calendars involved.
 
@@ -41,7 +41,7 @@ Push is instant, and this isn't. A change shows up on the next background sync, 
 
 ## Then decide who gets to talk
 
-The other half shipped the same week. Settings has a **Calendar notifications** page, under **Calendars & accounts**, with a switch for every calendar KashCal shows. Mute the school newsletter feed and it stops sending reminders, invitation alerts and change notifications, while it still shows and syncs. Calendars from your phone's other apps get one switch on their heading that covers all of them, including ones you add later.
+The other half shipped the same week. Settings has a **Calendar notifications** page, under **Calendars & accounts**, with a switch for every calendar KashCal shows. Mute the school newsletter feed and it stops sending reminders, invitation alerts, and change notifications, while it still shows and syncs. Calendars from your phone's other apps get one switch on their heading that covers all of them, including ones you add later.
 
 ![The Calendar notifications screen with a switch for each calendar, the school newsletter and a work calendar muted](/img/blog/calendar-notifications.webp)
 

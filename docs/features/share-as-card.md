@@ -17,10 +17,10 @@ calendar in one tap. They don't need KashCal or an account.
 2. Tap the **Share as card** icon in the top row.
 3. Pick a style:
    - **Standard** for everyday events.
-   - **Celebration** for birthdays, parties and other occasions.
+   - **Celebration** for birthdays, parties, and other occasions.
 
    KashCal picks **Celebration** for you when the title has a word like birthday,
-   party, wedding, anniversary or graduation, or an emoji like 🎂 or 🎉. You can
+   party, wedding, anniversary, or graduation, or an emoji like 🎂 or 🎉. You can
    switch styles before you send.
 4. Tap **Send** and choose where it goes: a message, an email, or any app that accepts shared files.
 
@@ -37,14 +37,14 @@ If KashCal can't create the calendar file, it sends the card image on its own.
 ## What the card shares
 
 The calendar file is a single, standalone copy of the event. It keeps the title, date,
-time and time zone, notes, location, link, reminders, tags and color.
+time and time zone, notes, location, link, reminders, tags, and color.
 
-It leaves out the guest list, the organizer and the repeat rule, so a card doesn't show
+It leaves out the guest list, the organizer, and the repeat rule, so a card doesn't show
 who else is invited.
 
 :::caution[Check the notes before you send]
 The calendar file includes the event's notes. If the notes hold something private, such
-as a meeting link, a door code or a phone number, edit them out before you share the card.
+as a meeting link, a door code, or a phone number, edit them out before you share the card.
 :::
 
 ## Related

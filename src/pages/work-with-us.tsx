@@ -38,11 +38,11 @@ const AUDIENCE = [
 const GET = [
   {
     title: 'Your brand',
-    body: 'We build a version of the app with your icon, your name and your colors. Your customers see your brand, not ours.',
+    body: 'We build a version of the app with your icon, your name, and your colors. Your customers see your brand, not ours.',
   },
   {
     title: 'Your defaults',
-    body: 'We preset your CalDAV host, account hints, support links and deep-link domains in your build, so the first launch points at your service.',
+    body: 'We preset your CalDAV host, account hints, support links, and deep-link domains in your build, so the first launch points at your service.',
   },
   {
     title: 'Sync beaten in production',

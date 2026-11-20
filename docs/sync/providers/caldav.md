@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: CalDAV (Nextcloud, Fastmail & more)
-description: "Connect a CalDAV server to KashCal on Android: Nextcloud, Fastmail, Radicale, Baikal, Zoho and more. Enter the server address and KashCal finds your calendars."
+description: "Connect a CalDAV server to KashCal on Android: Nextcloud, Fastmail, Radicale, Baikal, Zoho, and more. Enter the server address and KashCal finds your calendars."
 image: /img/social/docs/sync-providers-caldav.png
 ---
 
@@ -13,7 +13,7 @@ import Screenshot from '@site/src/components/Screenshot';
 
 Use this path for any CalDAV calendar service other than iCloud. That includes
 Nextcloud, Fastmail, Radicale, Baikal, Zoho, mailbox.org, Stalwart, SOGo, Infomaniak,
-Davis and Purelymail. For iCloud, see [Connecting iCloud](./icloud.md).
+Davis, and Purelymail. For iCloud, see [Connecting iCloud](./icloud.md).
 
 ## Add the account
 
@@ -41,7 +41,7 @@ password. Look in your provider's security settings to create one.
 
 Enter the main server address. KashCal asks the server for its CalDAV location at the
 standard `.well-known/caldav` address. If that doesn't lead to your account, it tries
-the paths that Nextcloud, Baikal, Zoho, mailbox.org, Stalwart, Davis and other servers
+the paths that Nextcloud, Baikal, Zoho, mailbox.org, Stalwart, Davis, and other servers
 use.
 
 If your provider gives you a full CalDAV URL, you can enter that instead.
@@ -75,13 +75,13 @@ the banner appears after a failed connection instead.
 - Nextcloud: create an app password under *Settings → Security → Devices & sessions*. The server address is your Nextcloud domain.
 - Fastmail: create an app password with CalDAV access in your Fastmail settings.
 - Baikal and Radicale: for a self-hosted server on plain HTTP or with a self-signed certificate, see [Self-hosted servers](#self-hosted-servers-http-or-self-signed-certificates). Baikal servers that use Digest authentication work too.
-- Zoho, mailbox.org, Stalwart and SOGo: enter the server address and your username and password. KashCal tries the usual CalDAV paths of Zoho, mailbox.org and Stalwart, and works around known quirks of all four.
+- Zoho, mailbox.org, Stalwart, and SOGo: enter the server address and your username and password. KashCal tries the usual CalDAV paths of Zoho, mailbox.org, and Stalwart, and works around known quirks of all four.
 
 ## Managing or removing the account
 
 Tap the account under **Settings** → **Calendar accounts** to open its sheet. It has
 rename, the **Calendar** and **Contacts** switches, **Sync Now**, **Discover New Calendars**,
-**Change Password** (or **Sign In Again**) and **Sign Out**. See [Managing your accounts](../index.md#managing-your-accounts).
+**Change Password** (or **Sign In Again**), and **Sign Out**. See [Managing your accounts](../index.md#managing-your-accounts).
 Contact sync has [its own page](../contacts.md).
 
 Use **Change Password** after you change your password or create a new app password.
@@ -96,7 +96,7 @@ the key that encrypts it, the account sheet shows **Sign In Again** instead of
 username and name filled in. **Server URL** holds the server's address without a path, or is empty when KashCal doesn't know it; if
 you first connected with a full CalDAV URL, enter it again. **Trust insecure connection**
 starts off, so turn it on again if the account needs it. Enter the password, then tap
-**Connect**. The account keeps its calendars, events, name and **Calendar** switch. A name
+**Connect**. The account keeps its calendars, events, name, and **Calendar** switch. A name
 you type on this screen isn't applied; rename the account from its sheet.
 
 If the username or the server's calendar location doesn't match the account, KashCal shows
@@ -111,7 +111,7 @@ and changes nothing.
 - If KashCal says "The server redirected the connection somewhere KashCal won't follow",
   the server sent KashCal from `https://` to a plain `http://` address, or through more
   than five redirects in a row. KashCal stops before sending your password. The message
-  shows at sign-in, on **Change Password** and on **Discover New Calendars**. Check the
+  shows at sign-in, on **Change Password**, and on **Discover New Calendars**. Check the
   **Server URL**. KashCal uses plain HTTP only for an account whose address starts
   with `http://`.
 - On Android 17 and later, for a server on your home network, allow local network access.

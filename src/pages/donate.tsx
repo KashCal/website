@@ -62,7 +62,7 @@ export default function Donate(): ReactNode {
         </Heading>
         <p className={styles.lede}>
           If KashCal has earned a place in your day, a donation helps keep it free,
-          private and open source for everyone.
+          private, and open source for everyone.
         </p>
 
         <div className={styles.options}>

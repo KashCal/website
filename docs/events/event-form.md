@@ -12,7 +12,7 @@ import Screenshot from '@site/src/components/Screenshot';
 <Screenshot src="/img/screenshots/event-form.png" alt="KashCal new event form" align="right" caption="The event form, with everything in one place." />
 
 The event form sets every detail of an event on one screen. To create an event,
-tap the + button, or tap an empty slot in a Day, 3 Days or Week timeline. With
+tap the + button, or tap an empty slot in a Day, 3 Days, or Week timeline. With
 [Smart event add](./smart-event-add.md) on, the + button opens the typing box instead of
 the form.
 
@@ -49,7 +49,7 @@ KashCal doesn't correct the end time for you.
 
 ## Setting the date and time
 
-<Screenshot src="/img/screenshots/date-time-sheet.webp" alt="The date and time sheet with Starts and Ends, a month grid, a time wheel and 30m, 1h and 2h chips" align="right" caption="Starts and Ends share one sheet." />
+<Screenshot src="/img/screenshots/date-time-sheet.webp" alt="The date and time sheet with Starts and Ends, a month grid, a time wheel, and 30m, 1h, and 2h chips" align="right" caption="Starts and Ends share one sheet." />
 
 Tap the start or the end in the form. A full-height sheet opens on the end you tapped. The
 switch at the top shows both ends, **Starts** and **Ends**; tap a half to edit that end.
@@ -60,17 +60,17 @@ switch at the top shows both ends, **Starts** and **Ends**; tap a half to edit t
 - Time. Below the grid, the time wheel steps in 5-minute increments. To set an exact minute like
   3:47, tap the keyboard button and type it. A time on an off-step minute shows as text with
   **Tap to edit** under it; tap it to type a new time.
-- Length. The chips below set the end that long after the start: 30m, 1h or 2h for a timed
+- Length. The chips below set the end that long after the start: 30m, 1h, or 2h for a timed
   event. The chip that matches the event's length is selected. On a short screen a timed
   event's sheet has no chips; on a narrow screen, KashCal leaves out the chips that don't fit.
 
 For an all-day event the sheet has no time wheel. The grid shades the days the event covers,
-and the chips read 2 days, 5 days and 7 days. When you tap a start date, the event keeps its
+and the chips read 2 days, 5 days, and 7 days. When you tap a start date, the event keeps its
 number of days and the sheet moves to the end, with the hint "Tap a day to change the end".
 Tap a day to set the end, or leave it as it is.
 
 Tap **Done**, press back, or swipe the sheet down by its top strip to keep your changes. If
-the month and year wheel is open, **Done** closes the wheel first. The grid, wheel and chips
+the month and year wheel is open, **Done** closes the wheel first. The grid, wheel, and chips
 don't move the sheet. To throw the changes away, use the form's
 **Cancel** (see [Leaving without saving](#leaving-without-saving)).
 
@@ -91,7 +91,7 @@ closes on the first tap.
 ## All-day events
 
 Switch on **All day** for an event with no specific time, such as a birthday,
-holiday, trip or deadline. All-day events have their own reminder options, like
+holiday, trip, or deadline. All-day events have their own reminder options, like
 "9 AM day of event" (see [Reminders](./reminders.md)).
 
 ## Actions on an event
@@ -101,13 +101,13 @@ full screen. Long details scroll, and the buttons stay at the bottom. From there
 
 - Tap the edit button (a pencil) to change it. For an event someone else organizes, the same button opens the form, where you can change only your alerts and your reply.
 - Tap the delete button (a trash can). For a single event, or an occurrence changed on its own, tap **Confirm** to finish. For a repeating series, KashCal asks which occurrences to delete.
-- Open the three-dot menu for **Duplicate**, **Share as text** and **Export as .ics**. **Duplicate** on a repeating event opens the form on the occurrence you tapped, with **Repeat** filled in from the series, so saving creates a separate series. Occurrences you deleted from the original show again in the copy. An occurrence changed on its own, or a date the series adds outside its repeat rule, duplicates as a single event.
+- Open the three-dot menu for **Duplicate**, **Share as text**, and **Export as .ics**. **Duplicate** on a repeating event opens the form on the occurrence you tapped, with **Repeat** filled in from the series, so saving creates a separate series. Occurrences you deleted from the original show again in the copy. An occurrence changed on its own, or a date the series adds outside its repeat rule, duplicates as a single event.
 - Tap the location to open it in your maps app. If the location contains a link, the tap opens the link.
 
 Events in read-only calendars, such as holiday feeds, show only a duplicate button and a share button.
 
 On an event from a device calendar, these buttons show words in place of icons:
-**Edit**, **Delete** and **Share**.
+**Edit**, **Delete**, and **Share**.
 
 ## Editing recurring events
 

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 7.5
 title: Offline calendars
-description: Calendars that stay on your phone and never sync. Create, rename, recolor, delete and export them in KashCal, with no account.
+description: Calendars that stay on your phone and never sync. Create, rename, recolor, delete, and export them in KashCal, with no account.
 image: /img/social/docs/sync-offline-calendars.png
 ---
 
@@ -27,7 +27,7 @@ chose, where other apps that can open that folder can read them.
 
 ## Open the list
 
-<Screenshot src="/img/screenshots/offline-calendars.webp" alt="The Offline calendars screen listing Gift ideas, Health, Journal and Local with their event counts, with Local, the default, tinted" align="right" caption="Each calendar with its event count." />
+<Screenshot src="/img/screenshots/offline-calendars.webp" alt="The Offline calendars screen listing Gift ideas, Health, Journal, and Local with their event counts, with Local, the default, tinted" align="right" caption="Each calendar with its event count." />
 
 Open **Settings**, then tap **Offline calendars** under **Calendars & accounts**. The row's
 subtitle reads "Calendars that stay on this device" until you add a calendar, then it counts
@@ -55,7 +55,7 @@ sheet open. The built-in calendar's name counts in the language your phone shows
 
 Two names also can't differ only in characters a file name leaves out, because each
 calendar has its own [backup file](../features/backup-restore.md#files-and-copies). KashCal
-keeps letters, numbers and hyphens and treats spaces as hyphens, so "Work!" and "Work-" both
+keeps letters, numbers, and hyphens and treats spaces as hyphens, so "Work!" and "Work-" both
 clash with "Work". It then says "Too similar to "Work". Choose a different name." with the
 other calendar's name. A name made only of other characters, such as emoji, is allowed.
 
@@ -63,7 +63,7 @@ You can also create one while you edit an event: tap the calendar row in the eve
 **New offline calendar** at the end of the **Offline** group. The new calendar becomes the
 event's calendar, and what you typed in the form stays.
 
-## Rename, recolor or export a calendar
+## Rename, recolor, or export a calendar
 
 Tap a calendar in the list. A sheet opens with its name at the top:
 

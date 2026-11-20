@@ -34,7 +34,7 @@ When you save, your calendar server sends the invitations.
 When you edit an event, the save button reads **Save & notify** if saving will
 send guests an update. That happens when you:
 
-- change the title, location, time or repeat rule of an event with guests
+- change the title, location, time, or repeat rule of an event with guests
 - add a guest
 - remove a guest (the removed guest gets a cancellation)
 
@@ -54,7 +54,7 @@ The guest list groups people by their response:
 
 ## Responding to invitations
 
-<Screenshot src="/img/screenshots/event-reply.webp" alt="An event invitation asking Going?, with Yes, Maybe and No" align="right" caption="Reply from the event." />
+<Screenshot src="/img/screenshots/event-reply.webp" alt="An event invitation asking Going?, with Yes, Maybe, and No" align="right" caption="Reply from the event." />
 
 When someone invites you, the event asks **Going?** and you reply **Yes**,
 **Maybe**, or **No**. For a repeating event, your reply applies to the whole series:

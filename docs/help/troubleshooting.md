@@ -26,7 +26,7 @@ For iCloud, sign in with an app-specific password, not your normal Apple passwor
 you changed your Apple password, generate a new app-specific one. See
 [iCloud setup](../sync/providers/icloud.md).
 
-For CalDAV servers, check the server address, username and password. If your provider
+For CalDAV servers, check the server address, username, and password. If your provider
 offers an app password, use that. See [CalDAV setup](../sync/providers/caldav.md).
 
 For a self-hosted server:
@@ -50,7 +50,7 @@ not yet synced.
 - Check **Sync lookback** in [Settings](../features/settings.md#sync). KashCal
   doesn't download events older than that window.
 - Make sure the calendar is shown: its checkbox in the navigation drawer is on.
-- Calendars from Google, Outlook and other apps on your phone come in through
+- Calendars from Google, Outlook, and other apps on your phone come in through
   [Device calendars](../sync/device-calendars.md). They stay off until you turn them on
   and pick each calendar.
 - [Contact birthdays](../features/birthdays.md) missing? Some phones, Realme among
@@ -65,7 +65,7 @@ not yet synced.
 - Check that the event's calendar isn't muted. A muted calendar has a bell-off icon in
   the navigation drawer. See [Mute a calendar](../events/reminders.md#mute-a-calendar).
 - Turn off battery optimization for KashCal, in Android Settings > Apps > KashCal >
-  Battery. Samsung, Xiaomi, Oppo and OnePlus phones cut off background work, which
+  Battery. Samsung, Xiaomi, Oppo, and OnePlus phones cut off background work, which
   stops reminders from firing. [dontkillmyapp.com](https://dontkillmyapp.com) has steps
   for each brand.
 - Reminders are exact alarms and arrive on the minute. On Android 12 and 12L, check
@@ -112,8 +112,8 @@ For a crash or a sync problem, export a debug report:
    attach it to a public issue.
 
 The report holds recent crashes, KashCal's own log, your sync history, changes not yet
-sent and your setup. Email addresses, web addresses, IP addresses and tokens are
-masked; event titles, calendar names and contact names aren't. See
+sent, and your setup. Email addresses, web addresses, IP addresses, and tokens are
+masked; event titles, calendar names, and contact names aren't. See
 [Troubleshooting tools](./advanced-options.md#debug-report).
 
 To share only the sync history, tap **Sync history** and use the copy button at the top

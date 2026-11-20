@@ -15,7 +15,7 @@ sends it to your server in the background.
 With no connection, you can:
 
 - View your events, as of the last sync
-- Create, edit and delete events
+- Create, edit, and delete events
 - Change settings
 
 KashCal saves each change on your phone and queues it. When you're back online, it
@@ -30,7 +30,7 @@ shows:
 - After every change to an event in an iCloud or CalDAV calendar. KashCal sends
   the change right away, or as soon as you're back online.
 - When you pull to refresh: pull down on any calendar view.
-- From a widget: tap the refresh button on the Today's Agenda, Week View or
+- From a widget: tap the refresh button on the Today's Agenda, Week View, or
   Upcoming widget.
 - In the background, on the **Sync frequency** schedule in
   [Settings](../features/settings.md#sync). With **Manual only**, background sync
@@ -49,7 +49,7 @@ calendars fail, the strip shows "Sync complete with errors", even for a quiet sy
 
 When a sync records changes in [Recent changes](#recent-changes), a message at the
 bottom of the screen sums them up, for example "New event: Team lunch", "3 events
-updated", "1 occurrence cancelled" or "5 calendar updates". Tap **View** to open **Recent changes**.
+updated", "1 occurrence cancelled", or "5 calendar updates". Tap **View** to open **Recent changes**.
 A background sync that posts a [change notification](#change-notifications) shows no
 message.
 
@@ -65,12 +65,12 @@ tap **View** on the sync message. Device calendars and ICS subscriptions aren't 
   date, newest first.
 - Each row shows the event's title, when it takes place, a dot in its calendar's color,
   and what changed: "Moved from" and the old time, **Time changed**,
-  **Location changed**, **Title changed** or **Repeat changed**. A change to anything
+  **Location changed**, **Title changed**, or **Repeat changed**. A change to anything
   else, such as the notes, shows the row with no detail. One date of a repeating event
   that was deleted shows as **Cancelled**.
 - Tap a row to open the event's details. A repeating event's row opens its next
   occurrence, or the series start when none is left. A row for one changed date opens
-  that date. Removed events, cancelled dates and events deleted since don't open.
+  that date. Removed events, cancelled dates, and events deleted since don't open.
 - Swipe a row to the left to dismiss it (to the right in right-to-left languages). A
   single row has no undo.
 - **Clear all** hides every row shown. Tap **Undo** in the row under the title to bring
@@ -81,7 +81,7 @@ tap **View** on the sync message. Device calendars and ICS subscriptions aren't 
 
 Not listed: a calendar's first sync, events that Force full sync or
 widening Sync lookback downloads for the first time, and changes only to an
-event's alarms, busy status or guests.
+event's alarms, busy status, or guests.
 
 ### Change notifications
 

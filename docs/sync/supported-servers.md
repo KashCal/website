@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Supported servers
-description: KashCal connects to CalDAV servers, including iCloud, Nextcloud, Fastmail, Radicale, Baikal, SOGo and Zoho, and to Google and Outlook through your phone.
+description: KashCal connects to CalDAV servers, including iCloud, Nextcloud, Fastmail, Radicale, Baikal, SOGo, and Zoho, and to Google and Outlook through your phone.
 image: /img/social/docs/sync-supported-servers.png
 ---
 
@@ -17,8 +17,8 @@ servers.
 | Service | How to connect | What you'll need |
 |---------|----------------|------------------|
 | iCloud | [iCloud guide](./providers/icloud.md) | Apple ID and an app-specific password (not your Apple ID password) |
-| Nextcloud | [CalDAV guide](./providers/caldav.md) | Server address, username and an app password |
-| Fastmail | [CalDAV guide](./providers/caldav.md) | Server address, username and an app password |
+| Nextcloud | [CalDAV guide](./providers/caldav.md) | Server address, username, and an app password |
+| Fastmail | [CalDAV guide](./providers/caldav.md) | Server address, username, and an app password |
 | Radicale | [CalDAV guide](./providers/caldav.md) | Server address, username, password |
 | Baikal | [CalDAV guide](./providers/caldav.md) | Server address, username, password (Digest authentication supported) |
 | Zoho | [CalDAV guide](./providers/caldav.md) | Server address, username, password |

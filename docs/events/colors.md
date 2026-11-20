@@ -12,7 +12,7 @@ import Screenshot from '@site/src/components/Screenshot';
 <Screenshot src="/img/screenshots/event-colors.png" alt="KashCal event color picker" align="right" caption="The quick palette, plus a full color browser." />
 
 An event takes its calendar's color unless you give it its own. Use colors to
-sort your week by type, for example blue for work, green for personal and red for
+sort your week by type, for example blue for work, green for personal, and red for
 deadlines.
 
 ## Choosing a color
@@ -21,7 +21,7 @@ In the event form, tap the **Event color** row. A grid opens below the row, insi
 form, and any other open picker closes:
 
 - The first swatch is the calendar default. Pick it to make the event follow its calendar's color.
-- The other 11 swatches cover red, orange, yellow, two greens, teal, two blues, purple, pink and gray.
+- The other 11 swatches cover red, orange, yellow, two greens, teal, two blues, purple, pink, and gray.
 - Tap a swatch to apply it. The grid closes.
 
 For more choices, tap **More colors**. It opens a browser of 92 named colors on
@@ -42,7 +42,7 @@ they sync. Device calendars use the color their sync app sets.
 
 To recolor one of these calendars, do it on the server or in the app that owns it. You
 set the colors of [offline calendars](../sync/offline-calendars.md#rename-recolor-or-export-a-calendar),
-[calendar feeds](../sync/ics-subscriptions.md) and
+[calendar feeds](../sync/ics-subscriptions.md), and
 [contact birthdays](../features/birthdays.md#color-and-reminders) in KashCal. The
 built-in **Local** calendar starts gray, and a calendar you create starts with a color
 KashCal picks.

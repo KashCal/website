@@ -68,7 +68,7 @@ KashCal is an events app first. It reads and writes calendar events (the `VEVENT
 of the calendar standard). It also syncs contacts in both directions:
 
 - Contacts (CardDAV) sync both ways, in beta. KashCal syncs the contacts on your
-  iCloud or CalDAV account with your phone: edits, deletes and photos go in both
+  iCloud or CalDAV account with your phone: edits, deletes, and photos go in both
   directions. See [Contact sync](../sync/contacts.md). It's a beta, so report anything
   that looks wrong. Separately, KashCal can read birthdays and anniversaries from your
   phone's contacts. See [Contact birthdays](../features/birthdays.md).
@@ -78,7 +78,7 @@ of the calendar standard). It also syncs contacts in both directions:
   record), or else starts from your calendar server's address. Then it tries the standard `/.well-known/carddav` path and your
   account's principal. If your provider keeps contacts on a server that none of these
   lead to, KashCal won't find your contacts, even when your calendars sync.
-- No tasks or to-dos (VTODO), journals or attachments. KashCal skips calendars that
+- No tasks or to-dos (VTODO), journals, or attachments. KashCal skips calendars that
   hold only tasks or journal entries when it syncs, so they don't show up empty. An
   attachment added in another app to an iCloud or CalDAV event stays on the event when
   you edit it in KashCal. This holds for events up to about 2 MB, attachments included.
@@ -106,7 +106,7 @@ app syncs to your phone's calendar, use [Device calendars](../sync/device-calend
 
 ## KashCal's own calendars stay out of the phone's calendar storage
 
-KashCal keeps its own calendars (synced, feed, birthday and [offline calendars](../sync/offline-calendars.md))
+KashCal keeps its own calendars (synced, feed, birthday, and [offline calendars](../sync/offline-calendars.md))
 in its own private storage, so other apps on your phone can't read them. The other side of
 that: other apps and launcher widgets don't see events from KashCal's own calendars. See
 [Device calendars](../sync/device-calendars.md#how-this-differs-from-connecting-an-account).
@@ -125,9 +125,9 @@ the event. See [Tags](../events/tags.md#tags-on-device-calendar-events).
 
 ## Calendar colors are set where the calendar lives
 
-You can't recolor an iCloud, CalDAV or device calendar in KashCal. Change it on the
+You can't recolor an iCloud, CalDAV, or device calendar in KashCal. Change it on the
 server or in the app that owns the calendar, or give events their own color. Offline
-calendars, calendar feeds and contact birthdays are recolored in KashCal. See
+calendars, calendar feeds, and contact birthdays are recolored in KashCal. See
 [Calendar colors](../events/colors.md#calendar-colors).
 
 ## One time zone per event
@@ -148,7 +148,7 @@ after the phone restarts. See [Reminders](../events/reminders.md#when-a-reminder
 
 ## Views are the eight built in
 
-KashCal has Month, Agenda, Day, 3 Days, Week, Planner, Month (Full) and Year views, plus
+KashCal has Month, Agenda, Day, 3 Days, Week, Planner, Month (Full), and Year views, plus
 Insights. There's no multi-month grid (like a 3- or 6-month view). KashCal uses the
 Gregorian calendar only, with no other calendar systems (such as Hijri or lunar).
 
@@ -168,10 +168,10 @@ The other icons don't change by themselves, so they don't have these side effect
 
 ## Updates can't cross install sources
 
-KashCal comes from Google Play, F-Droid, IzzyOnDroid, Obtainium and GitHub Releases,
+KashCal comes from Google Play, F-Droid, IzzyOnDroid, Obtainium, and GitHub Releases,
 and they don't all sign the app with the same key.
 Google Play and F-Droid sign their builds with their own keys. The GitHub Releases,
-IzzyOnDroid and Obtainium APKs share KashCal's own key. Android won't install an
+IzzyOnDroid, and Obtainium APKs share KashCal's own key. Android won't install an
 update signed with a different key. To switch sources, say from F-Droid to the GitHub
 APK, you have to uninstall first, which deletes the app's data on your phone.
 

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Recurring events
-description: Set daily, weekly, monthly, yearly or custom repeats in KashCal, and change or delete one occurrence, this and future, or the whole series.
+description: Set daily, weekly, monthly, yearly, or custom repeats in KashCal, and change or delete one occurrence, this and future, or the whole series.
 image: /img/social/docs/events-recurring.png
 ---
 
@@ -15,9 +15,9 @@ once and KashCal fills in every occurrence.
 In the event form, tap the repeat row. On a new event it reads **Does not repeat**.
 Pick one of the choices:
 
-- **Never**, **Daily**, **Weekly**, **Monthly** or **Yearly**.
+- **Never**, **Daily**, **Weekly**, **Monthly**, or **Yearly**.
 - **Custom**, for any interval. Set **Repeat every** from 1 to 99, then pick **Day**,
-  **Week**, **Month** or **Year**. Every two weeks is **Custom**, 2, **Week**.
+  **Week**, **Month**, or **Year**. Every two weeks is **Custom**, 2, **Week**.
 
 For **Weekly** (or a custom interval in weeks), pick the days under **On days**.
 
@@ -26,7 +26,7 @@ For **Monthly** (or a custom interval in months), pick a **Pattern**:
 - "On day" and a number, such as the 15th.
 - **On last day of month**.
 - A weekday position, such as "On the 2nd Tuesday". Under **Which**, pick 1st, 2nd,
-  3rd, 4th or last. Under **Weekday**, pick the day. "Last" covers a meeting on the
+  3rd, 4th, or last. Under **Weekday**, pick the day. "Last" covers a meeting on the
   last Friday, whether that's the 4th or 5th Friday of the month.
 
 Under **Ends**, choose when the repeat stops:
@@ -42,7 +42,7 @@ as *"Standup every weekday at 9am"*.
 
 When you save a change to a repeating event, delete one, or drag one to a new time,
 KashCal asks which occurrences it applies to. The sheet is titled **Save changes to**,
-**Delete** or **Move**, and offers:
+**Delete**, or **Move**, and offers:
 
 - **This event**: only the occurrence you opened.
 - **This and all future**: this occurrence and every later one.

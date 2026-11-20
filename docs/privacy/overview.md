@@ -53,7 +53,7 @@ shared calendar storage, where any app with calendar permission could read them.
 KashCal connects only to these places:
 
 - Your calendar server (iCloud, Nextcloud, Fastmail, and so on). Your events go there:
-  titles, times, locations, notes and guests. Your RSVP answers go there too. When you
+  titles, times, locations, notes, and guests. Your RSVP answers go there too. When you
   open **Add from account** in Calendar Feeds, KashCal asks the server for the calendar
   feeds saved on your account.
 - Your contact server, if you turn on [contact sync](../sync/contacts.md). KashCal
@@ -72,7 +72,7 @@ Other paths are Android's, not KashCal's own connections:
   form, KashCal asks Android's geocoding service for address suggestions. Your phone's system provider
   answers that request.
 - If you turn on [device calendars](../sync/device-calendars.md), events you save to
-  a Google, Outlook or work calendar are synced by the app that owns that calendar.
+  a Google, Outlook, or work calendar are synced by the app that owns that calendar.
 - Contacts you sync go into your phone's address book, where other apps with
   Contacts permission can read them.
 - Android's own backup and phone-to-phone transfer include KashCal's event database and
@@ -84,15 +84,15 @@ Other paths are Android's, not KashCal's own connections:
   Android's folder picker. Other apps that can open that folder can read the files. If the
   folder belongs to a cloud storage app, that app uploads them.
 - Print your week hands the printout to Android's print system and the printer or service
-  you pick there. The printout has event titles, times, locations and calendar names, not
+  you pick there. The printout has event titles, times, locations, and calendar names, not
   notes. The page KashCal prints loads nothing from the network.
-- Tapping a link opens your browser. KashCal's help, privacy and donate links go to
+- Tapping a link opens your browser. KashCal's help, privacy, and donate links go to
   kashcal.onekash.org, the license link under the holiday list goes to
   creativecommons.org, and the **Source code** row (account hub, then **About**) and the
   report button on a database error go to GitHub.
   Tapping an address with no maps app installed opens openstreetmap.org.
 
-Contact birthdays, search, Insights and reminders are all computed on your device.
+Contact birthdays, search, Insights, and reminders are all computed on your device.
 
 ## Everything travels encrypted
 
@@ -130,7 +130,7 @@ KashCal asks only for what its features require:
 |------------|-----|
 | Internet & network state | Sync your events with your calendar servers, and handle going offline and online |
 | Local network access | Reach self-hosted CalDAV servers on your home or office network (Android 17 and newer) |
-| Notifications | Show event reminders, invitations, change notifications and sync status |
+| Notifications | Show event reminders, invitations, change notifications, and sync status |
 | Exact alarms | Deliver reminders at the right minute |
 | Run after restart | Reschedule your reminders after a reboot |
 | Foreground service and wake lock | Let a sync finish in the background, with a progress notification while it runs |
@@ -138,16 +138,16 @@ KashCal asks only for what its features require:
 | Read contacts | Suggest people when you add guests, show contact birthdays, and read contacts for contact sync |
 | Write contacts | Save your account's contacts to your phone's address book, for contact sync |
 | Read calendar | Show calendars from other apps on your phone |
-| Write calendar | Create, edit and delete events in those device calendars |
+| Write calendar | Create, edit, and delete events in those device calendars |
 | Read and write sync settings | Register KashCal's accounts with Android's sync system, and ask a device calendar's own app to sync |
 | Biometric | The optional [App lock](../features/app-lock.md) |
 
-KashCal asks for Notifications, Contacts, Calendars and Local network when you use a
+KashCal asks for Notifications, Contacts, Calendars, and Local network when you use a
 feature that needs them. You can decline, and the rest of the app keeps working.
 
 To review them in one place, open **App permissions** from the
 [account hub](../calendar/navigation.md#the-account-hub). It lists the four
-permissions Android asks you about: Notifications, Contacts, Calendars and Local
+permissions Android asks you about: Notifications, Contacts, Calendars, and Local
 network. Notifications shows from Android 13, and Local network from Android 17. The
 info button on each row explains why KashCal asks. A granted permission shows
 **Allowed**, and tapping its row opens its system setting. Otherwise, tap **Allow** to

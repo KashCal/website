@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Tags
-description: "Label events with colored tag chips in KashCal. Add them in the form or with #tag, and rename, recolor or remove them in one place."
+description: "Label events with colored tag chips in KashCal. Add them in the form or with #tag, and rename, recolor, or remove them in one place."
 image: /img/social/docs/events-tags.png
 ---
 
@@ -27,7 +27,7 @@ You can add a tag three ways:
 - In [Smart event add](./smart-event-add.md): put `#` in front of a word, like
   `Lunch with Sam #social`. KashCal takes `#social` as a tag and the rest becomes the
   event. You can add more than one tag, and a tags-only entry like `#work` works too. A
-  Smart event add tag is one word of letters, digits, `-` or `_`, and it has to come
+  Smart event add tag is one word of letters, digits, `-`, or `_`, and it has to come
   before any `//` note.
 
 ## Where tags show up

@@ -44,7 +44,7 @@ close it.
 KashCal looks at events in the calendars you have visible, so you control the answer
 by showing and hiding calendars in the navigation drawer. Hide your work calendar and
 you're sharing your personal availability. Every visible calendar counts: local,
-synced, feed and birthday calendars, and [device calendars](../sync/device-calendars.md)
+synced, feed, and birthday calendars, and [device calendars](../sync/device-calendars.md)
 you've turned on.
 
 - Events marked as free rather than busy don't block a slot.

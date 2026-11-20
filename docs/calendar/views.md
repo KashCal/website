@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Calendar views
-description: "KashCal's eight Android calendar views: month, agenda, day, 3-day, week, planner, full-month and year, with pinch-to-zoom and drag-to-reschedule."
+description: "KashCal's eight Android calendar views: month, agenda, day, 3-day, week, planner, full-month, and year, with pinch-to-zoom and drag-to-reschedule."
 image: /img/social/docs/calendar-views.png
 ---
 
@@ -38,7 +38,7 @@ permission. Insights and search results don't show it. See
 
 The Planner shows a week the way a paper weekly planner does: a box for each day, with its events listed inside. It starts on your **Start week on** day, set in [Settings > Appearance](../features/settings.md#appearance).
 
-- A timed event shows its time above its title, such as 4:30–6 pm, or 16:30–18:00 in 24-hour time. All-day events show as colored bands at the top of the box. With **Multi-day events in all-day strip** on, so do timed events of 20 hours or more that cross midnight. Past, declined and cancelled events are faded, as in the other views.
+- A timed event shows its time above its title, such as 4:30–6 pm, or 16:30–18:00 in 24-hour time. All-day events show as colored bands at the top of the box. With **Multi-day events in all-day strip** on, so do timed events of 20 hours or more that cross midnight. Past, declined, and cancelled events are faded, as in the other views.
 - A box shows the events that fit and counts the rest, such as +3 in its corner. When the next event is a timed one and one more line fits, it shows on that line as its start time and title.
 - A moved occurrence of a repeating timed event shows where it was next to its time, such as "was 5 pm", "was Tue", or a date when it came from another week.
 - Today or a later day with no events shows **Free day**, with a sun above it when the box has room.
@@ -59,7 +59,7 @@ Events you declined aren't listed. In the current week only today and later days
 
 ## Events in the timeline
 
-In Day, 3 Days and Week:
+In Day, 3 Days, and Week:
 
 - An event's title wraps over as many lines as its block has room for, and is cut at the last line, without "…". The location takes the lines left below it. The time comes next when a line is still left and the whole time range fits on one line. Week uses smaller text so more of each title fits.
 - When an event starts while earlier ones are still on, and each of them shows at least its first title line above it, the later event is drawn on top of it, indented a quarter of the column, up to two levels deep. The earlier event's text stops where the later one begins. Otherwise the events sit side by side: up to two in 3 Days and Week, up to five in Day.
@@ -72,7 +72,7 @@ The timeline views (Day, 3 Days, Week) respond to these gestures:
 
 - Pinch up and down to zoom. Spread or close two fingers vertically to make the hours taller or shorter. KashCal remembers the zoom level.
 - Pinch sideways to change views. Spread two fingers sideways over a day: Week opens 3 Days starting on that day, and 3 Days opens that day in Day. Close them to go back: Day opens 3 Days starting on its day, and 3 Days opens the week that holds the day under your fingers. The columns stretch or squeeze by up to a tenth as you pinch. If you let go before your fingers have spread or closed far enough, the view stays as it was. The view you land in is the one KashCal opens in next time.
-- Drag to reschedule. Press and hold a timed event, then drag it to a new time, or sideways to another day. A short vibration tells you the drag has started. All-day events and read-only events, such as holiday feed events, can't be dragged. When you drop an occurrence of a repeating event, KashCal asks what to move: **This event**, **This and all future**, or **All events**. **This and all future** is greyed out on the first occurrence. Device-calendar events offer only the first two. An occurrence you changed on its own moves without asking. After the drop, or after your choice in that sheet, the event moves at once and an "Event rescheduled" message shows with **Undo**. Tap **Undo** to put it back; nothing is saved. Drag the moved event again to move it further, under a fresh message. KashCal saves the move when the message closes, when another message replaces it, when you drag another event, when you tap an event, when you switch to a view other than Day, 3 Days or Week, when you open Settings, or when KashCal goes to the background or the screen turns off. Tapping the moved event saves it without opening it. If the event's time or repeat rule changed somewhere else in the meantime, KashCal keeps that change and shows that the event wasn't moved. For a device-calendar event, a change to its title, notes, location, color or busy status counts too. If the save fails, tap **Retry** on the message. If the event was deleted in the meantime, the message says KashCal couldn't move it.
+- Drag to reschedule. Press and hold a timed event, then drag it to a new time, or sideways to another day. A short vibration tells you the drag has started. All-day events and read-only events, such as holiday feed events, can't be dragged. When you drop an occurrence of a repeating event, KashCal asks what to move: **This event**, **This and all future**, or **All events**. **This and all future** is greyed out on the first occurrence. Device-calendar events offer only the first two. An occurrence you changed on its own moves without asking. After the drop, or after your choice in that sheet, the event moves at once and an "Event rescheduled" message shows with **Undo**. Tap **Undo** to put it back; nothing is saved. Drag the moved event again to move it further, under a fresh message. KashCal saves the move when the message closes, when another message replaces it, when you drag another event, when you tap an event, when you switch to a view other than Day, 3 Days, or Week, when you open Settings, or when KashCal goes to the background or the screen turns off. Tapping the moved event saves it without opening it. If the event's time or repeat rule changed somewhere else in the meantime, KashCal keeps that change and shows that the event wasn't moved. For a device-calendar event, a change to its title, notes, location, color, or busy status counts too. If the save fails, tap **Retry** on the message. If the event was deleted in the meantime, the message says KashCal couldn't move it.
 - Tap an empty slot to start a new event there. The start time snaps to the nearest 15 minutes.
 - Swipe left or right to move through time. In Day and 3 Days a swipe moves one day. In Week it moves a whole week.
 - Tap a "+N more" badge (+N in Week) to see the full list. It shows when more events overlap than fit side by side.
@@ -85,7 +85,7 @@ Timed events that run past midnight show in the timed grid on each day they cove
 
 Events you've labeled with [tags](../events/tags.md) show their colored chips in these places:
 
-- Timeline event blocks in Day, 3 Days and Week, when the block is tall enough. Short blocks hide them.
+- Timeline event blocks in Day, 3 Days, and Week, when the block is tall enough. Short blocks hide them.
 - The selected day's event list in Month.
 - The day sheet in Month (Full) and the Planner.
 
@@ -94,9 +94,9 @@ The Agenda list doesn't show tag chips.
 ## Moving around
 
 - Go to today. Tap the calendar icon next to the menu icon. It shows today's date.
-- Pick a date. Tap the title in the top bar. In Month and Month (Full) it opens **Go to month**. In 3 Days, Week and Planner it opens a date picker. In Agenda and Day it collapses or expands the week bar. **Go to date** in the account menu (tap the avatar at the top right) jumps to any date.
-- Add an event. Tap the + button. In Day, 3 Days, Week and Planner the event starts today at the next hour. With [Smart event add](../events/smart-event-add.md) on, the + button opens the typing box instead. Insights has no + button.
-- Reopen where you left off. KashCal opens in the last view you switched to, from the drawer or with a sideways pinch. On first launch that's Month. Insights, and a day opened from a day header, aren't remembered. The Day, 3 Days and Week timelines reopen at the hour you were looking at.
+- Pick a date. Tap the title in the top bar. In Month and Month (Full) it opens **Go to month**. In 3 Days, Week, and Planner it opens a date picker. In Agenda and Day it collapses or expands the week bar. **Go to date** in the account menu (tap the avatar at the top right) jumps to any date.
+- Add an event. Tap the + button. In Day, 3 Days, Week, and Planner the event starts today at the next hour. With [Smart event add](../events/smart-event-add.md) on, the + button opens the typing box instead. Insights has no + button.
+- Reopen where you left off. KashCal opens in the last view you switched to, from the drawer or with a sideways pinch. On first launch that's Month. Insights, and a day opened from a day header, aren't remembered. The Day, 3 Days, and Week timelines reopen at the hour you were looking at.
 - Pull to refresh. With a connected account and a network connection, pull down on the calendar to sync right away.
 
 ## Rotating the phone
@@ -130,7 +130,7 @@ week back or ahead. Then pick what to print:
 
 Tap **Print** to open Android's print screen, set to landscape paper. **Print** is
 greyed out until at least one page and one calendar are ticked. The details page shows
-each event's time, title, calendar and location, and whether it repeats. The printout
+each event's time, title, calendar, and location, and whether it repeats. The printout
 never shows an event's notes. Declined events follow **Show declined events** in
 [Settings > Appearance](../features/settings.md#appearance). Times are in your phone's
 time zone, which the week calendar page names at the bottom. If printing fails,
@@ -139,5 +139,5 @@ KashCal shows "Couldn't print. Try again."
 ## Related
 
 - [Widgets](../features/widgets.md): put your calendar on the home screen
-- [Search](../features/search.md): find events by title, location, notes or guests
+- [Search](../features/search.md): find events by title, location, notes, or guests
 - [Tags](../events/tags.md): label events with colored chips

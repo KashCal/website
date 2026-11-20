@@ -28,17 +28,17 @@ The more of this you give, the better:
 4. Your KashCal version. It's the line that starts with "KashCal v" at the bottom of Settings.
 5. Your Android version and device model.
 6. Where you installed KashCal from: Google Play, F-Droid, IzzyOnDroid, Obtainium,
-   GitHub Releases or your own build.
+   GitHub Releases, or your own build.
 7. For a crash or a sync problem, a debug report from **Export debug report** in
-   Settings, and which calendar service is involved (iCloud, Nextcloud and so on). See
+   Settings, and which calendar service is involved (iCloud, Nextcloud, and so on). See
    [Capturing logs for a bug report](./troubleshooting.md#capturing-logs-for-a-bug-report).
    Never include your password or full email address.
 8. Screenshots, if they help show the problem.
 
 :::warning[Protect your privacy]
-Never put passwords, app-specific passwords or full account details in a public bug
+Never put passwords, app-specific passwords, or full account details in a public bug
 report. Describe the provider ("an iCloud account") instead of pasting credentials.
-A debug report includes event titles, calendar names and contact names, so send it by
+A debug report includes event titles, calendar names, and contact names, so send it by
 email rather than posting it. The copied sync history includes your calendar names, so check
 it before you paste it.
 :::

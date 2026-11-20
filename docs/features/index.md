@@ -30,7 +30,7 @@ Every KashCal feature, with a link to its page.
 
 ## Connecting calendars
 
-- **[Offline calendars](../sync/offline-calendars.md)**: calendars on your phone that work with no account. Start with Local and add, rename, recolor or delete more.
+- **[Offline calendars](../sync/offline-calendars.md)**: calendars on your phone that work with no account. Start with Local and add, rename, recolor, or delete more.
 - **[Sync & accounts](../sync/index.md)**: iCloud, CalDAV, feeds, and device calendars.
 - **[Supported servers](../sync/supported-servers.md)**: the full compatibility list.
 - **[Device calendars](../sync/device-calendars.md)**: show and edit the calendars already on your phone, such as Google or Outlook.
@@ -42,7 +42,7 @@ KashCal also opens .ics files and webcal:// links, and handles "Add to calendar"
 
 ## Getting more from your time
 
-- **[Search](./search.md)**: search titles, locations, notes and guests, in upcoming and past lists, with a date filter.
+- **[Search](./search.md)**: search titles, locations, notes, and guests, in upcoming and past lists, with a date filter.
 - **[Insights](./insights.md)**: on-device figures on how you spend your time.
 - **[Share availability](./share-availability.md)**: send someone your free times as plain text.
 - **[Contact birthdays](./birthdays.md)**: birthdays and anniversaries from your contacts.

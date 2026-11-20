@@ -18,11 +18,11 @@ In the event form, tap the alerts row (the bell). It lists the event's alerts, o
 
 1. Tap **Add Alert**. KashCal adds an alert and opens a picker for it.
 2. Tap a preset chip. The picker closes with that lead time set.
-3. Or turn the **days**, **hrs** and **min** wheels to set any lead time, then tap
+3. Or turn the **days**, **hrs**, and **min** wheels to set any lead time, then tap
    **Done**. The minute wheel moves in 5-minute steps.
 
 On a timed event, the new alert starts at 15 minutes before, and the chips are 15m,
-30m, 1h and 1d. Set all wheels to 0 for an alert at the start time.
+30m, 1h, and 1d. Set all wheels to 0 for an alert at the start time.
 
 All-day events have no start time, so their chips fire at 9 AM:
 
@@ -34,7 +34,7 @@ All-day events have no start time, so their chips fire at 9 AM:
 Tap an alert to change it. Tap the ✕ on its row to remove it. **Add Alert**
 disappears once an event has five.
 
-The alerts row sums up the alerts in days, hours and minutes, such as 15m, 1h 30m or
+The alerts row sums up the alerts in days, hours, and minutes, such as 15m, 1h 30m, or
 5d 1h 10m, and a whole number of weeks as 1w. Each alert's own row spells it out, such
 as "1 hour 30 min before". Two alerts at the same time are listed once when you open an
 event, and saved once.
@@ -50,7 +50,7 @@ own alerts. They stay on this phone and aren't sent to the organizer or your ser
 ## When a reminder fires
 
 The notification shows the event title, its time, and its location if it has one. For
-an all-day event it shows Today, Tomorrow or "In 3 days" in place of a time. Tap
+an all-day event it shows Today, Tomorrow, or "In 3 days" in place of a time. Tap
 it to open the event. It has two actions:
 
 - **Snooze** reminds you again in 15 minutes.
@@ -132,7 +132,7 @@ every calendar KashCal shows, each with a switch:
 - KashCal's own calendars, under **Offline**, last.
 
 All switches start on. A calendar you turn off is muted: it still shows on your calendar
-and keeps syncing, but it sends no reminders, no invitation notifications and no change
+and keeps syncing, but it sends no reminders, no invitation notifications, and no change
 notifications. Changes to a muted iCloud or CalDAV calendar still appear in
 [Recent changes](../sync/how-sync-works.md#recent-changes). In the
 [navigation drawer](../calendar/navigation.md#the-navigation-drawer), a muted calendar has a

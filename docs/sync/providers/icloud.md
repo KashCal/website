@@ -58,7 +58,7 @@ never enter a server address.
 
 Tap the account under **Settings** → **Calendar accounts** to open its sheet. It has
 rename, the **Calendar** and **Contacts** switches, **Sync Now**, **Discover New Calendars**,
-**Change Password** and **Sign Out**. See [Managing your accounts](../index.md#managing-your-accounts).
+**Change Password**, and **Sign Out**. See [Managing your accounts](../index.md#managing-your-accounts).
 Contact sync has [its own page](../contacts.md).
 
 Use **Change Password** to enter a new app-specific password. Signing out removes the

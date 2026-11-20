@@ -15,7 +15,7 @@ keywords:
 description: "KashCal's Planner puts the family week on one screen, with a box for what's different this week. Written for the parent who keeps track of everyone."
 image: /img/social/blog/kashcal-planner-family-week.png
 ---
-If you're the parent who knows when swimming is, that the dentist is on Tuesday, that Friday is a school holiday and that Saturday's birthday party still needs a present, you've been carrying the family's week around in your head. KashCal 2026.10.15 gives it somewhere to go: the Planner.
+If you're the parent who knows when swimming is, that the dentist is on Tuesday, that Friday is a school holiday, and that Saturday's birthday party still needs a present, you've been carrying the family's week around in your head. KashCal 2026.10.15 gives it somewhere to go: the Planner.
 
 {/* truncate */}
 

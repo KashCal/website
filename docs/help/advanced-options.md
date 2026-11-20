@@ -16,7 +16,7 @@ corner, tap **Accounts & Settings**, then scroll to **Troubleshooting**.
 
 **Sync history** lists the sync sessions of the last 48 hours, up to 200 of them. Each
 session shows its calendar, how many events were pushed and pulled, and any failures.
-Tap a session for details such as its duration, skipped events and warnings.
+Tap a session for details such as its duration, skipped events, and warnings.
 
 The list holds iCloud and CalDAV syncs only. With no iCloud or CalDAV account set up, or
 every account's **Calendar** switch off, an empty list says: "No sync account set up.
@@ -43,7 +43,7 @@ again. Tap it and a line with a checkbox opens in its place, naming how many cal
 from how many accounts it re-downloads. Tick the box, then tap **Start**, or tap
 **Cancel**. Changes not yet synced are kept.
 
-Offline calendars, device calendars, calendar feeds and accounts whose **Calendar**
+Offline calendars, device calendars, calendar feeds, and accounts whose **Calendar**
 switch is off aren't part of it. With no iCloud or CalDAV account set up, or every
 account's **Calendar** switch off, the row is greyed out and reads **No sync account set
 up**.
@@ -61,18 +61,18 @@ up**.
 The file holds:
 
 - **Why the app closed recently:** each time Android recorded KashCal closing, and
-  why, such as a crash, a freeze or low memory.
+  why, such as a crash, a freeze, or low memory.
 - **App log:** KashCal's own messages, including crash details.
 - **Sync history:** the sessions in **Sync history**, up to 48 hours back.
 - **Waiting changes:** how many edits aren't sent to your server yet. For each one that
-  failed or that KashCal gave up on, the event's title, its calendar and the error.
+  failed or that KashCal gave up on, the event's title, its calendar, and the error.
 - **Setup:** the app and Android version, phone model, language, permissions, battery
-  settings, account types, last sync times, and counts of calendars, feeds and events.
+  settings, account types, last sync times, and counts of calendars, feeds, and events.
 
 KashCal makes the file only when you tap **Share report**, and sends it only where you
 send it. Each new report replaces the last one, which stays in KashCal's cache on the
-phone. Email addresses, web addresses, IP addresses and tokens in it are masked. Event
-titles, calendar names and contact names aren't, so send it by email, not in a public
+phone. Email addresses, web addresses, IP addresses, and tokens in it are masked. Event
+titles, calendar names, and contact names aren't, so send it by email, not in a public
 post.
 
 Send it soon after the problem. The app log keeps only recent activity, so a report

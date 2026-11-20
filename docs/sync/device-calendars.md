@@ -1,7 +1,7 @@
 ---
 sidebar_position: 7
 title: Device calendars
-description: Show the Google, Outlook and work calendars already on your phone next to KashCal's own, and create, edit and delete their events.
+description: Show the Google, Outlook, and work calendars already on your phone next to KashCal's own, and create, edit, and delete their events.
 image: /img/social/docs/sync-device-calendars.png
 ---
 
@@ -60,7 +60,7 @@ On a writable device calendar you can:
 - [Import an .ics file](./import-export.md#import-into-a-device-calendar) into the
   calendar.
 
-The ⋮ menu in the event's quick view also has **Duplicate**, **Share as text** and
+The ⋮ menu in the event's quick view also has **Duplicate**, **Share as text**, and
 **Export as .ics**.
 
 KashCal writes these changes to the phone's calendar storage. The app that owns the
@@ -80,6 +80,6 @@ calendars** shows calendars that another app already syncs on your phone. You ca
 use both at once, and pick whichever fits each calendar.
 
 Device calendars work in one direction. KashCal doesn't copy the events of its own
-calendars (Local, iCloud, CalDAV, feed and birthday calendars) into the phone's calendar storage, so other apps and launcher widgets
+calendars (Local, iCloud, CalDAV, feed, and birthday calendars) into the phone's calendar storage, so other apps and launcher widgets
 that read that storage don't see them. Use [KashCal's widgets](../features/widgets.md)
 for those calendars.

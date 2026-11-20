@@ -11,7 +11,7 @@ keywords:
   - natural language event entry
   - fantastical alternative android
   - plain language calendar input
-description: "KashCal's smart event add turns a sentence into a real event. Type 'lunch every 2nd Tuesday at noon' and get the date, time and repeat without the form."
+description: "KashCal's smart event add turns a sentence into a real event. Type 'lunch every 2nd Tuesday at noon' and get the date, time, and repeat without the form."
 image: /img/social/blog/natural-language-calendar-events-android.png
 ---
 

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: FAQ
-description: Short answers to common KashCal questions, from whether it's free to how sync, accounts, contacts and privacy work.
+description: Short answers to common KashCal questions, from whether it's free to how sync, accounts, contacts, and privacy work.
 image: /img/social/docs/help-faq.png
 ---
 
@@ -12,11 +12,11 @@ import FaqSchema from '@site/src/components/FaqSchema';
 <FaqSchema items={[
   {question: 'Is KashCal free? Is there a catch?', answer: "Yes, it's free and open source under the Apache-2.0 license. There's no paid tier, no ads, and no account to create. A donation is optional and never required, and nothing in the app is locked behind it."},
   {question: 'Do I need to create a KashCal account?', answer: 'No. KashCal has no accounts and no servers. You connect your own calendar accounts (like iCloud or Nextcloud), and you can use the app fully offline with offline calendars even without connecting anything.'},
-  {question: 'Does KashCal track me or sell my data?', answer: "No. KashCal has no analytics, no telemetry and no advertising. KashCal itself sends your events only to the calendar servers you connect. Android's own backup can include KashCal's database."},
+  {question: 'Does KashCal track me or sell my data?', answer: "No. KashCal has no analytics, no telemetry, and no advertising. KashCal itself sends your events only to the calendar servers you connect. Android's own backup can include KashCal's database."},
   {question: 'Which calendar services does it work with?', answer: 'iCloud and any CalDAV server: Nextcloud, Fastmail, Radicale, Baikal, Zoho, mailbox.org, Stalwart, SOGo, and more.'},
   {question: 'Does it work with Google Calendar or Outlook?', answer: 'Yes, through your phone. Google removed third-party CalDAV access and Outlook does not expose CalDAV, so both come in as device calendars: let the Google or Outlook app sync those calendars to your phone, then turn on device calendars in KashCal settings.'},
   {question: 'Is KashCal on the Google Play Store?', answer: 'Yes. KashCal is on Google Play, and also on F-Droid, IzzyOnDroid, Obtainium, and GitHub Releases. It is the same free, open-source, no-account app on every channel.'},
-  {question: 'Does KashCal support CardDAV, tasks, or attachments?', answer: "CardDAV (contacts): yes, both ways, in beta. Contact sync syncs the contacts on your iCloud or CardDAV account with your phone's address book. For calendars, KashCal handles events only (VEVENT). It doesn't do VTODO tasks, journals or attachments, and it skips calendars that hold only VTODO or VJOURNAL items during sync."},
+  {question: 'Does KashCal support CardDAV, tasks, or attachments?', answer: "CardDAV (contacts): yes, both ways, in beta. Contact sync syncs the contacts on your iCloud or CardDAV account with your phone's address book. For calendars, KashCal handles events only (VEVENT). It doesn't do VTODO tasks, journals, or attachments, and it skips calendars that hold only VTODO or VJOURNAL items during sync."},
   {question: 'Why will my iCloud password not work?', answer: 'iCloud requires an app-specific password, not your normal Apple password. Create one at account.apple.com and use that to connect.'},
   {question: 'Can I use KashCal offline?', answer: 'Yes, it is offline-first. You can view and edit events with no connection, and your changes sync when the phone is back online.'},
   {question: 'Why is background sync not more frequent than 15 minutes?', answer: 'That is an Android system limit for background work. It is the shortest automatic interval the platform allows. You can always pull down to refresh for an immediate sync.'},
@@ -27,7 +27,7 @@ import FaqSchema from '@site/src/components/FaqSchema';
 ## Is KashCal free? Is there a catch?
 
 Yes, it's free and open source under the Apache-2.0 license. There's no paid tier, no
-ads and no account to create. If you want to chip in, a [donation](/donate) helps
+ads, and no account to create. If you want to chip in, a [donation](/donate) helps
 keep the releases coming. It's never required, and nothing in the app is locked behind
 it.
 
@@ -39,7 +39,7 @@ without connecting anything.
 
 ## Does KashCal track me or sell my data?
 
-No. KashCal has no analytics, no telemetry and no advertising. KashCal itself sends
+No. KashCal has no analytics, no telemetry, and no advertising. KashCal itself sends
 your events only to the calendar servers you connect. Android's own backup can include
 KashCal's database. For everything that leaves the phone, see
 [Privacy & Security](../privacy/overview.md).
@@ -47,7 +47,7 @@ KashCal's database. For everything that leaves the phone, see
 ## Which calendar services does it work with?
 
 iCloud and CalDAV servers: Nextcloud, Fastmail, Radicale, Baikal, Zoho, mailbox.org,
-Stalwart, SOGo and others. See [Supported servers](../sync/supported-servers.md).
+Stalwart, SOGo, and others. See [Supported servers](../sync/supported-servers.md).
 
 ## Does it work with Google Calendar or Outlook?
 
@@ -108,10 +108,10 @@ SHA-256 from the README.
 
 CardDAV (contacts): yes, both ways, in beta. [Contact sync](../sync/contacts.md) syncs
 the contacts on your iCloud or CardDAV account with your phone's address book: names,
-numbers, emails and photos. Edits and deletions on the phone go back to the account.
+numbers, emails, and photos. Edits and deletions on the phone go back to the account.
 
 For calendars, KashCal handles events only (VEVENT). It doesn't do VTODO tasks,
-journals or attachments. It skips calendars that hold only VTODO or VJOURNAL items
+journals, or attachments. It skips calendars that hold only VTODO or VJOURNAL items
 during sync.
 
 ## Can I use Syncthing instead of a CalDAV server?
