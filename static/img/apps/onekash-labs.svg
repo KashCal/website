@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <!-- Refined gradients -->
+    <linearGradient id="coral" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B6B"/>
+      <stop offset="100%" stop-color="#EE5A5A"/>
+    </linearGradient>
+
+    <linearGradient id="amber" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD93D"/>
+      <stop offset="100%" stop-color="#F4C430"/>
+    </linearGradient>
+
+    <linearGradient id="teal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6BCB77"/>
+      <stop offset="100%" stop-color="#4CAF50"/>
+    </linearGradient>
+
+    <linearGradient id="sky" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4D96FF"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+
+    <!-- Soft shadow -->
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+
+    <!-- Tech glow -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Clean dark canvas -->
+  <rect width="512" height="512" rx="112" fill="#1C1C1E"/>
+
+  <!-- Subtle tech grid in background -->
+  <g stroke="rgba(255,255,255,0.03)" stroke-width="1">
+    <line x1="128" y1="0" x2="128" y2="512"/>
+    <line x1="256" y1="0" x2="256" y2="512"/>
+    <line x1="384" y1="0" x2="384" y2="512"/>
+    <line x1="0" y1="128" x2="512" y2="128"/>
+    <line x1="0" y1="256" x2="512" y2="256"/>
+    <line x1="0" y1="384" x2="512" y2="384"/>
+  </g>
+
+  <!-- Open source network - connected nodes (community/collaboration) -->
+  <g stroke="rgba(255,255,255,0.06)" stroke-width="1.5">
+    <!-- Connection lines between nodes -->
+    <line x1="128" y1="128" x2="100" y2="180"/>
+    <line x1="128" y1="128" x2="128" y2="384"/>
+    <line x1="384" y1="128" x2="412" y2="280"/>
+    <line x1="128" y1="384" x2="140" y2="420"/>
+    <line x1="384" y1="384" x2="412" y2="280"/>
+  </g>
+  <!-- Nodes - slightly brighter -->
+  <g fill="rgba(255,255,255,0.12)">
+    <circle cx="128" cy="128" r="5"/>
+    <circle cx="384" cy="128" r="5"/>
+    <circle cx="128" cy="384" r="5"/>
+    <circle cx="384" cy="384" r="5"/>
+  </g>
+
+  <!-- Three cards - intentional, balanced composition -->
+
+  <!-- Back - Teal (wide) -->
+  <rect x="96" y="200" width="200" height="120" rx="16" fill="url(#teal)" filter="url(#soft)" transform="rotate(-12, 196, 260)"/>
+
+  <!-- Middle - Amber (square) -->
+  <rect x="240" y="140" width="140" height="140" rx="16" fill="url(#amber)" filter="url(#soft)" transform="rotate(8, 310, 210)"/>
+
+  <!-- Front - Sky blue (tall, primary) -->
+  <g filter="url(#soft)">
+    <rect x="176" y="176" width="160" height="200" rx="20" fill="url(#sky)"/>
+    <!-- Code bracket accent on main card -->
+    <text x="216" y="290"
+          font-family="SF Mono, Monaco, Consolas, monospace"
+          font-size="48"
+          font-weight="600"
+          fill="rgba(255,255,255,0.9)"
+          letter-spacing="-2">&lt;/&gt;</text>
+  </g>
+
+  <!-- Privacy lock badge - coral with pulse ring -->
+  <circle cx="340" cy="340" r="38" fill="none" stroke="url(#coral)" stroke-width="2" opacity="0.4"/>
+  <circle cx="340" cy="340" r="32" fill="url(#coral)" filter="url(#soft)"/>
+  <!-- Lock icon -->
+  <g transform="translate(340, 340)">
+    <path d="M-7,-5 L-7,-9 A7,7 0 0,1 7,-9 L7,-5"
+          stroke="white" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <rect x="-9" y="-5" width="18" height="13" rx="2.5" fill="white"/>
+  </g>
+
+  <!-- Small tech dots - connection points -->
+  <g fill="rgba(255,255,255,0.15)" filter="url(#glow)">
+    <circle cx="100" cy="180" r="3"/>
+    <circle cx="412" cy="280" r="3"/>
+    <circle cx="140" cy="420" r="3"/>
+  </g>
+</svg>

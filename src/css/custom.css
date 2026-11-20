@@ -946,3 +946,16 @@ button:focus-visible,
 .markdown h2 {
   clear: both;
 }
+
+:root { --ma-line: var(--kc-line); --ma-soft: var(--ifm-color-emphasis-700); --ma-hover: var(--kc-mist); }
+/* More from OneKash Labs: the other apps, above the footer on every page. */
+.more-apps { padding: 2.5rem 0 2.25rem; border-top: 1px solid var(--ma-line); background: var(--ifm-background-color); }
+.more-apps__title { font-size: 1.15rem; margin: 0 0 1.25rem; }
+.more-apps__list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.75rem 1.5rem; }
+.more-apps__item { display: flex; align-items: center; gap: 0.85rem; padding: 0.5rem; margin: -0.5rem; border-radius: 14px; color: var(--ifm-font-color-base); }
+.more-apps__item:hover { text-decoration: none; color: var(--ifm-font-color-base); background: var(--ma-hover); }
+.more-apps__item img { flex: none; width: 48px; height: 48px; border-radius: 12px; }
+.more-apps__item strong { display: block; font-size: 1rem; line-height: 1.25; }
+.more-apps__item strong + span { display: block; font-size: 0.9rem; line-height: 1.35; color: var(--ma-soft); }
+@media (max-width: 996px) { .more-apps__list { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .more-apps__list { grid-template-columns: minmax(0, 1fr); } }
