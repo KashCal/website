@@ -42,7 +42,7 @@ export default function MoreApps({current}: {current: string}): ReactNode {
             <a className="more-apps__item" href="https://onekash.org">
               <img src={url('/img/apps/onekash-labs.svg')} alt="" width={48} height={48} loading="lazy" decoding="async" />
               <span>
-                <strong>OneKash Labs →</strong>
+                <strong>OneKash Labs</strong>
                 <span>Build something with us.</span>
               </span>
             </a>
