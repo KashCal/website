@@ -31,7 +31,7 @@ leaves it open, so you can select and edit text.
 - Notes. Free-form details for the event.
 - Calendar. Which calendar the event belongs to. New events go to your **Default calendar** unless you pick another. The list ends with the **Offline** group and **New offline calendar**, which opens a sheet to create an offline calendar and puts the event in it. While you edit a device-calendar event, the list shows only device calendars. See [Offline calendars](../sync/offline-calendars.md#create-a-calendar).
 - Start and end. Tap either one to open the date and time sheet (see [Setting the date and time](#setting-the-date-and-time)), or switch on **All day**. A new event lasts your **Default event length**, 30 minutes unless you change it in [Settings](../features/settings.md#event-preferences).
-- Time zone. Events use your device time zone unless you set another one. One time zone covers both the start and the end.
+- Time zone. Events use your device time zone unless you set another one. One time zone covers both the start and the end. See [Setting the time zone](#setting-the-time-zone).
 - Repeat. Make the event recurring. See [Recurring events](./recurring.md).
 - Event color. Give the event its own color. Tapping the row opens the colors below it, in the form. See [Event colors](./colors.md).
 - Tags. Label the event with colored chips like `#focus` or `#dentist`, with suggestions from tags you've used before. See [Tags](./tags.md).
@@ -74,6 +74,29 @@ the month and year wheel is open, **Done** closes the wheel first. The grid, whe
 don't move the sheet. To throw the changes away, use the form's
 **Cancel** (see [Leaving without saving](#leaving-without-saving)).
 
+## Setting the time zone
+
+All-day events have no time zone row. On a timed event, the row shows the city with its
+abbreviation, or with its GMT offset when the zone has none, like Berlin (CET) or Tokyo
+(GMT+09:00). Both are the ones in effect at the event's start: a July event in Berlin
+shows CEST. Tap the row to open the list of time zones.
+
+- Search by city, country, zone name, abbreviation, or offset, like `Tokyo`, `Germany`,
+  `IST`, or `+5:30`. Search uses the abbreviations and offsets in effect on the event's
+  date.
+- Without a search, the list starts with **This event** (the event's time zone, when it
+  isn't your device's), **Device time zone**, and **Recent**, the last five other time
+  zones you picked. **All time zones** follows, ordered by GMT offset on the event's date.
+- If KashCal can't read the time zone the event came with, **This event** shows its name
+  with "Shown in device time", and the event's times show in your device time zone.
+
+Picking a time zone keeps the date and time the form shows: 10:00 in New York becomes
+10:00 in Tokyo. A repeating series keeps its time of day in the new time zone; for the
+occurrences you changed on their own, see
+[Moving a repeating event](./recurring.md#moving-a-repeating-event). **Device time zone** moves the event to your phone's time zone the same way.
+When the event's time zone isn't your device's, the start and end show its abbreviation
+or offset.
+
 ## Title suggestions
 
 **Suggest event titles** is on by default. Turn it off in
@@ -103,6 +126,7 @@ full screen. Long details scroll, and the buttons stay at the bottom. From there
 - Tap the delete button (a trash can). For a single event, or an occurrence changed on its own, tap **Confirm** to finish. For a repeating series, KashCal asks which occurrences to delete.
 - Open the three-dot menu for **Duplicate**, **Share as text**, and **Export as .ics**. **Duplicate** on a repeating event opens the form on the occurrence you tapped, with **Repeat** filled in from the series, so saving creates a separate series. Occurrences you deleted from the original show again in the copy. An occurrence changed on its own, or a date the series adds outside its repeat rule, duplicates as a single event.
 - Tap the location to open it in your maps app. If the location contains a link, the tap opens the link.
+- Tap a tag to [search](../features/search.md#search-by-tag) for every event with that tag.
 
 Events in read-only calendars, such as holiday feeds, show only a duplicate button and a share button.
 

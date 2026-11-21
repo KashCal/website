@@ -123,7 +123,12 @@ KashCal, because they belong to the source feed.
 
 Each refresh makes the feed's calendar match the feed. Events the feed added show up,
 changed ones update, and ones it removed leave your calendar. A feed whose events were
-all removed is cleared on its next refresh.
+all removed, or are all cancelled, is cleared on its next refresh.
+
+When KashCal can't save one or more of a feed's events, the refresh keeps the rest, and the
+feed's row says in red how many were left out, for example "3 events weren't saved, including “Team sync”."
+The note clears on a refresh that saves every event, or when the feed's server reports
+that the feed hasn't changed.
 
 When a refresh fails, the events from the last good refresh stay, and the feed's row
 shows why in red, in the language KashCal uses. For example:
@@ -133,8 +138,8 @@ shows why in red, in the language KashCal uses. For example:
 - "This feed's server refused access."
 - "Server returned an error (404). Please check the URL."
 - "This calendar feed is too large to download."
-- "This feed's events couldn't be shown." The feed has events, but none KashCal can
-  show, for example when every one is cancelled.
+- "This feed's events couldn't be shown." The feed has events, but KashCal can't read
+  any of them.
 - "Connection failed. Please try again."
 
 Any other error shows in English, as KashCal recorded it.

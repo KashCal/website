@@ -56,14 +56,43 @@ A choice that doesn't apply stays on the sheet, greyed out:
 - On the first occurrence, **This and all future** is greyed out, because it would mean
   the same as **All events**.
 - On an occurrence you've already changed on its own, only **This event** is available.
+  Dragging that occurrence moves it without the sheet.
 - If you changed the repeat rule, **This event** is greyed out, because a single
   occurrence can't carry a rule. **All events** is also greyed out unless you're
   editing the first occurrence. To change the pattern from a later occurrence onward,
   use **This and all future**.
+- If you open a later occurrence and change its date, **All events** is greyed out. To
+  move the whole series to another day, open its first occurrence.
+- If the repeat rule can't follow a new date, time, or time zone, **All events** and
+  **This and all future** are greyed out. On the **Save changes to** sheet, "The repeat
+  rule can't follow this change" shows under them. For example, a monthly event on the
+  30th can't move to the 31st once it repeats in a month with 30 days. Device calendars
+  don't get this check in the form.
+- When you drag an occurrence to another day, outside device calendars, **All events** is
+  also greyed out if the series has occurrences you changed or deleted, or dates added
+  outside its repeat rule. **This and all future** is greyed out if any of those fall on
+  or after the occurrence you dragged.
 
 When you drag an occurrence of an event from a
 [device calendar](../sync/device-calendars.md), the **Move** sheet leaves out
 **All events**.
+
+## Moving a repeating event
+
+When you move the whole series to another date, time, or time zone, with **All events**,
+the occurrences you changed or deleted go with it:
+
+- A changed occurrence moves with the series. If you gave it its own time, it keeps that
+  time.
+- A deleted occurrence stays deleted.
+- A series with an end date keeps its last occurrence, moved like the rest.
+
+**This and all future** moves the occurrences from the one you opened onward. Deleted
+occurrences in that part stay deleted. Changes you made to single occurrences in that part
+are dropped; those occurrences follow the series again.
+
+This applies to offline calendars and to calendars you sync through an account in KashCal,
+not to device calendars.
 
 :::note[How a single-occurrence change is stored]
 When you change one occurrence of a repeating event, KashCal stores it as an exception

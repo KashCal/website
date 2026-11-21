@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Search
-description: Search your KashCal events by title, location, notes, or guests, in upcoming and past lists, and narrow them to dates.
+description: Search your KashCal events by title, location, notes, guests, or tag, in upcoming and past lists, and narrow them to dates.
 image: /img/social/docs/features-search.png
 ---
 
@@ -14,8 +14,8 @@ icon in the top bar, or long-press the KashCal app icon and choose **Search**.
 
 Search looks through event titles, locations, notes, and guest names and email
 addresses, in every calendar KashCal shows, [device calendars](../sync/device-calendars.md)
-included. Results appear as you type, once a word has two characters. In Chinese, Japanese
-and Korean, one character is enough.
+included. Results appear as you type, once a word has two characters or you type a
+[tag](#search-by-tag). In Chinese, Japanese and Korean, one character is enough.
 
 - A word matches anywhere and in any case: "tist" finds "Dentist". Accents count:
   "cafe" doesn't find "Café".
@@ -26,6 +26,17 @@ and Korean, one character is enough.
 Matched words are highlighted. When the title doesn't explain a result, it shows where
 the match is, after **Location:**, **Notes:**, or **Guest:**. Each result also says how far
 away it is, such as "in 3 weeks" or "2 months ago".
+
+## Search by tag
+
+Start a word with `#` to search by [tag](../events/tags.md): `#doctor` lists every event
+tagged Doctor. Add words to narrow it, as in `#doctor kids`. With two tags, an event needs
+both. Put a tag with spaces or punctuation other than `-` and `_` in quotes:
+`#"Team meeting"`. The whole tag name has to match, in any case. Each result shows up to
+three of its tags, the searched ones first, and a count of the rest.
+
+You can also tap a tag in an event's quick view, or pick **Show events** for a tag in
+**Manage tags**.
 
 ## Upcoming and past
 
@@ -53,7 +64,8 @@ counts them, such as "3 more in hidden calendars". Tap **Show** to list them unt
 close search; it doesn't change which calendars are visible. Tap **Leave out** to hide
 them again.
 
-If nothing matches, you see "No events match" and your search. When your
+If nothing matches, you see "No events match", or "No events tagged" when you searched
+only for tags, followed by your search. When your
 [Sync lookback](settings.md#sync) isn't **All events**, the message also shows it, with a
 **Sync settings** button to change it.
 

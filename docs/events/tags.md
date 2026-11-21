@@ -33,8 +33,9 @@ You can add a tag three ways:
 ## Where tags show up
 
 An event's tags show as chips in the quick view when you tap the event, and in the
-tag row of the event form. For the calendar views that show chips, see
-[Tag chips](../calendar/views.md#tag-chips).
+tag row of the event form. Tap a chip in the quick view to
+[search](../features/search.md#search-by-tag) for every event with that tag. For the
+calendar views that show chips, see [Tag chips](../calendar/views.md#tag-chips).
 
 The tag row sits below the notes in the form. To move it above the notes, tap the
 ⋮ at the end of the row and choose **Move above notes**. KashCal keeps that
@@ -54,6 +55,7 @@ to see every tag you've used. Each tag has these actions:
   merges the two into one tag.
 - **Delete:** removes the tag from this list only, and its custom color goes with it.
   Your events keep the tag. An **Undo** button appears for a moment after you delete.
+- **Show events:** opens search with every event that carries the tag.
 
 Renaming doesn't change tags on device-calendar events.
 
