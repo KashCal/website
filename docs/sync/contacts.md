@@ -47,7 +47,10 @@ Contact sync carries these parts of a contact:
 Contact sync runs both ways and is marked **Beta** in the app. On your phone, edit a
 synced contact, delete one, or change its photo, and KashCal sends the change to your
 server at the next sync. Changes made on the server, or in another app signed in to
-the same account, come down to your phone at the next sync.
+the same account, come down to your phone at the next sync. If you edit a contact while
+KashCal is sending an earlier change to it, your new edit goes up at the next sync. When
+a contact changes on the server before your edit goes up, the server's copy replaces
+your edit.
 
 If an edit lands wrong on the server, [report it](../help/report-a-bug.md).
 

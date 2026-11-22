@@ -114,6 +114,13 @@ To change it, tap the feed's row, pick an interval under **Sync Interval:**, the
 A holiday calendar rarely changes, so weekly is enough. A feed that changes during the
 day suits a shorter interval.
 
+To refresh your feeds right away, pull down on a calendar view. That refreshes every feed
+that isn't paused, along with your accounts. The pull needs a network connection and a
+connected iCloud or CalDAV account. Without an account, it shows "No sync accounts
+configured" and refreshes nothing. If the feed refresh from an earlier pull is still
+waiting or running, the new pull leaves it to finish instead of starting another. The
+sync when you open KashCal doesn't refresh feeds.
+
 ## Feeds are read-only
 
 Events from a feed show up alongside your other calendars. You can't edit them in

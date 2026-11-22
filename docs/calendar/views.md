@@ -97,7 +97,7 @@ The Agenda list doesn't show tag chips.
 - Pick a date. Tap the title in the top bar. In Month and Month (Full) it opens **Go to month**. In 3 Days, Week, and Planner it opens a date picker. In Agenda and Day it collapses or expands the week bar. **Go to date** in the account menu (tap the avatar at the top right) jumps to any date.
 - Add an event. Tap the + button. In Day, 3 Days, Week, and Planner the event starts today at the next hour. With [Smart event add](../events/smart-event-add.md) on, the + button opens the typing box instead. Insights has no + button.
 - Reopen where you left off. KashCal opens in the last view you switched to, from the drawer or with a sideways pinch. On first launch that's Month. Insights, and a day opened from a day header, aren't remembered. The Day, 3 Days, and Week timelines reopen at the hour you were looking at.
-- Pull to refresh. With a connected account and a network connection, pull down on the calendar to sync right away.
+- Pull to refresh. With a connected account and a network connection, pull down on the calendar to sync right away and refresh your [calendar feeds](../sync/ics-subscriptions.md#how-often-feeds-refresh).
 
 ## Rotating the phone
 

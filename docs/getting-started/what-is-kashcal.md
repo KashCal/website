@@ -34,7 +34,7 @@ everything that leaves your phone.
 - Put your day on the home screen: agenda, week, month, date, and upcoming widgets.
 - Search titles, locations, notes, and guests, in upcoming and past lists.
 - See where your time goes with Insights, worked out on your phone.
-- Use it in your language: 63 languages, following your device setting.
+- Use it in your language: 64 languages, following your device setting.
 
 ## Who it's for
 

@@ -29,7 +29,8 @@ shows:
 - When you open KashCal, and each time you come back to it from another app.
 - After every change to an event in an iCloud or CalDAV calendar. KashCal sends
   the change right away, or as soon as you're back online.
-- When you pull to refresh: pull down on any calendar view.
+- When you pull to refresh: pull down on any calendar view. This also refreshes your
+  [calendar feeds](./ics-subscriptions.md#how-often-feeds-refresh).
 - From a widget: tap the refresh button on the Today's Agenda, Week View, or
   Upcoming widget.
 - In the background, on the **Sync frequency** schedule in

@@ -16,8 +16,16 @@ In the event form, tap the repeat row. On a new event it reads **Does not repeat
 Pick one of the choices:
 
 - **Never**, **Daily**, **Weekly**, **Monthly**, or **Yearly**.
-- **Custom**, for any interval. Set **Repeat every** from 1 to 99, then pick **Day**,
-  **Week**, **Month**, or **Year**. Every two weeks is **Custom**, 2, **Week**.
+- **Custom**, for any interval. Set **Repeat every** from 1 to 999, then pick **Day**,
+  **Week**, **Month**, or **Year**. Every two weeks is **Custom**, 2, **Week**; every
+  354 days is **Custom**, 354, **Day**.
+
+To set **Repeat every**, tap − or + to change it by one, or tap the number and type a new
+one on the number keyboard. Tapping selects the number, so what you type replaces it. If
+you clear the field or type 0, it turns red with "Enter a number from 1 to 999", and the
+repeat keeps its last number. Leave the field or press the keyboard's Done key to bring
+that number back. An event synced with a larger number, such as every 1200 days, keeps
+it; − lowers it and + stays off.
 
 For **Weekly** (or a custom interval in weeks), pick the days under **On days**.
 
@@ -33,7 +41,9 @@ Under **Ends**, choose when the repeat stops:
 
 - **Never** repeats with no end.
 - **On date** stops after a date you pick.
-- **After** a number of **occurrences** stops after that many.
+- **After** a number of **occurrences** stops after that many. Pick **After**, then tap
+  the number and type up to 999 on the number keyboard. If you leave it empty or at 0, it goes back to the
+  last number.
 
 You can also type a repeating event with [Smart event add](./smart-event-add.md), such
 as *"Standup every weekday at 9am"*.

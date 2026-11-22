@@ -139,6 +139,6 @@ this month, or dates you pick. See [Search](../features/search.md).
 
 ## Syncing on demand
 
-Pull down on a calendar view to sync your connected accounts right away. This works
-when you're online and have an iCloud or CalDAV account set up. KashCal also syncs in
-the background on a schedule you set. See [How sync works](../sync/how-sync-works.md).
+Pull down on a calendar view to sync your connected accounts and refresh your calendar
+feeds right away. This works when you're online and have an iCloud or CalDAV account
+set up. KashCal also syncs in the background on a schedule you set. See [How sync works](../sync/how-sync-works.md).
