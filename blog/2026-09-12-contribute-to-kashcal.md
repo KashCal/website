@@ -30,7 +30,7 @@ There is now a [browsable guide to how KashCal fits together](https://deepwiki.c
 
 A lot of contributions now arrive with an AI in the passenger seat, and that's fine by us. What isn't fine is code that was generated, glanced at, and thrown over the wall untested. The difference between the two is process, not talent.
 
-So for anyone contributing with AI, we recommend [devloop](https://github.com/KashZod/devloop): a test-driven, review-gated workflow that has the assistant write a failing test first, build against the project's own architecture rules, and run an independent review pass before the work is called done. It's the difference between a change that happens to compile and one that holds up. Not required, strongly suggested.
+So for anyone contributing with AI, we recommend [devloop](https://devloop.onekash.org): a test-driven, review-gated workflow that has the assistant write a failing test first, build against the project's own architecture rules, and run an independent review pass before the work is called done. It's the difference between a change that happens to compile and one that holds up. Not required, strongly suggested.
 
 ## The rest of the on-ramp
 
