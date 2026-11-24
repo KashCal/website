@@ -31,7 +31,7 @@ KashCal already syncs in the background, on the schedule you pick in **Sync freq
 
 Turn on **Change notifications** in Settings, under **Sync**, and a background sync that finds something also posts a notification, worded the way Recent changes reads. One change names the event and what happened to it, and a tap opens the event. Two or three get a line each. More get a count and the calendars involved.
 
-![Two KashCal change notifications: three calendar updates listed one per line, and a single moved dentist appointment](/img/blog/change-notifications-shade.png)
+![Two KashCal change notifications: three calendar updates listed one per line, and a single moved dentist appointment](/img/blog/change-notifications-shade.webp)
 
 There's no relay server and no Google Play services involved. The change travels from your calendar server to your phone the way it always did, and KashCal mentions it on arrival.
 

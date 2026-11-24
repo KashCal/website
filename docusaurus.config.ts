@@ -90,9 +90,9 @@ const config: Config = {
         description:
           'Free, open-source calendar for Android. Sync iCloud, CalDAV, holidays, and birthdays. Private by default, no account required.',
         screenshot: [
-          'https://kashcal.onekash.org/img/screenshots/event-form.png',
-          'https://kashcal.onekash.org/img/screenshots/insights-week.png',
-          'https://kashcal.onekash.org/img/screenshots/quick-add.png',
+          'https://kashcal.onekash.org/img/screenshots/event-form.webp',
+          'https://kashcal.onekash.org/img/screenshots/insights-week.webp',
+          'https://kashcal.onekash.org/img/screenshots/quick-add.webp',
         ],
         url: 'https://kashcal.onekash.org',
         downloadUrl: 'https://play.google.com/store/apps/details?id=org.onekash.kashcal',
@@ -172,8 +172,12 @@ const config: Config = {
             const items = await defaultCreateSitemapItems(rest);
             const base = 'https://kashcal.onekash.org';
             return items
-              // The local-search page has no indexable content; keep it out.
-              .filter((item) => !item.url.replace(base, '').startsWith('/search'))
+              // The local-search page has no indexable content, and the blog's tag, author, archive
+              // and page-2+ lists only repeat post titles; keep them out. /blog/ itself stays.
+              .filter((item) => {
+                const path = item.url.replace(base, '');
+                return !/^\/(search|blog\/(tags|authors|archive|page)\/)/.test(path);
+              })
               .map((item) => {
                 // Sitemap URLs end in a slash (trailingSlash: true); compare without it.
                 const path = item.url.replace(base, '').replace(/(.)\/$/, '$1') || '/';

@@ -23,7 +23,7 @@ If you're the parent who knows when swimming is, that the dentist is on Tuesday,
 
 Open the view menu and pick **Planner**. You get seven boxes, one for each day, plus an eighth we'll come to. Each event shows its time and title. All-day things, like a school closure or someone's trip, sit at the top of their day as coloured bands, and Saturday and Sunday are marked so the weekend can't sneak up on you.
 
-![The Planner showing a family's week: seven day boxes with events, and a Different this week box](/img/blog/planner-week.png)
+![The Planner showing a family's week: seven day boxes with events, and a Different this week box](/img/blog/planner-week.webp)
 
 A busy day shows what fits and counts the rest in its corner. Tap any event, or the count, and the whole day opens in a sheet. Tap empty space to add an event on that day. A day with nothing in it shows a sun and "Free day". Guard it.
 

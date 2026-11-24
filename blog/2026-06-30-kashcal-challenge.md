@@ -20,9 +20,9 @@ All free, no account. Show off the one you like and dare a friend to match it.
 {/* truncate */}
 
 <div align="center" style={{display: 'flex', gap: '0.9rem', justifyContent: 'center', flexWrap: 'wrap', margin: '2rem 0'}}>
-  <img src="/img/screenshots/quick-add.png" alt="KashCal turning plain text into an event" width="200" style={{borderRadius: '14px', boxShadow: '0 14px 34px -18px rgba(0,0,0,0.5)'}} />
-  <img src="/img/screenshots/insights-week.png" alt="KashCal Insights showing on-device time analytics" width="200" style={{borderRadius: '14px', boxShadow: '0 14px 34px -18px rgba(0,0,0,0.5)'}} />
-  <img src="/img/screenshots/icloud-sign-in.png" alt="KashCal connecting an iCloud calendar on Android" width="200" style={{borderRadius: '14px', boxShadow: '0 14px 34px -18px rgba(0,0,0,0.5)'}} />
+  <img src="/img/screenshots/quick-add.webp" alt="KashCal turning plain text into an event" width="200" style={{borderRadius: '14px', boxShadow: '0 14px 34px -18px rgba(0,0,0,0.5)'}} />
+  <img src="/img/screenshots/insights-week.webp" alt="KashCal Insights showing on-device time analytics" width="200" style={{borderRadius: '14px', boxShadow: '0 14px 34px -18px rgba(0,0,0,0.5)'}} />
+  <img src="/img/screenshots/icloud-sign-in.webp" alt="KashCal connecting an iCloud calendar on Android" width="200" style={{borderRadius: '14px', boxShadow: '0 14px 34px -18px rgba(0,0,0,0.5)'}} />
 </div>
 
 ## The list
@@ -60,6 +60,6 @@ match it.
 > Found an Android calendar with real CalDAV out of the box, on-device time insights, and a 92-color wheel. No ads, no trackers, no paywall. #KashCal
 
 <div align="center" style={{margin: '2rem 0'}}>
-  <img src="/img/screenshots/ICS-Subscription.png" alt="KashCal color picker showing the named color peru, hex CD853F" width="220" style={{borderRadius: '14px', boxShadow: '0 14px 34px -18px rgba(0,0,0,0.5)'}} />
+  <img src="/img/screenshots/ICS-Subscription.webp" alt="KashCal color picker showing the named color peru, hex CD853F" width="220" style={{borderRadius: '14px', boxShadow: '0 14px 34px -18px rgba(0,0,0,0.5)'}} />
   <div style={{fontSize: '0.85rem', opacity: 0.7, marginTop: '0.6rem'}}>92 colors, each with a real name. Yes, "peru" is a color. We were as surprised as you.</div>
 </div>

@@ -9,7 +9,7 @@ import Screenshot from '@site/src/components/Screenshot';
 
 # Connecting iCloud
 
-<Screenshot src="/img/screenshots/icloud-sign-in.png" alt="KashCal iCloud sign-in screen" align="right" caption="Sign in with your Apple ID and an app-specific password." />
+<Screenshot src="/img/screenshots/icloud-sign-in.webp" alt="KashCal iCloud sign-in screen" align="right" caption="Sign in with your Apple ID and an app-specific password." />
 
 KashCal connects to iCloud's calendar server directly. You don't need a bridge app.
 
